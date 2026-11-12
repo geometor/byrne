@@ -1,0 +1,556 @@
+geometor.byrne.pseudocode
+=========================
+
+.. py:module:: geometor.byrne.pseudocode
+
+.. autoapi-nested-parse::
+
+   Formal grammar, AST, and 3-way Rosetta metrics for Oliver Byrne's 1847 Visual Pseudocode.
+
+   Models Oliver Byrne's 1847 notation (*Introduction*, pp. ix–xi, xxvii–xxix) as a
+   **pointer-free, typed geometric value-token language**:
+
+   - **Classical Euclidean Text (Heath / Heiberg)**: *Pass-by-reference*. Geometric
+     objects are unnamed in ink; vertices carry alphabetic memory addresses
+     (``A``, ``B``, ``C``, ...) and prose dereferences composite tuples
+     (``line AB``, ``angle BAC``, ``triangle FBC``, ``square ABFG``) at every step.
+   - **Byrne 1847 Visual Pseudocode**: *Pass-by-value*. Every geometric primitive is
+     assigned a perceptual signature ``(kind, color, stroke, fill)`` that appears
+     *literally* inside vertical symbolic equations (``∴``, ``∵``, ``=``, ``+``,
+     ``⊏``, ``⊐``, ``∥``, ``⊥``, ``∷``) with marginal axiom/proposition citations.
+   - **GEOMETOR Formal Pseudocode (elements / model)**: *Typed Constructive DAG*.
+     Explicit constructor steps (``line``, ``circle``, ``intersect``) and symbolic
+     algebraic invariants over exact number fields.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.byrne.pseudocode.ROSETTA_PROGRAMS
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.byrne.pseudocode.TokenKind
+   geometor.byrne.pseudocode.StrokeMode
+   geometor.byrne.pseudocode.FillMode
+   geometor.byrne.pseudocode.ProofPhase
+   geometor.byrne.pseudocode.VisualToken
+   geometor.byrne.pseudocode.OpToken
+   geometor.byrne.pseudocode.TextFragment
+   geometor.byrne.pseudocode.ByrneStatement
+   geometor.byrne.pseudocode.ByrneProgram
+   geometor.byrne.pseudocode.RegisterDiagnostic
+   geometor.byrne.pseudocode.RosettaMetrics
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.byrne.pseudocode.count_alphabetic_dereferences
+   geometor.byrne.pseudocode.analyze_visual_registers
+   geometor.byrne.pseudocode.compute_rosetta_metrics
+   geometor.byrne.pseudocode.get_rosetta_program
+
+
+Module Contents
+---------------
+
+.. py:class:: TokenKind
+
+   Bases: :py:obj:`enum.StrEnum`
+
+
+   Typed geometric primitive sorts in Byrne's 1847 visual grammar.
+
+
+   .. py:attribute:: LINE
+      :value: 'line'
+
+
+
+   .. py:attribute:: ANGLE
+      :value: 'angle'
+
+
+
+   .. py:attribute:: TRIANGLE
+      :value: 'tri'
+
+
+
+   .. py:attribute:: SQUARE
+      :value: 'sq'
+
+
+
+   .. py:attribute:: RECTANGLE
+      :value: 'rect'
+
+
+
+   .. py:attribute:: ARC
+      :value: 'arc'
+
+
+
+   .. py:attribute:: CIRCLE
+      :value: 'circle'
+
+
+
+   .. py:attribute:: MAGNITUDE
+      :value: 'mag'
+
+
+
+.. py:class:: StrokeMode
+
+   Bases: :py:obj:`enum.StrEnum`
+
+
+   Stroke patterns used by Byrne to multiply his 4-color register space.
+
+
+   .. py:attribute:: SOLID
+      :value: 'solid'
+
+
+
+   .. py:attribute:: DASHED
+      :value: 'dashed'
+
+
+
+   .. py:attribute:: DOTTED
+      :value: 'dotted'
+
+
+
+   .. py:attribute:: SOLID_DOTTED
+      :value: 'solid-dotted'
+
+
+
+.. py:class:: FillMode
+
+   Bases: :py:obj:`enum.StrEnum`
+
+
+   Planar region rendering modes in Chiswick Press woodblock plates.
+
+
+   .. py:attribute:: NONE
+      :value: 'outline'
+
+
+
+   .. py:attribute:: FILLED
+      :value: 'filled'
+
+
+
+   .. py:attribute:: HALF
+      :value: 'half'
+
+
+
+   .. py:attribute:: THREE_SIDE
+      :value: 'three-side'
+
+
+
+.. py:class:: ProofPhase
+
+   Bases: :py:obj:`enum.StrEnum`
+
+
+   Canonical block phases in Byrne's structured proposition layout.
+
+
+   .. py:attribute:: ENUNCIATION
+      :value: 'enunciation'
+
+
+
+   .. py:attribute:: GIVEN
+      :value: 'given'
+
+
+
+   .. py:attribute:: SOUGHT
+      :value: 'sought'
+
+
+
+   .. py:attribute:: CONSTRUCTION
+      :value: 'construction'
+
+
+
+   .. py:attribute:: DEMONSTRATION
+      :value: 'demonstration'
+
+
+
+   .. py:attribute:: QED
+      :value: 'qed'
+
+
+
+.. py:class:: VisualToken
+
+   An inline pass-by-value geometric glyph in a Byrne statement.
+
+   Encodes primitive ``kind`` (:class:`TokenKind`), Byrne ``color`` expression,
+   ``stroke`` (:class:`StrokeMode`), ``fill`` (:class:`FillMode`), optional
+   interactive ``geom_ref``, ``squared`` exponent flag, Book V ``shape_hint``,
+   and intentional symmetric ``congruence_group``.
+
+
+   .. py:attribute:: kind
+      :type:  TokenKind
+
+
+   .. py:attribute:: color
+      :type:  str
+
+
+   .. py:attribute:: stroke
+      :type:  StrokeMode
+
+
+   .. py:attribute:: fill
+      :type:  FillMode
+
+
+   .. py:attribute:: geom_ref
+      :type:  str
+      :value: ''
+
+
+
+   .. py:attribute:: squared
+      :type:  bool
+      :value: False
+
+
+
+   .. py:attribute:: shape_hint
+      :type:  str
+      :value: ''
+
+
+
+   .. py:attribute:: congruence_group
+      :type:  str
+      :value: ''
+
+
+
+   .. py:property:: register_signature
+      :type: tuple[str, str, str, str, str]
+
+
+      Perceptual tuple distinguishing this token in visual working memory.
+
+
+   .. py:method:: role_spec_body(plate_id: str = '') -> str
+
+      Build the RST role argument string for ``:byrne-<kind>:``.
+
+
+
+   .. py:method:: to_rst(plate_id: str = '') -> str
+
+      Compile this visual token into a Sphinx ``:byrne-*:`` role.
+
+
+
+   .. py:method:: to_html(plate_id: str = '') -> str
+
+      Render this visual token directly to an interactive HTML/SVG span.
+
+
+
+   .. py:method:: to_compact() -> str
+
+      Return a concise human-readable token representation for CLI/tables.
+
+
+
+.. py:class:: OpToken
+
+   An algebraic, relational, or deductive operator in a Byrne equation.
+
+
+   .. py:attribute:: symbol
+      :type:  str
+
+
+   .. py:method:: to_rst() -> str
+
+
+   .. py:method:: to_html() -> str
+
+
+   .. py:method:: to_compact() -> str
+
+
+.. py:class:: TextFragment
+
+   Minimal connecting English keyword in Byrne's telegraphic equations.
+
+
+   .. py:attribute:: text
+      :type:  str
+
+
+   .. py:method:: to_rst() -> str
+
+
+   .. py:method:: to_compact() -> str
+
+
+.. py:class:: ByrneStatement
+
+   A single structured line in a Byrne visual program.
+
+   Stores block ``phase`` (:class:`ProofPhase`), ordered ``items`` of visual
+   tokens, operators, and minimal connectors, marginal Euclidean
+   ``justifications``, and an optional analytical ``comment``.
+
+
+   .. py:attribute:: phase
+      :type:  ProofPhase
+
+
+   .. py:attribute:: items
+      :type:  tuple[StatementItem, ...]
+
+
+   .. py:attribute:: justifications
+      :type:  tuple[str, ...]
+      :value: ()
+
+
+
+   .. py:attribute:: comment
+      :type:  str
+      :value: ''
+
+
+
+   .. py:method:: visual_tokens() -> list[VisualToken]
+
+      Return all :class:`VisualToken` instances in this statement.
+
+
+
+   .. py:method:: word_count() -> int
+
+      Count natural-language words (excluding pure visual glyphs and operators).
+
+
+
+   .. py:method:: to_rst(plate_id: str = '') -> str
+
+      Compile statement into RST with inline ``:byrne-*:`` and ``:just:`` roles.
+
+
+
+   .. py:method:: to_compact() -> str
+
+      Render statement into compact Unicode pseudocode.
+
+
+
+.. py:class:: ByrneProgram
+
+   Complete 3-way Rosetta formalization of a Euclidean proposition.
+
+   Pairs Byrne's 1847 pointer-free visual program with Heath's classical
+   alphabetic English translation and GEOMETOR's formal DAG pseudocode.
+
+
+   .. py:attribute:: prop_id
+      :type:  str
+
+
+   .. py:attribute:: plate_id
+      :type:  str
+
+
+   .. py:attribute:: heath_id
+      :type:  str
+
+
+   .. py:attribute:: g_id
+      :type:  str
+
+
+   .. py:attribute:: title
+      :type:  str
+
+
+   .. py:attribute:: pickering_page
+      :type:  str
+
+
+   .. py:attribute:: number_field
+      :type:  str
+
+
+   .. py:attribute:: statements
+      :type:  tuple[ByrneStatement, ...]
+
+
+   .. py:attribute:: heath_text
+      :type:  str
+
+
+   .. py:attribute:: geometor_steps
+      :type:  tuple[str, ...]
+
+
+   .. py:attribute:: design_notes
+      :type:  str
+      :value: ''
+
+
+
+   .. py:method:: all_visual_tokens() -> list[VisualToken]
+
+      Flatten all visual tokens appearing across all phases of the program.
+
+
+
+.. py:class:: RegisterDiagnostic
+
+   Static visual register-allocation audit for a :class:`ByrneProgram`.
+
+
+   .. py:attribute:: distinct_signatures
+      :type:  int
+
+
+   .. py:attribute:: distinct_geom_refs
+      :type:  int
+
+
+   .. py:attribute:: uses_stroke_modulation
+      :type:  bool
+
+
+   .. py:attribute:: uses_composite_tokens
+      :type:  bool
+
+
+   .. py:attribute:: intentional_congruence_twins
+      :type:  tuple[str, ...]
+
+
+   .. py:attribute:: ambiguous_collisions
+      :type:  tuple[str, ...]
+
+
+   .. py:property:: is_unambiguous
+      :type: bool
+
+
+      Return True iff zero unintended visual register collisions exist.
+
+
+.. py:class:: RosettaMetrics
+
+   Quantitative comparison across Heath (alphabetic), Byrne (visual), and GEOMETOR (DAG).
+
+
+   .. py:attribute:: prop_id
+      :type:  str
+
+
+   .. py:attribute:: heath_words
+      :type:  int
+
+
+   .. py:attribute:: heath_pointer_dereferences
+      :type:  int
+
+
+   .. py:attribute:: byrne_words
+      :type:  int
+
+
+   .. py:attribute:: byrne_pointer_dereferences
+      :type:  int
+
+
+   .. py:attribute:: byrne_visual_tokens
+      :type:  int
+
+
+   .. py:attribute:: byrne_distinct_registers
+      :type:  int
+
+
+   .. py:attribute:: byrne_statement_count
+      :type:  int
+
+
+   .. py:attribute:: geometor_step_count
+      :type:  int
+
+
+   .. py:attribute:: word_compression_ratio
+      :type:  float
+
+
+   .. py:attribute:: register_diagnostic
+      :type:  RegisterDiagnostic
+
+
+.. py:function:: count_alphabetic_dereferences(text: str) -> int
+
+   Count symbolic letter-pointer dereferences (``AB``, ``BCD``, ``point A``, ...) in classical prose.
+
+   Excludes Roman numeral proposition references (``I``, ``II``, ``III``, ``IV``, ``V``, ``VI``)
+   when preceded by ``Book`` or ``Prop``.
+
+
+.. py:function:: analyze_visual_registers(program: ByrneProgram) -> RegisterDiagnostic
+
+   Audit visual register allocation and collision freedom in ``program``.
+
+   Distinguishes:
+
+   1. **Stroke modulation** (``dashed`` / ``dotted`` / ``solid-dotted``) when 4 colors
+      alone cannot separate adjacent collinear or overlapping elements;
+   2. **Composite tokens** (``yellow+black`` split angles or ``red/blue/black`` triangles);
+   3. **Intentional congruence twins** (e.g. equal legs ``/ A B /`` and ``/ A C /`` in ``I.5``
+      deliberately sharing ``red solid`` to encode ``AB = AC`` visually); and
+   4. **Ambiguous collisions** (two unequal ``geom_ref`` entities sharing an identical
+      register signature without a ``congruence_group`` declaration).
+
+
+.. py:function:: compute_rosetta_metrics(program: ByrneProgram) -> RosettaMetrics
+
+   Compute quantitative Rosetta comparison metrics for a :class:`ByrneProgram`.
+
+
+.. py:data:: ROSETTA_PROGRAMS
+   :type:  dict[str, ByrneProgram]
+
+.. py:function:: get_rosetta_program(prop_id: str) -> ByrneProgram
+
+   Lookup a :class:`ByrneProgram` by proposition ID (e.g. ``"I.47"``).
+
+

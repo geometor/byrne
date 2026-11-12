@@ -1,0 +1,342 @@
+geometor.byrne.constructions
+============================
+
+.. py:module:: geometor.byrne.constructions
+
+.. autoapi-nested-parse::
+
+   Exact symbolic ``geometor.model`` constructions for 17 Oliver Byrne (1847) showcase plates.
+
+   Every construction executes with :class:`geometor.model.Model` (``auto_intersect=False``,
+   zero ``float`` or ``sp.Float`` coordinates) over exact SymPy algebraic fields:
+
+   - $\mathbb{Q}$: ``I.4``, ``I.5``, ``I.15``, ``I.32``, ``I.46``, ``I.47``, ``II.4``,
+     ``II.5``, ``III.20``, ``III.31``, ``III.36``, ``IV.4``
+   - $\mathbb{Q}(\sqrt{3})$: ``I.1``
+   - $\mathbb{Q}(\phi)$ where $\phi = \frac{1 + \sqrt{5}}{2}$: ``II.11``, ``VI.30``
+   - $\mathbb{Q}(\phi, \sqrt{10 - 2\sqrt{5}})$: ``IV.10``, ``IV.11``
+
+   Each :class:`ByrnePlate` pairs the populated symbolic :class:`~geometor.model.Model` and
+   verified algebraic proof identities with authentic 1847 Chiswick Press four-color visual
+   layers calibrated against the William Pickering scan (Internet Archive ``firstsixbooksofe00eucl``).
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.byrne.constructions.PHI
+   geometor.byrne.constructions.PLATE_REGISTRY
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.byrne.constructions.StyledSegment
+   geometor.byrne.constructions.StyledCircle
+   geometor.byrne.constructions.StyledArc
+   geometor.byrne.constructions.StyledPolygon
+   geometor.byrne.constructions.StyledAngleWedge
+   geometor.byrne.constructions.ByrnePlate
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.byrne.constructions.list_plate_ids
+   geometor.byrne.constructions.build_plate
+   geometor.byrne.constructions.build_all_plates
+
+
+Module Contents
+---------------
+
+.. py:data:: PHI
+   :type:  sympy.Expr
+
+.. py:class:: StyledSegment
+
+   Byrne-styled straight segment joining two exact :class:`sympy.geometry.Point` objects.
+
+
+   .. py:attribute:: p1
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: p2
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: color
+      :type:  str
+
+
+   .. py:attribute:: stroke
+      :type:  str
+      :value: 'solid'
+
+
+
+   .. py:attribute:: weight
+      :type:  str
+      :value: 'normal'
+
+
+
+   .. py:attribute:: ref
+      :type:  str
+      :value: ''
+
+
+
+   .. py:attribute:: aliases
+      :type:  tuple[str, ...]
+      :value: ()
+
+
+
+.. py:class:: StyledCircle
+
+   Byrne-styled full circle from an exact :class:`sympy.geometry.Circle`.
+
+
+   .. py:attribute:: circle
+      :type:  sympy.geometry.Circle
+
+
+   .. py:attribute:: color
+      :type:  str
+
+
+   .. py:attribute:: stroke
+      :type:  str
+      :value: 'solid'
+
+
+
+   .. py:attribute:: ref
+      :type:  str
+      :value: ''
+
+
+
+   .. py:attribute:: aliases
+      :type:  tuple[str, ...]
+      :value: ()
+
+
+
+.. py:class:: StyledArc
+
+   Byrne-styled circular arc centered at ``center`` through ``start`` to ``end`` CCW.
+
+
+   .. py:attribute:: center
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: start
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: end
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: color
+      :type:  str
+
+
+   .. py:attribute:: stroke
+      :type:  str
+      :value: 'solid'
+
+
+
+   .. py:attribute:: ref
+      :type:  str
+      :value: ''
+
+
+
+.. py:class:: StyledPolygon
+
+   Byrne-styled planar region (filled, half-filled, tinted, or outlined).
+
+
+   .. py:attribute:: vertices
+      :type:  tuple[sympy.geometry.Point, ...]
+
+
+   .. py:attribute:: color
+      :type:  str
+
+
+   .. py:attribute:: mode
+      :type:  str
+      :value: 'filled'
+
+
+
+   .. py:attribute:: stroke_color
+      :type:  str
+      :value: ''
+
+
+
+   .. py:attribute:: ref
+      :type:  str
+      :value: ''
+
+
+
+   .. py:attribute:: aliases
+      :type:  tuple[str, ...]
+      :value: ()
+
+
+
+.. py:class:: StyledAngleWedge
+
+   Byrne-styled woodblock angle sector at ``vertex`` from ray ``arm1`` to ``arm2``.
+
+
+   .. py:attribute:: arm1
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: vertex
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: arm2
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: color
+      :type:  str
+
+
+   .. py:attribute:: radius_px
+      :type:  float
+      :value: 26.0
+
+
+
+   .. py:attribute:: ref
+      :type:  str
+      :value: ''
+
+
+
+.. py:class:: ByrnePlate
+
+   Complete symbolic model, verified invariants, and 1847 visual layers for one plate.
+
+
+   .. py:attribute:: prop_id
+      :type:  str
+
+
+   .. py:attribute:: slug
+      :type:  str
+
+
+   .. py:attribute:: heath_id
+      :type:  str
+
+
+   .. py:attribute:: g_id
+      :type:  str
+
+
+   .. py:attribute:: book
+      :type:  int
+
+
+   .. py:attribute:: title
+      :type:  str
+
+
+   .. py:attribute:: pickering_page
+      :type:  str
+
+
+   .. py:attribute:: number_field
+      :type:  str
+
+
+   .. py:attribute:: model
+      :type:  geometor.model.Model
+
+
+   .. py:attribute:: polygons
+      :type:  list[StyledPolygon]
+      :value: []
+
+
+
+   .. py:attribute:: wedges
+      :type:  list[StyledAngleWedge]
+      :value: []
+
+
+
+   .. py:attribute:: circles
+      :type:  list[StyledCircle]
+      :value: []
+
+
+
+   .. py:attribute:: arcs
+      :type:  list[StyledArc]
+      :value: []
+
+
+
+   .. py:attribute:: segments
+      :type:  list[StyledSegment]
+      :value: []
+
+
+
+   .. py:attribute:: proof_checks
+      :type:  dict[str, bool]
+
+
+   .. py:attribute:: canvas_size
+      :type:  tuple[int, int]
+      :value: (640, 460)
+
+
+
+   .. py:attribute:: show_labels
+      :type:  bool
+      :value: False
+
+
+
+.. py:data:: PLATE_REGISTRY
+   :type:  dict[str, collections.abc.Callable[[], ByrnePlate]]
+
+.. py:function:: list_plate_ids() -> list[str]
+
+   Return ordered list of all 17 showcase Byrne proposition IDs.
+
+
+.. py:function:: build_plate(prop_id: str) -> ByrnePlate
+
+   Construct and verify a single :class:`ByrnePlate` by proposition ID.
+
+
+.. py:function:: build_all_plates() -> list[ByrnePlate]
+
+   Construct and verify all 17 showcase :class:`ByrnePlate` models.
+
+

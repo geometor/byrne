@@ -1,0 +1,269 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>geometor.byrne.sphinx_ext &mdash; GEOMETOR • byrne</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/byrne.css?v=9a052df9" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../index.html">
+        <h1>GEOMETOR • byrne</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">byrne</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../mission/index.html"  >mission</a>
+        </li>
+        <li>
+          <a href="../../../../../pseudocode/index.html"  >pseudocode</a>
+        </li>
+        <li>
+          <a href="../../../../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../../../index.html" class="is-active" aria-selected="true" >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../index.html" title="Return to Project Portal">&larr; byrne</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../index.html">GEOMETOR • byrne</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Breadcrumbs">
+            <a class="book-crumb-link" href="../../../../index.html">modules</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../render/index.html" title="geometor.byrne.render">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="module-geometor.byrne.sphinx_ext">
+        <span id="geometor-byrne-sphinx-ext"></span><h1>geometor.byrne.sphinx_ext<a class="headerlink" href="#module-geometor.byrne.sphinx_ext" title="Link to this heading">¶</a></h1>
+        <p>Self-contained Sphinx extension for Oliver Byrne’s 1847 inline visual glyph roles.</p>
+        <p>Registers nine inline RST roles without modifying <code class="docutils literal notranslate"><span class="pre">photon-platform/publish</span></code>:</p>
+        <ul class="simple">
+        <li><p><code class="docutils literal notranslate"><span class="pre">:byrne-line:</span></code> — Colored/styled straight line segment (supports <code class="docutils literal notranslate"><span class="pre">solid</span></code>,
+        <code class="docutils literal notranslate"><span class="pre">dashed</span></code>, <code class="docutils literal notranslate"><span class="pre">dotted</span></code>, <code class="docutils literal notranslate"><span class="pre">solid-dotted</span></code>, orientations, and <code class="docutils literal notranslate"><span class="pre">squared</span></code> / <code class="docutils literal notranslate"><span class="pre">^2</span></code>).</p></li>
+        <li><p><code class="docutils literal notranslate"><span class="pre">:byrne-angle:</span></code> — Colored wedge sector (single color or split composite such
+        as <code class="docutils literal notranslate"><span class="pre">yellow+black</span></code> or <code class="docutils literal notranslate"><span class="pre">blue+yellow</span></code>).</p></li>
+        <li><p><code class="docutils literal notranslate"><span class="pre">:byrne-tri:</span></code> — Colored triangle (filled <code class="docutils literal notranslate"><span class="pre">red</span> <span class="pre">filled</span></code> or 3-side colored
+        <code class="docutils literal notranslate"><span class="pre">red/blue/black</span></code>).</p></li>
+        <li><p><code class="docutils literal notranslate"><span class="pre">:byrne-sq:</span></code> — Colored square (<code class="docutils literal notranslate"><span class="pre">filled</span></code>, <code class="docutils literal notranslate"><span class="pre">outline</span></code>, or <code class="docutils literal notranslate"><span class="pre">half</span></code> diagonal).</p></li>
+        <li><p><code class="docutils literal notranslate"><span class="pre">:byrne-rect:</span></code> — Colored rectangle (<code class="docutils literal notranslate"><span class="pre">filled</span></code> or <code class="docutils literal notranslate"><span class="pre">outline</span></code>).</p></li>
+        <li><p><code class="docutils literal notranslate"><span class="pre">:byrne-arc:</span></code> — Colored circular arc.</p></li>
+        <li><p><code class="docutils literal notranslate"><span class="pre">:byrne-circle:</span></code> — Colored full circle.</p></li>
+        <li><p><code class="docutils literal notranslate"><span class="pre">:byrne-mag:</span></code> — Book V Eudoxian abstract magnitude symbols (<code class="docutils literal notranslate"><span class="pre">red</span> <span class="pre">circle</span></code>,
+        <code class="docutils literal notranslate"><span class="pre">yellow</span> <span class="pre">square</span></code>, <code class="docutils literal notranslate"><span class="pre">blue</span> <span class="pre">diamond</span></code>, <code class="docutils literal notranslate"><span class="pre">black</span> <span class="pre">shield</span></code>, <code class="docutils literal notranslate"><span class="pre">red</span> <span class="pre">pentagon</span></code>).</p></li>
+        <li><p><code class="docutils literal notranslate"><span class="pre">:byrne-op:</span></code> — Byrne’s 1847 formal typographic and geometric operators
+        (<code class="docutils literal notranslate"><span class="pre">right-angle</span></code>, <code class="docutils literal notranslate"><span class="pre">two-right-angles</span></code>, <code class="docutils literal notranslate"><span class="pre">gt</span></code> / <code class="docutils literal notranslate"><span class="pre">⊏</span></code>, <code class="docutils literal notranslate"><span class="pre">lt</span></code> / <code class="docutils literal notranslate"><span class="pre">⊐</span></code>,
+        <code class="docutils literal notranslate"><span class="pre">therefore</span></code> / <code class="docutils literal notranslate"><span class="pre">∴</span></code>, <code class="docutils literal notranslate"><span class="pre">because</span></code> / <code class="docutils literal notranslate"><span class="pre">∵</span></code>, <code class="docutils literal notranslate"><span class="pre">parallel</span></code> / <code class="docutils literal notranslate"><span class="pre">∥</span></code>,
+        <code class="docutils literal notranslate"><span class="pre">perp</span></code> / <code class="docutils literal notranslate"><span class="pre">⊥</span></code>, <code class="docutils literal notranslate"><span class="pre">prop</span></code> / <code class="docutils literal notranslate"><span class="pre">::</span></code>, <code class="docutils literal notranslate"><span class="pre">rect-by</span></code> / <code class="docutils literal notranslate"><span class="pre">×</span></code>).</p></li>
+        </ul>
+        <p>Every geometric role accepts an optional <code class="docutils literal notranslate"><span class="pre">&lt;plate_id:geom_expr&gt;</span></code> target in angle
+        brackets (for example <code class="docutils literal notranslate"><span class="pre">:byrne-sq:`black</span> <span class="pre">filled</span> <span class="pre">&lt;i47:&lt;</span> <span class="pre">A</span> <span class="pre">B</span> <span class="pre">F</span> <span class="pre">G</span> <span class="pre">&gt;&gt;`</span></code>), emitting a
+        <code class="docutils literal notranslate"><span class="pre">&lt;span</span> <span class="pre">class=&quot;byrne-token</span> <span class="pre">geom-ref&quot;</span> <span class="pre">data-ref=&quot;...&quot;&gt;</span></code> wrapper around an inline
+        <code class="docutils literal notranslate"><span class="pre">&lt;svg</span> <span class="pre">class=&quot;byrne-glyph&quot;&gt;</span></code> micro-glyph so both <code class="docutils literal notranslate"><span class="pre">geometor_interactive.js</span></code> and
+        <code class="docutils literal notranslate"><span class="pre">byrne_interactive.js</span></code> highlight bidirectionally on hover and click.</p>
+        <section class="level-2" id="attributes">
+        <h2>Attributes<a class="headerlink" href="#attributes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.byrne.sphinx_ext.BYRNE_ROLE_NAMES" title="geometor.byrne.sphinx_ext.BYRNE_ROLE_NAMES"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BYRNE_ROLE_NAMES</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.byrne.sphinx_ext.parse_byrne_role_spec" title="geometor.byrne.sphinx_ext.parse_byrne_role_spec"><code class="xref py py-obj docutils literal notranslate"><span class="pre">parse_byrne_role_spec</span></code></a>(raw_text) → tuple[str, str]</p></td>
+        <td><p>Split role body <code class="docutils literal notranslate"><span class="pre">spec</span> <span class="pre">&lt;target&gt;</span></code> into <code class="docutils literal notranslate"><span class="pre">(spec,</span> <span class="pre">target)</span></code>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.byrne.sphinx_ext.render_byrne_operator_html" title="geometor.byrne.sphinx_ext.render_byrne_operator_html"><code class="xref py py-obj docutils literal notranslate"><span class="pre">render_byrne_operator_html</span></code></a>(op_spec) → str</p></td>
+        <td><p>Render one of Oliver Byrne's 1847 geometric/algebraic operators (<code class="docutils literal notranslate"><span class="pre">:byrne-op:</span></code>).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.byrne.sphinx_ext.render_byrne_glyph_html" title="geometor.byrne.sphinx_ext.render_byrne_glyph_html"><code class="xref py py-obj docutils literal notranslate"><span class="pre">render_byrne_glyph_html</span></code></a>(role_name, raw_content) → str</p></td>
+        <td><p>Render any <code class="docutils literal notranslate"><span class="pre">:byrne-*:</span></code> role specification into an interactive HTML span.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.byrne.sphinx_ext.setup" title="geometor.byrne.sphinx_ext.setup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">setup</span></code></a>(app) → dict[str, Any]</p></td>
+        <td><p>Register Oliver Byrne inline roles, static stylesheets, and JS handlers in Sphinx.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.byrne.sphinx_ext.BYRNE_ROLE_NAMES">
+        <span class="sig-prename descclassname"><span class="pre">geometor.byrne.sphinx_ext.</span></span><span class="sig-name descname"><span class="pre">BYRNE_ROLE_NAMES</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#tuple" title="(in Python v3.13)"><span class="pre">tuple</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">('byrne-line',</span> <span class="pre">'byrne-angle',</span> <span class="pre">'byrne-tri',</span> <span class="pre">'byrne-sq',</span> <span class="pre">'byrne-rect',</span> <span class="pre">'byrne-arc',...</span></span><a class="headerlink" href="#geometor.byrne.sphinx_ext.BYRNE_ROLE_NAMES" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.byrne.sphinx_ext.parse_byrne_role_spec">
+        <span class="sig-prename descclassname"><span class="pre">geometor.byrne.sphinx_ext.</span></span><span class="sig-name descname"><span class="pre">parse_byrne_role_spec</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">raw_text</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#tuple" title="(in Python v3.13)"><span class="pre">tuple</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.byrne.sphinx_ext.parse_byrne_role_spec" title="Link to this definition">¶</a></dt>
+        <dd><p>Split role body <code class="docutils literal notranslate"><span class="pre">spec</span> <span class="pre">&lt;target&gt;</span></code> into <code class="docutils literal notranslate"><span class="pre">(spec,</span> <span class="pre">target)</span></code>.</p>
+        <p>Correctly handles nested geometric angle brackets inside <code class="docutils literal notranslate"><span class="pre">&lt;target&gt;</span></code>, such as
+        <code class="docutils literal notranslate"><span class="pre">black</span> <span class="pre">filled</span> <span class="pre">&lt;i47:&lt;</span> <span class="pre">A</span> <span class="pre">B</span> <span class="pre">F</span> <span class="pre">G</span> <span class="pre">&gt;&gt;</span></code> or <code class="docutils literal notranslate"><span class="pre">blue</span> <span class="pre">&lt;i5:&lt;</span> <span class="pre">A</span> <span class="pre">B</span> <span class="pre">C</span> <span class="pre">)&gt;</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>raw_text</strong> – Unescaped RST role content string.</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Tuple <code class="docutils literal notranslate"><span class="pre">(spec_tokens_str,</span> <span class="pre">ref_target)</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.byrne.sphinx_ext.render_byrne_operator_html">
+        <span class="sig-prename descclassname"><span class="pre">geometor.byrne.sphinx_ext.</span></span><span class="sig-name descname"><span class="pre">render_byrne_operator_html</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">op_spec</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></span><a class="headerlink" href="#geometor.byrne.sphinx_ext.render_byrne_operator_html" title="Link to this definition">¶</a></dt>
+        <dd><p>Render one of Oliver Byrne’s 1847 geometric/algebraic operators (<code class="docutils literal notranslate"><span class="pre">:byrne-op:</span></code>).</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>op_spec</strong> – Operator token such as <code class="docutils literal notranslate"><span class="pre">&quot;right-angle&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;two-right-angles&quot;</span></code>,
+        <code class="docutils literal notranslate"><span class="pre">&quot;gt&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;lt&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;therefore&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;because&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;parallel&quot;</span></code>,
+        <code class="docutils literal notranslate"><span class="pre">&quot;perp&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;prop&quot;</span></code>, or <code class="docutils literal notranslate"><span class="pre">&quot;rect-by&quot;</span></code>.</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Inline HTML span containing an authentic SVG or typographic symbol.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.byrne.sphinx_ext.render_byrne_glyph_html">
+        <span class="sig-prename descclassname"><span class="pre">geometor.byrne.sphinx_ext.</span></span><span class="sig-name descname"><span class="pre">render_byrne_glyph_html</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">role_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">raw_content</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></span><a class="headerlink" href="#geometor.byrne.sphinx_ext.render_byrne_glyph_html" title="Link to this definition">¶</a></dt>
+        <dd><p>Render any <code class="docutils literal notranslate"><span class="pre">:byrne-*:</span></code> role specification into an interactive HTML span.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>role_name</strong> – Canonical role name (e.g. <code class="docutils literal notranslate"><span class="pre">&quot;byrne-line&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;byrne-sq&quot;</span></code>).</p></li>
+        <li><p><strong>raw_content</strong> – Unescaped role body string, optionally ending with <code class="docutils literal notranslate"><span class="pre">&lt;target&gt;</span></code>.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Complete HTML <code class="docutils literal notranslate"><span class="pre">&lt;span&gt;</span></code> element containing the inline SVG glyph and metadata.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.byrne.sphinx_ext.setup">
+        <span class="sig-prename descclassname"><span class="pre">geometor.byrne.sphinx_ext.</span></span><span class="sig-name descname"><span class="pre">setup</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">app</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Any</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#dict" title="(in Python v3.13)"><span class="pre">dict</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.byrne.sphinx_ext.setup" title="Link to this definition">¶</a></dt>
+        <dd><p>Register Oliver Byrne inline roles, static stylesheets, and JS handlers in Sphinx.</p>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../render/index.html" title="geometor.byrne.render">&larr; <span class="nav-label">geometor.byrne.render</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../index.html">GEOMETOR • byrne</a>
+          </div>
+          <div class="book-nav-next">
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../../../../log/26.316-initial-codex/index.html">Inaugural Digital Scriptorium Codex & Visual Pseudocode Engine (v0.1.0)</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../../../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1847 William Pickering / Chiswick Press · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../../../_static/byrne_interactive.js?v=0ce4f795"></script>
+  <script src="../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,774 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>modules &mdash; GEOMETOR • byrne</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" type="text/css" href="../_static/byrne.css?v=9a052df9" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../index.html">
+        <h1>GEOMETOR • byrne</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">byrne</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../mission/index.html"  >mission</a>
+        </li>
+        <li>
+          <a href="../pseudocode/index.html"  >pseudocode</a>
+        </li>
+        <li>
+          <a href="../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="#" class="is-active" aria-selected="true" aria-current="page">modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../index.html" title="Return to Project Portal">&larr; byrne</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GEOMETOR • byrne</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../log/26.316-initial-codex/index.html" title="Inaugural Digital Scriptorium Codex &amp; Visual Pseudocode Engine (v0.1.0)">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="api/geometor/byrne/__main__/index.html" title="geometor.byrne.__main__"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="modules">
+        <h1>modules<a class="headerlink" href="#modules" title="Link to this heading">¶</a></h1>
+        </section>
+        <section class="level-1" id="module-geometor.byrne">
+        <span id="geometor-byrne"></span><h1>geometor.byrne<a class="headerlink" href="#module-geometor.byrne" title="Link to this heading">¶</a></h1>
+        <p>Digital Scriptorium Codex, Visual Pseudocode Engine, and Symbolic Proofs for Oliver Byrne’s 1847 Euclid.</p>
+        <p>Unites Oliver Byrne’s <em>The First Six Books of the Elements of Euclid in Which Coloured
+        Diagrams and Symbols Are Used Instead of Letters for the Greater Ease of Learners</em>
+        (London: William Pickering / Chiswick Press, 1847) with:</p>
+        <ol class="arabic simple">
+        <li><p><strong>Inline Byrne Visual Glyph Roles</strong> (<a class="reference internal" href="api/geometor/byrne/sphinx_ext/index.html#module-geometor.byrne.sphinx_ext" title="geometor.byrne.sphinx_ext"><code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.byrne.sphinx_ext</span></code></a>) rendering
+        authentic four-color vector micro-glyphs inside Sphinx/HTML/EPUB proof equations
+        with bidirectional <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> hover/click highlighting;</p></li>
+        <li><p><strong>Formal Pointer-Free Visual Pseudocode Grammar</strong> (<a class="reference internal" href="api/geometor/byrne/pseudocode/index.html#module-geometor.byrne.pseudocode" title="geometor.byrne.pseudocode"><code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.byrne.pseudocode</span></code></a>)
+        modeling Byrne’s 1847 notation as a typed geometric value-token DSL alongside
+        Heath’s classical alphabetic Euclid and <code class="docutils literal notranslate"><span class="pre">geometor/elements</span></code> formal pseudocode; and</p></li>
+        <li><p><strong>100% Exact Symbolic Constructions &amp; Renderer</strong> (<a class="reference internal" href="api/geometor/byrne/constructions/index.html#module-geometor.byrne.constructions" title="geometor.byrne.constructions"><code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.byrne.constructions</span></code></a>,
+        <a class="reference internal" href="api/geometor/byrne/render/index.html#module-geometor.byrne.render" title="geometor.byrne.render"><code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.byrne.render</span></code></a>) built on <code class="xref py py-class docutils literal notranslate"><span class="pre">geometor.model.Model</span></code> over exact
+        SymPy number fields ($mathbb{Q}$, $mathbb{Q}(sqrt{3})$, $mathbb{Q}(phi)$,
+        and cyclotomic pentagonal extensions).</p></li>
+        </ol>
+        <section class="level-2" id="submodules">
+        <h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading">¶</a></h2>
+        <div class="toctree-wrapper compound">
+        <ul>
+        <li class="toctree-l1"><a class="reference internal" href="api/geometor/byrne/__main__/index.html">geometor.byrne.__main__</a></li>
+        <li class="toctree-l1"><a class="reference internal" href="api/geometor/byrne/constructions/index.html">geometor.byrne.constructions</a></li>
+        <li class="toctree-l1"><a class="reference internal" href="api/geometor/byrne/palette/index.html">geometor.byrne.palette</a></li>
+        <li class="toctree-l1"><a class="reference internal" href="api/geometor/byrne/pseudocode/index.html">geometor.byrne.pseudocode</a></li>
+        <li class="toctree-l1"><a class="reference internal" href="api/geometor/byrne/render/index.html">geometor.byrne.render</a></li>
+        <li class="toctree-l1"><a class="reference internal" href="api/geometor/byrne/sphinx_ext/index.html">geometor.byrne.sphinx_ext</a></li>
+        </ul>
+        </div>
+        </section>
+        <section class="level-2" id="attributes">
+        <h2>Attributes<a class="headerlink" href="#attributes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.byrne.PHI" title="geometor.byrne.PHI"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PHI</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.byrne.PLATE_REGISTRY" title="geometor.byrne.PLATE_REGISTRY"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PLATE_REGISTRY</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.byrne.BYRNE_COLORS" title="geometor.byrne.BYRNE_COLORS"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BYRNE_COLORS</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.byrne.BYRNE_STROKE_STYLES" title="geometor.byrne.BYRNE_STROKE_STYLES"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BYRNE_STROKE_STYLES</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.byrne.ROSETTA_PROGRAMS" title="geometor.byrne.ROSETTA_PROGRAMS"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ROSETTA_PROGRAMS</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.byrne.__version__" title="geometor.byrne.__version__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__version__</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="classes">
+        <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.byrne.ByrnePlate" title="geometor.byrne.ByrnePlate"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ByrnePlate</span></code></a></p></td>
+        <td><p>Complete symbolic model, verified invariants, and 1847 visual layers for one plate.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.byrne.ByrneColorSpec" title="geometor.byrne.ByrneColorSpec"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ByrneColorSpec</span></code></a></p></td>
+        <td><p>Color specification for one of Oliver Byrne's four 1847 woodblock inks.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.byrne.ByrneProgram" title="geometor.byrne.ByrneProgram"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ByrneProgram</span></code></a></p></td>
+        <td><p>Complete 3-way Rosetta formalization of a Euclidean proposition.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.byrne.ByrneStatement" title="geometor.byrne.ByrneStatement"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ByrneStatement</span></code></a></p></td>
+        <td><p>A single structured line in a Byrne visual program.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.byrne.RosettaMetrics" title="geometor.byrne.RosettaMetrics"><code class="xref py py-obj docutils literal notranslate"><span class="pre">RosettaMetrics</span></code></a></p></td>
+        <td><p>Quantitative comparison across Heath (alphabetic), Byrne (visual), and GEOMETOR (DAG).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.byrne.VisualToken" title="geometor.byrne.VisualToken"><code class="xref py py-obj docutils literal notranslate"><span class="pre">VisualToken</span></code></a></p></td>
+        <td><p>An inline pass-by-value geometric glyph in a Byrne statement.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.byrne.build_all_plates" title="geometor.byrne.build_all_plates"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_all_plates</span></code></a>() → list[ByrnePlate]</p></td>
+        <td><p>Construct and verify all 17 showcase <a class="reference internal" href="#geometor.byrne.ByrnePlate" title="geometor.byrne.ByrnePlate"><code class="xref py py-class docutils literal notranslate"><span class="pre">ByrnePlate</span></code></a> models.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.byrne.build_plate" title="geometor.byrne.build_plate"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_plate</span></code></a>(prop_id) → ByrnePlate</p></td>
+        <td><p>Construct and verify a single <a class="reference internal" href="#geometor.byrne.ByrnePlate" title="geometor.byrne.ByrnePlate"><code class="xref py py-class docutils literal notranslate"><span class="pre">ByrnePlate</span></code></a> by proposition ID.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.byrne.list_plate_ids" title="geometor.byrne.list_plate_ids"><code class="xref py py-obj docutils literal notranslate"><span class="pre">list_plate_ids</span></code></a>() → list[str]</p></td>
+        <td><p>Return ordered list of all 17 showcase Byrne proposition IDs.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.byrne.get_color_spec" title="geometor.byrne.get_color_spec"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_color_spec</span></code></a>(color) → ByrneColorSpec</p></td>
+        <td><p>Return the <a class="reference internal" href="#geometor.byrne.ByrneColorSpec" title="geometor.byrne.ByrneColorSpec"><code class="xref py py-class docutils literal notranslate"><span class="pre">ByrneColorSpec</span></code></a> for <code class="docutils literal notranslate"><span class="pre">color</span></code> (case-insensitive).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.byrne.compute_rosetta_metrics" title="geometor.byrne.compute_rosetta_metrics"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compute_rosetta_metrics</span></code></a>(program) → RosettaMetrics</p></td>
+        <td><p>Compute quantitative Rosetta comparison metrics for a <a class="reference internal" href="#geometor.byrne.ByrneProgram" title="geometor.byrne.ByrneProgram"><code class="xref py py-class docutils literal notranslate"><span class="pre">ByrneProgram</span></code></a>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.byrne.get_rosetta_program" title="geometor.byrne.get_rosetta_program"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_rosetta_program</span></code></a>(prop_id) → ByrneProgram</p></td>
+        <td><p>Lookup a <a class="reference internal" href="#geometor.byrne.ByrneProgram" title="geometor.byrne.ByrneProgram"><code class="xref py py-class docutils literal notranslate"><span class="pre">ByrneProgram</span></code></a> by proposition ID (e.g. <code class="docutils literal notranslate"><span class="pre">&quot;I.47&quot;</span></code>).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.byrne.export_all_plates" title="geometor.byrne.export_all_plates"><code class="xref py py-obj docutils literal notranslate"><span class="pre">export_all_plates</span></code></a>(output_dir) → list[pathlib.Path]</p></td>
+        <td><p>Construct and export all 17 showcase Byrne plates into <code class="docutils literal notranslate"><span class="pre">output_dir</span></code>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.byrne.export_plate_svg" title="geometor.byrne.export_plate_svg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">export_plate_svg</span></code></a>(plate, output_path, *[, margin, ...]) → pathlib.Path</p></td>
+        <td><p>Write <code class="docutils literal notranslate"><span class="pre">plate</span></code> as an interactive <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> SVG file.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.byrne.render_plate_svg" title="geometor.byrne.render_plate_svg"><code class="xref py py-obj docutils literal notranslate"><span class="pre">render_plate_svg</span></code></a>(plate, *[, margin, show_labels]) → str</p></td>
+        <td><p>Render a <a class="reference internal" href="api/geometor/byrne/constructions/index.html#geometor.byrne.constructions.ByrnePlate" title="geometor.byrne.constructions.ByrnePlate"><code class="xref py py-class docutils literal notranslate"><span class="pre">ByrnePlate</span></code></a> into a <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> SVG.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="package-contents">
+        <h2>Package Contents<a class="headerlink" href="#package-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.byrne.PHI">
+        <span class="sig-prename descclassname"><span class="pre">geometor.byrne.</span></span><span class="sig-name descname"><span class="pre">PHI</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.byrne.PHI" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.byrne.PLATE_REGISTRY">
+        <span class="sig-prename descclassname"><span class="pre">geometor.byrne.</span></span><span class="sig-name descname"><span class="pre">PLATE_REGISTRY</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#dict" title="(in Python v3.13)"><span class="pre">dict</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/library/collections.abc.html#collections.abc.Callable" title="(in Python v3.13)"><span class="pre">collections.abc.Callable</span></a><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#geometor.byrne.ByrnePlate" title="geometor.byrne.ByrnePlate"><span class="pre">ByrnePlate</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.byrne.PLATE_REGISTRY" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrnePlate">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.byrne.</span></span><span class="sig-name descname"><span class="pre">ByrnePlate</span></span><a class="headerlink" href="#geometor.byrne.ByrnePlate" title="Link to this definition">¶</a></dt>
+        <dd><p>Complete symbolic model, verified invariants, and 1847 visual layers for one plate.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrnePlate.prop_id">
+        <span class="sig-name descname"><span class="pre">prop_id</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrnePlate.prop_id" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrnePlate.slug">
+        <span class="sig-name descname"><span class="pre">slug</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrnePlate.slug" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrnePlate.heath_id">
+        <span class="sig-name descname"><span class="pre">heath_id</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrnePlate.heath_id" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrnePlate.g_id">
+        <span class="sig-name descname"><span class="pre">g_id</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrnePlate.g_id" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrnePlate.book">
+        <span class="sig-name descname"><span class="pre">book</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a></span><a class="headerlink" href="#geometor.byrne.ByrnePlate.book" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrnePlate.title">
+        <span class="sig-name descname"><span class="pre">title</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrnePlate.title" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrnePlate.pickering_page">
+        <span class="sig-name descname"><span class="pre">pickering_page</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrnePlate.pickering_page" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrnePlate.number_field">
+        <span class="sig-name descname"><span class="pre">number_field</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrnePlate.number_field" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrnePlate.model">
+        <span class="sig-name descname"><span class="pre">model</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">geometor.model.Model</span></span><a class="headerlink" href="#geometor.byrne.ByrnePlate.model" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrnePlate.polygons">
+        <span class="sig-name descname"><span class="pre">polygons</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#list" title="(in Python v3.13)"><span class="pre">list</span></a><span class="p"><span class="pre">[</span></span><a class="reference internal" href="api/geometor/byrne/constructions/index.html#geometor.byrne.constructions.StyledPolygon" title="geometor.byrne.constructions.StyledPolygon"><span class="pre">StyledPolygon</span></a><span class="p"><span class="pre">]</span></span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">[]</span></span><a class="headerlink" href="#geometor.byrne.ByrnePlate.polygons" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrnePlate.wedges">
+        <span class="sig-name descname"><span class="pre">wedges</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#list" title="(in Python v3.13)"><span class="pre">list</span></a><span class="p"><span class="pre">[</span></span><a class="reference internal" href="api/geometor/byrne/constructions/index.html#geometor.byrne.constructions.StyledAngleWedge" title="geometor.byrne.constructions.StyledAngleWedge"><span class="pre">StyledAngleWedge</span></a><span class="p"><span class="pre">]</span></span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">[]</span></span><a class="headerlink" href="#geometor.byrne.ByrnePlate.wedges" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrnePlate.circles">
+        <span class="sig-name descname"><span class="pre">circles</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#list" title="(in Python v3.13)"><span class="pre">list</span></a><span class="p"><span class="pre">[</span></span><a class="reference internal" href="api/geometor/byrne/constructions/index.html#geometor.byrne.constructions.StyledCircle" title="geometor.byrne.constructions.StyledCircle"><span class="pre">StyledCircle</span></a><span class="p"><span class="pre">]</span></span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">[]</span></span><a class="headerlink" href="#geometor.byrne.ByrnePlate.circles" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrnePlate.arcs">
+        <span class="sig-name descname"><span class="pre">arcs</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#list" title="(in Python v3.13)"><span class="pre">list</span></a><span class="p"><span class="pre">[</span></span><a class="reference internal" href="api/geometor/byrne/constructions/index.html#geometor.byrne.constructions.StyledArc" title="geometor.byrne.constructions.StyledArc"><span class="pre">StyledArc</span></a><span class="p"><span class="pre">]</span></span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">[]</span></span><a class="headerlink" href="#geometor.byrne.ByrnePlate.arcs" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrnePlate.segments">
+        <span class="sig-name descname"><span class="pre">segments</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#list" title="(in Python v3.13)"><span class="pre">list</span></a><span class="p"><span class="pre">[</span></span><a class="reference internal" href="api/geometor/byrne/constructions/index.html#geometor.byrne.constructions.StyledSegment" title="geometor.byrne.constructions.StyledSegment"><span class="pre">StyledSegment</span></a><span class="p"><span class="pre">]</span></span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">[]</span></span><a class="headerlink" href="#geometor.byrne.ByrnePlate.segments" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrnePlate.proof_checks">
+        <span class="sig-name descname"><span class="pre">proof_checks</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#dict" title="(in Python v3.13)"><span class="pre">dict</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#bool" title="(in Python v3.13)"><span class="pre">bool</span></a><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.byrne.ByrnePlate.proof_checks" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrnePlate.canvas_size">
+        <span class="sig-name descname"><span class="pre">canvas_size</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#tuple" title="(in Python v3.13)"><span class="pre">tuple</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a><span class="p"><span class="pre">]</span></span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">(640,</span> <span class="pre">460)</span></span><a class="headerlink" href="#geometor.byrne.ByrnePlate.canvas_size" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrnePlate.show_labels">
+        <span class="sig-name descname"><span class="pre">show_labels</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#bool" title="(in Python v3.13)"><span class="pre">bool</span></a></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">False</span></span><a class="headerlink" href="#geometor.byrne.ByrnePlate.show_labels" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.byrne.build_all_plates">
+        <span class="sig-prename descclassname"><span class="pre">geometor.byrne.</span></span><span class="sig-name descname"><span class="pre">build_all_plates</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#list" title="(in Python v3.13)"><span class="pre">list</span></a><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#geometor.byrne.ByrnePlate" title="geometor.byrne.ByrnePlate"><span class="pre">ByrnePlate</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.byrne.build_all_plates" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct and verify all 17 showcase <a class="reference internal" href="#geometor.byrne.ByrnePlate" title="geometor.byrne.ByrnePlate"><code class="xref py py-class docutils literal notranslate"><span class="pre">ByrnePlate</span></code></a> models.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.byrne.build_plate">
+        <span class="sig-prename descclassname"><span class="pre">geometor.byrne.</span></span><span class="sig-name descname"><span class="pre">build_plate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prop_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#geometor.byrne.ByrnePlate" title="geometor.byrne.ByrnePlate"><span class="pre">ByrnePlate</span></a></span></span><a class="headerlink" href="#geometor.byrne.build_plate" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct and verify a single <a class="reference internal" href="#geometor.byrne.ByrnePlate" title="geometor.byrne.ByrnePlate"><code class="xref py py-class docutils literal notranslate"><span class="pre">ByrnePlate</span></code></a> by proposition ID.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.byrne.list_plate_ids">
+        <span class="sig-prename descclassname"><span class="pre">geometor.byrne.</span></span><span class="sig-name descname"><span class="pre">list_plate_ids</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#list" title="(in Python v3.13)"><span class="pre">list</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.byrne.list_plate_ids" title="Link to this definition">¶</a></dt>
+        <dd><p>Return ordered list of all 17 showcase Byrne proposition IDs.</p>
+        </dd></dl>
+
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.byrne.BYRNE_COLORS">
+        <span class="sig-prename descclassname"><span class="pre">geometor.byrne.</span></span><span class="sig-name descname"><span class="pre">BYRNE_COLORS</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#dict" title="(in Python v3.13)"><span class="pre">dict</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#geometor.byrne.ByrneColorSpec" title="geometor.byrne.ByrneColorSpec"><span class="pre">ByrneColorSpec</span></a><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.byrne.BYRNE_COLORS" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.byrne.BYRNE_STROKE_STYLES">
+        <span class="sig-prename descclassname"><span class="pre">geometor.byrne.</span></span><span class="sig-name descname"><span class="pre">BYRNE_STROKE_STYLES</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#dict" title="(in Python v3.13)"><span class="pre">dict</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.byrne.BYRNE_STROKE_STYLES" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneColorSpec">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.byrne.</span></span><span class="sig-name descname"><span class="pre">ByrneColorSpec</span></span><a class="headerlink" href="#geometor.byrne.ByrneColorSpec" title="Link to this definition">¶</a></dt>
+        <dd><p>Color specification for one of Oliver Byrne’s four 1847 woodblock inks.</p>
+        <p>Stores canonical token <code class="docutils literal notranslate"><span class="pre">name</span></code>, human-readable <code class="docutils literal notranslate"><span class="pre">label</span></code>, light/dark stroke
+        and fill hex values (<code class="docutils literal notranslate"><span class="pre">light_hex</span></code>, <code class="docutils literal notranslate"><span class="pre">dark_hex</span></code>, <code class="docutils literal notranslate"><span class="pre">light_fill_hex</span></code>,
+        <code class="docutils literal notranslate"><span class="pre">dark_fill_hex</span></code>), CSS custom property tokens (<code class="docutils literal notranslate"><span class="pre">css_var</span></code>, <code class="docutils literal notranslate"><span class="pre">css_fill_var</span></code>),
+        and the 1847 Chiswick Press <code class="docutils literal notranslate"><span class="pre">historical_pigment</span></code> note.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneColorSpec.name">
+        <span class="sig-name descname"><span class="pre">name</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrneColorSpec.name" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneColorSpec.label">
+        <span class="sig-name descname"><span class="pre">label</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrneColorSpec.label" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneColorSpec.light_hex">
+        <span class="sig-name descname"><span class="pre">light_hex</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrneColorSpec.light_hex" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneColorSpec.dark_hex">
+        <span class="sig-name descname"><span class="pre">dark_hex</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrneColorSpec.dark_hex" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneColorSpec.light_fill_hex">
+        <span class="sig-name descname"><span class="pre">light_fill_hex</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrneColorSpec.light_fill_hex" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneColorSpec.dark_fill_hex">
+        <span class="sig-name descname"><span class="pre">dark_fill_hex</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrneColorSpec.dark_fill_hex" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneColorSpec.css_var">
+        <span class="sig-name descname"><span class="pre">css_var</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrneColorSpec.css_var" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneColorSpec.css_fill_var">
+        <span class="sig-name descname"><span class="pre">css_fill_var</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrneColorSpec.css_fill_var" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneColorSpec.historical_pigment">
+        <span class="sig-name descname"><span class="pre">historical_pigment</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrneColorSpec.historical_pigment" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.byrne.get_color_spec">
+        <span class="sig-prename descclassname"><span class="pre">geometor.byrne.</span></span><span class="sig-name descname"><span class="pre">get_color_spec</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">color</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#geometor.byrne.ByrneColorSpec" title="geometor.byrne.ByrneColorSpec"><span class="pre">ByrneColorSpec</span></a></span></span><a class="headerlink" href="#geometor.byrne.get_color_spec" title="Link to this definition">¶</a></dt>
+        <dd><p>Return the <a class="reference internal" href="#geometor.byrne.ByrneColorSpec" title="geometor.byrne.ByrneColorSpec"><code class="xref py py-class docutils literal notranslate"><span class="pre">ByrneColorSpec</span></code></a> for <code class="docutils literal notranslate"><span class="pre">color</span></code> (case-insensitive).</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>color</strong> – Color identifier (<code class="docutils literal notranslate"><span class="pre">&quot;red&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;blue&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;yellow&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;black&quot;</span></code>, or <code class="docutils literal notranslate"><span class="pre">&quot;ink&quot;</span></code>).</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Matching <a class="reference internal" href="#geometor.byrne.ByrneColorSpec" title="geometor.byrne.ByrneColorSpec"><code class="xref py py-class docutils literal notranslate"><span class="pre">ByrneColorSpec</span></code></a>.</p>
+        </dd>
+        <dt class="field-odd">Raises<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3.13/builtins/exceptions.html#ValueError" title="(in Python v3.13)"><strong>ValueError</strong></a> – If <code class="docutils literal notranslate"><span class="pre">color</span></code> is not one of Byrne’s four canonical colors.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.byrne.ROSETTA_PROGRAMS">
+        <span class="sig-prename descclassname"><span class="pre">geometor.byrne.</span></span><span class="sig-name descname"><span class="pre">ROSETTA_PROGRAMS</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#dict" title="(in Python v3.13)"><span class="pre">dict</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#geometor.byrne.ByrneProgram" title="geometor.byrne.ByrneProgram"><span class="pre">ByrneProgram</span></a><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.byrne.ROSETTA_PROGRAMS" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneProgram">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.byrne.</span></span><span class="sig-name descname"><span class="pre">ByrneProgram</span></span><a class="headerlink" href="#geometor.byrne.ByrneProgram" title="Link to this definition">¶</a></dt>
+        <dd><p>Complete 3-way Rosetta formalization of a Euclidean proposition.</p>
+        <p>Pairs Byrne’s 1847 pointer-free visual program with Heath’s classical
+        alphabetic English translation and GEOMETOR’s formal DAG pseudocode.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneProgram.prop_id">
+        <span class="sig-name descname"><span class="pre">prop_id</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrneProgram.prop_id" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneProgram.plate_id">
+        <span class="sig-name descname"><span class="pre">plate_id</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrneProgram.plate_id" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneProgram.heath_id">
+        <span class="sig-name descname"><span class="pre">heath_id</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrneProgram.heath_id" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneProgram.g_id">
+        <span class="sig-name descname"><span class="pre">g_id</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrneProgram.g_id" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneProgram.title">
+        <span class="sig-name descname"><span class="pre">title</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrneProgram.title" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneProgram.pickering_page">
+        <span class="sig-name descname"><span class="pre">pickering_page</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrneProgram.pickering_page" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneProgram.number_field">
+        <span class="sig-name descname"><span class="pre">number_field</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrneProgram.number_field" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneProgram.statements">
+        <span class="sig-name descname"><span class="pre">statements</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#tuple" title="(in Python v3.13)"><span class="pre">tuple</span></a><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#geometor.byrne.ByrneStatement" title="geometor.byrne.ByrneStatement"><span class="pre">ByrneStatement</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.byrne.ByrneProgram.statements" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneProgram.heath_text">
+        <span class="sig-name descname"><span class="pre">heath_text</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.ByrneProgram.heath_text" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneProgram.geometor_steps">
+        <span class="sig-name descname"><span class="pre">geometor_steps</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#tuple" title="(in Python v3.13)"><span class="pre">tuple</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.byrne.ByrneProgram.geometor_steps" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneProgram.design_notes">
+        <span class="sig-name descname"><span class="pre">design_notes</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">''</span></span><a class="headerlink" href="#geometor.byrne.ByrneProgram.design_notes" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py method">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneProgram.all_visual_tokens">
+        <span class="sig-name descname"><span class="pre">all_visual_tokens</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#list" title="(in Python v3.13)"><span class="pre">list</span></a><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#geometor.byrne.VisualToken" title="geometor.byrne.VisualToken"><span class="pre">VisualToken</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.byrne.ByrneProgram.all_visual_tokens" title="Link to this definition">¶</a></dt>
+        <dd><p>Flatten all visual tokens appearing across all phases of the program.</p>
+        </dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneStatement">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.byrne.</span></span><span class="sig-name descname"><span class="pre">ByrneStatement</span></span><a class="headerlink" href="#geometor.byrne.ByrneStatement" title="Link to this definition">¶</a></dt>
+        <dd><p>A single structured line in a Byrne visual program.</p>
+        <p>Stores block <code class="docutils literal notranslate"><span class="pre">phase</span></code> (<code class="xref py py-class docutils literal notranslate"><span class="pre">ProofPhase</span></code>), ordered <code class="docutils literal notranslate"><span class="pre">items</span></code> of visual
+        tokens, operators, and minimal connectors, marginal Euclidean
+        <code class="docutils literal notranslate"><span class="pre">justifications</span></code>, and an optional analytical <code class="docutils literal notranslate"><span class="pre">comment</span></code>.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneStatement.phase">
+        <span class="sig-name descname"><span class="pre">phase</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="api/geometor/byrne/pseudocode/index.html#geometor.byrne.pseudocode.ProofPhase" title="geometor.byrne.pseudocode.ProofPhase"><span class="pre">ProofPhase</span></a></span><a class="headerlink" href="#geometor.byrne.ByrneStatement.phase" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneStatement.items">
+        <span class="sig-name descname"><span class="pre">items</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#tuple" title="(in Python v3.13)"><span class="pre">tuple</span></a><span class="p"><span class="pre">[</span></span><span class="pre">StatementItem</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.byrne.ByrneStatement.items" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneStatement.justifications">
+        <span class="sig-name descname"><span class="pre">justifications</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#tuple" title="(in Python v3.13)"><span class="pre">tuple</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">()</span></span><a class="headerlink" href="#geometor.byrne.ByrneStatement.justifications" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneStatement.comment">
+        <span class="sig-name descname"><span class="pre">comment</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">''</span></span><a class="headerlink" href="#geometor.byrne.ByrneStatement.comment" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py method">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneStatement.visual_tokens">
+        <span class="sig-name descname"><span class="pre">visual_tokens</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#list" title="(in Python v3.13)"><span class="pre">list</span></a><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#geometor.byrne.VisualToken" title="geometor.byrne.VisualToken"><span class="pre">VisualToken</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.byrne.ByrneStatement.visual_tokens" title="Link to this definition">¶</a></dt>
+        <dd><p>Return all <a class="reference internal" href="#geometor.byrne.VisualToken" title="geometor.byrne.VisualToken"><code class="xref py py-class docutils literal notranslate"><span class="pre">VisualToken</span></code></a> instances in this statement.</p>
+        </dd></dl>
+
+        <dl class="py method">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneStatement.word_count">
+        <span class="sig-name descname"><span class="pre">word_count</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a></span></span><a class="headerlink" href="#geometor.byrne.ByrneStatement.word_count" title="Link to this definition">¶</a></dt>
+        <dd><p>Count natural-language words (excluding pure visual glyphs and operators).</p>
+        </dd></dl>
+
+        <dl class="py method">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneStatement.to_rst">
+        <span class="sig-name descname"><span class="pre">to_rst</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">plate_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">''</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></span><a class="headerlink" href="#geometor.byrne.ByrneStatement.to_rst" title="Link to this definition">¶</a></dt>
+        <dd><p>Compile statement into RST with inline <code class="docutils literal notranslate"><span class="pre">:byrne-*:</span></code> and <code class="docutils literal notranslate"><span class="pre">:just:</span></code> roles.</p>
+        </dd></dl>
+
+        <dl class="py method">
+        <dt class="sig sig-object py" id="geometor.byrne.ByrneStatement.to_compact">
+        <span class="sig-name descname"><span class="pre">to_compact</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></span><a class="headerlink" href="#geometor.byrne.ByrneStatement.to_compact" title="Link to this definition">¶</a></dt>
+        <dd><p>Render statement into compact Unicode pseudocode.</p>
+        </dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.byrne.RosettaMetrics">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.byrne.</span></span><span class="sig-name descname"><span class="pre">RosettaMetrics</span></span><a class="headerlink" href="#geometor.byrne.RosettaMetrics" title="Link to this definition">¶</a></dt>
+        <dd><p>Quantitative comparison across Heath (alphabetic), Byrne (visual), and GEOMETOR (DAG).</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.RosettaMetrics.prop_id">
+        <span class="sig-name descname"><span class="pre">prop_id</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.RosettaMetrics.prop_id" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.RosettaMetrics.heath_words">
+        <span class="sig-name descname"><span class="pre">heath_words</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a></span><a class="headerlink" href="#geometor.byrne.RosettaMetrics.heath_words" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.RosettaMetrics.heath_pointer_dereferences">
+        <span class="sig-name descname"><span class="pre">heath_pointer_dereferences</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a></span><a class="headerlink" href="#geometor.byrne.RosettaMetrics.heath_pointer_dereferences" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.RosettaMetrics.byrne_words">
+        <span class="sig-name descname"><span class="pre">byrne_words</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a></span><a class="headerlink" href="#geometor.byrne.RosettaMetrics.byrne_words" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.RosettaMetrics.byrne_pointer_dereferences">
+        <span class="sig-name descname"><span class="pre">byrne_pointer_dereferences</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a></span><a class="headerlink" href="#geometor.byrne.RosettaMetrics.byrne_pointer_dereferences" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.RosettaMetrics.byrne_visual_tokens">
+        <span class="sig-name descname"><span class="pre">byrne_visual_tokens</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a></span><a class="headerlink" href="#geometor.byrne.RosettaMetrics.byrne_visual_tokens" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.RosettaMetrics.byrne_distinct_registers">
+        <span class="sig-name descname"><span class="pre">byrne_distinct_registers</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a></span><a class="headerlink" href="#geometor.byrne.RosettaMetrics.byrne_distinct_registers" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.RosettaMetrics.byrne_statement_count">
+        <span class="sig-name descname"><span class="pre">byrne_statement_count</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a></span><a class="headerlink" href="#geometor.byrne.RosettaMetrics.byrne_statement_count" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.RosettaMetrics.geometor_step_count">
+        <span class="sig-name descname"><span class="pre">geometor_step_count</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#int" title="(in Python v3.13)"><span class="pre">int</span></a></span><a class="headerlink" href="#geometor.byrne.RosettaMetrics.geometor_step_count" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.RosettaMetrics.word_compression_ratio">
+        <span class="sig-name descname"><span class="pre">word_compression_ratio</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#float" title="(in Python v3.13)"><span class="pre">float</span></a></span><a class="headerlink" href="#geometor.byrne.RosettaMetrics.word_compression_ratio" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.RosettaMetrics.register_diagnostic">
+        <span class="sig-name descname"><span class="pre">register_diagnostic</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="api/geometor/byrne/pseudocode/index.html#geometor.byrne.pseudocode.RegisterDiagnostic" title="geometor.byrne.pseudocode.RegisterDiagnostic"><span class="pre">RegisterDiagnostic</span></a></span><a class="headerlink" href="#geometor.byrne.RosettaMetrics.register_diagnostic" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.byrne.VisualToken">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.byrne.</span></span><span class="sig-name descname"><span class="pre">VisualToken</span></span><a class="headerlink" href="#geometor.byrne.VisualToken" title="Link to this definition">¶</a></dt>
+        <dd><p>An inline pass-by-value geometric glyph in a Byrne statement.</p>
+        <p>Encodes primitive <code class="docutils literal notranslate"><span class="pre">kind</span></code> (<code class="xref py py-class docutils literal notranslate"><span class="pre">TokenKind</span></code>), Byrne <code class="docutils literal notranslate"><span class="pre">color</span></code> expression,
+        <code class="docutils literal notranslate"><span class="pre">stroke</span></code> (<code class="xref py py-class docutils literal notranslate"><span class="pre">StrokeMode</span></code>), <code class="docutils literal notranslate"><span class="pre">fill</span></code> (<code class="xref py py-class docutils literal notranslate"><span class="pre">FillMode</span></code>), optional
+        interactive <code class="docutils literal notranslate"><span class="pre">geom_ref</span></code>, <code class="docutils literal notranslate"><span class="pre">squared</span></code> exponent flag, Book V <code class="docutils literal notranslate"><span class="pre">shape_hint</span></code>,
+        and intentional symmetric <code class="docutils literal notranslate"><span class="pre">congruence_group</span></code>.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.VisualToken.kind">
+        <span class="sig-name descname"><span class="pre">kind</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="api/geometor/byrne/pseudocode/index.html#geometor.byrne.pseudocode.TokenKind" title="geometor.byrne.pseudocode.TokenKind"><span class="pre">TokenKind</span></a></span><a class="headerlink" href="#geometor.byrne.VisualToken.kind" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.VisualToken.color">
+        <span class="sig-name descname"><span class="pre">color</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><a class="headerlink" href="#geometor.byrne.VisualToken.color" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.VisualToken.stroke">
+        <span class="sig-name descname"><span class="pre">stroke</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="api/geometor/byrne/pseudocode/index.html#geometor.byrne.pseudocode.StrokeMode" title="geometor.byrne.pseudocode.StrokeMode"><span class="pre">StrokeMode</span></a></span><a class="headerlink" href="#geometor.byrne.VisualToken.stroke" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.VisualToken.fill">
+        <span class="sig-name descname"><span class="pre">fill</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="api/geometor/byrne/pseudocode/index.html#geometor.byrne.pseudocode.FillMode" title="geometor.byrne.pseudocode.FillMode"><span class="pre">FillMode</span></a></span><a class="headerlink" href="#geometor.byrne.VisualToken.fill" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.VisualToken.geom_ref">
+        <span class="sig-name descname"><span class="pre">geom_ref</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">''</span></span><a class="headerlink" href="#geometor.byrne.VisualToken.geom_ref" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.VisualToken.squared">
+        <span class="sig-name descname"><span class="pre">squared</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#bool" title="(in Python v3.13)"><span class="pre">bool</span></a></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">False</span></span><a class="headerlink" href="#geometor.byrne.VisualToken.squared" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.VisualToken.shape_hint">
+        <span class="sig-name descname"><span class="pre">shape_hint</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">''</span></span><a class="headerlink" href="#geometor.byrne.VisualToken.shape_hint" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.byrne.VisualToken.congruence_group">
+        <span class="sig-name descname"><span class="pre">congruence_group</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">''</span></span><a class="headerlink" href="#geometor.byrne.VisualToken.congruence_group" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py property">
+        <dt class="sig sig-object py" id="geometor.byrne.VisualToken.register_signature">
+        <span class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></span><span class="sig-name descname"><span class="pre">register_signature</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#tuple" title="(in Python v3.13)"><span class="pre">tuple</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.byrne.VisualToken.register_signature" title="Link to this definition">¶</a></dt>
+        <dd><p>Perceptual tuple distinguishing this token in visual working memory.</p>
+        </dd></dl>
+
+        <dl class="py method">
+        <dt class="sig sig-object py" id="geometor.byrne.VisualToken.role_spec_body">
+        <span class="sig-name descname"><span class="pre">role_spec_body</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">plate_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">''</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></span><a class="headerlink" href="#geometor.byrne.VisualToken.role_spec_body" title="Link to this definition">¶</a></dt>
+        <dd><p>Build the RST role argument string for <code class="docutils literal notranslate"><span class="pre">:byrne-&lt;kind&gt;:</span></code>.</p>
+        </dd></dl>
+
+        <dl class="py method">
+        <dt class="sig sig-object py" id="geometor.byrne.VisualToken.to_rst">
+        <span class="sig-name descname"><span class="pre">to_rst</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">plate_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">''</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></span><a class="headerlink" href="#geometor.byrne.VisualToken.to_rst" title="Link to this definition">¶</a></dt>
+        <dd><p>Compile this visual token into a Sphinx <code class="docutils literal notranslate"><span class="pre">:byrne-*:</span></code> role.</p>
+        </dd></dl>
+
+        <dl class="py method">
+        <dt class="sig sig-object py" id="geometor.byrne.VisualToken.to_html">
+        <span class="sig-name descname"><span class="pre">to_html</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">plate_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">''</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></span><a class="headerlink" href="#geometor.byrne.VisualToken.to_html" title="Link to this definition">¶</a></dt>
+        <dd><p>Render this visual token directly to an interactive HTML/SVG span.</p>
+        </dd></dl>
+
+        <dl class="py method">
+        <dt class="sig sig-object py" id="geometor.byrne.VisualToken.to_compact">
+        <span class="sig-name descname"><span class="pre">to_compact</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></span><a class="headerlink" href="#geometor.byrne.VisualToken.to_compact" title="Link to this definition">¶</a></dt>
+        <dd><p>Return a concise human-readable token representation for CLI/tables.</p>
+        </dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.byrne.compute_rosetta_metrics">
+        <span class="sig-prename descclassname"><span class="pre">geometor.byrne.</span></span><span class="sig-name descname"><span class="pre">compute_rosetta_metrics</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">program</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#geometor.byrne.ByrneProgram" title="geometor.byrne.ByrneProgram"><span class="pre">ByrneProgram</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#geometor.byrne.RosettaMetrics" title="geometor.byrne.RosettaMetrics"><span class="pre">RosettaMetrics</span></a></span></span><a class="headerlink" href="#geometor.byrne.compute_rosetta_metrics" title="Link to this definition">¶</a></dt>
+        <dd><p>Compute quantitative Rosetta comparison metrics for a <a class="reference internal" href="#geometor.byrne.ByrneProgram" title="geometor.byrne.ByrneProgram"><code class="xref py py-class docutils literal notranslate"><span class="pre">ByrneProgram</span></code></a>.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.byrne.get_rosetta_program">
+        <span class="sig-prename descclassname"><span class="pre">geometor.byrne.</span></span><span class="sig-name descname"><span class="pre">get_rosetta_program</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prop_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#geometor.byrne.ByrneProgram" title="geometor.byrne.ByrneProgram"><span class="pre">ByrneProgram</span></a></span></span><a class="headerlink" href="#geometor.byrne.get_rosetta_program" title="Link to this definition">¶</a></dt>
+        <dd><p>Lookup a <a class="reference internal" href="#geometor.byrne.ByrneProgram" title="geometor.byrne.ByrneProgram"><code class="xref py py-class docutils literal notranslate"><span class="pre">ByrneProgram</span></code></a> by proposition ID (e.g. <code class="docutils literal notranslate"><span class="pre">&quot;I.47&quot;</span></code>).</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.byrne.export_all_plates">
+        <span class="sig-prename descclassname"><span class="pre">geometor.byrne.</span></span><span class="sig-name descname"><span class="pre">export_all_plates</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">output_dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#list" title="(in Python v3.13)"><span class="pre">list</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.byrne.export_all_plates" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct and export all 17 showcase Byrne plates into <code class="docutils literal notranslate"><span class="pre">output_dir</span></code>.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.byrne.export_plate_svg">
+        <span class="sig-prename descclassname"><span class="pre">geometor.byrne.</span></span><span class="sig-name descname"><span class="pre">export_plate_svg</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">plate</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="api/geometor/byrne/constructions/index.html#geometor.byrne.constructions.ByrnePlate" title="geometor.byrne.constructions.ByrnePlate"><span class="pre">geometor.byrne.constructions.ByrnePlate</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">output_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">margin</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#float" title="(in Python v3.13)"><span class="pre">float</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">42.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">show_labels</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#bool" title="(in Python v3.13)"><span class="pre">bool</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/library/pathlib.html#pathlib.Path" title="(in Python v3.13)"><span class="pre">pathlib.Path</span></a></span></span><a class="headerlink" href="#geometor.byrne.export_plate_svg" title="Link to this definition">¶</a></dt>
+        <dd><p>Write <code class="docutils literal notranslate"><span class="pre">plate</span></code> as an interactive <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> SVG file.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.byrne.render_plate_svg">
+        <span class="sig-prename descclassname"><span class="pre">geometor.byrne.</span></span><span class="sig-name descname"><span class="pre">render_plate_svg</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">plate</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="api/geometor/byrne/constructions/index.html#geometor.byrne.constructions.ByrnePlate" title="geometor.byrne.constructions.ByrnePlate"><span class="pre">geometor.byrne.constructions.ByrnePlate</span></a></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">margin</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#float" title="(in Python v3.13)"><span class="pre">float</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">42.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">show_labels</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3.13/builtins/functions.html#bool" title="(in Python v3.13)"><span class="pre">bool</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><a class="reference external" href="https://docs.python.org/3.13/builtins/constants.html#None" title="(in Python v3.13)"><span class="pre">None</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.13/builtins/stdtypes.html#str" title="(in Python v3.13)"><span class="pre">str</span></a></span></span><a class="headerlink" href="#geometor.byrne.render_plate_svg" title="Link to this definition">¶</a></dt>
+        <dd><p>Render a <a class="reference internal" href="api/geometor/byrne/constructions/index.html#geometor.byrne.constructions.ByrnePlate" title="geometor.byrne.constructions.ByrnePlate"><code class="xref py py-class docutils literal notranslate"><span class="pre">ByrnePlate</span></code></a> into a <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> SVG.</p>
+        </dd></dl>
+
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.byrne.__version__">
+        <span class="sig-prename descclassname"><span class="pre">geometor.byrne.</span></span><span class="sig-name descname"><span class="pre">__version__</span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'0.1.0'</span></span><a class="headerlink" href="#geometor.byrne.__version__" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../log/26.316-initial-codex/index.html" title="Inaugural Digital Scriptorium Codex &amp; Visual Pseudocode Engine (v0.1.0)">&larr; <span class="nav-label">Inaugural Digital Scriptorium Codex & Visual Pseudocode Engine (v0.1.0)</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GEOMETOR • byrne</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="api/geometor/byrne/__main__/index.html" title="geometor.byrne.__main__"><span class="nav-label">geometor.byrne.__main__</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../log/26.316-initial-codex/index.html">Inaugural Digital Scriptorium Codex & Visual Pseudocode Engine (v0.1.0)</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1847 William Pickering / Chiswick Press · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../_static/byrne_interactive.js?v=0ce4f795"></script>
+  <script src="../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

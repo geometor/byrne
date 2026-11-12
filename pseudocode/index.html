@@ -1,0 +1,265 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>pseudocode &mdash; GEOMETOR • byrne</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" type="text/css" href="../_static/byrne.css?v=9a052df9" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../index.html">
+        <h1>GEOMETOR • byrne</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">byrne</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../mission/index.html"  >mission</a>
+        </li>
+        <li>
+          <a href="#" class="is-active" aria-selected="true" aria-current="page">pseudocode</a>
+        </li>
+        <li>
+          <a href="../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../index.html" title="Return to Project Portal">&larr; byrne</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GEOMETOR • byrne</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../mission/index.html" title="mission">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../log/index.html" title="log"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="pseudocode">
+        <h1>pseudocode<a class="headerlink" href="#pseudocode" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Oliver Byrne (1847) as a Pointer-Free Visual Programming Language</p>
+        <p>Long before structured programming, dataflow visual languages, or modern IDE token highlighting, <span class="person-ref" data-person="byrne" title="Oliver Byrne (1810 – 1880) — Irish Civil Engineer, Surveyor &amp; Mathematical Author">Oliver Byrne</span> (<span class="citation-ref" data-cite="byrne:1847" title="Oliver Byrne — The First Six Books of the Elements of Euclid in Which Coloured Diagrams and Symbols Are Used Instead of Letters for the Greater Ease of Learners (London: William Pickering (printed by Charles Whittingham, Chiswick Press), 1847)">1847, pp. ix–xi, xxvii–xxix</span>) diagnosed the fundamental cognitive bottleneck of classical Euclidean deduction: <strong>alphabetic pointer dereferencing</strong>.</p>
+        <section class="level-2" id="pass-by-reference-vs-pass-by-value-in-geometry">
+        <h2>Pass-by-Reference vs. Pass-by-Value in Geometry<a class="headerlink" href="#pass-by-reference-vs-pass-by-value-in-geometry" title="Link to this heading">¶</a></h2>
+        <p>In <span class="person-ref" data-person="euclid" title="Euclid of Alexandria (fl. c. 300 BC) — Ancient Greek Geometer &amp; Author of the Stoicheia (Elements)">Euclid's</span> Greek <em>Stoicheia</em> and <span class="person-ref" data-person="heath" title="Sir Thomas Little Heath (1861 – 1940) — Historian of Greek Mathematics &amp; Translator of Euclid">Heath's</span> English edition (<code class="docutils literal notranslate"><span class="pre">geometor/euclid</span></code>), geometric primitives on the page are nameless black ink strokes. To refer to a segment, angle, or square, prose assigns <strong>memory addresses</strong> ($A, B, C, D, \dots$) to point vertices and forms composite tuple expressions (<cite>AB</cite>, <cite>angle FBC</cite>, <cite>parallelogram BLMD</cite>). Reading a single sentence of <cite>I.5</cite> or <cite>I.47</cite> requires dozens of indirect table lookups:</p>
+        <div class="math notranslate nohighlight">
+        \[\text{String Token } (\text{``}\triangle FBC\text{''})
+        \;\xrightarrow{\text{scan}}\; \{F, B, C\}
+        \;\xrightarrow{\text{trace}}\; \text{mental hull}
+        \;\xrightarrow{\text{compare}}\; \text{String Token } (\text{``}\triangle ABD\text{''}).\]</div>
+        <p>Byrne’s 1847 Chiswick Press grammar replaces <em>pass-by-reference</em> with <strong>pass-by-value</strong>:</p>
+        <ol class="arabic simple">
+        <li><p><strong>Typed Inline Value-Tokens</strong>: Every primitive sort—segment (<span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="red" title="Vermilion Red solid line" role="img" aria-label="Vermilion Red solid line"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-red" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" /></svg></span>), angle (<span class="byrne-token geom-ref" data-byrne-kind="angle" data-byrne-color="blue" title="Prussian Blue angle" role="img" aria-label="Prussian Blue angle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-angle" width="23" height="16" viewBox="0 0 23 16" aria-hidden="true"><path class="byrne-fill-blue byrne-stroke-blue" d="M 2.5 14.5 L 18.5 3 A 17 17 0 0 1 21 14.5 Z" stroke-width="1.4" stroke-linejoin="round" /></svg></span>), triangle (<span class="byrne-token geom-ref" data-byrne-kind="tri" data-byrne-color="yellow" title="Ochre Gamboge Yellow triangle" role="img" aria-label="Ochre Gamboge Yellow triangle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-tri" width="20" height="17" viewBox="0 0 20 17" aria-hidden="true"><polygon class="byrne-fill-yellow byrne-stroke-yellow" points="10,2 18,15 2,15" stroke-width="1.8" stroke-linejoin="round" /></svg></span>), square (<span class="byrne-token geom-ref" data-byrne-kind="sq" data-byrne-color="black" title="Chiswick Lampblack Ink filled square" role="img" aria-label="Chiswick Lampblack Ink filled square"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-sq" width="17" height="17" viewBox="0 0 17 17" aria-hidden="true"><rect class="byrne-fill-black byrne-stroke-black" x="2" y="2" width="13" height="13" stroke-width="1.5" /></svg></span>), rectangle (<span class="byrne-token geom-ref" data-byrne-kind="rect" data-byrne-color="yellow" title="Ochre Gamboge Yellow filled rectangle" role="img" aria-label="Ochre Gamboge Yellow filled rectangle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-rect" width="24" height="16" viewBox="0 0 24 16" aria-hidden="true"><rect class="byrne-fill-yellow byrne-stroke-yellow" x="2" y="2.5" width="20" height="11" stroke-width="1.5" /></svg></span>), arc (<span class="byrne-token geom-ref" data-byrne-kind="arc" data-byrne-color="blue" title="Prussian Blue circular arc" role="img" aria-label="Prussian Blue circular arc"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-arc" width="24" height="15" viewBox="0 0 24 15" aria-hidden="true"><path class="byrne-fill-none byrne-stroke-blue" d="M 2 12.5 A 13 13 0 0 1 22 12.5" stroke-width="2.6" stroke-linecap="round" /></svg></span>), circle (<span class="byrne-token geom-ref" data-byrne-kind="circle" data-byrne-color="red" title="Vermilion Red circle" role="img" aria-label="Vermilion Red circle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-circle" width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><circle class="byrne-fill-none byrne-stroke-red" cx="9" cy="9" r="6.6" stroke-width="2.3" /></svg></span>), and Book V magnitude (<span class="byrne-token geom-ref" data-byrne-kind="mag" data-byrne-color="red" title="Book V Vermilion Red circle magnitude" role="img" aria-label="Book V Vermilion Red circle magnitude"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-mag" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle class="byrne-fill-red" cx="8" cy="8" r="6.2" /></svg></span>, <span class="byrne-token geom-ref" data-byrne-kind="mag" data-byrne-color="yellow" title="Book V Ochre Gamboge Yellow square magnitude" role="img" aria-label="Book V Ochre Gamboge Yellow square magnitude"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-mag" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><rect class="byrne-fill-yellow" x="2.5" y="2.5" width="11" height="11" /></svg></span>, <span class="byrne-token geom-ref" data-byrne-kind="mag" data-byrne-color="blue" title="Book V Prussian Blue diamond magnitude" role="img" aria-label="Book V Prussian Blue diamond magnitude"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-mag" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><polygon class="byrne-fill-blue" points="8,1.2 14.8,8 8,14.8 1.2,8" /></svg></span>, <span class="byrne-token geom-ref" data-byrne-kind="mag" data-byrne-color="black" title="Book V Chiswick Lampblack Ink shield magnitude" role="img" aria-label="Book V Chiswick Lampblack Ink shield magnitude"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-mag" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path class="byrne-fill-black" d="M 2.5 2 H 13.5 V 8.5 C 13.5 12 8 15 8 15 C 8 15 2.5 12 2.5 8.5 Z" /></svg></span>)—appears directly inside the algebraic line as a miniature colored geometric literal.</p></li>
+        <li><p><strong>Formal Operators (pp. xxvii–xxviii)</strong>: Natural-language verbs collapse into symbolic operators: <code class="docutils literal notranslate"><span class="pre">=</span></code> (equality of length, angle, or area), <code class="docutils literal notranslate"><span class="pre">+</span></code> / <code class="docutils literal notranslate"><span class="pre">-</span></code> (composition and subtraction), <span class="byrne-op-token" title="Greater than (Byrne 1847 ⊏)">⊏</span> (<em>greater than</em>), <span class="byrne-op-token" title="Less than (Byrne 1847 ⊐)">⊐</span> (<em>less than</em>), <span class="byrne-op-token" title="Parallel to (∥)">∥</span> (<em>parallel</em>), <span class="byrne-op-token" title="Perpendicular to (⊥)">⊥</span> (<em>perpendicular</em>), <span class="byrne-op-token" title="One right angle (Byrne 1847 quadrant)" aria-label="one right angle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-op" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path class="byrne-fill-none byrne-stroke-black" d="M 3 2 V 13.5 H 14.5 M 3 4.5 A 9 9 0 0 1 12 13.5" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" /></svg></span> (<em>one right angle</em>), <span class="byrne-op-token" title="Two right angles (Byrne 1847 bisected semicircle)" aria-label="two right angles"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-op" width="24" height="15" viewBox="0 0 24 15" aria-hidden="true"><path class="byrne-fill-none byrne-stroke-black" d="M 1.5 13 H 22.5 M 3.5 13 A 8.5 8.5 0 0 1 20.5 13 M 12 13 V 2" stroke-width="1.65" stroke-linecap="round" /></svg></span> (<em>two right angles</em>), <span class="byrne-op-token" title="As / proportional to (∷)">∷</span> (<em>proportion</em>), <span class="byrne-op-token" title="Because (∵)">∵</span> (<em>because</em>), and <span class="byrne-op-token" title="Therefore (∴)">∴</span> (<em>therefore</em>).</p></li>
+        <li><p><strong>Structured Proclean Control Flow</strong>: Every proposition is formatted into explicit visual blocks matching <span class="person-ref" data-person="proclus" title="Proclus Lycius (Diadochus) (412 – 485 AD) — Neoplatonic Philosopher &amp; Commentator on Euclid Book I">Proclus's</span> six divisions (<span class="glossary-term" data-term="ekthesis" title="Ekthesis (ἔκθεσις) (Setting-Out / Given Block): Second Proclean division of a proposition, instantiating the general enunciation upon the concrete colored diagram.">ekthesis</span>, <em>diorismos</em>, <em>kataskeue</em>, <span class="glossary-term" data-term="apodeixis" title="Apodeixis (ἀπόδειξις) (Deductive Demonstration): Fifth Proclean division of a proposition, formatted by Byrne as a vertical sequence of symbolic equations with marginal axiom/proposition citations.">apodeixis</span>, <em>symperasma</em>), with each deductive equation placed on its own line accompanied by marginal <code class="docutils literal notranslate"><span class="pre">:just:</span></code> citations.</p></li>
+        </ol>
+        </section>
+        <section class="level-2" id="quantitative-rosetta-compiler-metrics">
+        <h2>Quantitative Rosetta Compiler Metrics<a class="headerlink" href="#quantitative-rosetta-compiler-metrics" title="Link to this heading">¶</a></h2>
+        <p>The module <a class="reference internal" href="../modules/api/geometor/byrne/pseudocode/index.html#module-geometor.byrne.pseudocode" title="geometor.byrne.pseudocode"><code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.byrne.pseudocode</span></code></a> parses seven flagship propositions across Books I–V and measures verbal token load, alphabetic pointer dereferences, and <strong>visual register pressure</strong>:</p>
+        <table class="docutils align-default" id="id1">
+        <caption><span class="caption-text"><strong>Heath (1908) vs. Byrne (1847) vs. GEOMETOR DAG Metrics</strong></span><a class="headerlink" href="#id1" title="Link to this table">¶</a></caption>
+        <colgroup>
+        <col style="width: 10.0%" />
+        <col style="width: 14.0%" />
+        <col style="width: 14.0%" />
+        <col style="width: 14.0%" />
+        <col style="width: 14.0%" />
+        <col style="width: 16.0%" />
+        <col style="width: 18.0%" />
+        </colgroup>
+        <thead>
+        <tr class="row-odd"><th class="head"><p>Prop</p></th>
+        <th class="head"><p>G-Index</p></th>
+        <th class="head"><p>Heath Words</p></th>
+        <th class="head"><p>Heath Pointers</p></th>
+        <th class="head"><p>Byrne Words</p></th>
+        <th class="head"><p>Verbal Load</p></th>
+        <th class="head"><p>Visual Registers</p></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">I.1</span></code></p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">G.84</span></code></p></td>
+        <td><p>179</p></td>
+        <td><p>31</p></td>
+        <td><p>22</p></td>
+        <td><p><strong>12.3%</strong></p></td>
+        <td><p>6 (unique)</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">I.5</span></code></p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">G.91</span></code></p></td>
+        <td><p>329</p></td>
+        <td><p>62</p></td>
+        <td><p>32</p></td>
+        <td><p><strong>9.7%</strong></p></td>
+        <td><p>8 (+4 congruence twins)</p></td>
+        </tr>
+        <tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">I.47</span></code></p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">G.140</span></code></p></td>
+        <td><p>314</p></td>
+        <td><p>64</p></td>
+        <td><p>25</p></td>
+        <td><p><strong>8.0%</strong></p></td>
+        <td><p>9 (stroke-modulated)</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">II.11</span></code></p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">G.154</span></code></p></td>
+        <td><p>269</p></td>
+        <td><p>56</p></td>
+        <td><p>50</p></td>
+        <td><p><strong>18.6%</strong></p></td>
+        <td><p>5 (solid-dotted cut)</p></td>
+        </tr>
+        <tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">IV.10</span></code></p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">G.223</span></code></p></td>
+        <td><p>389</p></td>
+        <td><p>78</p></td>
+        <td><p>38</p></td>
+        <td><p><strong>9.8%</strong></p></td>
+        <td><p>9 (composite + dotted)</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">IV.11</span></code></p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">G.224</span></code></p></td>
+        <td><p>210</p></td>
+        <td><p>41</p></td>
+        <td><p>42</p></td>
+        <td><p><strong>20.0%</strong></p></td>
+        <td><p>10 (5-side register overflow)</p></td>
+        </tr>
+        <tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">V.16</span></code></p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">G.276</span></code></p></td>
+        <td><p>253</p></td>
+        <td><p>20</p></td>
+        <td><p>18</p></td>
+        <td><p><strong>7.1%</strong></p></td>
+        <td><p>4 (pure Eudoxian algebra)</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="three-structural-laws-discovered-by-register-analysis">
+        <h2>Three Structural Laws Discovered by Register Analysis<a class="headerlink" href="#three-structural-laws-discovered-by-register-analysis" title="Link to this heading">¶</a></h2>
+        <ol class="arabic simple">
+        <li><p><strong>The Four-Color Working-Memory Ceiling (:term:`Register Pressure &lt;register-pressure&gt;`)</strong>:
+        Human visual working memory holds $4 \pm 1$ chromatic chunks effortlessly. Whenever a proposition introduces five or more primitives of the same sort—such as the five sides of the regular pentagon in <code class="docutils literal notranslate"><span class="pre">IV.11</span></code> (<span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="red" title="Vermilion Red solid line" role="img" aria-label="Vermilion Red solid line"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-red" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" /></svg></span>, <span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="red" title="Vermilion Red dotted line" role="img" aria-label="Vermilion Red dotted line"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-red byrne-dotted" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" stroke-dasharray="2.4 3.6" /></svg></span>, <span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="black" title="Chiswick Lampblack Ink solid line" role="img" aria-label="Chiswick Lampblack Ink solid line"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-black" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" /></svg></span>, <span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="yellow" title="Ochre Gamboge Yellow solid line" role="img" aria-label="Ochre Gamboge Yellow solid line"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-yellow" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" /></svg></span>, <span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="blue" title="Prussian Blue solid line" role="img" aria-label="Prussian Blue solid line"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-blue" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" /></svg></span>) or shared square/rectangle boundaries in <code class="docutils literal notranslate"><span class="pre">I.47</span></code>—Byrne multiplies his four ink channels by <strong>stroke modulation</strong> (<code class="docutils literal notranslate"><span class="pre">solid</span></code>, <code class="docutils literal notranslate"><span class="pre">dashed</span></code>, <code class="docutils literal notranslate"><span class="pre">dotted</span></code>, <code class="docutils literal notranslate"><span class="pre">solid-dotted</span></code>).</p></li>
+        <li><p><strong>Intentional :term:`Congruence-Twin Coloring &lt;congruence-twin&gt;`</strong>:
+        In <code class="docutils literal notranslate"><span class="pre">I.5</span></code> (<em>Pons Asinorum</em>), Byrne deliberately binds <em>both</em> equal legs to <span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="red" title="Vermilion Red solid line" role="img" aria-label="Vermilion Red solid line"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-red" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" /></svg></span>, <em>both</em> produced extensions to <span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="yellow" title="Ochre Gamboge Yellow solid line" role="img" aria-label="Ochre Gamboge Yellow solid line"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-yellow" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" /></svg></span>, and <em>both</em> auxiliary cross-diagonals to <span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="blue" title="Prussian Blue solid line" role="img" aria-label="Prussian Blue solid line"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-blue" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" /></svg></span>. What a naive type-checker would flag as a register collision is in fact a <strong>symmetric congruence invariant</strong> encoded directly into the visual type!</p></li>
+        <li><p><strong>Why GEOMETOR Pairs Visual Tokens with Symbolic DAGs</strong>:
+        Pure visual tokens excel at human proof comprehension (<cite>apodeixis</cite>), whereas machine constructibility requires explicit incidence/orientation selectors (<cite>side_of</cite>, <cite>beyond</cite>) when circles intersect in two points. Together, <code class="docutils literal notranslate"><span class="pre">geometor/euclid</span></code> (textual heritage), <code class="docutils literal notranslate"><span class="pre">geometor/byrne</span></code> (pointer-free visual cognition), and <code class="docutils literal notranslate"><span class="pre">geometor/elements</span></code> + <code class="docutils literal notranslate"><span class="pre">geometor/codes</span></code> (computable symbolic DAGs) form a complete three-pillar Rosetta Stone.</p></li>
+        </ol>
+        <p>See <a class="reference internal" href="../coloured_euclid/unit-7-visual-pseudocode/unit-7-visual-pseudocode-en.html#byrne-unit-7-en"><span class="std std-ref">Unit 7 of the Book Codex</span></a> for full side-by-side 3-way derivations of each proposition.</p>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../mission/index.html" title="mission">&larr; <span class="nav-label">mission</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GEOMETOR • byrne</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../log/index.html" title="log"><span class="nav-label">log</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../log/26.316-initial-codex/index.html">Inaugural Digital Scriptorium Codex & Visual Pseudocode Engine (v0.1.0)</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1847 William Pickering / Chiswick Press · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../_static/byrne_interactive.js?v=0ce4f795"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

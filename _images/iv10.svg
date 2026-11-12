@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 580 560" data-graphic-id="iv10" role="img" aria-label="Book IV, Prop. X — The 36°–72°–72° Golden Triangle">
+  <title>Book IV, Prop. X — The 36°–72°–72° Golden Triangle</title>
+  <defs>
+    <marker id="geom-tick-1" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-2" y1="-4.5" x2="-2" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+      <line x1="2" y1="-4.5" x2="2" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-8 -6 16 12" markerWidth="16" markerHeight="12" orient="auto">
+      <line x1="-3.5" y1="-4.5" x2="-3.5" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+      <line x1="3.5" y1="-4.5" x2="3.5" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+    </marker>
+  </defs>
+  <style>
+  .euclid-graphic, :root {
+    --byrne-paper: #faf7f0;
+    --byrne-red: #d92b2b;
+    --byrne-blue: #1c6ea4;
+    --byrne-yellow: #e6b800;
+    --byrne-black: #1a1a1a;
+    --byrne-fill-red: #d92b2b;
+    --byrne-fill-blue: #1c6ea4;
+    --byrne-fill-yellow: #e6b800;
+    --byrne-fill-black: #1a1a1a;
+    --byrne-halo: rgba(250, 247, 240, 0.92);
+  }
+  @media (prefers-color-scheme: dark) {
+    .euclid-graphic, :root {
+      --byrne-paper: #16161a;
+      --byrne-red: #f04848;
+      --byrne-blue: #4ba3e3;
+      --byrne-yellow: #f5ca24;
+      --byrne-black: #e8e6df;
+      --byrne-fill-red: #d93838;
+      --byrne-fill-blue: #2574ab;
+      --byrne-fill-yellow: #dfb208;
+      --byrne-fill-black: #363945;
+      --byrne-halo: rgba(22, 22, 26, 0.92);
+    }
+  }
+  .euclid-graphic .svg-bg { fill: var(--byrne-paper); }
+  .euclid-graphic .byrne-stroke-red { stroke: var(--byrne-red); }
+  .euclid-graphic .byrne-stroke-blue { stroke: var(--byrne-blue); }
+  .euclid-graphic .byrne-stroke-yellow { stroke: var(--byrne-yellow); }
+  .euclid-graphic .byrne-stroke-black { stroke: var(--byrne-black); }
+  .euclid-graphic .byrne-stroke-none { stroke: none; }
+  .euclid-graphic .byrne-fill-red { fill: var(--byrne-fill-red); }
+  .euclid-graphic .byrne-fill-blue { fill: var(--byrne-fill-blue); }
+  .euclid-graphic .byrne-fill-yellow { fill: var(--byrne-fill-yellow); }
+  .euclid-graphic .byrne-fill-black { fill: var(--byrne-fill-black); }
+  .euclid-graphic .byrne-fill-none { fill: none; }
+  .euclid-graphic .byrne-dashed { stroke-dasharray: 7 4.2; }
+  .euclid-graphic .byrne-dotted { stroke-dasharray: 2.4 3.6; }
+  .euclid-graphic .byrne-plate-line { fill: none; stroke-width: 3.4; stroke-linecap: round; }
+  .euclid-graphic .byrne-plate-line.byrne-thin { stroke-width: 2.2; }
+  .euclid-graphic .byrne-plate-line.byrne-thick { stroke-width: 4.2; }
+  .euclid-graphic .byrne-plate-circle,
+  .euclid-graphic .byrne-plate-arc { fill: none; stroke-width: 2.75; stroke-linecap: round; }
+  .euclid-graphic .byrne-plate-poly { stroke-linejoin: round; stroke-width: 2.2; }
+  .euclid-graphic .byrne-plate-poly.byrne-filled { fill-opacity: 0.9; }
+  .euclid-graphic .byrne-plate-poly.byrne-tinted { fill-opacity: 0.22; }
+  .euclid-graphic .byrne-plate-wedge { fill-opacity: 0.88; stroke-width: 1.35; stroke-linejoin: round; }
+  .euclid-graphic .geom-ang-arc { fill: none; stroke-width: 1.6; opacity: 0.85; }
+  .euclid-graphic .geom-point { fill: var(--byrne-black); stroke: var(--byrne-paper); stroke-width: 1.2; opacity: 0.45; }
+  .euclid-graphic .geom-label {
+    fill: var(--byrne-black);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "EB Garamond", "Georgia", serif;
+    paint-order: stroke fill;
+    stroke: var(--byrne-halo);
+    stroke-width: 3.2px;
+  }
+
+  </style>
+  <rect class="svg-bg" x="0" y="0" width="580" height="560" rx="6" />
+  <g id="elements">
+    <g id="graphics">
+      <polygon class="geom-polygon byrne-plate-poly byrne-outline byrne-fill-none byrne-stroke-none" points="290,280 528,280 482.55,140.11" data-byrne-kind="tri" data-byrne-color="yellow" data-ref="&lt; A B D &gt;" data-aliases="&lt; D B A &gt;"><title>&lt; A B D &gt;</title></polygon>
+      <circle class="geom-circle byrne-plate-circle byrne-stroke-red" cx="290" cy="280" r="238" data-byrne-kind="circle" data-byrne-color="red" data-ref="( A B )" fill="none"><title>( A B )</title></circle>
+      <circle class="geom-circle byrne-plate-circle byrne-stroke-blue" cx="363.55" cy="178.77" r="125.12" data-byrne-kind="circle" data-byrne-color="blue" data-ref="( P A )" fill="none"><title>( P A )</title></circle>
+      <g class="geom-angle" data-byrne-kind="angle" data-byrne-color="red" data-ref="&lt; B A D )" data-aliases="&lt; D A B )"><path class="byrne-plate-wedge byrne-fill-red byrne-stroke-red" d="M 290 280 L 318 280 A 28 28 0 0 0 312.65 263.54 Z" /><path class="geom-ang-arc byrne-stroke-red" d="M 318 280 A 28 28 0 0 0 312.65 263.54" fill="none" /><title>&lt; B A D )</title></g>
+      <g class="geom-angle" data-byrne-kind="angle" data-byrne-color="yellow" data-ref="&lt; C D B )" data-aliases="&lt; B D C )"><path class="byrne-plate-wedge byrne-fill-yellow byrne-stroke-yellow" d="M 482.55 140.11 L 475.13 162.93 A 24 24 0 0 0 489.96 162.93 Z" /><path class="geom-ang-arc byrne-stroke-yellow" d="M 475.13 162.93 A 24 24 0 0 0 489.96 162.93" fill="none" /><title>&lt; C D B )</title></g>
+      <g class="geom-angle" data-byrne-kind="angle" data-byrne-color="blue" data-ref="&lt; D B A )" data-aliases="&lt; A B D )"><path class="byrne-plate-wedge byrne-fill-blue byrne-stroke-blue" d="M 528 280 L 519.97 255.27 A 26 26 0 0 0 502 280 Z" /><path class="geom-ang-arc byrne-stroke-blue" d="M 519.97 255.27 A 26 26 0 0 0 502 280" fill="none" /><title>&lt; D B A )</title></g>
+      <path class="geom-segment byrne-plate-line byrne-stroke-black byrne-thick" d="M 290 280 L 363.55 280 L 437.09 280" data-byrne-kind="line" data-byrne-color="black" data-ref="/ A C /" data-aliases="/ C A / | [ A C ] | [ C A ]" fill="none"><title>/ A C /</title></path>
+      <path class="geom-segment byrne-plate-line byrne-stroke-black byrne-thick byrne-dotted" d="M 437.09 280 L 482.55 280 L 528 280" stroke-dasharray="2.4 3.6" data-byrne-kind="line" data-byrne-color="black" data-ref="/ C B /" data-aliases="/ B C / | [ C B ] | [ B C ]" fill="none"><title>/ C B /</title></path>
+      <path class="geom-segment byrne-plate-line byrne-stroke-yellow byrne-thick" d="M 290 280 L 386.27 210.05 L 482.55 140.11" data-byrne-kind="line" data-byrne-color="yellow" data-ref="/ A D /" data-aliases="/ D A / | [ A D ] | [ D A ]" fill="none"><title>/ A D /</title></path>
+      <path class="geom-segment byrne-plate-line byrne-stroke-blue byrne-thick" d="M 528 280 L 505.27 210.05 L 482.55 140.11" data-byrne-kind="line" data-byrne-color="blue" data-ref="/ B D /" data-aliases="/ D B / | [ B D ] | [ D B ]" fill="none"><title>/ B D /</title></path>
+      <path class="geom-segment byrne-plate-line byrne-stroke-red byrne-thick" d="M 437.09 280 L 459.82 210.05 L 482.55 140.11" data-byrne-kind="line" data-byrne-color="red" data-ref="/ C D /" data-aliases="/ D C / | [ C D ] | [ D C ]" fill="none"><title>/ C D /</title></path>
+    </g>
+    <g id="highlights"></g>
+    <g id="points">
+      <circle class="geom-point" cx="290" cy="280" r="2.6" data-ref="A"><title>A = (0, 0)</title></circle>
+      <circle class="geom-point" cx="528" cy="280" r="2.6" data-ref="B"><title>B = (1, 0)</title></circle>
+      <circle class="geom-point" cx="437.09" cy="280" r="2.6" data-ref="C"><title>C = (-1/2 + sqrt(5)/2, 0)</title></circle>
+      <circle class="geom-point" cx="482.55" cy="140.11" r="2.6" data-ref="D"><title>D = (1/4 + sqrt(5)/4, sqrt(2)*sqrt(5 - sqrt(5))/4)</title></circle>
+    </g>
+    <g id="labels">
+    </g>
+  </g>
+</svg>

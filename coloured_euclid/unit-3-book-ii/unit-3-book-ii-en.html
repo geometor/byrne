@@ -1,0 +1,353 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unit III: Book II — Geometric Algebra &amp; The Golden Section &mdash; THE FIRST SIX BOOKS OF THE ELEMENTS OF EUCLID</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" type="text/css" href="../../_static/byrne.css?v=9a052df9" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <h1>GEOMETOR • byrne</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">byrne</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../mission/index.html"  >mission</a>
+        </li>
+        <li>
+          <a href="../../pseudocode/index.html"  >pseudocode</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; byrne</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">THE FIRST SIX BOOKS OF THE ELEMENTS OF EUCLID</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../unit-2-book-i/unit-2-book-i-en.html" title="Unit II: Book I — Congruence, Parallels &amp; The Pythagorean Theorem">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <strong class="book-track-item is-active" aria-current="page">English</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="unit-3-book-ii-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="unit-3-book-ii-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../unit-4-books-iii-iv/unit-4-books-iii-iv-en.html" title="Unit IV: Books III &amp; IV — Circles, Tangents &amp; Regular Polygons"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="unit-iii-book-ii-geometric-algebra-the-golden-section">
+        <span id="byrne-unit-3-en"></span><h1>Unit III: Book II — Geometric Algebra &amp; The Golden Section<a class="headerlink" href="#unit-iii-book-ii-geometric-algebra-the-golden-section" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Coloured Rectangles, Gnomons &amp; Extreme and Mean Ratio (Pickering pp. 51–71, Leaves 85–105)</p>
+        <nav class="contents local" id="in-this-unit">
+        <p class="topic-title">In This Unit</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#book-ii-definitions-contained-rectangles-the-gnomon-p-51" id="id1">Book II Definitions: Contained Rectangles &amp; The Gnomon (p. 51)</a></p></li>
+        <li><p><a class="reference internal" href="#proposition-iv-theorem-binomial-square-pp-5657-g-147" id="id2">Proposition IV. Theorem (<em>Binomial Square</em>, pp. 56–57 · <code class="docutils literal notranslate"><span class="pre">G.147</span></code>)</a></p></li>
+        <li><p><a class="reference internal" href="#proposition-v-theorem-equal-unequal-division-p-58-g-148" id="id3">Proposition V. Theorem (<em>Equal &amp; Unequal Division</em>, p. 58 · <code class="docutils literal notranslate"><span class="pre">G.148</span></code>)</a></p></li>
+        <li><p><a class="reference internal" href="#proposition-xi-problem-the-golden-section-by-colored-areas-p-66-g-154" id="id4">Proposition XI. Problem (<em>The Golden Section by Colored Areas</em>, p. 66 · <code class="docutils literal notranslate"><span class="pre">G.154</span></code>)</a></p></li>
+        </ul>
+        </nav>
+        <section class="level-2" id="book-ii-definitions-contained-rectangles-the-gnomon-p-51">
+        <h2>Book II Definitions: Contained Rectangles &amp; The Gnomon (p. 51)<a class="headerlink" href="#book-ii-definitions-contained-rectangles-the-gnomon-p-51" title="Link to this heading">¶</a></h2>
+        <ul class="simple">
+        <li><p><strong>Definition I.</strong> Every right-angled parallelogram is said to be <em>contained</em> (<span class="byrne-op-token" title="Rectangle contained by (×)">×</span>) by any two of the straight lines which contain one of the right angles.</p></li>
+        <li><p><strong>Definition II.</strong> In every parallelogram, any of the parallelograms about a diameter, together with the two complements, is called a <a class="term-ref glossary-term" id="occ-term-gnomon-1" href="../glossary.html#term-gnomon" data-term="gnomon" title="Gnomon (γνώμων) (L-Shaped Carpenter&#x27;s Square Region): In Book II Def. 2 and Props. 4–8, either of the two complements about the diagonal of a parallelogram together with either of the parallelograms about the diameter.">gnomon</a>.</p></li>
+        </ul>
+        <div class="folio-milestone" id="folio-II.4" data-folio="II.4" data-page="56">[Folio II.4 | p. 56]</div>
+        </section>
+        <section class="level-2" id="proposition-iv-theorem-binomial-square-pp-5657-g-147">
+        <h2>Proposition IV. Theorem (<em>Binomial Square</em>, pp. 56–57 · <code class="docutils literal notranslate"><span class="pre">G.147</span></code>)<a class="headerlink" href="#proposition-iv-theorem-binomial-square-pp-5657-g-147" title="Link to this heading">¶</a></h2>
+        <p><em>If a straight line be divided into any two parts</em> (<span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="blue" data-ref="ii4:/ A C /" title="Prussian Blue solid line (/ A C /)" role="img" aria-label="Prussian Blue solid line"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-blue" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" /></svg></span> + <span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="red" data-ref="ii4:/ C B /" title="Vermilion Red solid line (/ C B /)" role="img" aria-label="Vermilion Red solid line"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-red" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" /></svg></span>), <em>the square on the whole line is equal to the squares on the two parts, together with twice the rectangle contained by the parts.</em></p>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 540 500" data-graphic-id="ii4" role="img" aria-label="Book II, Prop. IV — Square of a Divided Line">
+          <title>Book II, Prop. IV — Square of a Divided Line</title>
+          <defs>
+            <marker id="geom-tick-1" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            </marker>
+            <marker id="geom-tick-2" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+              <line x1="-2" y1="-4.5" x2="-2" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+              <line x1="2" y1="-4.5" x2="2" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            </marker>
+            <marker id="geom-tick-3" viewBox="-8 -6 16 12" markerWidth="16" markerHeight="12" orient="auto">
+              <line x1="-3.5" y1="-4.5" x2="-3.5" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+              <line x1="3.5" y1="-4.5" x2="3.5" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            </marker>
+          </defs>
+          <rect class="svg-bg" x="0" y="0" width="540" height="500" rx="6" />
+          <g id="elements">
+            <g id="graphics">
+              <g class="geom-polygon byrne-plate-poly" data-byrne-kind="sq" data-byrne-color="blue" data-ref="&lt; D K G H &gt;" data-aliases="&lt; H G K D &gt;"><polygon class="byrne-fill-blue byrne-stroke-none" points="62,208.4 311.6,208.4 62,458" /><polygon class="byrne-fill-none byrne-stroke-blue" points="62,458 311.6,458 311.6,208.4 62,208.4" /><title>&lt; D K G H &gt;</title></g>
+              <g class="geom-polygon byrne-plate-poly" data-byrne-kind="sq" data-byrne-color="red" data-ref="&lt; G F B C &gt;" data-aliases="&lt; C B F G &gt;"><polygon class="byrne-fill-red byrne-stroke-none" points="311.6,42 478,42 311.6,208.4" /><polygon class="byrne-fill-none byrne-stroke-red" points="311.6,208.4 478,208.4 478,42 311.6,42" /><title>&lt; G F B C &gt;</title></g>
+              <polygon class="geom-polygon byrne-plate-poly byrne-filled byrne-fill-yellow byrne-stroke-yellow" points="62,208.4 311.6,208.4 311.6,42 62,42" data-byrne-kind="sq" data-byrne-color="yellow" data-ref="&lt; H G C A &gt;" data-aliases="&lt; A C G H &gt;"><title>&lt; H G C A &gt;</title></polygon>
+              <polygon class="geom-polygon byrne-plate-poly byrne-filled byrne-fill-yellow byrne-stroke-yellow" points="311.6,458 478,458 478,208.4 311.6,208.4" data-byrne-kind="sq" data-byrne-color="yellow" data-ref="&lt; K E F G &gt;" data-aliases="&lt; G F E K &gt;"><title>&lt; K E F G &gt;</title></polygon>
+              <path class="geom-segment byrne-plate-line byrne-stroke-blue byrne-thick" d="M 62 42 L 186.8 42 L 311.6 42" data-byrne-kind="line" data-byrne-color="blue" data-ref="/ A C /" data-aliases="/ C A / | [ A C ] | [ C A ]" fill="none"><title>/ A C /</title></path>
+              <path class="geom-segment byrne-plate-line byrne-stroke-red byrne-thick" d="M 311.6 42 L 394.8 42 L 478 42" data-byrne-kind="line" data-byrne-color="red" data-ref="/ C B /" data-aliases="/ B C / | [ C B ] | [ B C ]" fill="none"><title>/ C B /</title></path>
+              <path class="geom-segment byrne-plate-line byrne-stroke-black" d="M 62 458 L 186.8 333.2 L 311.6 208.4" data-byrne-kind="line" data-byrne-color="black" data-ref="/ D G /" data-aliases="/ G D / | [ D G ] | [ G D ]" fill="none"><title>/ D G /</title></path>
+              <path class="geom-segment byrne-plate-line byrne-stroke-black byrne-dotted" d="M 311.6 208.4 L 394.8 125.2 L 478 42" stroke-dasharray="2.4 3.6" data-byrne-kind="line" data-byrne-color="black" data-ref="/ G B /" data-aliases="/ B G / | [ G B ] | [ B G ]" fill="none"><title>/ G B /</title></path>
+              <path class="geom-segment byrne-plate-line byrne-stroke-black byrne-thin byrne-dashed" d="M 62 208.4 L 270 208.4 L 478 208.4" stroke-dasharray="7 4.2" data-byrne-kind="line" data-byrne-color="black" data-ref="/ H F /" data-aliases="/ F H / | [ H F ] | [ F H ]" fill="none"><title>/ H F /</title></path>
+              <path class="geom-segment byrne-plate-line byrne-stroke-black byrne-thin byrne-dashed" d="M 311.6 42 L 311.6 250 L 311.6 458" stroke-dasharray="7 4.2" data-byrne-kind="line" data-byrne-color="black" data-ref="/ C K /" data-aliases="/ K C / | [ C K ] | [ K C ]" fill="none"><title>/ C K /</title></path>
+            </g>
+            <g id="highlights"></g>
+            <g id="points">
+              <circle class="geom-point" cx="62" cy="42" r="2.6" data-ref="A"><title>A = (0, 5)</title></circle>
+              <circle class="geom-point" cx="311.6" cy="42" r="2.6" data-ref="C"><title>C = (3, 5)</title></circle>
+              <circle class="geom-point" cx="478" cy="42" r="2.6" data-ref="B"><title>B = (5, 5)</title></circle>
+              <circle class="geom-point" cx="62" cy="458" r="2.6" data-ref="D"><title>D = (0, 0)</title></circle>
+              <circle class="geom-point" cx="478" cy="458" r="2.6" data-ref="E"><title>E = (5, 0)</title></circle>
+              <circle class="geom-point" cx="311.6" cy="458" r="2.6" data-ref="K"><title>K = (3, 0)</title></circle>
+              <circle class="geom-point" cx="62" cy="208.4" r="2.6" data-ref="H"><title>H = (0, 3)</title></circle>
+              <circle class="geom-point" cx="311.6" cy="208.4" r="2.6" data-ref="G"><title>G = (3, 3)</title></circle>
+              <circle class="geom-point" cx="478" cy="208.4" r="2.6" data-ref="F"><title>F = (5, 3)</title></circle>
+            </g>
+            <g id="labels">
+            </g>
+          </g>
+        </svg>
+        <figcaption>**Book II, Prop. IV (pp. 56–57).** $(a + b)^2 = a^2 + b^2 + 2ab$ made immediately legible by half-filled diagonal squares and solid yellow complements.</figcaption>
+        </figure>
+        <div class="byrne-eq-block docutils container">
+        <p><strong>Demonstration (:just:`I.46`, :just:`I.31`, :just:`I.29`, :just:`I.6`, :just:`I.43`).</strong></p>
+        <p>Along diagonal <span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="black" data-ref="ii4:/ D G /" title="Chiswick Lampblack Ink solid line (/ D G /)" role="img" aria-label="Chiswick Lampblack Ink solid line"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-black" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" /></svg></span> + <span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="black" data-ref="ii4:/ G B /" title="Chiswick Lampblack Ink dotted line (/ G B /)" role="img" aria-label="Chiswick Lampblack Ink dotted line"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-black byrne-dotted" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" stroke-dasharray="2.4 3.6" /></svg></span>, the two parallelograms about the diameter are equilateral right-angled squares (<span class="byrne-token geom-ref" data-byrne-kind="sq" data-byrne-color="blue" data-ref="ii4:&lt; D K G H &gt;" title="Prussian Blue half-filled square (&lt; D K G H &gt;)" role="img" aria-label="Prussian Blue half-filled square"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-sq" width="17" height="17" viewBox="0 0 17 17" aria-hidden="true"><polygon class="byrne-fill-blue" points="2,2 15,2 2,15" /><rect class="byrne-fill-none byrne-stroke-blue" x="2" y="2" width="13" height="13" stroke-width="1.8" /></svg></span> = <span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="blue" data-ref="ii4:/ A C /" title="Prussian Blue solid line squared (/ A C /)" role="img" aria-label="Prussian Blue solid line squared"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-blue" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" /></svg><sup class="byrne-token-sup">2</sup></span> and <span class="byrne-token geom-ref" data-byrne-kind="sq" data-byrne-color="red" data-ref="ii4:&lt; G F B C &gt;" title="Vermilion Red half-filled square (&lt; G F B C &gt;)" role="img" aria-label="Vermilion Red half-filled square"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-sq" width="17" height="17" viewBox="0 0 17 17" aria-hidden="true"><polygon class="byrne-fill-red" points="2,2 15,2 2,15" /><rect class="byrne-fill-none byrne-stroke-red" x="2" y="2" width="13" height="13" stroke-width="1.8" /></svg></span> = <span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="red" data-ref="ii4:/ C B /" title="Vermilion Red solid line squared (/ C B /)" role="img" aria-label="Vermilion Red solid line squared"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-red" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" /></svg><sup class="byrne-token-sup">2</sup></span>), while the two complements <span class="byrne-token geom-ref" data-byrne-kind="rect" data-byrne-color="yellow" data-ref="ii4:&lt; H G C A &gt;" title="Ochre Gamboge Yellow filled rectangle (&lt; H G C A &gt;)" role="img" aria-label="Ochre Gamboge Yellow filled rectangle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-rect" width="24" height="16" viewBox="0 0 24 16" aria-hidden="true"><rect class="byrne-fill-yellow byrne-stroke-yellow" x="2" y="2.5" width="20" height="11" stroke-width="1.5" /></svg></span> and <span class="byrne-token geom-ref" data-byrne-kind="rect" data-byrne-color="yellow" data-ref="ii4:&lt; K E F G &gt;" title="Ochre Gamboge Yellow filled rectangle (&lt; K E F G &gt;)" role="img" aria-label="Ochre Gamboge Yellow filled rectangle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-rect" width="24" height="16" viewBox="0 0 24 16" aria-hidden="true"><rect class="byrne-fill-yellow byrne-stroke-yellow" x="2" y="2.5" width="20" height="11" stroke-width="1.5" /></svg></span> are equal (<a class="justification" href="https://geometor.github.io/euclid/heath/volume_I/book_i/propositions/43/index.html#i-43" data-ref-target="I.43" title="I.43">[I.43]</a>) and each equals <span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="blue" data-ref="ii4:/ A C /" title="Prussian Blue solid line (/ A C /)" role="img" aria-label="Prussian Blue solid line"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-blue" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" /></svg></span> <span class="byrne-op-token" title="Rectangle contained by (×)">×</span> <span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="red" data-ref="ii4:/ C B /" title="Vermilion Red solid line (/ C B /)" role="img" aria-label="Vermilion Red solid line"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-red" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" /></svg></span>.</p>
+        <p><span class="byrne-op-token" title="Therefore (∴)">∴</span> whole square = <span class="byrne-token geom-ref" data-byrne-kind="sq" data-byrne-color="blue" data-ref="ii4:&lt; D K G H &gt;" title="Prussian Blue half-filled square (&lt; D K G H &gt;)" role="img" aria-label="Prussian Blue half-filled square"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-sq" width="17" height="17" viewBox="0 0 17 17" aria-hidden="true"><polygon class="byrne-fill-blue" points="2,2 15,2 2,15" /><rect class="byrne-fill-none byrne-stroke-blue" x="2" y="2" width="13" height="13" stroke-width="1.8" /></svg></span> + <span class="byrne-token geom-ref" data-byrne-kind="sq" data-byrne-color="red" data-ref="ii4:&lt; G F B C &gt;" title="Vermilion Red half-filled square (&lt; G F B C &gt;)" role="img" aria-label="Vermilion Red half-filled square"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-sq" width="17" height="17" viewBox="0 0 17 17" aria-hidden="true"><polygon class="byrne-fill-red" points="2,2 15,2 2,15" /><rect class="byrne-fill-none byrne-stroke-red" x="2" y="2" width="13" height="13" stroke-width="1.8" /></svg></span> + 2 × <span class="byrne-token geom-ref" data-byrne-kind="rect" data-byrne-color="yellow" data-ref="ii4:&lt; H G C A &gt;" title="Ochre Gamboge Yellow filled rectangle (&lt; H G C A &gt;)" role="img" aria-label="Ochre Gamboge Yellow filled rectangle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-rect" width="24" height="16" viewBox="0 0 24 16" aria-hidden="true"><rect class="byrne-fill-yellow byrne-stroke-yellow" x="2" y="2.5" width="20" height="11" stroke-width="1.5" /></svg></span>. <strong>Q.E.D.</strong></p>
+        </div>
+        <div class="folio-milestone" id="folio-II.5" data-folio="II.5" data-page="58">[Folio II.5 | p. 58]</div>
+        </section>
+        <section class="level-2" id="proposition-v-theorem-equal-unequal-division-p-58-g-148">
+        <h2>Proposition V. Theorem (<em>Equal &amp; Unequal Division</em>, p. 58 · <code class="docutils literal notranslate"><span class="pre">G.148</span></code>)<a class="headerlink" href="#proposition-v-theorem-equal-unequal-division-p-58-g-148" title="Link to this heading">¶</a></h2>
+        <p><em>If a straight line be divided into two equal parts and also into two unequal parts, the rectangle contained by the unequal parts, together with the square on the line between the points of section, is equal to the square on the half.</em></p>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 620 380" data-graphic-id="ii5" role="img" aria-label="Book II, Prop. V — Rectangle of Unequal Segments Plus Inner Square">
+          <title>Book II, Prop. V — Rectangle of Unequal Segments Plus Inner Square</title>
+          <defs>
+            <marker id="geom-tick-1" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            </marker>
+            <marker id="geom-tick-2" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+              <line x1="-2" y1="-4.5" x2="-2" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+              <line x1="2" y1="-4.5" x2="2" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            </marker>
+            <marker id="geom-tick-3" viewBox="-8 -6 16 12" markerWidth="16" markerHeight="12" orient="auto">
+              <line x1="-3.5" y1="-4.5" x2="-3.5" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+              <line x1="3.5" y1="-4.5" x2="3.5" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            </marker>
+          </defs>
+          <rect class="svg-bg" x="0" y="0" width="620" height="380" rx="6" />
+          <g id="elements">
+            <g id="graphics">
+              <polygon class="geom-polygon byrne-plate-poly byrne-filled byrne-fill-black byrne-stroke-black" points="42,56 310,56 310,145.33 42,145.33" data-byrne-kind="sq" data-byrne-color="black" data-ref="&lt; A C H K &gt;" data-aliases="&lt; K H C A &gt;"><title>&lt; A C H K &gt;</title></polygon>
+              <polygon class="geom-polygon byrne-plate-poly byrne-filled byrne-fill-yellow byrne-stroke-yellow" points="310,56 488.67,56 488.67,145.33 310,145.33" data-byrne-kind="sq" data-byrne-color="yellow" data-ref="&lt; C D L H &gt;" data-aliases="&lt; H L D C &gt;"><title>&lt; C D L H &gt;</title></polygon>
+              <polygon class="geom-polygon byrne-plate-poly byrne-filled byrne-fill-yellow byrne-stroke-yellow" points="488.67,145.33 578,145.33 578,324 488.67,324" data-byrne-kind="sq" data-byrne-color="yellow" data-ref="&lt; L M F G &gt;" data-aliases="&lt; G F M L &gt;"><title>&lt; L M F G &gt;</title></polygon>
+              <polygon class="geom-polygon byrne-plate-poly byrne-filled byrne-fill-red byrne-stroke-red" points="310,145.33 488.67,145.33 488.67,324 310,324" data-byrne-kind="sq" data-byrne-color="red" data-ref="&lt; H L G E &gt;" data-aliases="&lt; E G L H &gt;"><title>&lt; H L G E &gt;</title></polygon>
+              <polygon class="geom-polygon byrne-plate-poly byrne-filled byrne-fill-blue byrne-stroke-blue" points="488.67,56 578,56 578,145.33 488.67,145.33" data-byrne-kind="sq" data-byrne-color="blue" data-ref="&lt; D B M L &gt;" data-aliases="&lt; L M B D &gt;"><title>&lt; D B M L &gt;</title></polygon>
+              <path class="geom-segment byrne-plate-line byrne-stroke-black byrne-thick" d="M 42 56 L 176 56 L 310 56" data-byrne-kind="line" data-byrne-color="black" data-ref="/ A C /" data-aliases="/ C A / | [ A C ] | [ C A ]" fill="none"><title>/ A C /</title></path>
+              <path class="geom-segment byrne-plate-line byrne-stroke-red byrne-thick" d="M 310 56 L 399.33 56 L 488.67 56" data-byrne-kind="line" data-byrne-color="red" data-ref="/ C D /" data-aliases="/ D C / | [ C D ] | [ D C ]" fill="none"><title>/ C D /</title></path>
+              <path class="geom-segment byrne-plate-line byrne-stroke-blue byrne-thick" d="M 488.67 56 L 533.33 56 L 578 56" data-byrne-kind="line" data-byrne-color="blue" data-ref="/ D B /" data-aliases="/ B D / | [ D B ] | [ B D ]" fill="none"><title>/ D B /</title></path>
+              <path class="geom-segment byrne-plate-line byrne-stroke-black byrne-dotted" d="M 310 324 L 444 190 L 578 56" stroke-dasharray="2.4 3.6" data-byrne-kind="line" data-byrne-color="black" data-ref="/ E B /" data-aliases="/ B E / | [ E B ] | [ B E ]" fill="none"><title>/ E B /</title></path>
+            </g>
+            <g id="highlights"></g>
+            <g id="points">
+              <circle class="geom-point" cx="42" cy="56" r="2.6" data-ref="A"><title>A = (0, 3)</title></circle>
+              <circle class="geom-point" cx="310" cy="56" r="2.6" data-ref="C"><title>C = (3, 3)</title></circle>
+              <circle class="geom-point" cx="488.67" cy="56" r="2.6" data-ref="D"><title>D = (5, 3)</title></circle>
+              <circle class="geom-point" cx="578" cy="56" r="2.6" data-ref="B"><title>B = (6, 3)</title></circle>
+              <circle class="geom-point" cx="310" cy="324" r="2.6" data-ref="E"><title>E = (3, 0)</title></circle>
+              <circle class="geom-point" cx="578" cy="324" r="2.6" data-ref="F"><title>F = (6, 0)</title></circle>
+              <circle class="geom-point" cx="310" cy="145.33" r="2.6" data-ref="H"><title>H = (3, 2)</title></circle>
+              <circle class="geom-point" cx="488.67" cy="145.33" r="2.6" data-ref="L"><title>L = (5, 2)</title></circle>
+              <circle class="geom-point" cx="578" cy="145.33" r="2.6" data-ref="M"><title>M = (6, 2)</title></circle>
+              <circle class="geom-point" cx="488.67" cy="324" r="2.6" data-ref="G"><title>G = (5, 0)</title></circle>
+              <circle class="geom-point" cx="42" cy="145.33" r="2.6" data-ref="K"><title>K = (0, 2)</title></circle>
+            </g>
+            <g id="labels">
+            </g>
+          </g>
+        </svg>
+        <figcaption>**Book II, Prop. V (p. 58).** $AD \cdot DB + CD^2 = CB^2$ via :term:`gnomon <gnomon>` equivalence.</figcaption>
+        </figure>
+        <div class="byrne-eq-block docutils container">
+        <p><strong>Demonstration (:just:`I.43`, :just:`C.N.2`).</strong></p>
+        <p>Left wing <span class="byrne-token geom-ref" data-byrne-kind="rect" data-byrne-color="black" data-ref="ii5:&lt; A C H K &gt;" title="Chiswick Lampblack Ink filled rectangle (&lt; A C H K &gt;)" role="img" aria-label="Chiswick Lampblack Ink filled rectangle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-rect" width="24" height="16" viewBox="0 0 24 16" aria-hidden="true"><rect class="byrne-fill-black byrne-stroke-black" x="2" y="2.5" width="20" height="11" stroke-width="1.5" /></svg></span> equals vertical complement <span class="byrne-token geom-ref" data-byrne-kind="rect" data-byrne-color="yellow" data-ref="ii5:&lt; L M F G &gt;" title="Ochre Gamboge Yellow filled rectangle (&lt; L M F G &gt;)" role="img" aria-label="Ochre Gamboge Yellow filled rectangle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-rect" width="24" height="16" viewBox="0 0 24 16" aria-hidden="true"><rect class="byrne-fill-yellow byrne-stroke-yellow" x="2" y="2.5" width="20" height="11" stroke-width="1.5" /></svg></span>. Adding <span class="byrne-token geom-ref" data-byrne-kind="rect" data-byrne-color="yellow" data-ref="ii5:&lt; C D L H &gt;" title="Ochre Gamboge Yellow filled rectangle (&lt; C D L H &gt;)" role="img" aria-label="Ochre Gamboge Yellow filled rectangle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-rect" width="24" height="16" viewBox="0 0 24 16" aria-hidden="true"><rect class="byrne-fill-yellow byrne-stroke-yellow" x="2" y="2.5" width="20" height="11" stroke-width="1.5" /></svg></span> to each transforms the rectangle of unequal parts into the L-shaped <a class="term-ref glossary-term" id="occ-term-gnomon-2" href="../glossary.html#term-gnomon" data-term="gnomon" title="Gnomon (γνώμων) (L-Shaped Carpenter&#x27;s Square Region): In Book II Def. 2 and Props. 4–8, either of the two complements about the diagonal of a parallelogram together with either of the parallelograms about the diameter.">gnomon</a>; adding inner <span class="byrne-token geom-ref" data-byrne-kind="sq" data-byrne-color="red" data-ref="ii5:&lt; H L G E &gt;" title="Vermilion Red filled square (&lt; H L G E &gt;)" role="img" aria-label="Vermilion Red filled square"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-sq" width="17" height="17" viewBox="0 0 17 17" aria-hidden="true"><rect class="byrne-fill-red byrne-stroke-red" x="2" y="2" width="13" height="13" stroke-width="1.5" /></svg></span> completes the square on the half-line! <strong>Q.E.D.</strong></p>
+        </div>
+        <div class="folio-milestone" id="folio-II.11" data-folio="II.11" data-page="66">[Folio II.11 | p. 66]</div>
+        </section>
+        <section class="level-2" id="proposition-xi-problem-the-golden-section-by-colored-areas-p-66-g-154">
+        <h2>Proposition XI. Problem (<em>The Golden Section by Colored Areas</em>, p. 66 · <code class="docutils literal notranslate"><span class="pre">G.154</span></code>)<a class="headerlink" href="#proposition-xi-problem-the-golden-section-by-colored-areas-p-66-g-154" title="Link to this heading">¶</a></h2>
+        <p><em>To divide a given straight line</em> (<span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="red" data-ref="ii11:/ A H /; / H B /" title="Vermilion Red solid-dotted line (/ A H /; / H B /)" role="img" aria-label="Vermilion Red solid-dotted line"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-red" x1="1.5" y1="8.0" x2="16.5" y2="8.8" stroke-width="3.2" stroke-linecap="round" /><line class="byrne-stroke-red byrne-dotted" x1="16.5" y1="8.8" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" /></svg></span>) <em>into two parts, so that the rectangle contained by the whole and one of the parts may be equal to the square on the other part.</em></p>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 540 580" data-graphic-id="ii11" role="img" aria-label="Book II, Prop. XI — Golden Section by Colored Areas">
+          <title>Book II, Prop. XI — Golden Section by Colored Areas</title>
+          <defs>
+            <marker id="geom-tick-1" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            </marker>
+            <marker id="geom-tick-2" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+              <line x1="-2" y1="-4.5" x2="-2" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+              <line x1="2" y1="-4.5" x2="2" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            </marker>
+            <marker id="geom-tick-3" viewBox="-8 -6 16 12" markerWidth="16" markerHeight="12" orient="auto">
+              <line x1="-3.5" y1="-4.5" x2="-3.5" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+              <line x1="3.5" y1="-4.5" x2="3.5" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            </marker>
+          </defs>
+          <rect class="svg-bg" x="0" y="0" width="540" height="580" rx="6" />
+          <g id="elements">
+            <g id="graphics">
+              <polygon class="geom-polygon byrne-plate-poly byrne-filled byrne-fill-blue byrne-stroke-blue" points="116.73,231.46 116.73,42 306.18,42 306.18,231.46" data-byrne-kind="sq" data-byrne-color="blue" data-ref="&lt; A F G H &gt;" data-aliases="&lt; H G F A &gt;"><title>&lt; A F G H &gt;</title></polygon>
+              <polygon class="geom-polygon byrne-plate-poly byrne-tinted byrne-fill-blue byrne-stroke-blue" points="116.73,231.46 306.18,231.46 306.18,538 116.73,538" data-byrne-kind="sq" data-byrne-color="blue" data-ref="&lt; A H K C &gt;" data-aliases="&lt; C K H A &gt;"><title>&lt; A H K C &gt;</title></polygon>
+              <polygon class="geom-polygon byrne-plate-poly byrne-filled byrne-fill-yellow byrne-stroke-yellow" points="306.18,231.46 423.27,231.46 423.27,538 306.18,538" data-byrne-kind="sq" data-byrne-color="yellow" data-ref="&lt; H B D K &gt;" data-aliases="&lt; K D B H &gt;"><title>&lt; H B D K &gt;</title></polygon>
+              <path class="geom-segment byrne-plate-line byrne-stroke-red byrne-thick" d="M 116.73 231.46 L 211.46 231.46 L 306.18 231.46" data-byrne-kind="line" data-byrne-color="red" data-ref="/ A H /" data-aliases="/ H A / | [ A H ] | [ H A ]" fill="none"><title>/ A H /</title></path>
+              <path class="geom-segment byrne-plate-line byrne-stroke-red byrne-thick byrne-dotted" d="M 306.18 231.46 L 364.73 231.46 L 423.27 231.46" stroke-dasharray="2.4 3.6" data-byrne-kind="line" data-byrne-color="red" data-ref="/ H B /" data-aliases="/ B H / | [ H B ] | [ B H ]" fill="none"><title>/ H B /</title></path>
+              <path class="geom-segment byrne-plate-line byrne-stroke-black byrne-thick" d="M 116.73 384.73 L 270 308.09 L 423.27 231.46" data-byrne-kind="line" data-byrne-color="black" data-ref="/ E B /" data-aliases="/ B E / | [ E B ] | [ B E ]" fill="none"><title>/ E B /</title></path>
+              <path class="geom-segment byrne-plate-line byrne-stroke-blue" d="M 116.73 538 L 116.73 290 L 116.73 42" data-byrne-kind="line" data-byrne-color="blue" data-ref="/ C F /" data-aliases="/ F C / | [ C F ] | [ F C ]" fill="none"><title>/ C F /</title></path>
+              <path class="geom-segment byrne-plate-line byrne-stroke-black byrne-dashed" d="M 306.18 42 L 306.18 290 L 306.18 538" stroke-dasharray="7 4.2" data-byrne-kind="line" data-byrne-color="black" data-ref="/ G K /" data-aliases="/ K G / | [ G K ] | [ K G ]" fill="none"><title>/ G K /</title></path>
+            </g>
+            <g id="highlights"></g>
+            <g id="points">
+              <circle class="geom-point" cx="116.73" cy="231.46" r="2.6" data-ref="A"><title>A = (0, 1)</title></circle>
+              <circle class="geom-point" cx="423.27" cy="231.46" r="2.6" data-ref="B"><title>B = (1, 1)</title></circle>
+              <circle class="geom-point" cx="116.73" cy="538" r="2.6" data-ref="C"><title>C = (0, 0)</title></circle>
+              <circle class="geom-point" cx="423.27" cy="538" r="2.6" data-ref="D"><title>D = (1, 0)</title></circle>
+              <circle class="geom-point" cx="116.73" cy="384.73" r="2.6" data-ref="E"><title>E = (0, 1/2)</title></circle>
+              <circle class="geom-point" cx="116.73" cy="42" r="2.6" data-ref="F"><title>F = (0, 1/2 + sqrt(5)/2)</title></circle>
+              <circle class="geom-point" cx="306.18" cy="231.46" r="2.6" data-ref="H"><title>H = (-1/2 + sqrt(5)/2, 1)</title></circle>
+              <circle class="geom-point" cx="306.18" cy="42" r="2.6" data-ref="G"><title>G = (-1/2 + sqrt(5)/2, 1/2 + sqrt(5)/2)</title></circle>
+              <circle class="geom-point" cx="306.18" cy="538" r="2.6" data-ref="K"><title>K = (-1/2 + sqrt(5)/2, 0)</title></circle>
+            </g>
+            <g id="labels">
+            </g>
+          </g>
+        </svg>
+        <figcaption>**Book II, Prop. XI (p. 66).** Pure $\mathbb{Q}(\phi)$ area proof of the :term:`Golden Section <extreme-and-mean-ratio>` prior to Book V proportion theory.</figcaption>
+        </figure>
+        <div class="byrne-eq-block docutils container">
+        <p><strong>Construction.</strong> Describe the unit square on the given line, bisect the left vertical side at $E$ (<a class="justification" href="https://geometor.github.io/euclid/heath/volume_I/book_i/propositions/10/index.html#i-10" data-ref-target="I.10" title="I.10">[I.10]</a>), join oblique secant <span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="black" data-ref="ii11:/ E B /" title="Chiswick Lampblack Ink solid line (/ E B /)" role="img" aria-label="Chiswick Lampblack Ink solid line"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-black" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" /></svg></span> (<a class="justification" href="https://geometor.github.io/euclid/heath/volume_I/book_i/postulates/index.html#i-post-1" data-ref-target="I.post.1" title="I.post.1">[I.post.1]</a>), step off $EF = EB$ upward (<a class="justification" href="https://geometor.github.io/euclid/heath/volume_I/book_i/propositions/03/index.html#i-3" data-ref-target="I.3" title="I.3">[I.3]</a>), and describe the golden square <span class="byrne-token geom-ref" data-byrne-kind="sq" data-byrne-color="blue" data-ref="ii11:&lt; A F G H &gt;" title="Prussian Blue filled square (&lt; A F G H &gt;)" role="img" aria-label="Prussian Blue filled square"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-sq" width="17" height="17" viewBox="0 0 17 17" aria-hidden="true"><rect class="byrne-fill-blue byrne-stroke-blue" x="2" y="2" width="13" height="13" stroke-width="1.5" /></svg></span> (<a class="justification" href="https://geometor.github.io/euclid/heath/volume_I/book_i/propositions/46/index.html#i-46" data-ref-target="I.46" title="I.46">[I.46]</a>), partitioning the main square into shared strip <span class="byrne-token geom-ref" data-byrne-kind="rect" data-byrne-color="blue" data-ref="ii11:&lt; A H K C &gt;" title="Prussian Blue outlined rectangle (&lt; A H K C &gt;)" role="img" aria-label="Prussian Blue outlined rectangle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-rect" width="24" height="16" viewBox="0 0 24 16" aria-hidden="true"><rect class="byrne-fill-none byrne-stroke-blue" x="2" y="2.5" width="20" height="11" stroke-width="2.0" /></svg></span> and right rectangle <span class="byrne-token geom-ref" data-byrne-kind="rect" data-byrne-color="yellow" data-ref="ii11:&lt; H B D K &gt;" title="Ochre Gamboge Yellow filled rectangle (&lt; H B D K &gt;)" role="img" aria-label="Ochre Gamboge Yellow filled rectangle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-rect" width="24" height="16" viewBox="0 0 24 16" aria-hidden="true"><rect class="byrne-fill-yellow byrne-stroke-yellow" x="2" y="2.5" width="20" height="11" stroke-width="1.5" /></svg></span>.</p>
+        <p><strong>Demonstration.</strong></p>
+        <p>By <code class="docutils literal notranslate"><span class="pre">II.6</span></code> applied to the bisected vertical side and <a class="justification" href="https://geometor.github.io/euclid/heath/volume_I/book_i/propositions/47/index.html#i-47" data-ref-target="I.47" title="I.47">[I.47]</a> on the right triangle containing <span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="black" data-ref="ii11:/ E B /" title="Chiswick Lampblack Ink solid line (/ E B /)" role="img" aria-label="Chiswick Lampblack Ink solid line"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-black" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" /></svg></span>:</p>
+        <p>(<span class="byrne-token geom-ref" data-byrne-kind="sq" data-byrne-color="blue" data-ref="ii11:&lt; A F G H &gt;" title="Prussian Blue filled square (&lt; A F G H &gt;)" role="img" aria-label="Prussian Blue filled square"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-sq" width="17" height="17" viewBox="0 0 17 17" aria-hidden="true"><rect class="byrne-fill-blue byrne-stroke-blue" x="2" y="2" width="13" height="13" stroke-width="1.5" /></svg></span> + <span class="byrne-token geom-ref" data-byrne-kind="rect" data-byrne-color="blue" data-ref="ii11:&lt; A H K C &gt;" title="Prussian Blue outlined rectangle (&lt; A H K C &gt;)" role="img" aria-label="Prussian Blue outlined rectangle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-rect" width="24" height="16" viewBox="0 0 24 16" aria-hidden="true"><rect class="byrne-fill-none byrne-stroke-blue" x="2" y="2.5" width="20" height="11" stroke-width="2.0" /></svg></span>) = (<span class="byrne-token geom-ref" data-byrne-kind="rect" data-byrne-color="blue" data-ref="ii11:&lt; A H K C &gt;" title="Prussian Blue outlined rectangle (&lt; A H K C &gt;)" role="img" aria-label="Prussian Blue outlined rectangle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-rect" width="24" height="16" viewBox="0 0 24 16" aria-hidden="true"><rect class="byrne-fill-none byrne-stroke-blue" x="2" y="2.5" width="20" height="11" stroke-width="2.0" /></svg></span> + <span class="byrne-token geom-ref" data-byrne-kind="rect" data-byrne-color="yellow" data-ref="ii11:&lt; H B D K &gt;" title="Ochre Gamboge Yellow filled rectangle (&lt; H B D K &gt;)" role="img" aria-label="Ochre Gamboge Yellow filled rectangle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-rect" width="24" height="16" viewBox="0 0 24 16" aria-hidden="true"><rect class="byrne-fill-yellow byrne-stroke-yellow" x="2" y="2.5" width="20" height="11" stroke-width="1.5" /></svg></span>).</p>
+        <p>Subtracting the common strip <span class="byrne-token geom-ref" data-byrne-kind="rect" data-byrne-color="blue" data-ref="ii11:&lt; A H K C &gt;" title="Prussian Blue outlined rectangle (&lt; A H K C &gt;)" role="img" aria-label="Prussian Blue outlined rectangle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-rect" width="24" height="16" viewBox="0 0 24 16" aria-hidden="true"><rect class="byrne-fill-none byrne-stroke-blue" x="2" y="2.5" width="20" height="11" stroke-width="2.0" /></svg></span> from both (<span class="justification" data-ref-target="C.N.3" title="C.N.3">[C.N.3]</span>),</p>
+        <p><span class="byrne-op-token" title="Therefore (∴)">∴</span> <span class="byrne-token geom-ref" data-byrne-kind="sq" data-byrne-color="blue" data-ref="ii11:&lt; A F G H &gt;" title="Prussian Blue filled square (&lt; A F G H &gt;)" role="img" aria-label="Prussian Blue filled square"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-sq" width="17" height="17" viewBox="0 0 17 17" aria-hidden="true"><rect class="byrne-fill-blue byrne-stroke-blue" x="2" y="2" width="13" height="13" stroke-width="1.5" /></svg></span> = <span class="byrne-token geom-ref" data-byrne-kind="rect" data-byrne-color="yellow" data-ref="ii11:&lt; H B D K &gt;" title="Ochre Gamboge Yellow filled rectangle (&lt; H B D K &gt;)" role="img" aria-label="Ochre Gamboge Yellow filled rectangle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-rect" width="24" height="16" viewBox="0 0 24 16" aria-hidden="true"><rect class="byrne-fill-yellow byrne-stroke-yellow" x="2" y="2.5" width="20" height="11" stroke-width="1.5" /></svg></span>, i.e. <span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="red" data-ref="ii11:/ A H /" title="Vermilion Red solid line squared (/ A H /)" role="img" aria-label="Vermilion Red solid line squared"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-red" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" /></svg><sup class="byrne-token-sup">2</sup></span> = whole line <span class="byrne-op-token" title="Rectangle contained by (×)">×</span> <span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="red" data-ref="ii11:/ H B /" title="Vermilion Red dotted line (/ H B /)" role="img" aria-label="Vermilion Red dotted line"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-red byrne-dotted" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" stroke-dasharray="2.4 3.6" /></svg></span>. <strong>Q.E.F.</strong></p>
+        </div>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../unit-2-book-i/unit-2-book-i-en.html" title="Unit II: Book I — Congruence, Parallels &amp; The Pythagorean Theorem">&larr; <span class="nav-label">Unit II: Book I — Congruence, Parallels & The Pythagorean Theorem</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">THE FIRST SIX BOOKS OF THE ELEMENTS OF EUCLID</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../unit-4-books-iii-iv/unit-4-books-iii-iv-en.html" title="Unit IV: Books III &amp; IV — Circles, Tangents &amp; Regular Polygons"><span class="nav-label">Unit IV: Books III & IV — Circles, Tangents & Regular Polygons</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../log/26.316-initial-codex/index.html">Inaugural Digital Scriptorium Codex & Visual Pseudocode Engine (v0.1.0)</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1847 William Pickering / Chiswick Press · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/byrne_interactive.js?v=0ce4f795"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

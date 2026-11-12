@@ -1,0 +1,165 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mission &mdash; GEOMETOR • byrne</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" type="text/css" href="../_static/byrne.css?v=9a052df9" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../index.html">
+        <h1>GEOMETOR • byrne</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">byrne</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="#" class="is-active" aria-selected="true" aria-current="page">mission</a>
+        </li>
+        <li>
+          <a href="../pseudocode/index.html"  >pseudocode</a>
+        </li>
+        <li>
+          <a href="../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../index.html" title="Return to Project Portal">&larr; byrne</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GEOMETOR • byrne</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../coloured_euclid/glossary.html" title="Visual &amp; Euclidean Glossary">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../pseudocode/index.html" title="pseudocode"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="mission">
+        <h1>mission<a class="headerlink" href="#mission" title="Link to this heading">¶</a></h1>
+        <p><code class="docutils literal notranslate"><span class="pre">geometor.byrne</span></code> brings <span class="person-ref" data-person="byrne" title="Oliver Byrne (1810 – 1880) — Irish Civil Engineer, Surveyor &amp; Mathematical Author">Oliver Byrne's</span> celebrated 1847 Chiswick Press masterpiece—<span class="citation-ref" data-cite="byrne:1847" title="Oliver Byrne — The First Six Books of the Elements of Euclid in Which Coloured Diagrams and Symbols Are Used Instead of Letters for the Greater Ease of Learners (London: William Pickering (printed by Charles Whittingham, Chiswick Press), 1847)"><em>The First Six Books of the Elements of Euclid in Which Coloured Diagrams and Symbols Are Used Instead of Letters for the Greater Ease of Learners</em></span>—into the <strong>GEOMETOR Digital Scriptorium</strong> as both a scholarly multi-track <strong>Book Codex</strong> and an executable <strong>Visual Pseudocode</strong> laboratory.</p>
+        <section class="level-2" id="core-architectural-pillars">
+        <h2>Core Architectural Pillars<a class="headerlink" href="#core-architectural-pillars" title="Link to this heading">¶</a></h2>
+        <ol class="arabic simple">
+        <li><p><strong>Pointer-Free Visual Pseudocode (:term:`Pass-by-Value Geometry &lt;pointer-free-notation&gt;`)</strong>:
+        Classical Euclidean prose (<span class="person-ref" data-person="heath" title="Sir Thomas Little Heath (1861 – 1940) — Historian of Greek Mathematics &amp; Translator of Euclid">T. L. Heath</span>, <code class="docutils literal notranslate"><span class="pre">geometor/euclid</span></code>) operates <em>by reference</em>: vertices receive arbitrary alphabetic pointers ($A, B, C, \dots$) and every step forces the reader’s eye to shuttle between text and diagram to assemble segments, angles, and polygons in working memory. On page <code class="docutils literal notranslate"><span class="pre">ix</span></code> of his 1847 <em>Introduction</em>, Byrne formulated a radical alternative: <em>“the parts being differently coloured, are made to name themselves, for their forms in corresponding colours represent them in the demonstration.”</em> <code class="docutils literal notranslate"><span class="pre">geometor.byrne</span></code> formalizes this 1847 insight as a typed geometric token grammar (<a class="reference internal" href="../modules/api/geometor/byrne/pseudocode/index.html#module-geometor.byrne.pseudocode" title="geometor.byrne.pseudocode"><code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.byrne.pseudocode</span></code></a>) bridged directly to <code class="docutils literal notranslate"><span class="pre">geometor/elements</span></code> and <code class="docutils literal notranslate"><span class="pre">geometor/codes</span></code>.</p></li>
+        <li><p><strong>100% Exact Symbolic Precision (``geometor.model``)</strong>:
+        Every showcase plate (<code class="docutils literal notranslate"><span class="pre">I.1</span></code> through <code class="docutils literal notranslate"><span class="pre">VI.30</span></code>) is constructed from scratch in <a class="reference internal" href="../modules/api/geometor/byrne/constructions/index.html#module-geometor.byrne.constructions" title="geometor.byrne.constructions"><code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.byrne.constructions</span></code></a> using <code class="xref py py-class docutils literal notranslate"><span class="pre">geometor.model.Model</span></code> (<code class="docutils literal notranslate"><span class="pre">auto_intersect=False</span></code>, zero floating-point coordinates) over exact SymPy number fields ($\mathbb{Q}$, $\mathbb{Q}(\sqrt{3})$, $\mathbb{Q}(\phi)$, and $\mathbb{Q}(\phi, \sqrt{10 - 2\sqrt{5}})$), with algebraic proof invariants verified symbolically via Rational Trigonometry quadrance and spread laws.</p></li>
+        <li><p><strong>Self-Contained Bidirectional Interactive Typography</strong>:
+        Our custom Sphinx extension (<a class="reference internal" href="../modules/api/geometor/byrne/sphinx_ext/index.html#module-geometor.byrne.sphinx_ext" title="geometor.byrne.sphinx_ext"><code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.byrne.sphinx_ext</span></code></a>) renders authentic inline SVG micro-glyphs (<span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="red" title="Vermilion Red solid line" role="img" aria-label="Vermilion Red solid line"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-red" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" /></svg></span>, <span class="byrne-token geom-ref" data-byrne-kind="angle" data-byrne-color="blue" title="Prussian Blue angle" role="img" aria-label="Prussian Blue angle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-angle" width="23" height="16" viewBox="0 0 23 16" aria-hidden="true"><path class="byrne-fill-blue byrne-stroke-blue" d="M 2.5 14.5 L 18.5 3 A 17 17 0 0 1 21 14.5 Z" stroke-width="1.4" stroke-linejoin="round" /></svg></span>, <span class="byrne-token geom-ref" data-byrne-kind="sq" data-byrne-color="black" title="Chiswick Lampblack Ink filled square" role="img" aria-label="Chiswick Lampblack Ink filled square"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-sq" width="17" height="17" viewBox="0 0 17 17" aria-hidden="true"><rect class="byrne-fill-black byrne-stroke-black" x="2" y="2" width="13" height="13" stroke-width="1.5" /></svg></span>, <span class="byrne-token geom-ref" data-byrne-kind="rect" data-byrne-color="yellow" title="Ochre Gamboge Yellow filled rectangle" role="img" aria-label="Ochre Gamboge Yellow filled rectangle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-rect" width="24" height="16" viewBox="0 0 24 16" aria-hidden="true"><rect class="byrne-fill-yellow byrne-stroke-yellow" x="2" y="2.5" width="20" height="11" stroke-width="1.5" /></svg></span>, <span class="byrne-token geom-ref" data-byrne-kind="mag" data-byrne-color="red" title="Book V Vermilion Red circle magnitude" role="img" aria-label="Book V Vermilion Red circle magnitude"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-mag" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle class="byrne-fill-red" cx="8" cy="8" r="6.2" /></svg></span>, <span class="byrne-op-token" title="Two right angles (Byrne 1847 bisected semicircle)" aria-label="two right angles"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-op" width="24" height="15" viewBox="0 0 24 15" aria-hidden="true"><path class="byrne-fill-none byrne-stroke-black" d="M 1.5 13 H 22.5 M 3.5 13 A 8.5 8.5 0 0 1 20.5 13 M 12 13 V 2" stroke-width="1.65" stroke-linecap="round" /></svg></span>) wired directly to <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> plates without modifying <code class="docutils literal notranslate"><span class="pre">photon-platform/publish</span></code>.</p></li>
+        <li><p><strong>100% Public-Domain Archival Provenance &amp; Scholarly Appreciation</strong>:
+        All transcriptions, color/stroke assignments, and symbolic SVG plates derive strictly from the 100% public-domain 1847 William Pickering / Charles Whittingham print (Internet Archive <code class="docutils literal notranslate"><span class="pre">firstsixbooksofe00eucl</span></code>, Thomas Fisher Rare Book Library scan). In our bibliography and commentary we honor <span class="person-ref" data-person="mclean" title="Ruari McLean (1917 – 2006) — Scottish Typographer &amp; Historian of Victorian Book Design">Ruari McLean</span> (<span class="citation-ref" data-cite="mclean:1963" title="Ruari McLean — Victorian Book Design and Colour Printing (London: Faber &amp; Faber, 1963 (2nd ed. 1972))">1963</span>), <span class="person-ref" data-person="tufte" title="Edward Rolf Tufte (b. 1942) — Statistician &amp; Theorist of Information Design">Edward Tufte</span> (<span class="citation-ref" data-cite="tufte:1990" title="Edward R. Tufte — Envisioning Information (Cheshire, CT: Graphics Press, 1990, pp. 84–87)">1990</span>), and <span class="person-ref" data-person="rougeux" title="Nicholas Rougeux (fl. 2018 – present) — Information Designer &amp; Creator of c82.net/euclid">Nicholas Rougeux</span> (<span class="citation-ref" data-cite="rougeux:2018" title="Nicholas Rougeux — Byrne&#x27;s Euclid: The First Six Books of the Elements of Euclid with Coloured Diagrams and Symbols (Web edition, https://www.c82.net/euclid/, December 2018)">c82.net/euclid, 2018</span>; <span class="citation-ref" data-cite="rougeux:2018-making" title="Nicholas Rougeux — Making of Byrne&#x27;s Euclid (Design &amp; technical essay, https://www.c82.net/work/?id=367, December 2018)">Making of Byrne's Euclid</span>), while maintaining a strict zero-copy copyright boundary with modern third-party web and print editions.</p></li>
+        </ol>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../coloured_euclid/glossary.html" title="Visual &amp; Euclidean Glossary">&larr; <span class="nav-label">Visual & Euclidean Glossary</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GEOMETOR • byrne</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../pseudocode/index.html" title="pseudocode"><span class="nav-label">pseudocode</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../log/26.316-initial-codex/index.html">Inaugural Digital Scriptorium Codex & Visual Pseudocode Engine (v0.1.0)</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1847 William Pickering / Chiswick Press · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../_static/byrne_interactive.js?v=0ce4f795"></script>
+  <script src="../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

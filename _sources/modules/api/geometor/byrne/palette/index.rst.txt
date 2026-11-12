@@ -1,0 +1,127 @@
+geometor.byrne.palette
+======================
+
+.. py:module:: geometor.byrne.palette
+
+.. autoapi-nested-parse::
+
+   Authentic 1847 Chiswick Press four-color palette and stroke grammar for Oliver Byrne's Euclid.
+
+   Calibrated directly against the 1847 William Pickering / Charles Whittingham (Chiswick Press)
+   woodblock color plates (Internet Archive ``firstsixbooksofe00eucl``), with theme-adaptive
+   CSS custom properties so all four primary inks—**Red**, **Blue**, **Yellow**, and **Black**—remain
+   legible on both warm rag-paper light themes and modern dark themes.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.byrne.palette.BYRNE_COLORS
+   geometor.byrne.palette.BYRNE_STROKE_STYLES
+   geometor.byrne.palette.VALID_COLORS
+   geometor.byrne.palette.VALID_STROKES
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.byrne.palette.ByrneColorSpec
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.byrne.palette.get_color_spec
+   geometor.byrne.palette.stroke_dasharray
+   geometor.byrne.palette.byrne_css_variables
+
+
+Module Contents
+---------------
+
+.. py:class:: ByrneColorSpec
+
+   Color specification for one of Oliver Byrne's four 1847 woodblock inks.
+
+   Stores canonical token ``name``, human-readable ``label``, light/dark stroke
+   and fill hex values (``light_hex``, ``dark_hex``, ``light_fill_hex``,
+   ``dark_fill_hex``), CSS custom property tokens (``css_var``, ``css_fill_var``),
+   and the 1847 Chiswick Press ``historical_pigment`` note.
+
+
+   .. py:attribute:: name
+      :type:  str
+
+
+   .. py:attribute:: label
+      :type:  str
+
+
+   .. py:attribute:: light_hex
+      :type:  str
+
+
+   .. py:attribute:: dark_hex
+      :type:  str
+
+
+   .. py:attribute:: light_fill_hex
+      :type:  str
+
+
+   .. py:attribute:: dark_fill_hex
+      :type:  str
+
+
+   .. py:attribute:: css_var
+      :type:  str
+
+
+   .. py:attribute:: css_fill_var
+      :type:  str
+
+
+   .. py:attribute:: historical_pigment
+      :type:  str
+
+
+.. py:data:: BYRNE_COLORS
+   :type:  dict[str, ByrneColorSpec]
+
+.. py:data:: BYRNE_STROKE_STYLES
+   :type:  dict[str, str]
+
+.. py:data:: VALID_COLORS
+   :type:  frozenset[str]
+
+.. py:data:: VALID_STROKES
+   :type:  frozenset[str]
+
+.. py:function:: get_color_spec(color: str) -> ByrneColorSpec
+
+   Return the :class:`ByrneColorSpec` for ``color`` (case-insensitive).
+
+   :param color: Color identifier (``"red"``, ``"blue"``, ``"yellow"``, ``"black"``, or ``"ink"``).
+
+   :returns: Matching :class:`ByrneColorSpec`.
+
+   :raises ValueError: If ``color`` is not one of Byrne's four canonical colors.
+
+
+.. py:function:: stroke_dasharray(style: str) -> str
+
+   Return the SVG ``stroke-dasharray`` value for a Byrne line style.
+
+
+.. py:function:: byrne_css_variables() -> str
+
+   Return CSS custom property declarations for standalone and inline Byrne SVGs.
+
+

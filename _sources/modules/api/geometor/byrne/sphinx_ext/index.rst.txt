@@ -1,0 +1,101 @@
+geometor.byrne.sphinx_ext
+=========================
+
+.. py:module:: geometor.byrne.sphinx_ext
+
+.. autoapi-nested-parse::
+
+   Self-contained Sphinx extension for Oliver Byrne's 1847 inline visual glyph roles.
+
+   Registers nine inline RST roles without modifying ``photon-platform/publish``:
+
+   - ``:byrne-line:`` — Colored/styled straight line segment (supports ``solid``,
+     ``dashed``, ``dotted``, ``solid-dotted``, orientations, and ``squared`` / ``^2``).
+   - ``:byrne-angle:`` — Colored wedge sector (single color or split composite such
+     as ``yellow+black`` or ``blue+yellow``).
+   - ``:byrne-tri:`` — Colored triangle (filled ``red filled`` or 3-side colored
+     ``red/blue/black``).
+   - ``:byrne-sq:`` — Colored square (``filled``, ``outline``, or ``half`` diagonal).
+   - ``:byrne-rect:`` — Colored rectangle (``filled`` or ``outline``).
+   - ``:byrne-arc:`` — Colored circular arc.
+   - ``:byrne-circle:`` — Colored full circle.
+   - ``:byrne-mag:`` — Book V Eudoxian abstract magnitude symbols (``red circle``,
+     ``yellow square``, ``blue diamond``, ``black shield``, ``red pentagon``).
+   - ``:byrne-op:`` — Byrne's 1847 formal typographic and geometric operators
+     (``right-angle``, ``two-right-angles``, ``gt`` / ``⊏``, ``lt`` / ``⊐``,
+     ``therefore`` / ``∴``, ``because`` / ``∵``, ``parallel`` / ``∥``,
+     ``perp`` / ``⊥``, ``prop`` / ``::``, ``rect-by`` / ``×``).
+
+   Every geometric role accepts an optional ``<plate_id:geom_expr>`` target in angle
+   brackets (for example ``:byrne-sq:`black filled <i47:< A B F G >>```), emitting a
+   ``<span class="byrne-token geom-ref" data-ref="...">`` wrapper around an inline
+   ``<svg class="byrne-glyph">`` micro-glyph so both ``geometor_interactive.js`` and
+   ``byrne_interactive.js`` highlight bidirectionally on hover and click.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.byrne.sphinx_ext.BYRNE_ROLE_NAMES
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.byrne.sphinx_ext.parse_byrne_role_spec
+   geometor.byrne.sphinx_ext.render_byrne_operator_html
+   geometor.byrne.sphinx_ext.render_byrne_glyph_html
+   geometor.byrne.sphinx_ext.setup
+
+
+Module Contents
+---------------
+
+.. py:data:: BYRNE_ROLE_NAMES
+   :type:  tuple[str, ...]
+   :value: ('byrne-line', 'byrne-angle', 'byrne-tri', 'byrne-sq', 'byrne-rect', 'byrne-arc',...
+
+
+.. py:function:: parse_byrne_role_spec(raw_text: str) -> tuple[str, str]
+
+   Split role body ``spec <target>`` into ``(spec, target)``.
+
+   Correctly handles nested geometric angle brackets inside ``<target>``, such as
+   ``black filled <i47:< A B F G >>`` or ``blue <i5:< A B C )>``.
+
+   :param raw_text: Unescaped RST role content string.
+
+   :returns: Tuple ``(spec_tokens_str, ref_target)``.
+
+
+.. py:function:: render_byrne_operator_html(op_spec: str) -> str
+
+   Render one of Oliver Byrne's 1847 geometric/algebraic operators (``:byrne-op:``).
+
+   :param op_spec: Operator token such as ``"right-angle"``, ``"two-right-angles"``,
+                   ``"gt"``, ``"lt"``, ``"therefore"``, ``"because"``, ``"parallel"``,
+                   ``"perp"``, ``"prop"``, or ``"rect-by"``.
+
+   :returns: Inline HTML span containing an authentic SVG or typographic symbol.
+
+
+.. py:function:: render_byrne_glyph_html(role_name: str, raw_content: str) -> str
+
+   Render any ``:byrne-*:`` role specification into an interactive HTML span.
+
+   :param role_name: Canonical role name (e.g. ``"byrne-line"``, ``"byrne-sq"``).
+   :param raw_content: Unescaped role body string, optionally ending with ``<target>``.
+
+   :returns: Complete HTML ``<span>`` element containing the inline SVG glyph and metadata.
+
+
+.. py:function:: setup(app: Any) -> dict[str, Any]
+
+   Register Oliver Byrne inline roles, static stylesheets, and JS handlers in Sphinx.
+
+

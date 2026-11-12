@@ -1,0 +1,134 @@
+geometor.byrne.render
+=====================
+
+.. py:module:: geometor.byrne.render
+
+.. autoapi-nested-parse::
+
+   Interactive ``.euclid-graphic`` SVG renderer for Oliver Byrne (1847) symbolic plates.
+
+   Exports crisp pixel-space SVGs directly from :class:`~geometor.byrne.constructions.ByrnePlate`
+   models while satisfying both:
+
+   1. **Standalone SVG fidelity** (embedded ``<style>`` sheet using ``--byrne-*`` Chiswick
+      Press colors for light and dark themes), and
+   2. **PHOTON Publish interactive codex contract** (``svg.euclid-graphic``, ``<defs>``
+      ``#geom-tick-1..3``, ``#elements`` / ``#graphics`` / ``#highlights`` / ``#points`` /
+      ``#labels``, 3-vertex midpoint ``<path>`` segments, ``.geom-ang-arc`` overlays,
+      ``data-ref``, ``data-aliases``, and ``data-byrne-color``).
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.byrne.render.EMBEDDED_SVG_STYLE
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.byrne.render.render_plate_svg
+   geometor.byrne.render.export_plate_svg
+   geometor.byrne.render.export_all_plates
+
+
+Module Contents
+---------------
+
+.. py:data:: EMBEDDED_SVG_STYLE
+   :type:  str
+   :value: Multiline-String
+
+   .. raw:: html
+
+      <details><summary>Show Value</summary>
+
+   .. code-block:: python
+
+      """  .euclid-graphic, :root {
+          --byrne-paper: #faf7f0;
+          --byrne-red: #d92b2b;
+          --byrne-blue: #1c6ea4;
+          --byrne-yellow: #e6b800;
+          --byrne-black: #1a1a1a;
+          --byrne-fill-red: #d92b2b;
+          --byrne-fill-blue: #1c6ea4;
+          --byrne-fill-yellow: #e6b800;
+          --byrne-fill-black: #1a1a1a;
+          --byrne-halo: rgba(250, 247, 240, 0.92);
+        }
+        @media (prefers-color-scheme: dark) {
+          .euclid-graphic, :root {
+            --byrne-paper: #16161a;
+            --byrne-red: #f04848;
+            --byrne-blue: #4ba3e3;
+            --byrne-yellow: #f5ca24;
+            --byrne-black: #e8e6df;
+            --byrne-fill-red: #d93838;
+            --byrne-fill-blue: #2574ab;
+            --byrne-fill-yellow: #dfb208;
+            --byrne-fill-black: #363945;
+            --byrne-halo: rgba(22, 22, 26, 0.92);
+          }
+        }
+        .euclid-graphic .svg-bg { fill: var(--byrne-paper); }
+        .euclid-graphic .byrne-stroke-red { stroke: var(--byrne-red); }
+        .euclid-graphic .byrne-stroke-blue { stroke: var(--byrne-blue); }
+        .euclid-graphic .byrne-stroke-yellow { stroke: var(--byrne-yellow); }
+        .euclid-graphic .byrne-stroke-black { stroke: var(--byrne-black); }
+        .euclid-graphic .byrne-stroke-none { stroke: none; }
+        .euclid-graphic .byrne-fill-red { fill: var(--byrne-fill-red); }
+        .euclid-graphic .byrne-fill-blue { fill: var(--byrne-fill-blue); }
+        .euclid-graphic .byrne-fill-yellow { fill: var(--byrne-fill-yellow); }
+        .euclid-graphic .byrne-fill-black { fill: var(--byrne-fill-black); }
+        .euclid-graphic .byrne-fill-none { fill: none; }
+        .euclid-graphic .byrne-dashed { stroke-dasharray: 7 4.2; }
+        .euclid-graphic .byrne-dotted { stroke-dasharray: 2.4 3.6; }
+        .euclid-graphic .byrne-plate-line { fill: none; stroke-width: 3.4; stroke-linecap: round; }
+        .euclid-graphic .byrne-plate-line.byrne-thin { stroke-width: 2.2; }
+        .euclid-graphic .byrne-plate-line.byrne-thick { stroke-width: 4.2; }
+        .euclid-graphic .byrne-plate-circle,
+        .euclid-graphic .byrne-plate-arc { fill: none; stroke-width: 2.75; stroke-linecap: round; }
+        .euclid-graphic .byrne-plate-poly { stroke-linejoin: round; stroke-width: 2.2; }
+        .euclid-graphic .byrne-plate-poly.byrne-filled { fill-opacity: 0.9; }
+        .euclid-graphic .byrne-plate-poly.byrne-tinted { fill-opacity: 0.22; }
+        .euclid-graphic .byrne-plate-wedge { fill-opacity: 0.88; stroke-width: 1.35; stroke-linejoin: round; }
+        .euclid-graphic .geom-ang-arc { fill: none; stroke-width: 1.6; opacity: 0.85; }
+        .euclid-graphic .geom-point { fill: var(--byrne-black); stroke: var(--byrne-paper); stroke-width: 1.2; opacity: 0.45; }
+        .euclid-graphic .geom-label {
+          fill: var(--byrne-black);
+          font-size: 12px;
+          font-weight: 600;
+          font-family: "EB Garamond", "Georgia", serif;
+          paint-order: stroke fill;
+          stroke: var(--byrne-halo);
+          stroke-width: 3.2px;
+        }
+      """
+
+   .. raw:: html
+
+      </details>
+
+
+
+.. py:function:: render_plate_svg(plate: geometor.byrne.constructions.ByrnePlate, *, margin: float = 42.0, show_labels: bool | None = None) -> str
+
+   Render a :class:`~geometor.byrne.constructions.ByrnePlate` into a ``.euclid-graphic`` SVG.
+
+
+.. py:function:: export_plate_svg(plate: geometor.byrne.constructions.ByrnePlate, output_path: str | pathlib.Path, *, margin: float = 42.0, show_labels: bool | None = None) -> pathlib.Path
+
+   Write ``plate`` as an interactive ``.euclid-graphic`` SVG file.
+
+
+.. py:function:: export_all_plates(output_dir: str | pathlib.Path) -> list[pathlib.Path]
+
+   Construct and export all 17 showcase Byrne plates into ``output_dir``.
+
+
