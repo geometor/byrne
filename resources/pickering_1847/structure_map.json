@@ -1,0 +1,48 @@
+{
+  "book_slug": "coloured_euclid",
+  "tracks": ["en", "summary", "notes"],
+  "units": [
+    {
+      "id": "unit-1-foundations",
+      "title": "Introduction, Definitions, Postulates, Axioms & Symbols",
+      "pickering_pages": "pp. vii–xxix (leaves 7–33)",
+      "plates": []
+    },
+    {
+      "id": "unit-2-book-i",
+      "title": "Book I — Congruence, Parallels & The Pythagorean Theorem",
+      "pickering_pages": "pp. 1–50 (leaves 35–84)",
+      "plates": ["i1", "i4", "i5", "i15", "i32", "i46", "i47"]
+    },
+    {
+      "id": "unit-3-book-ii",
+      "title": "Book II — Geometric Algebra & The Golden Section by Colored Areas",
+      "pickering_pages": "pp. 51–71 (leaves 85–105)",
+      "plates": ["ii4", "ii5", "ii11"]
+    },
+    {
+      "id": "unit-4-books-iii-iv",
+      "title": "Books III & IV — Circles, Tangents & Inscribed Regular Polygons",
+      "pickering_pages": "pp. 73–151 (leaves 107–185)",
+      "plates": ["iii20", "iii31", "iii36", "iv4", "iv10", "iv11"]
+    },
+    {
+      "id": "unit-5-book-v",
+      "title": "Book V — Color-Coded Symbolic Algebra of Eudoxian Proportions",
+      "pickering_pages": "pp. 153–212 (leaves 187–246)",
+      "plates": []
+    },
+    {
+      "id": "unit-6-book-vi",
+      "title": "Book VI — Similar Figures, Mean Proportionals & Extreme and Mean Ratio",
+      "pickering_pages": "pp. 213–268 (leaves 247–302)",
+      "plates": ["vi30"]
+    },
+    {
+      "id": "unit-7-visual-pseudocode",
+      "title": "Pointer-Free Visual Pseudocode: 3-Way Rosetta Analysis (Heath · Byrne · GEOMETOR)",
+      "pickering_pages": "Analytical Synthesis",
+      "plates": []
+    }
+  ]
+}

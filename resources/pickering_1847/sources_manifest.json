@@ -1,0 +1,37 @@
+{
+  "codex": "geometor-byrne",
+  "title": "The First Six Books of the Elements of Euclid in Which Coloured Diagrams and Symbols Are Used Instead of Letters for the Greater Ease of Learners",
+  "author": "Oliver Byrne",
+  "printer": "Charles Whittingham (Chiswick Press)",
+  "publisher": "William Pickering, London",
+  "publication_year": 1847,
+  "rights_status": "100% Public Domain Worldwide (Published London, 1847; author died 1880)",
+  "primary_archival_witness": {
+    "id": "ia-firstsixbooksofe00eucl",
+    "repository": "Internet Archive / Thomas Fisher Rare Book Library, University of Toronto",
+    "identifier": "firstsixbooksofe00eucl",
+    "archive_url": "https://archive.org/details/firstsixbooksofe00eucl",
+    "pdf_download_url": "https://archive.org/download/firstsixbooksofe00eucl/firstsixbooksofe00eucl.pdf",
+    "local_gitignored_pdf": "resources/pickering_1847/pdfs/byrne_1847_pickering.pdf",
+    "file_bytes": 11641236,
+    "md5": "1017f9a0fec9474a0c181ba980a43210",
+    "leaf_count": 308,
+    "pagination_formula": "Frontmatter leaves 7–33 = Title + pp. vii–xxix; Main body leaf L = printed page (L - 34) starting at Leaf 35 = p. 1 (Book I, Prop. I)."
+  },
+  "copyright_and_provenance_boundary": {
+    "policy": "100% original GEOMETOR transcription, SymPy constructions, and CSS/SVG/JS engineering derived exclusively from the 1847 public-domain Pickering print.",
+    "modern_editions_consulted_strictly_for_scholarship": [
+      {
+        "creator": "Nicholas Rougeux",
+        "work": "Byrne's Euclid (https://www.c82.net/euclid/) & Making of Byrne's Euclid (2018)",
+        "license_of_external_work": "CC BY-NC-SA 4.0",
+        "boundary_enforced": "Zero HTML, CSS, JavaScript, SVG paths, or traced woodcut ornaments copied from c82.net. Properly cited in bibliography, prosopography, and commentary."
+      },
+      {
+        "creator": "Werner Oechslin / Taschen",
+        "work": "Oliver Byrne: Six Books of Euclid (Taschen facsimile, 2010)",
+        "boundary_enforced": "Zero modern introductory essay text reproduced; cited solely as bibliographic reference."
+      }
+    ]
+  }
+}

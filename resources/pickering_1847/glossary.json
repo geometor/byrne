@@ -1,0 +1,42 @@
+{
+  "pointer-free-notation": {
+    "headword": "Pointer-Free Visual Notation",
+    "translation": "Pass-by-Value Geometric Tokens",
+    "definition": "Byrne's 1847 replacement of arbitrary alphabetic vertex pointers (A, B, C) by colored inline shape tokens whose perceptual signature directly denotes the geometric object."
+  },
+  "congruence-twin": {
+    "headword": "Congruence-Twin Coloring",
+    "translation": "Symmetric Register Sharing",
+    "definition": "Byrne's deliberate assignment of the identical color/stroke register to two distinct symmetric elements known or proved equal (such as the two red legs of an isosceles triangle in I.5)."
+  },
+  "register-pressure": {
+    "headword": "Chromatic Register Pressure",
+    "translation": "Four-Color Disambiguation Limit",
+    "definition": "When a proposition contains more than four primitives of the same geometric sort (e.g. five pentagon sides in IV.11), requiring stroke modulation (dashed, dotted, solid-dotted) to preserve uniqueness."
+  },
+  "extreme-and-mean-ratio": {
+    "headword": "Extreme and Mean Ratio (ἄκρος καὶ μέσος λόγος)",
+    "translation": "Golden Section (φ)",
+    "definition": "Division of a segment AB at H so that AB : AH :: AH : HB (Book VI Def. 3, VI.30), constructed purely by colored area algebra without proportion theory in Book II Prop. 11."
+  },
+  "gnomon": {
+    "headword": "Gnomon (γνώμων)",
+    "translation": "L-Shaped Carpenter's Square Region",
+    "definition": "In Book II Def. 2 and Props. 4–8, either of the two complements about the diagonal of a parallelogram together with either of the parallelograms about the diameter."
+  },
+  "alternando": {
+    "headword": "Alternando (ἐναλλάξ)",
+    "translation": "Alternate Proportion (V.16)",
+    "definition": "Transformation of A : B :: C : D into A : C :: B : D for four homogeneous magnitudes, expressed by Byrne with colored circle, square, diamond, and shield glyphs."
+  },
+  "ekthesis": {
+    "headword": "Ekthesis (ἔκθεσις)",
+    "translation": "Setting-Out / Given Block",
+    "definition": "Second Proclean division of a proposition, instantiating the general enunciation upon the concrete colored diagram."
+  },
+  "apodeixis": {
+    "headword": "Apodeixis (ἀπόδειξις)",
+    "translation": "Deductive Demonstration",
+    "definition": "Fifth Proclean division of a proposition, formatted by Byrne as a vertical sequence of symbolic equations with marginal axiom/proposition citations."
+  }
+}

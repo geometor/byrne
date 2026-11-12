@@ -1,0 +1,279 @@
+/* ==========================================================================
+   GEOMETOR • byrne — Authentic 1847 Chiswick Press Palette, Inline Vector
+   Glyph Tokens, Vertical Proof Blocks & Bidirectional SVG Highlighting
+   ========================================================================== */
+
+:root,
+.euclid-graphic {
+  --byrne-paper: #faf7f0;
+  --byrne-paper-elevated: #f3ede0;
+  --byrne-border: #d8ceba;
+  --byrne-ink: #1a1a1a;
+  --byrne-muted: #5c5549;
+  --byrne-red: #d92b2b;
+  --byrne-blue: #1c6ea4;
+  --byrne-yellow: #dca800;
+  --byrne-black: #1a1a1a;
+  --byrne-fill-red: #d92b2b;
+  --byrne-fill-blue: #1c6ea4;
+  --byrne-fill-yellow: #e6b800;
+  --byrne-fill-black: #1a1a1a;
+  --byrne-halo: rgba(250, 247, 240, 0.92);
+  --byrne-glow: rgba(220, 168, 0, 0.42);
+}
+
+html[data-theme="dark"],
+body[data-theme="dark"],
+html.dark,
+body.dark {
+  --byrne-paper: #16161a;
+  --byrne-paper-elevated: #1f2026;
+  --byrne-border: #343642;
+  --byrne-ink: #ece9e0;
+  --byrne-muted: #a39e93;
+  --byrne-red: #f04c4c;
+  --byrne-blue: #4ea8e6;
+  --byrne-yellow: #f5ca24;
+  --byrne-black: #e8e6df;
+  --byrne-fill-red: #d93838;
+  --byrne-fill-blue: #2574ab;
+  --byrne-fill-yellow: #dfb208;
+  --byrne-fill-black: #3a3e4c;
+  --byrne-halo: rgba(22, 22, 26, 0.92);
+  --byrne-glow: rgba(245, 202, 36, 0.48);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]),
+  .euclid-graphic {
+    --byrne-paper: #16161a;
+    --byrne-paper-elevated: #1f2026;
+    --byrne-border: #343642;
+    --byrne-ink: #ece9e0;
+    --byrne-muted: #a39e93;
+    --byrne-red: #f04c4c;
+    --byrne-blue: #4ea8e6;
+    --byrne-yellow: #f5ca24;
+    --byrne-black: #e8e6df;
+    --byrne-fill-red: #d93838;
+    --byrne-fill-blue: #2574ab;
+    --byrne-fill-yellow: #dfb208;
+    --byrne-fill-black: #3a3e4c;
+    --byrne-halo: rgba(22, 22, 26, 0.92);
+    --byrne-glow: rgba(245, 202, 36, 0.48);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   1. Inline Byrne Visual Value-Tokens (:byrne-*:)
+   -------------------------------------------------------------------------- */
+
+.byrne-token {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: -0.22em;
+  margin: 0 0.12em;
+  padding: 0.06em 0.18em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.16s ease, box-shadow 0.16s ease, transform 0.14s ease;
+  user-select: none;
+}
+
+.byrne-token:hover,
+.byrne-token.byrne-active,
+.byrne-token.geom-highlight {
+  background-color: var(--byrne-paper-elevated);
+  box-shadow: 0 0 0 1.5px var(--byrne-yellow), 0 2px 6px var(--byrne-glow);
+  transform: translateY(-1px);
+}
+
+.byrne-token.byrne-locked {
+  box-shadow: 0 0 0 2px var(--byrne-red), 0 2px 8px var(--byrne-glow);
+}
+
+.byrne-glyph {
+  display: inline-block;
+  overflow: visible;
+  flex-shrink: 0;
+}
+
+.byrne-token-sup {
+  font-size: 0.72em;
+  font-weight: 700;
+  line-height: 1;
+  margin-left: 0.08em;
+  transform: translateY(-0.38em);
+  color: var(--byrne-ink);
+}
+
+.byrne-op-token {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: -0.18em;
+  margin: 0 0.16em;
+  font-weight: 600;
+  color: var(--byrne-ink);
+}
+
+/* Color utility strokes & fills shared across inline glyphs and .euclid-graphic */
+.byrne-stroke-red { stroke: var(--byrne-red); }
+.byrne-stroke-blue { stroke: var(--byrne-blue); }
+.byrne-stroke-yellow { stroke: var(--byrne-yellow); }
+.byrne-stroke-black { stroke: var(--byrne-black); }
+.byrne-stroke-none { stroke: none; }
+
+.byrne-fill-red { fill: var(--byrne-fill-red); }
+.byrne-fill-blue { fill: var(--byrne-fill-blue); }
+.byrne-fill-yellow { fill: var(--byrne-fill-yellow); }
+.byrne-fill-black { fill: var(--byrne-fill-black); }
+.byrne-fill-none { fill: none; }
+
+.byrne-dashed { stroke-dasharray: 7 4.2; }
+.byrne-dotted { stroke-dasharray: 2.4 3.6; }
+
+/* --------------------------------------------------------------------------
+   2. .euclid-graphic Plate Styling (preserved when publish strips <style>)
+   -------------------------------------------------------------------------- */
+
+svg.euclid-graphic {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+svg.euclid-graphic .svg-bg {
+  fill: var(--byrne-paper);
+  fill-opacity: 0.55;
+}
+
+svg.euclid-graphic .byrne-plate-line,
+svg.euclid-graphic .byrne-plate-circle,
+svg.euclid-graphic .byrne-plate-arc,
+svg.euclid-graphic .byrne-plate-poly,
+svg.euclid-graphic .byrne-plate-wedge {
+  transition: filter 0.16s ease, opacity 0.16s ease, stroke-width 0.16s ease;
+  cursor: pointer;
+}
+
+svg.euclid-graphic .byrne-plate-line {
+  fill: none;
+  stroke-width: 3.4;
+  stroke-linecap: round;
+}
+
+svg.euclid-graphic .byrne-plate-line.byrne-thin {
+  stroke-width: 2.2;
+}
+
+svg.euclid-graphic .byrne-plate-line.byrne-thick {
+  stroke-width: 4.2;
+}
+
+svg.euclid-graphic .byrne-plate-circle,
+svg.euclid-graphic .byrne-plate-arc {
+  fill: none;
+  stroke-width: 2.75;
+  stroke-linecap: round;
+}
+
+svg.euclid-graphic .byrne-plate-poly {
+  stroke-linejoin: round;
+  stroke-width: 2.4;
+}
+
+svg.euclid-graphic .byrne-plate-poly.byrne-filled {
+  fill-opacity: 0.88;
+}
+
+svg.euclid-graphic .byrne-plate-poly.byrne-tinted {
+  fill-opacity: 0.22;
+}
+
+svg.euclid-graphic .byrne-plate-wedge {
+  fill-opacity: 0.86;
+  stroke-width: 1.4;
+  stroke-linejoin: round;
+}
+
+svg.euclid-graphic .geom-ang-arc {
+  fill: none;
+  stroke-width: 1.8;
+  opacity: 0.9;
+}
+
+svg.euclid-graphic .geom-point {
+  fill: var(--byrne-black);
+  stroke: var(--byrne-paper);
+  stroke-width: 1.3;
+  opacity: 0.55;
+}
+
+svg.euclid-graphic .geom-label {
+  fill: var(--byrne-muted);
+  font-size: 11.5px;
+  font-weight: 600;
+  font-family: "EB Garamond", "Georgia", serif;
+  paint-order: stroke fill;
+  stroke: var(--byrne-halo);
+  stroke-width: 3.2px;
+  stroke-linejoin: round;
+  opacity: 0.72;
+  user-select: none;
+}
+
+/* Interactive pulse & dim states when hovering inline tokens or diagram parts */
+svg.euclid-graphic.byrne-has-focus .byrne-plate-line:not(.byrne-highlight):not(.geom-highlight),
+svg.euclid-graphic.byrne-has-focus .byrne-plate-circle:not(.byrne-highlight):not(.geom-highlight),
+svg.euclid-graphic.byrne-has-focus .byrne-plate-arc:not(.byrne-highlight):not(.geom-highlight),
+svg.euclid-graphic.byrne-has-focus .byrne-plate-poly:not(.byrne-highlight):not(.geom-highlight),
+svg.euclid-graphic.byrne-has-focus .byrne-plate-wedge:not(.byrne-highlight):not(.geom-highlight) {
+  opacity: 0.28;
+}
+
+svg.euclid-graphic .byrne-highlight,
+svg.euclid-graphic .geom-highlight {
+  opacity: 1 !important;
+  filter: drop-shadow(0 0 5px var(--byrne-glow));
+}
+
+svg.euclid-graphic .byrne-plate-line.byrne-highlight {
+  stroke-width: 5.2;
+}
+
+svg.euclid-graphic .byrne-plate-circle.byrne-highlight,
+svg.euclid-graphic .byrne-plate-arc.byrne-highlight {
+  stroke-width: 4.2;
+}
+
+/* --------------------------------------------------------------------------
+   3. Chiswick Press Proposition Layout & Vertical Demonstration Equations
+   -------------------------------------------------------------------------- */
+
+.byrne-prop-card,
+div.byrne-eq-block {
+  background: var(--byrne-paper);
+  border: 1px solid var(--byrne-border);
+  border-left: 4px solid var(--byrne-red);
+  border-radius: 6px;
+  padding: 0.9rem 1.2rem;
+  margin: 1rem 0 1.35rem 0;
+}
+
+div.byrne-eq-block p {
+  margin: 0.42rem 0;
+  line-height: 1.85;
+  font-size: 1.04rem;
+}
+
+.byrne-qed {
+  text-align: right;
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+.byrne-rosetta-note {
+  border-left-color: var(--byrne-blue);
+}

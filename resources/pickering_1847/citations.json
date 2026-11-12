@@ -1,0 +1,74 @@
+{
+  "byrne:1847": {
+    "author": "Oliver Byrne",
+    "work": "The First Six Books of the Elements of Euclid in Which Coloured Diagrams and Symbols Are Used Instead of Letters for the Greater Ease of Learners",
+    "locus": "London: William Pickering (printed by Charles Whittingham, Chiswick Press), 1847",
+    "note": "Public-domain editio princeps (Internet Archive firstsixbooksofe00eucl)."
+  },
+  "simson:1756": {
+    "author": "Robert Simson",
+    "work": "The Elements of Euclid, viz. the First Six Books, together with the Eleventh and Twelfth",
+    "locus": "Glasgow: Robert and Andrew Foulis, 1756",
+    "note": "Source of Byrne's English wording and his numbering of 35 Definitions, 3 Postulates, and 12 Axioms."
+  },
+  "horace:ars": {
+    "author": "Horace",
+    "work": "Ars Poetica (Epistula ad Pisones)",
+    "locus": "vv. 180–181",
+    "note": "Quoted by Byrne in the 1847 Introduction (p. viii) on the vividness of ocular demonstration."
+  },
+  "heath:1908": {
+    "author": "Sir Thomas Little Heath",
+    "work": "The Thirteen Books of Euclid's Elements",
+    "locus": "3 vols., Cambridge University Press, 1908 (2nd ed. 1926)",
+    "note": "Classical alphabetic baseline in geometor/euclid."
+  },
+  "proclus:friedlein": {
+    "author": "Proclus Diadochus",
+    "work": "In Primum Euclidis Elementorum Librum Commentarii",
+    "locus": "ed. G. Friedlein, Teubner, 1873; trans. G. R. Morrow, Princeton, 1970",
+    "note": "Defines the six formal divisions of a Euclidean proposition (geometor/proclus)."
+  },
+  "hoenen:1954": {
+    "author": "P. H. J. Hoenen, S.J.",
+    "work": "De Noetica Geometriae: Origine Theoriae Cognitionis",
+    "locus": "Analecta Gregoriana Vol. LXIII, Rome, 1954",
+    "note": "Epistemological analysis of judgment from spatial phantasmata (geometor/hoenen)."
+  },
+  "demorgan:1872": {
+    "author": "Augustus De Morgan",
+    "work": "A Budget of Paradoxes",
+    "locus": "London: Longmans, Green, and Co., 1872",
+    "note": "Records Victorian mathematical skepticism toward Byrne's chromatic pedagogy."
+  },
+  "mclean:1963": {
+    "author": "Ruari McLean",
+    "work": "Victorian Book Design and Colour Printing",
+    "locus": "London: Faber & Faber, 1963 (2nd ed. 1972)",
+    "note": "Landmark bibliographic study of Chiswick Press relief color registration in Byrne's 1847 Euclid."
+  },
+  "tufte:1990": {
+    "author": "Edward R. Tufte",
+    "work": "Envisioning Information",
+    "locus": "Cheshire, CT: Graphics Press, 1990, pp. 84–87",
+    "note": "Analyzes Byrne's inline color glyphs as direct visual nouns that eliminate label-lookup indirection."
+  },
+  "hawcock:2010": {
+    "author": "Werner Oechslin (intro.)",
+    "work": "Oliver Byrne: Six Books of Euclid (Facsimile Edition)",
+    "locus": "Cologne: Taschen, 2010",
+    "note": "Modern photographic facsimile revival of the 1847 Pickering volume."
+  },
+  "rougeux:2018": {
+    "author": "Nicholas Rougeux",
+    "work": "Byrne's Euclid: The First Six Books of the Elements of Euclid with Coloured Diagrams and Symbols",
+    "locus": "Web edition, https://www.c82.net/euclid/, December 2018",
+    "note": "Pioneering interactive digital edition pairing clickable inline glyphs with SVG diagrams and Caslon woodcut initials."
+  },
+  "rougeux:2018-making": {
+    "author": "Nicholas Rougeux",
+    "work": "Making of Byrne's Euclid",
+    "locus": "Design & technical essay, https://www.c82.net/work/?id=367, December 2018",
+    "note": "Documents Rougeux's typographic workflow, SVG construction process, and correction of minor 1847 print errata."
+  }
+}

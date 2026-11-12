@@ -10,5 +10,9 @@ build/
 *.pdf
 resources/pickering_1847/pdfs/
 resources/pickering_1847/scans/
+docs/
+docsrc/modules/api/
 docsrc/_build/
+.doctrees
 .doctrees/
+

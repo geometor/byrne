@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 640 430" data-graphic-id="i1" role="img" aria-label="Book I, Prop. I — Equilateral Triangle on a Given Segment">
+  <title>Book I, Prop. I — Equilateral Triangle on a Given Segment</title>
+  <defs>
+    <marker id="geom-tick-1" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-2" y1="-4.5" x2="-2" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+      <line x1="2" y1="-4.5" x2="2" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-8 -6 16 12" markerWidth="16" markerHeight="12" orient="auto">
+      <line x1="-3.5" y1="-4.5" x2="-3.5" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+      <line x1="3.5" y1="-4.5" x2="3.5" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+    </marker>
+  </defs>
+  <style>
+  .euclid-graphic, :root {
+    --byrne-paper: #faf7f0;
+    --byrne-red: #d92b2b;
+    --byrne-blue: #1c6ea4;
+    --byrne-yellow: #e6b800;
+    --byrne-black: #1a1a1a;
+    --byrne-fill-red: #d92b2b;
+    --byrne-fill-blue: #1c6ea4;
+    --byrne-fill-yellow: #e6b800;
+    --byrne-fill-black: #1a1a1a;
+    --byrne-halo: rgba(250, 247, 240, 0.92);
+  }
+  @media (prefers-color-scheme: dark) {
+    .euclid-graphic, :root {
+      --byrne-paper: #16161a;
+      --byrne-red: #f04848;
+      --byrne-blue: #4ba3e3;
+      --byrne-yellow: #f5ca24;
+      --byrne-black: #e8e6df;
+      --byrne-fill-red: #d93838;
+      --byrne-fill-blue: #2574ab;
+      --byrne-fill-yellow: #dfb208;
+      --byrne-fill-black: #363945;
+      --byrne-halo: rgba(22, 22, 26, 0.92);
+    }
+  }
+  .euclid-graphic .svg-bg { fill: var(--byrne-paper); }
+  .euclid-graphic .byrne-stroke-red { stroke: var(--byrne-red); }
+  .euclid-graphic .byrne-stroke-blue { stroke: var(--byrne-blue); }
+  .euclid-graphic .byrne-stroke-yellow { stroke: var(--byrne-yellow); }
+  .euclid-graphic .byrne-stroke-black { stroke: var(--byrne-black); }
+  .euclid-graphic .byrne-stroke-none { stroke: none; }
+  .euclid-graphic .byrne-fill-red { fill: var(--byrne-fill-red); }
+  .euclid-graphic .byrne-fill-blue { fill: var(--byrne-fill-blue); }
+  .euclid-graphic .byrne-fill-yellow { fill: var(--byrne-fill-yellow); }
+  .euclid-graphic .byrne-fill-black { fill: var(--byrne-fill-black); }
+  .euclid-graphic .byrne-fill-none { fill: none; }
+  .euclid-graphic .byrne-dashed { stroke-dasharray: 7 4.2; }
+  .euclid-graphic .byrne-dotted { stroke-dasharray: 2.4 3.6; }
+  .euclid-graphic .byrne-plate-line { fill: none; stroke-width: 3.4; stroke-linecap: round; }
+  .euclid-graphic .byrne-plate-line.byrne-thin { stroke-width: 2.2; }
+  .euclid-graphic .byrne-plate-line.byrne-thick { stroke-width: 4.2; }
+  .euclid-graphic .byrne-plate-circle,
+  .euclid-graphic .byrne-plate-arc { fill: none; stroke-width: 2.75; stroke-linecap: round; }
+  .euclid-graphic .byrne-plate-poly { stroke-linejoin: round; stroke-width: 2.2; }
+  .euclid-graphic .byrne-plate-poly.byrne-filled { fill-opacity: 0.9; }
+  .euclid-graphic .byrne-plate-poly.byrne-tinted { fill-opacity: 0.22; }
+  .euclid-graphic .byrne-plate-wedge { fill-opacity: 0.88; stroke-width: 1.35; stroke-linejoin: round; }
+  .euclid-graphic .geom-ang-arc { fill: none; stroke-width: 1.6; opacity: 0.85; }
+  .euclid-graphic .geom-point { fill: var(--byrne-black); stroke: var(--byrne-paper); stroke-width: 1.2; opacity: 0.45; }
+  .euclid-graphic .geom-label {
+    fill: var(--byrne-black);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "EB Garamond", "Georgia", serif;
+    paint-order: stroke fill;
+    stroke: var(--byrne-halo);
+    stroke-width: 3.2px;
+  }
+
+  </style>
+  <rect class="svg-bg" x="0" y="0" width="640" height="430" rx="6" />
+  <g id="elements">
+    <g id="graphics">
+      <polygon class="geom-polygon byrne-plate-poly byrne-outline byrne-fill-none byrne-stroke-none" points="233.5,215 406.5,215 320,65.18" data-byrne-kind="tri" data-byrne-color="yellow" data-ref="&lt; A B C &gt;" data-aliases="&lt; C B A &gt;"><title>&lt; A B C &gt;</title></polygon>
+      <circle class="geom-circle byrne-plate-circle byrne-stroke-blue" cx="233.5" cy="215" r="173" data-byrne-kind="circle" data-byrne-color="blue" data-ref="( A B )" fill="none"><title>( A B )</title></circle>
+      <circle class="geom-circle byrne-plate-circle byrne-stroke-red" cx="406.5" cy="215" r="173" data-byrne-kind="circle" data-byrne-color="red" data-ref="( B A )" fill="none"><title>( B A )</title></circle>
+      <path class="geom-segment byrne-plate-line byrne-stroke-black byrne-thick" d="M 233.5 215 L 320 215 L 406.5 215" data-byrne-kind="line" data-byrne-color="black" data-ref="/ A B /" data-aliases="/ B A / | [ A B ] | [ B A ]" fill="none"><title>/ A B /</title></path>
+      <path class="geom-segment byrne-plate-line byrne-stroke-yellow byrne-thick" d="M 233.5 215 L 276.75 140.09 L 320 65.18" data-byrne-kind="line" data-byrne-color="yellow" data-ref="/ A C /" data-aliases="/ C A / | [ A C ] | [ C A ]" fill="none"><title>/ A C /</title></path>
+      <path class="geom-segment byrne-plate-line byrne-stroke-red byrne-thick" d="M 406.5 215 L 363.25 140.09 L 320 65.18" data-byrne-kind="line" data-byrne-color="red" data-ref="/ B C /" data-aliases="/ C B / | [ B C ] | [ C B ]" fill="none"><title>/ B C /</title></path>
+    </g>
+    <g id="highlights"></g>
+    <g id="points">
+      <circle class="geom-point" cx="233.5" cy="215" r="2.6" data-ref="A"><title>A = (0, 0)</title></circle>
+      <circle class="geom-point" cx="406.5" cy="215" r="2.6" data-ref="B"><title>B = (1, 0)</title></circle>
+      <circle class="geom-point" cx="320" cy="65.18" r="2.6" data-ref="C"><title>C = (1/2, sqrt(3)/2)</title></circle>
+    </g>
+    <g id="labels">
+    </g>
+  </g>
+</svg>

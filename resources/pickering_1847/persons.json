@@ -1,0 +1,92 @@
+{
+  "byrne": {
+    "name": "Oliver Byrne",
+    "dates": "1810 – 1880",
+    "role": "Irish Civil Engineer, Surveyor & Mathematical Author",
+    "summary": "Professor of Mathematics at the College for Civil Engineers, Putney, and Her Majesty's Surveyor of the Falkland Islands; conceived the pointer-free four-color visual language of the 1847 Elements of Euclid to eliminate alphabetic vertex indirection."
+  },
+  "euclid": {
+    "name": "Euclid of Alexandria",
+    "dates": "fl. c. 300 BC",
+    "role": "Ancient Greek Geometer & Author of the Stoicheia (Elements)",
+    "summary": "Compiled the thirteen books of the Elements, Books I–VI of which constitute the planar geometric, algebraic, and proportional canon rendered in color by Oliver Byrne."
+  },
+  "whittingham": {
+    "name": "Charles Whittingham the Younger",
+    "dates": "1795 – 1876",
+    "role": "Master Printer of the Chiswick Press",
+    "summary": "Nephew of Charles Whittingham the Elder; executed the extraordinary four-run Caslon letterpress and relief woodblock registration (red, blue, yellow, black) that made Byrne's 1847 Euclid a landmark of Victorian bookmaking."
+  },
+  "pickering": {
+    "name": "William Pickering",
+    "dates": "1796 – 1854",
+    "role": "London Publisher & Antiquarian Bookseller",
+    "summary": "Publisher of the Aldine Poets and partner of Charles Whittingham; financed and published Byrne's 1847 coloured Euclid shortly before the Great Exhibition of 1851."
+  },
+  "simson": {
+    "name": "Robert Simson",
+    "dates": "1687 – 1768",
+    "role": "Scottish Mathematician & Professor of Mathematics at Glasgow",
+    "summary": "Published the standard 1756 Latin and English edition of Euclid's Elements (Books I–VI, XI–XII), whose numbering of 35 Definitions, 3 Postulates, and 12 Axioms Oliver Byrne adopted directly."
+  },
+  "demorgan": {
+    "name": "Augustus De Morgan",
+    "dates": "1806 – 1871",
+    "role": "British Mathematician & Pioneer of Relational Logic",
+    "summary": "Professor at University College London who dismissed Byrne's coloured Euclid as an eccentric curiosity in A Budget of Paradoxes, missing its anticipation of typed visual token languages."
+  },
+  "pestalozzi": {
+    "name": "Johann Heinrich Pestalozzi",
+    "dates": "1746 – 1827",
+    "role": "Swiss Educational Reformer",
+    "summary": "Championed Anschauung (direct sensory-spatial intuition prior to verbal symbols) in elementary mathematics education—explicitly invoked by Byrne's pedagogical philosophy in the 1847 Introduction."
+  },
+  "horace": {
+    "name": "Quintus Horatius Flaccus (Horace)",
+    "dates": "65 – 8 BC",
+    "role": "Roman Lyric Poet",
+    "summary": "Quoted by Oliver Byrne on p. viii of the 1847 Introduction (Ars Poetica 180–181: Segnius irritant animos demissa per aurem / Quam quae sunt oculis subjecta fidelibus) to justify ocular over auditory/verbal demonstration."
+  },
+  "eudoxus": {
+    "name": "Eudoxus of Cnidus",
+    "dates": "c. 408 – c. 355 BC",
+    "role": "Ancient Greek Mathematician & Astronomer",
+    "summary": "Architect of the general theory of proportion in Book V (Definition 5), which Byrne translates into a four-shape, four-color symbolic algebra."
+  },
+  "proclus": {
+    "name": "Proclus Lycius (Diadochus)",
+    "dates": "412 – 485 AD",
+    "role": "Neoplatonic Philosopher & Commentator on Euclid Book I",
+    "summary": "Codified the six canonical parts of a Euclidean proposition (protasis, ekthesis, diorismos, kataskeue, apodeixis, symperasma) that govern Byrne's block layout."
+  },
+  "heath": {
+    "name": "Sir Thomas Little Heath",
+    "dates": "1861 – 1940",
+    "role": "Historian of Greek Mathematics & Translator of Euclid",
+    "summary": "Author of the definitive 1908 Cambridge edition digitized in geometor/euclid, serving as the classical alphabetic baseline in our 3-way Rosetta analysis."
+  },
+  "hoenen": {
+    "name": "Petrus Hubertus Jacobus Hoenen, S.J.",
+    "dates": "1880 – 1961",
+    "role": "Philosopher of Geometry & Author of De Noetica Geometriae",
+    "summary": "Analyzed how universal geometric necessity is grasped directly within the concrete spatial phantasma (geometor/hoenen)—the exact epistemological principle materialized by Byrne's colored plates."
+  },
+  "mclean": {
+    "name": "Ruari McLean",
+    "dates": "1917 – 2006",
+    "role": "Scottish Typographer & Historian of Victorian Book Design",
+    "summary": "Rehabilitated Oliver Byrne and Charles Whittingham in Victorian Book Design and Colour Printing (1963), calling the 1847 Euclid 'one of the oddest and most beautiful books of the whole century'."
+  },
+  "tufte": {
+    "name": "Edward Rolf Tufte",
+    "dates": "b. 1942",
+    "role": "Statistician & Theorist of Information Design",
+    "summary": "Highlighted Byrne's 1847 Euclid in Envisioning Information (1990) as a masterclass in small multiples, micro/macro color encoding, and elimination of figure-to-text eye-scanning latency."
+  },
+  "rougeux": {
+    "name": "Nicholas Rougeux",
+    "dates": "fl. 2018 – present",
+    "role": "Information Designer & Creator of c82.net/euclid",
+    "summary": "Created the celebrated December 2018 interactive web restoration of Byrne's Euclid (c82.net/euclid) and authored 'Making of Byrne's Euclid', demonstrating interactive shape-highlighting for modern readers."
+  }
+}

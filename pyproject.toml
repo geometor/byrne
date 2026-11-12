@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geometor-byrne"
+authors = [{name = "phi ARCHITECT", email = "phi@geometor.com"}]
+description = "Digital Scriptorium Book Codex, Pointer-Free Visual Pseudocode Grammar, and Exact Symbolic Color-Token Proof Engine for Oliver Byrne's The First Six Books of the Elements of Euclid (1847)."
+readme = "README.rst"
+license = {text = "MIT"}
+requires-python = ">=3.13"
+dynamic = ["version"]
+dependencies = [
+    "sympy",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[project.scripts]
+geometor-byrne = "geometor.byrne.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["geometor*"]
+namespaces = true
+
+[tool.setuptools.package-data]
+"geometor.byrne" = ["static/*.css", "static/*.js"]
+
+[tool.setuptools.dynamic]
+version = {attr = "geometor.byrne.__version__"}
+
+[project.urls]
+"Website" = "https://geometor.github.io/byrne"
+"Repository" = "https://github.com/geometor/byrne"
+"Issues" = "https://github.com/geometor/byrne/issues"
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "../model/src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100
