@@ -1,5 +1,3 @@
-:layout: book
-
 .. _byrne-unit-4-notes:
 
 Unit IV Notes: Five-Color Overflow in ``IV.11`` & Heronian Integer Incircle

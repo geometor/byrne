@@ -1,5 +1,3 @@
-:layout: book
-
 .. _byrne-unit-7-notes:
 
 Unit VII Notes: Compiler Diagnostics & Interactive Synthesis

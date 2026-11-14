@@ -1,5 +1,3 @@
-:layout: book
-
 .. _byrne-unit-5-notes:
 
 Unit V Notes: Direct Bridge to ``geometor/codes`` & Dedekind Cuts

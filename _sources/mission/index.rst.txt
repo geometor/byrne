@@ -1,8 +1,9 @@
 :navigation: header
 :order: 10
+:nav_title: Mission
 
 =======
-mission
+Mission
 =======
 
 ``geometor.byrne`` brings :person:`Oliver Byrne's <byrne>` celebrated 1847 Chiswick Press masterpiece—:cite:`*The First Six Books of the Elements of Euclid in Which Coloured Diagrams and Symbols Are Used Instead of Letters for the Greater Ease of Learners* <byrne:1847>`—into the **GEOMETOR Digital Scriptorium** as both a scholarly multi-track **Book Codex** and an executable **Visual Pseudocode** laboratory.

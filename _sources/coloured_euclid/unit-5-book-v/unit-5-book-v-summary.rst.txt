@@ -1,5 +1,3 @@
-:layout: book
-
 .. _byrne-unit-5-summary:
 
 Unit V Summary: Eudoxian Proportion as Typed Colored Algebra

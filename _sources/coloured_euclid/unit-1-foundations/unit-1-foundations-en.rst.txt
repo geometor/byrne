@@ -1,5 +1,3 @@
-:layout: book
-
 .. _byrne-unit-1-en:
 
 Unit I: Introduction, Definitions, Postulates, Axioms & Symbols

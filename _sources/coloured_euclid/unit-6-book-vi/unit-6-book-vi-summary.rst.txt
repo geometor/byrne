@@ -1,5 +1,3 @@
-:layout: book
-
 .. _byrne-unit-6-summary:
 
 Unit VI Summary: Unifying Spatial Form and Eudoxian Ratio

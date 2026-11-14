@@ -1,5 +1,3 @@
-:layout: book
-
 .. _byrne-unit-7-summary:
 
 Unit VII Summary: Complementarity of the Three Euclidean Formalisms

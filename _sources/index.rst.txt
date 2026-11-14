@@ -15,18 +15,18 @@ Digital critical edition, synchronized 3-track **Book Codex**, formal **Pointer-
 
 ----
 
-Works & Analytical Treatises
-----------------------------
+Book Codex & Analytical Treatises
+---------------------------------
 
-:doc:`The First Six Books of the Elements of Euclid in Colour (Pickering / Chiswick Press, 1847) <coloured_euclid/index>`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+:doc:`The First Six Books of the Elements of Euclid (Pickering / Chiswick Press, 1847) <coloured_euclid/index>`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Synchronized 3-track Digital Scriptorium **Book Codex** (*Byrne 1847 Edition · Executive Summary · Scholarly & Design Notes*) spanning all six planar and proportional books of :person:`Euclid <euclid>`:
 
 * **Foundations & Book I**: :ref:`1847 Introduction, Simson Definitions, Postulates, Axioms & Operators <byrne-unit-1-en>` · :ref:`Congruence, Pons Asinorum (I.5), Parallels & The Pythagorean Theorem (I.47) <byrne-unit-2-en>`.
 * **Geometric Algebra, Circles & Regular Polygons**: :ref:`Book II Colored Rectangles & The Golden Section (II.11) <byrne-unit-3-en>` · :ref:`Books III–IV Thales, Tangent-Secant Power, Golden Triangle (IV.10) & Regular Pentagon (IV.11) <byrne-unit-4-en>`.
 * **Eudoxian Proportions, Similarity & Rosetta Grammar**: :ref:`Book V Colored Ratio Algebra <byrne-unit-5-en>` · :ref:`Book VI Similar Figures & Extreme and Mean Ratio (VI.30) <byrne-unit-6-en>` · :ref:`Unit 7: 3-Way Rosetta Analysis (Heath · Byrne · GEOMETOR) <byrne-unit-7-en>`.
-* **Critical Apparatus**: :ref:`Byrne–Simson–Heath–G-Index Concordance <concordance>` · :ref:`Systematic Bibliography <bibliography>` · :ref:`Index of Persons <persons>` · :ref:`Visual & Euclidean Glossary <glossary>`.
+* **Scholarly Apparatus**: :doc:`People </coloured_euclid/persons>` · :doc:`Bibliography </coloured_euclid/bibliography>` · :ref:`Concordance <concordance>` · :ref:`Glossary <glossary>`.
 
 :doc:`Pointer-Free Visual Pseudocode: Language Specification & Compiler Metrics <pseudocode/index>`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -39,6 +39,7 @@ Context & Architecture
 ----------------------
 
 * :doc:`Mission & Digital Scriptorium Provenance <mission/index>`
+* :doc:`Using This Edition (Reader's Guide & CLI) <usage/index>`
 * :doc:`Visual Pseudocode Grammar & Register Analysis <pseudocode/index>`
 * :doc:`Python Package & Symbolic API Reference <modules/index>`
 * :doc:`Curation & Engineering Log <log/index>`
@@ -48,4 +49,10 @@ Context & Architecture
    :hidden:
 
    coloured_euclid/index
-
+   coloured_euclid/persons
+   coloured_euclid/bibliography
+   usage/index
+   pseudocode/index
+   mission/index
+   log/index
+   modules/index

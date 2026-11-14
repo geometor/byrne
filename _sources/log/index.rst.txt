@@ -1,8 +1,9 @@
 :navigation: header
 :order: 30
+:nav_title: Log
 
 ===
-log
+Log
 ===
 
 Chronological curation, archival verification, and symbolic engineering log for ``geometor.byrne``.

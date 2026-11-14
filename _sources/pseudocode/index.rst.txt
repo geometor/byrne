@@ -1,9 +1,10 @@
 :navigation: header
-:order: 20
+:order: 25
+:nav_title: Pseudocode
 
-==========
-pseudocode
-==========
+==============================
+Pointer-Free Visual Pseudocode
+==============================
 
 .. rubric:: Oliver Byrne (1847) as a Pointer-Free Visual Programming Language
 

@@ -1,5 +1,3 @@
-:layout: book
-
 .. _byrne-unit-1-notes:
 
 Unit I Notes: Chiswick Press Printing, Simson Numbering & Reception
