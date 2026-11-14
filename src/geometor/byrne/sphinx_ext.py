@@ -549,7 +549,7 @@ def _seed_apparatus_from_pickering(app: Any) -> None:
     if cache is None:
         cache = {}
         env._photon_apparatus_cache = cache
-    for book_key in ("coloured_euclid", "pseudocode", "mission", "default"):
+    for book_key in ("coloured_euclid", "pseudocode", "about", "mission", "default"):
         cache[book_key] = registries
 
 

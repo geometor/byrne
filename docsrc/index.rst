@@ -38,7 +38,7 @@ Formal computer-science analysis of Oliver Byrne's 1847 visual notation as a **t
 Context & Architecture
 ----------------------
 
-* :doc:`Mission & Digital Scriptorium Provenance <mission/index>`
+* :doc:`About This Edition <about/index>`
 * :doc:`Using This Edition (Reader's Guide & CLI) <usage/index>`
 * :doc:`Visual Pseudocode Grammar & Register Analysis <pseudocode/index>`
 * :doc:`Python Package & Symbolic API Reference <modules/index>`
@@ -51,8 +51,8 @@ Context & Architecture
    coloured_euclid/index
    coloured_euclid/persons
    coloured_euclid/bibliography
+   about/index
    usage/index
    pseudocode/index
-   mission/index
    log/index
    modules/index
