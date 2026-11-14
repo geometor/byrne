@@ -1,0 +1,344 @@
+{
+  "edition": "pickering_1847",
+  "title": "The First Six Books of the Elements of Euclid (William Pickering, London, 1847)",
+  "author": "Oliver Byrne",
+  "printer": "Charles Whittingham (Chiswick Press)",
+  "publisher": "William Pickering, London",
+  "publication_year": 1847,
+  "source_archive": "https://archive.org/details/firstsixbooksofe00eucl",
+  "scan_format": "RGB JPEG 150 DPI quality=82",
+  "folios": {
+    "Introduction": {
+      "default": "resources/pickering_1847/0011.jpg",
+      "en": "resources/pickering_1847/0011.jpg",
+      "page": "vii",
+      "leaf": 11
+    },
+    "Definitions": {
+      "default": "resources/pickering_1847/0022.jpg",
+      "en": "resources/pickering_1847/0022.jpg",
+      "page": "xviii",
+      "leaf": 22
+    },
+    "Postulates & Axioms": {
+      "default": "resources/pickering_1847/0027.jpg",
+      "en": "resources/pickering_1847/0027.jpg",
+      "page": "xxiii",
+      "leaf": 27
+    },
+    "Symbols": {
+      "default": "resources/pickering_1847/0031.jpg",
+      "en": "resources/pickering_1847/0031.jpg",
+      "page": "xxvii",
+      "leaf": 31
+    },
+    "I.1": {
+      "default": "resources/pickering_1847/0035.jpg",
+      "en": "resources/pickering_1847/0035.jpg",
+      "page": "1",
+      "leaf": 35
+    },
+    "I.4": {
+      "default": "resources/pickering_1847/0038.jpg",
+      "en": "resources/pickering_1847/0038.jpg",
+      "page": "4",
+      "leaf": 38
+    },
+    "I.5": {
+      "default": "resources/pickering_1847/0039.jpg",
+      "en": "resources/pickering_1847/0039.jpg",
+      "page": "5",
+      "leaf": 39
+    },
+    "I.15": {
+      "default": "resources/pickering_1847/0049.jpg",
+      "en": "resources/pickering_1847/0049.jpg",
+      "page": "15",
+      "leaf": 49
+    },
+    "I.32": {
+      "default": "resources/pickering_1847/0067.jpg",
+      "en": "resources/pickering_1847/0067.jpg",
+      "page": "33",
+      "leaf": 67
+    },
+    "I.15 & I.32": {
+      "default": "resources/pickering_1847/0049.jpg",
+      "en": "resources/pickering_1847/0049.jpg",
+      "page": "15",
+      "leaf": 49
+    },
+    "I.46": {
+      "default": "resources/pickering_1847/0081.jpg",
+      "en": "resources/pickering_1847/0081.jpg",
+      "page": "47",
+      "leaf": 81
+    },
+    "I.47": {
+      "default": "resources/pickering_1847/0082.jpg",
+      "en": "resources/pickering_1847/0082.jpg",
+      "page": "48",
+      "leaf": 82
+    },
+    "I.46 & I.47": {
+      "default": "resources/pickering_1847/0081.jpg",
+      "en": "resources/pickering_1847/0081.jpg",
+      "page": "47",
+      "leaf": 81
+    },
+    "II.4": {
+      "default": "resources/pickering_1847/0090.jpg",
+      "en": "resources/pickering_1847/0090.jpg",
+      "page": "56",
+      "leaf": 90
+    },
+    "II.5": {
+      "default": "resources/pickering_1847/0092.jpg",
+      "en": "resources/pickering_1847/0092.jpg",
+      "page": "58",
+      "leaf": 92
+    },
+    "II.11": {
+      "default": "resources/pickering_1847/0100.jpg",
+      "en": "resources/pickering_1847/0100.jpg",
+      "page": "66",
+      "leaf": 100
+    },
+    "III.20": {
+      "default": "resources/pickering_1847/0136.jpg",
+      "en": "resources/pickering_1847/0136.jpg",
+      "page": "102",
+      "leaf": 136
+    },
+    "III.31": {
+      "default": "resources/pickering_1847/0149.jpg",
+      "en": "resources/pickering_1847/0149.jpg",
+      "page": "115",
+      "leaf": 149
+    },
+    "III.20 & III.31": {
+      "default": "resources/pickering_1847/0136.jpg",
+      "en": "resources/pickering_1847/0136.jpg",
+      "page": "102",
+      "leaf": 136
+    },
+    "III.36": {
+      "default": "resources/pickering_1847/0155.jpg",
+      "en": "resources/pickering_1847/0155.jpg",
+      "page": "121",
+      "leaf": 155
+    },
+    "IV.4": {
+      "default": "resources/pickering_1847/0163.jpg",
+      "en": "resources/pickering_1847/0163.jpg",
+      "page": "129",
+      "leaf": 163
+    },
+    "IV.10": {
+      "default": "resources/pickering_1847/0169.jpg",
+      "en": "resources/pickering_1847/0169.jpg",
+      "page": "135",
+      "leaf": 169
+    },
+    "IV.11": {
+      "default": "resources/pickering_1847/0171.jpg",
+      "en": "resources/pickering_1847/0171.jpg",
+      "page": "137",
+      "leaf": 171
+    },
+    "IV.4, IV.10 & IV.11": {
+      "default": "resources/pickering_1847/0163.jpg",
+      "en": "resources/pickering_1847/0163.jpg",
+      "page": "129",
+      "leaf": 163
+    },
+    "V.Defs": {
+      "default": "resources/pickering_1847/0188.jpg",
+      "en": "resources/pickering_1847/0188.jpg",
+      "page": "154",
+      "leaf": 188
+    },
+    "V.16": {
+      "default": "resources/pickering_1847/0221.jpg",
+      "en": "resources/pickering_1847/0221.jpg",
+      "page": "187",
+      "leaf": 221
+    },
+    "V.16–V.22": {
+      "default": "resources/pickering_1847/0221.jpg",
+      "en": "resources/pickering_1847/0221.jpg",
+      "page": "187",
+      "leaf": 221
+    },
+    "V.16-V.22": {
+      "default": "resources/pickering_1847/0221.jpg",
+      "en": "resources/pickering_1847/0221.jpg",
+      "page": "187",
+      "leaf": 221
+    },
+    "V.22": {
+      "default": "resources/pickering_1847/0221.jpg",
+      "en": "resources/pickering_1847/0221.jpg",
+      "page": "187",
+      "leaf": 221
+    },
+    "VI.30": {
+      "default": "resources/pickering_1847/0292.jpg",
+      "en": "resources/pickering_1847/0292.jpg",
+      "page": "258",
+      "leaf": 292
+    },
+    "Postulates": {
+      "default": "resources/pickering_1847/0026.jpg",
+      "en": "resources/pickering_1847/0026.jpg",
+      "page": "xxii",
+      "leaf": 26
+    },
+    "Axioms": {
+      "default": "resources/pickering_1847/0027.jpg",
+      "en": "resources/pickering_1847/0027.jpg",
+      "page": "xxiii",
+      "leaf": 27
+    },
+    "0011": {
+      "default": "resources/pickering_1847/0011.jpg",
+      "en": "resources/pickering_1847/0011.jpg",
+      "leaf": 11
+    },
+    "0021": {
+      "default": "resources/pickering_1847/0021.jpg",
+      "en": "resources/pickering_1847/0021.jpg",
+      "leaf": 21
+    },
+    "0022": {
+      "default": "resources/pickering_1847/0022.jpg",
+      "en": "resources/pickering_1847/0022.jpg",
+      "leaf": 22
+    },
+    "0026": {
+      "default": "resources/pickering_1847/0026.jpg",
+      "en": "resources/pickering_1847/0026.jpg",
+      "leaf": 26
+    },
+    "0027": {
+      "default": "resources/pickering_1847/0027.jpg",
+      "en": "resources/pickering_1847/0027.jpg",
+      "leaf": 27
+    },
+    "0031": {
+      "default": "resources/pickering_1847/0031.jpg",
+      "en": "resources/pickering_1847/0031.jpg",
+      "leaf": 31
+    },
+    "0035": {
+      "default": "resources/pickering_1847/0035.jpg",
+      "en": "resources/pickering_1847/0035.jpg",
+      "leaf": 35
+    },
+    "0038": {
+      "default": "resources/pickering_1847/0038.jpg",
+      "en": "resources/pickering_1847/0038.jpg",
+      "leaf": 38
+    },
+    "0039": {
+      "default": "resources/pickering_1847/0039.jpg",
+      "en": "resources/pickering_1847/0039.jpg",
+      "leaf": 39
+    },
+    "0049": {
+      "default": "resources/pickering_1847/0049.jpg",
+      "en": "resources/pickering_1847/0049.jpg",
+      "leaf": 49
+    },
+    "0067": {
+      "default": "resources/pickering_1847/0067.jpg",
+      "en": "resources/pickering_1847/0067.jpg",
+      "leaf": 67
+    },
+    "0081": {
+      "default": "resources/pickering_1847/0081.jpg",
+      "en": "resources/pickering_1847/0081.jpg",
+      "leaf": 81
+    },
+    "0082": {
+      "default": "resources/pickering_1847/0082.jpg",
+      "en": "resources/pickering_1847/0082.jpg",
+      "leaf": 82
+    },
+    "0083": {
+      "default": "resources/pickering_1847/0083.jpg",
+      "en": "resources/pickering_1847/0083.jpg",
+      "leaf": 83
+    },
+    "0090": {
+      "default": "resources/pickering_1847/0090.jpg",
+      "en": "resources/pickering_1847/0090.jpg",
+      "leaf": 90
+    },
+    "0091": {
+      "default": "resources/pickering_1847/0091.jpg",
+      "en": "resources/pickering_1847/0091.jpg",
+      "leaf": 91
+    },
+    "0092": {
+      "default": "resources/pickering_1847/0092.jpg",
+      "en": "resources/pickering_1847/0092.jpg",
+      "leaf": 92
+    },
+    "0100": {
+      "default": "resources/pickering_1847/0100.jpg",
+      "en": "resources/pickering_1847/0100.jpg",
+      "leaf": 100
+    },
+    "0136": {
+      "default": "resources/pickering_1847/0136.jpg",
+      "en": "resources/pickering_1847/0136.jpg",
+      "leaf": 136
+    },
+    "0149": {
+      "default": "resources/pickering_1847/0149.jpg",
+      "en": "resources/pickering_1847/0149.jpg",
+      "leaf": 149
+    },
+    "0155": {
+      "default": "resources/pickering_1847/0155.jpg",
+      "en": "resources/pickering_1847/0155.jpg",
+      "leaf": 155
+    },
+    "0163": {
+      "default": "resources/pickering_1847/0163.jpg",
+      "en": "resources/pickering_1847/0163.jpg",
+      "leaf": 163
+    },
+    "0169": {
+      "default": "resources/pickering_1847/0169.jpg",
+      "en": "resources/pickering_1847/0169.jpg",
+      "leaf": 169
+    },
+    "0170": {
+      "default": "resources/pickering_1847/0170.jpg",
+      "en": "resources/pickering_1847/0170.jpg",
+      "leaf": 170
+    },
+    "0171": {
+      "default": "resources/pickering_1847/0171.jpg",
+      "en": "resources/pickering_1847/0171.jpg",
+      "leaf": 171
+    },
+    "0188": {
+      "default": "resources/pickering_1847/0188.jpg",
+      "en": "resources/pickering_1847/0188.jpg",
+      "leaf": 188
+    },
+    "0221": {
+      "default": "resources/pickering_1847/0221.jpg",
+      "en": "resources/pickering_1847/0221.jpg",
+      "leaf": 221
+    },
+    "0292": {
+      "default": "resources/pickering_1847/0292.jpg",
+      "en": "resources/pickering_1847/0292.jpg",
+      "leaf": 292
+    }
+  }
+}

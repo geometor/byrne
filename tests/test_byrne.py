@@ -38,7 +38,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 
 
 def test_version_and_palette() -> None:
-    assert __version__ == "0.1.0"
+    assert __version__ == "0.1.1"
     assert set(BYRNE_COLORS.keys()) == {"red", "blue", "yellow", "black"}
     assert get_color_spec("RED").name == "red"
     assert get_color_spec("ink").name == "black"
