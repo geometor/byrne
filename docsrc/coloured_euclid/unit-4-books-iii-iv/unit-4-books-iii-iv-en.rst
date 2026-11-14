@@ -1,5 +1,3 @@
-:layout: book
-
 .. _byrne-unit-4-en:
 
 Unit IV: Books III & IV — Circles, Tangents & Regular Polygons

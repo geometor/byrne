@@ -1,5 +1,3 @@
-:layout: book
-
 .. _byrne-unit-3-en:
 
 Unit III: Book II — Geometric Algebra & The Golden Section

@@ -1,5 +1,3 @@
-:layout: book
-
 .. _byrne-unit-2-notes:
 
 Unit II Notes: Windmill Geometry, Stroke Disambiguation & The 1847 Title-Page Anomaly

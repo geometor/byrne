@@ -1,5 +1,3 @@
-:layout: book
-
 .. _byrne-unit-6-notes:
 
 Unit VI Notes: Application of Areas & Projective Cross-Repository Links

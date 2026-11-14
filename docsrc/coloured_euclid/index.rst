@@ -1,15 +1,25 @@
+:navigation: header
+:order: 1
+:nav_title: Elements I–VI
 :layout: book
+:book_title: The First Six Books of the Elements of Euclid
+:book_subtitle: In Which Coloured Diagrams and Symbols Are Used Instead of Letters — Oliver Byrne (1847)
+:author: Oliver Byrne
+:year: 1847
 
 .. _coloured-euclid-index:
 
-THE FIRST SIX BOOKS OF THE ELEMENTS OF EUCLID
+The First Six Books of the Elements of Euclid
 =============================================
 
 .. rubric:: *In Which Coloured Diagrams and Symbols Are Used Instead of Letters for the Greater Ease of Learners* — Oliver Byrne (1847)
 
-| **Editio Princeps (London, 1847):** Published by :person:`William Pickering <pickering>`, printed by :person:`Charles Whittingham <whittingham>` at the Chiswick Press, 1847 (Internet Archive ``firstsixbooksofe00eucl``).
-| **Euclidean Base Text:** :person:`Robert Simson's <simson>` :cite:`1756 Glasgow Edition <simson:1756>` (35 Definitions, 3 Postulates, 12 Axioms).
-| **Digital Critical Codex:** Synchronized 3-track edition (*Byrne 1847 Edition · Summary · Notes*) with interactive inline SVG color tokens and exact ``geometor.model`` plates.
+.. container:: title-page
+
+   | **Author:** :person:`Oliver Byrne <byrne>`
+   | **First Edition (London, 1847):** Published by :person:`William Pickering <pickering>`, printed by :person:`Charles Whittingham <whittingham>` at the Chiswick Press, 1847 (Internet Archive ``firstsixbooksofe00eucl``).
+   | **Euclidean Base Text:** :person:`Robert Simson's <simson>` :cite:`1756 Glasgow Edition <simson:1756>` (35 Definitions, 3 Postulates, 12 Axioms).
+   | **Digital Critical Codex:** Synchronized 3-track edition (*Byrne 1847 Edition · Summary · Notes*) with interactive inline SVG color tokens and exact ``geometor.model`` plates.
 
 .. epigraph::
 
@@ -23,8 +33,8 @@ THE FIRST SIX BOOKS OF THE ELEMENTS OF EUCLID
 
 ----
 
-Conspectus Totius Operis
-------------------------
+Table of Contents
+-----------------
 
 **Unit I: Introduction, Definitions, Postulates, Axioms & Symbols** (*Pickering pp. vii–xxix*)
    :ref:`Byrne (1847) <byrne-unit-1-en>` · :ref:`Summary <byrne-unit-1-summary>` · :ref:`Notes <byrne-unit-1-notes>`
@@ -49,8 +59,8 @@ Conspectus Totius Operis
 
 ----
 
-Apparatus Criticus & Cross-Repository Indices
----------------------------------------------
+Scholarly Apparatus
+-------------------
 
 * :ref:`Byrne–Simson–Heath–G-Index Master Concordance <concordance>` — Exact cross-mapping across ``geometor/byrne``, ``geometor/euclid``, ``geometor/elements``, and ``geometor/codes``.
 * :ref:`Systematic Bibliography <bibliography>` — Primary editions, Chiswick Press typographic scholarship, Edward Tufte, and Nicholas Rougeux (2018).
@@ -93,7 +103,7 @@ Apparatus Criticus & Cross-Repository Indices
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: Critical Apparatus
+   :caption: Scholarly Apparatus
 
    concordance
    bibliography
