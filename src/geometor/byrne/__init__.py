@@ -43,7 +43,7 @@ from geometor.byrne.pseudocode import (
 )
 from geometor.byrne.render import export_all_plates, export_plate_svg, render_plate_svg
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 
 __all__ = [
     "BYRNE_COLORS",

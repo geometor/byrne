@@ -1,5 +1,3 @@
-:layout: book
-
 .. _byrne-unit-5-en:
 
 Unit V: Book V — Color-Coded Symbolic Algebra of Eudoxian Proportions

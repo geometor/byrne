@@ -1,5 +1,3 @@
-:layout: book
-
 .. _byrne-unit-4-summary:
 
 Unit IV Summary: From Circle Invariants to the Regular Pentagon

@@ -1,5 +1,3 @@
-:layout: book
-
 .. _byrne-unit-6-en:
 
 Unit VI: Book VI — Similar Figures & Extreme and Mean Ratio

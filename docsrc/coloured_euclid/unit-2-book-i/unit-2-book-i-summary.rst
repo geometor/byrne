@@ -1,5 +1,3 @@
-:layout: book
-
 .. _byrne-unit-2-summary:
 
 Unit II Summary: Book I Deductive Arc (I.1 → I.47)

@@ -1,5 +1,3 @@
-:layout: book
-
 .. _byrne-unit-3-notes:
 
 Unit III Notes: Exact $\mathbb{Q}(\phi)$ Coordinates & Half-Filled Woodblocks

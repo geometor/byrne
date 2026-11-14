@@ -1,5 +1,3 @@
-:layout: book
-
 .. _byrne-unit-1-summary:
 
 Unit I Summary: Foundations & Ocular Grammar

@@ -1,5 +1,3 @@
-:layout: book
-
 .. _byrne-unit-7-en:
 
 Unit VII: Pointer-Free Visual Pseudocode — 3-Way Rosetta Analysis

@@ -1,5 +1,3 @@
-:layout: book
-
 .. _byrne-unit-3-summary:
 
 Unit III Summary: Geometric Algebra Without Symbolic Variables

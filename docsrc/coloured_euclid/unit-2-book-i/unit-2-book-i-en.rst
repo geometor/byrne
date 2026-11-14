@@ -1,5 +1,3 @@
-:layout: book
-
 .. _byrne-unit-2-en:
 
 Unit II: Book I — Congruence, Parallels & The Pythagorean Theorem
