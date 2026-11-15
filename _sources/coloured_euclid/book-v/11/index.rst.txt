@@ -1,0 +1,48 @@
+:canonical_id: V.11
+:book: V
+:proposition: 11
+:type: proposition
+:title: Proposition V.11 — Transitivity of Ratios
+:folio: V.11
+:page: 175
+
+.. _byrne-v-11:
+
+.. folio:: V.11
+   :page: 175
+
+Proposition V.11 — Transitivity of Ratios
+=========================================
+
+.. rubric:: Book V, Proposition XI. Theorem (*Pickering p. 175* · ``G.271``)
+
+*Ratios that are the same to the same ratio, are the same to each other.*
+
+.. container:: byrne-eq-block
+
+   **Given.** Let :byrne-mag:`blue diamond` : :byrne-mag:`blue square` :byrne-op:`prop` :byrne-mag:`red circle` : :byrne-mag:`yellow shield` and :byrne-mag:`red circle` : :byrne-mag:`yellow shield` :byrne-op:`prop` :byrne-mag:`black pentagon` : :byrne-mag:`black circle`;
+
+   then will :byrne-mag:`blue diamond` : :byrne-mag:`blue square` :byrne-op:`prop` :byrne-mag:`black pentagon` : :byrne-mag:`black circle`.
+
+   **Demonstration (:just:`V.def.5`).**
+
+   For arbitrary positive integers $M, m$:
+
+   If $M \cdot$ :byrne-mag:`blue diamond` is :byrne-op:`gt`, ``=``, or :byrne-op:`lt` $m \cdot$ :byrne-mag:`blue square`,
+
+   then $M \cdot$ :byrne-mag:`red circle` is correspondingly :byrne-op:`gt`, ``=``, or :byrne-op:`lt` $m \cdot$ :byrne-mag:`yellow shield` (:just:`V.def.5`),
+
+   and therefore $M \cdot$ :byrne-mag:`black pentagon` is correspondingly :byrne-op:`gt`, ``=``, or :byrne-op:`lt` $m \cdot$ :byrne-mag:`black circle` (:just:`V.def.5`);
+
+   :byrne-op:`therefore` if $M \cdot$ :byrne-mag:`blue diamond` is :byrne-op:`gt`, ``=``, or :byrne-op:`lt` $m \cdot$ :byrne-mag:`blue square`, then $M \cdot$ :byrne-mag:`black pentagon` is :byrne-op:`gt`, ``=``, or :byrne-op:`lt` $m \cdot$ :byrne-mag:`black circle`,
+
+   and :byrne-op:`therefore` (:just:`V.def.5`) :byrne-mag:`blue diamond` : :byrne-mag:`blue square` :byrne-op:`prop` :byrne-mag:`black pentagon` : :byrne-mag:`black circle`. **Q.E.D.**
+
+----
+
+See :ref:`Commentary on Proposition V.11 <byrne-v-11-commentary>`.
+
+.. toctree::
+   :hidden:
+
+   commentary
