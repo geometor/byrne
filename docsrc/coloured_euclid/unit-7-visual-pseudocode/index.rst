@@ -1,14 +1,21 @@
+:layout: book
+:type: book
+:order: 7
+:title: Pointer-Free Visual Pseudocode — 3-Way Rosetta Analysis
+
+.. _byrne-rosetta:
 .. _byrne-unit-7-en:
 
-Unit VII: Pointer-Free Visual Pseudocode — 3-Way Rosetta Analysis
-=================================================================
+Pointer-Free Visual Pseudocode — 3-Way Rosetta Analysis
+=======================================================
 
 .. rubric:: Side-by-Side Formalism Alignment: Heath (1908) · Byrne (1847) · GEOMETOR DAG
 
-.. contents:: In This Unit
-   :local:
-   :depth: 2
-   :backlinks: none
+Side-by-side compiler and visual-register comparison across :person:`Heath's <heath>` classical alphabetic Euclid (*pass-by-reference* vertex pointers), :person:`Oliver Byrne's <byrne>` 1847 colored glyph equations (*pass-by-value* visual literals with zero pointer dereferences), and exact ``geometor.model`` SymPy algebraic constructions.
+
+.. picture:: /_static/figures/rosetta.svg
+   :alt: Three-column Rosetta comparison between Heath alphabetic pointers, Byrne pass-by-value color tokens, and GEOMETOR exact symbolic DAG.
+   :caption: **3-Way Rosetta Architecture.** Eliminating alphabetic pointer indirection reduces verbal token load by 80–92% while mapping bijectively onto exact ``geometor.model`` Rational Trigonometry invariants.
 
 1. Formal Grammar of Byrne's 1847 Visual Pseudocode
 ---------------------------------------------------
@@ -75,3 +82,9 @@ In :mod:`geometor.byrne.pseudocode`, every proposition in :person:`Oliver Byrne'
   Byrne links colored area subtraction (:byrne-sq:`blue filled` = :byrne-rect:`yellow filled` in ``II.11``) to tangent-secant power (:byrne-line:`blue solid squared` in ``IV.10``) and five-chord cyclotomic symmetry (:byrne-line:`red solid`, :byrne-line:`red dotted`, :byrne-line:`black solid`, :byrne-line:`yellow solid`, :byrne-line:`blue solid` in ``IV.11``), mirrored in SymPy by the algebraic tower $\mathbb{Q} \subset \mathbb{Q}(\phi) \subset \mathbb{Q}(\phi, \sqrt{10 - 2\sqrt{5}})$.
 * **Book V Colored Ratio Calculus (``V.16`` *Alternando*, ``G.276``):**
   :byrne-mag:`red circle` : :byrne-mag:`yellow square` :byrne-op:`prop` :byrne-mag:`blue diamond` : :byrne-mag:`black shield` $\implies$ :byrne-mag:`red circle` : :byrne-mag:`blue diamond` :byrne-op:`prop` :byrne-mag:`yellow square` : :byrne-mag:`black shield` (**7.1% verbal load**, connecting directly to ``geometor/codes``).
+
+.. toctree::
+   :hidden:
+
+   summary
+   notes

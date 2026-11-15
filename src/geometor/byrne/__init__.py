@@ -42,8 +42,9 @@ from geometor.byrne.pseudocode import (
     get_rosetta_program,
 )
 from geometor.byrne.render import export_all_plates, export_plate_svg, render_plate_svg
+from geometor.byrne.tableaux import TABLEAU_IDS, export_all_tableaux, render_tableau_svg
 
-__version__ = "0.2.0"
+__version__ = "0.2.1"
 
 __all__ = [
     "BYRNE_COLORS",
@@ -51,6 +52,7 @@ __all__ = [
     "PHI",
     "PLATE_REGISTRY",
     "ROSETTA_PROGRAMS",
+    "TABLEAU_IDS",
     "ByrneColorSpec",
     "ByrnePlate",
     "ByrneProgram",
@@ -62,9 +64,11 @@ __all__ = [
     "build_plate",
     "compute_rosetta_metrics",
     "export_all_plates",
+    "export_all_tableaux",
     "export_plate_svg",
     "get_color_spec",
     "get_rosetta_program",
     "list_plate_ids",
     "render_plate_svg",
+    "render_tableau_svg",
 ]

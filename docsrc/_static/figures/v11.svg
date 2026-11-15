@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 680 300" width="680" height="300" data-graphic-id="v11" role="img" aria-label="Book V, Prop. XI — Transitivity of Ratios (Pickering p. 175)">
+  <title>Book V, Prop. XI — Transitivity of Ratios (Pickering p. 175)</title>
+  <style>
+  .euclid-graphic, :root {
+    --byrne-paper: #faf7f0;
+    --byrne-red: #d92b2b;
+    --byrne-blue: #1c6ea4;
+    --byrne-yellow: #e6b800;
+    --byrne-black: #1a1a1a;
+    --byrne-fill-red: #d92b2b;
+    --byrne-fill-blue: #1c6ea4;
+    --byrne-fill-yellow: #e6b800;
+    --byrne-fill-black: #1a1a1a;
+    --byrne-halo: rgba(250, 247, 240, 0.92);
+  }
+  @media (prefers-color-scheme: dark) {
+    .euclid-graphic, :root {
+      --byrne-paper: #16161a;
+      --byrne-red: #f04848;
+      --byrne-blue: #4ba3e3;
+      --byrne-yellow: #f5ca24;
+      --byrne-black: #e8e6df;
+      --byrne-fill-red: #d93838;
+      --byrne-fill-blue: #2574ab;
+      --byrne-fill-yellow: #dfb208;
+      --byrne-fill-black: #363945;
+      --byrne-halo: rgba(22, 22, 26, 0.92);
+    }
+  }
+  .euclid-graphic .svg-bg { fill: var(--byrne-paper); }
+  .euclid-graphic .byrne-stroke-red { stroke: var(--byrne-red); }
+  .euclid-graphic .byrne-stroke-blue { stroke: var(--byrne-blue); }
+  .euclid-graphic .byrne-stroke-yellow { stroke: var(--byrne-yellow); }
+  .euclid-graphic .byrne-stroke-black { stroke: var(--byrne-black); }
+  .euclid-graphic .byrne-stroke-none { stroke: none; }
+  .euclid-graphic .byrne-fill-red { fill: var(--byrne-fill-red); }
+  .euclid-graphic .byrne-fill-blue { fill: var(--byrne-fill-blue); }
+  .euclid-graphic .byrne-fill-yellow { fill: var(--byrne-fill-yellow); }
+  .euclid-graphic .byrne-fill-black { fill: var(--byrne-fill-black); }
+  .euclid-graphic .byrne-fill-none { fill: none; }
+  .euclid-graphic .byrne-dotted { stroke-dasharray: 2.6 3.8; }
+  .euclid-graphic .byrne-dashed { stroke-dasharray: 7 4.2; }
+  .euclid-graphic .byrne-plate-line { fill: none; stroke-width: 3.6; stroke-linecap: round; }
+  .euclid-graphic .byrne-plate-circle { fill: none; stroke-width: 2.7; stroke-linecap: round; }
+  .euclid-graphic .byrne-plate-poly { stroke-linejoin: round; stroke-width: 2.2; }
+  .euclid-graphic .byrne-plate-wedge { fill-opacity: 0.88; stroke-width: 1.4; stroke-linejoin: round; }
+  .euclid-graphic .byrne-ink {
+    fill: var(--byrne-black);
+    font-family: "EB Garamond", "Cochineal", "Georgia", serif;
+  }
+  .euclid-graphic .byrne-caption {
+    fill: var(--byrne-black);
+    opacity: 0.78;
+    font-size: 13px;
+    font-style: italic;
+    font-family: "EB Garamond", "Georgia", serif;
+  }
+  .euclid-graphic .byrne-heading {
+    fill: var(--byrne-black);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    font-family: "EB Garamond", "Georgia", serif;
+  }
+  .euclid-graphic .byrne-op-text {
+    fill: var(--byrne-black);
+    font-size: 21px;
+    font-weight: 600;
+    font-family: "EB Garamond", "Georgia", serif;
+  }
+  .euclid-graphic .byrne-mult {
+    fill: var(--byrne-black);
+    font-size: 19px;
+    font-style: italic;
+    font-weight: 600;
+    font-family: "EB Garamond", "Georgia", serif;
+  }
+  .euclid-graphic .byrne-rule {
+    stroke: var(--byrne-black);
+    stroke-opacity: 0.22;
+    stroke-width: 1.1;
+  }
+  .euclid-graphic .byrne-frac-bar {
+    stroke: var(--byrne-black);
+    stroke-width: 2.0;
+    stroke-linecap: round;
+  }
+
+  </style>
+  <rect class="svg-bg" x="0" y="0" width="680" height="300" rx="6" />
+  <g id="elements">
+    <g id="graphics">
+      <text class="byrne-heading" x="340.0" y="38.0" text-anchor="middle">BOOK V · PROPOSITION XI — TRANSITIVITY OF RATIOS (p. 175)</text>
+      <text class="byrne-mult" x="84.0" y="94.0" text-anchor="middle">Let</text>
+      <polygon class="byrne-fill-blue byrne-stroke-blue" points="122.0,75.0 133.4,88.0 122.0,101.0 110.6,88.0" stroke-width="1.4" stroke-linejoin="round" />
+      <text class="byrne-op-text" x="146.0" y="94.0" text-anchor="middle">:</text>
+      <rect class="byrne-fill-blue byrne-stroke-blue" x="161.5" y="77.5" width="21.0" height="21.0" stroke-width="1.5" />
+      <text class="byrne-op-text" x="204.0" y="94.0" text-anchor="middle">=</text>
+      <circle class="byrne-fill-red byrne-stroke-red" cx="236.0" cy="88.0" r="11.5" stroke-width="1.5" />
+      <text class="byrne-op-text" x="260.0" y="94.0" text-anchor="middle">:</text>
+      <path class="byrne-fill-yellow byrne-stroke-yellow" d="M 275.4 77.0 H 296.6 V 89.0 C 296.6 95.8 286.0 100.2 286.0 100.2 C 286.0 100.2 275.4 95.8 275.4 89.0 Z" stroke-width="1.5" stroke-linejoin="round" />
+      <text class="byrne-caption" x="338.0" y="94.0" text-anchor="middle">and</text>
+      <circle class="byrne-fill-red byrne-stroke-red" cx="388.0" cy="88.0" r="11.5" stroke-width="1.5" />
+      <text class="byrne-op-text" x="412.0" y="94.0" text-anchor="middle">:</text>
+      <path class="byrne-fill-yellow byrne-stroke-yellow" d="M 427.4 77.0 H 448.6 V 89.0 C 448.6 95.8 438.0 100.2 438.0 100.2 C 438.0 100.2 427.4 95.8 427.4 89.0 Z" stroke-width="1.5" stroke-linejoin="round" />
+      <text class="byrne-op-text" x="470.0" y="94.0" text-anchor="middle">=</text>
+      <polygon class="byrne-fill-black byrne-stroke-black" points="502.0,76.5 512.9,97.8 491.1,97.8" stroke-width="1.4" stroke-linejoin="round" />
+      <text class="byrne-op-text" x="526.0" y="94.0" text-anchor="middle">:</text>
+      <circle class="byrne-fill-black byrne-stroke-black" cx="552.0" cy="88.0" r="8.5" stroke-width="1.5" />
+      <line class="byrne-rule" x1="88" y1="126" x2="592" y2="126" />
+      <text class="byrne-mult" x="106.0" y="170.0" text-anchor="middle">M</text>
+      <polygon class="byrne-fill-blue byrne-stroke-blue" points="132.0,151.0 143.4,164.0 132.0,177.0 120.6,164.0" stroke-width="1.4" stroke-linejoin="round" />
+      <text class="byrne-op-text" x="182.0" y="170.0" text-anchor="middle">⊏,=,⊐</text>
+      <text class="byrne-mult" x="224.0" y="170.0" text-anchor="middle">m</text>
+      <rect class="byrne-fill-blue byrne-stroke-blue" x="237.5" y="153.5" width="21.0" height="21.0" stroke-width="1.5" />
+      <text class="byrne-op-text" x="288.0" y="170.0" text-anchor="middle">⟺</text>
+      <text class="byrne-mult" x="324.0" y="170.0" text-anchor="middle">M</text>
+      <circle class="byrne-fill-red byrne-stroke-red" cx="350.0" cy="164.0" r="11.5" stroke-width="1.5" />
+      <text class="byrne-op-text" x="400.0" y="170.0" text-anchor="middle">⊏,=,⊐</text>
+      <text class="byrne-mult" x="442.0" y="170.0" text-anchor="middle">m</text>
+      <path class="byrne-fill-yellow byrne-stroke-yellow" d="M 457.4 153.0 H 478.6 V 165.0 C 478.6 171.8 468.0 176.2 468.0 176.2 C 468.0 176.2 457.4 171.8 457.4 165.0 Z" stroke-width="1.5" stroke-linejoin="round" />
+      <text class="byrne-op-text" x="508.0" y="170.0" text-anchor="middle">⟺</text>
+      <text class="byrne-mult" x="544.0" y="170.0" text-anchor="middle">M</text>
+      <polygon class="byrne-fill-black byrne-stroke-black" points="570.0,152.5 580.9,173.8 559.1,173.8" stroke-width="1.4" stroke-linejoin="round" />
+      <line class="byrne-rule" x1="88" y1="200" x2="592" y2="200" />
+      <text class="byrne-op-text" x="214.0" y="248.0" text-anchor="middle">∴</text>
+      <polygon class="byrne-fill-blue byrne-stroke-blue" points="256.0,229.0 267.4,242.0 256.0,255.0 244.6,242.0" stroke-width="1.4" stroke-linejoin="round" />
+      <text class="byrne-op-text" x="284.0" y="248.0" text-anchor="middle">:</text>
+      <rect class="byrne-fill-blue byrne-stroke-blue" x="303.5" y="231.5" width="21.0" height="21.0" stroke-width="1.5" />
+      <text class="byrne-op-text" x="352.0" y="248.0" text-anchor="middle">=</text>
+      <polygon class="byrne-fill-black byrne-stroke-black" points="390.0,230.5 400.9,251.8 379.1,251.8" stroke-width="1.4" stroke-linejoin="round" />
+      <text class="byrne-op-text" x="418.0" y="248.0" text-anchor="middle">:</text>
+      <circle class="byrne-fill-black byrne-stroke-black" cx="446.0" cy="242.0" r="8.5" stroke-width="1.5" />
+      <text class="byrne-caption" x="340.0" y="282.0" text-anchor="middle">Ratios that are the same to the same ratio are the same to each other</text>
+    </g>
+    <g id="highlights"></g>
+    <g id="points"></g>
+    <g id="labels"></g>
+  </g>
+</svg>

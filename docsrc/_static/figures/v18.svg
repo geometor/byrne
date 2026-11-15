@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 680 300" width="680" height="300" data-graphic-id="v18" role="img" aria-label="Book V, Prop. XVIII — Componendo (Pickering p. 185)">
+  <title>Book V, Prop. XVIII — Componendo (Pickering p. 185)</title>
+  <style>
+  .euclid-graphic, :root {
+    --byrne-paper: #faf7f0;
+    --byrne-red: #d92b2b;
+    --byrne-blue: #1c6ea4;
+    --byrne-yellow: #e6b800;
+    --byrne-black: #1a1a1a;
+    --byrne-fill-red: #d92b2b;
+    --byrne-fill-blue: #1c6ea4;
+    --byrne-fill-yellow: #e6b800;
+    --byrne-fill-black: #1a1a1a;
+    --byrne-halo: rgba(250, 247, 240, 0.92);
+  }
+  @media (prefers-color-scheme: dark) {
+    .euclid-graphic, :root {
+      --byrne-paper: #16161a;
+      --byrne-red: #f04848;
+      --byrne-blue: #4ba3e3;
+      --byrne-yellow: #f5ca24;
+      --byrne-black: #e8e6df;
+      --byrne-fill-red: #d93838;
+      --byrne-fill-blue: #2574ab;
+      --byrne-fill-yellow: #dfb208;
+      --byrne-fill-black: #363945;
+      --byrne-halo: rgba(22, 22, 26, 0.92);
+    }
+  }
+  .euclid-graphic .svg-bg { fill: var(--byrne-paper); }
+  .euclid-graphic .byrne-stroke-red { stroke: var(--byrne-red); }
+  .euclid-graphic .byrne-stroke-blue { stroke: var(--byrne-blue); }
+  .euclid-graphic .byrne-stroke-yellow { stroke: var(--byrne-yellow); }
+  .euclid-graphic .byrne-stroke-black { stroke: var(--byrne-black); }
+  .euclid-graphic .byrne-stroke-none { stroke: none; }
+  .euclid-graphic .byrne-fill-red { fill: var(--byrne-fill-red); }
+  .euclid-graphic .byrne-fill-blue { fill: var(--byrne-fill-blue); }
+  .euclid-graphic .byrne-fill-yellow { fill: var(--byrne-fill-yellow); }
+  .euclid-graphic .byrne-fill-black { fill: var(--byrne-fill-black); }
+  .euclid-graphic .byrne-fill-none { fill: none; }
+  .euclid-graphic .byrne-dotted { stroke-dasharray: 2.6 3.8; }
+  .euclid-graphic .byrne-dashed { stroke-dasharray: 7 4.2; }
+  .euclid-graphic .byrne-plate-line { fill: none; stroke-width: 3.6; stroke-linecap: round; }
+  .euclid-graphic .byrne-plate-circle { fill: none; stroke-width: 2.7; stroke-linecap: round; }
+  .euclid-graphic .byrne-plate-poly { stroke-linejoin: round; stroke-width: 2.2; }
+  .euclid-graphic .byrne-plate-wedge { fill-opacity: 0.88; stroke-width: 1.4; stroke-linejoin: round; }
+  .euclid-graphic .byrne-ink {
+    fill: var(--byrne-black);
+    font-family: "EB Garamond", "Cochineal", "Georgia", serif;
+  }
+  .euclid-graphic .byrne-caption {
+    fill: var(--byrne-black);
+    opacity: 0.78;
+    font-size: 13px;
+    font-style: italic;
+    font-family: "EB Garamond", "Georgia", serif;
+  }
+  .euclid-graphic .byrne-heading {
+    fill: var(--byrne-black);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    font-family: "EB Garamond", "Georgia", serif;
+  }
+  .euclid-graphic .byrne-op-text {
+    fill: var(--byrne-black);
+    font-size: 21px;
+    font-weight: 600;
+    font-family: "EB Garamond", "Georgia", serif;
+  }
+  .euclid-graphic .byrne-mult {
+    fill: var(--byrne-black);
+    font-size: 19px;
+    font-style: italic;
+    font-weight: 600;
+    font-family: "EB Garamond", "Georgia", serif;
+  }
+  .euclid-graphic .byrne-rule {
+    stroke: var(--byrne-black);
+    stroke-opacity: 0.22;
+    stroke-width: 1.1;
+  }
+  .euclid-graphic .byrne-frac-bar {
+    stroke: var(--byrne-black);
+    stroke-width: 2.0;
+    stroke-linecap: round;
+  }
+
+  </style>
+  <rect class="svg-bg" x="0" y="0" width="680" height="300" rx="6" />
+  <g id="elements">
+    <g id="graphics">
+      <text class="byrne-heading" x="340.0" y="38.0" text-anchor="middle">BOOK V · PROPOSITION XVIII — COMPONENDO (p. 185)</text>
+      <text class="byrne-mult" x="166.0" y="94.0" text-anchor="middle">Let</text>
+      <path class="byrne-fill-red byrne-stroke-red" d="M 201.4 77.0 H 222.6 V 89.0 C 222.6 95.8 212.0 100.2 212.0 100.2 C 212.0 100.2 201.4 95.8 201.4 89.0 Z" stroke-width="1.5" stroke-linejoin="round" />
+      <text class="byrne-op-text" x="242.0" y="94.0" text-anchor="middle">:</text>
+      <path class="byrne-fill-none byrne-stroke-black" d="M 261.4 77.0 H 282.6 V 89.0 C 282.6 95.8 272.0 100.2 272.0 100.2 C 272.0 100.2 261.4 95.8 261.4 89.0 Z" stroke-width="2.5" stroke-linejoin="round" />
+      <text class="byrne-op-text" x="314.0" y="94.0" text-anchor="middle">∷</text>
+      <rect class="byrne-fill-yellow byrne-stroke-yellow" x="345.5" y="77.5" width="21.0" height="21.0" stroke-width="1.5" />
+      <text class="byrne-op-text" x="386.0" y="94.0" text-anchor="middle">:</text>
+      <polygon class="byrne-fill-blue byrne-stroke-blue" points="416.0,75.0 427.4,88.0 416.0,101.0 404.6,88.0" stroke-width="1.4" stroke-linejoin="round" />
+      <line class="byrne-rule" x1="90" y1="126" x2="590" y2="126" />
+      <text class="byrne-caption" x="176.0" y="170.0" text-anchor="middle">Separando (V.17) + V.9  ⟹</text>
+      <circle class="byrne-fill-black byrne-stroke-black" cx="316.0" cy="164.0" r="11.5" stroke-width="1.5" />
+      <text class="byrne-op-text" x="350.0" y="170.0" text-anchor="middle">=</text>
+      <polygon class="byrne-fill-blue byrne-stroke-blue" points="384.0,151.0 395.4,164.0 384.0,177.0 372.6,164.0" stroke-width="1.4" stroke-linejoin="round" />
+      <line class="byrne-rule" x1="90" y1="200" x2="590" y2="200" />
+      <text class="byrne-op-text" x="112.0" y="248.0" text-anchor="middle">∴</text>
+      <path class="byrne-fill-red byrne-stroke-red" d="M 139.4 231.0 H 160.6 V 243.0 C 160.6 249.8 150.0 254.2 150.0 254.2 C 150.0 254.2 139.4 249.8 139.4 243.0 Z" stroke-width="1.5" stroke-linejoin="round" />
+      <text class="byrne-op-text" x="180.0" y="248.0" text-anchor="middle">+</text>
+      <path class="byrne-fill-none byrne-stroke-black" d="M 199.4 231.0 H 220.6 V 243.0 C 220.6 249.8 210.0 254.2 210.0 254.2 C 210.0 254.2 199.4 249.8 199.4 243.0 Z" stroke-width="2.5" stroke-linejoin="round" />
+      <text class="byrne-op-text" x="242.0" y="248.0" text-anchor="middle">:</text>
+      <path class="byrne-fill-none byrne-stroke-black" d="M 263.4 231.0 H 284.6 V 243.0 C 284.6 249.8 274.0 254.2 274.0 254.2 C 274.0 254.2 263.4 249.8 263.4 243.0 Z" stroke-width="2.5" stroke-linejoin="round" />
+      <text class="byrne-op-text" x="318.0" y="248.0" text-anchor="middle">∷</text>
+      <rect class="byrne-fill-yellow byrne-stroke-yellow" x="351.5" y="231.5" width="21.0" height="21.0" stroke-width="1.5" />
+      <text class="byrne-op-text" x="392.0" y="248.0" text-anchor="middle">+</text>
+      <polygon class="byrne-fill-blue byrne-stroke-blue" points="422.0,229.0 433.4,242.0 422.0,255.0 410.6,242.0" stroke-width="1.4" stroke-linejoin="round" />
+      <text class="byrne-op-text" x="454.0" y="248.0" text-anchor="middle">:</text>
+      <polygon class="byrne-fill-blue byrne-stroke-blue" points="486.0,229.0 497.4,242.0 486.0,255.0 474.6,242.0" stroke-width="1.4" stroke-linejoin="round" />
+      <text class="byrne-caption" x="340.0" y="282.0" text-anchor="middle">Magnitudes proportional separately remain proportional jointly</text>
+    </g>
+    <g id="highlights"></g>
+    <g id="points"></g>
+    <g id="labels"></g>
+  </g>
+</svg>

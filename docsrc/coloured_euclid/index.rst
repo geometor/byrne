@@ -19,7 +19,7 @@ The First Six Books of the Elements of Euclid
    | **Author:** :person:`Oliver Byrne <byrne>`
    | **First Edition (London, 1847):** Published by :person:`William Pickering <pickering>`, printed by :person:`Charles Whittingham <whittingham>` at the Chiswick Press, 1847 (Internet Archive ``firstsixbooksofe00eucl``).
    | **Euclidean Base Text:** :person:`Robert Simson's <simson>` :cite:`1756 Glasgow Edition <simson:1756>` (35 Definitions, 3 Postulates, 12 Axioms).
-   | **Digital Critical Codex:** Dedicated per-proposition pages across Books I–VI with synchronized **Proposition · Commentary** tracks, Pickering 1847 folio links, interactive inline SVG color tokens, and exact ``geometor.model`` plates.
+   | **Digital Critical Codex:** Book Collection galleries with graphics across Books I–VI, dedicated per-proposition pages (**Proposition · Commentary**), Pickering 1847 folio scans, interactive inline SVG color tokens, and exact ``geometor.model`` plates.
 
 .. epigraph::
 
@@ -33,15 +33,21 @@ The First Six Books of the Elements of Euclid
 
 ----
 
-Table of Contents
------------------
+Books & Sections
+----------------
+
+.. collection::
+   :type: book
+   :sort: order
+
+----
+
+Proposition Outline (Books I–VI)
+--------------------------------
 
 .. container:: toc-outline
 
-   - **Preliminaries — Introduction, Definitions, Postulates, Axioms & Symbols** *(Pickering pp. vii–xxix)*
-
-     - :ref:`Byrne (1847) <byrne-unit-1-en>` · :ref:`Summary <byrne-unit-1-summary>` · :ref:`Notes <byrne-unit-1-notes>`
-
+   - :ref:`Preliminaries — Introduction, Definitions, Postulates, Axioms & Symbols <byrne-unit-1-en>` *(pp. vii–xxix)* · :ref:`Summary <byrne-unit-1-summary>` · :ref:`Notes <byrne-unit-1-notes>`
    - :ref:`Book I — Congruence, Parallels & The Pythagorean Theorem <byrne-book-i>` *(pp. 1–50)* · :ref:`Summary <byrne-book-i-summary>` · :ref:`Notes <byrne-book-i-notes>`
 
      - :ref:`Prop. I.1 <byrne-i-1>` — Equilateral Triangle *(p. 1 · G.84)*
@@ -81,40 +87,15 @@ Table of Contents
 
      - :ref:`Prop. VI.30 <byrne-vi-30>` — Extreme & Mean Ratio by Application of Areas *(p. 258 · G.328)*
 
-   - **Analytical Synthesis — Pointer-Free Visual Pseudocode (3-Way Rosetta)**
+   - :ref:`Pointer-Free Visual Pseudocode — 3-Way Rosetta Analysis <byrne-unit-7-en>` · :ref:`Summary <byrne-unit-7-summary>` · :ref:`Notes <byrne-unit-7-notes>`
 
-     - :ref:`Heath · Byrne · GEOMETOR Rosetta <byrne-unit-7-en>` · :ref:`Summary <byrne-unit-7-summary>` · :ref:`Notes <byrne-unit-7-notes>`
+Scholarly Apparatus
+-------------------
 
-   - **Scholarly Apparatus**
-
-     - :ref:`Byrne–Simson–Heath–G-Index Master Concordance <concordance>`
-     - :ref:`Systematic Bibliography <bibliography>`
-     - :ref:`Prosopographical Index of Persons <persons>`
-     - :ref:`Visual & Euclidean Glossary <glossary>`
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Byrne Edition (1847)
-
-   unit-1-foundations/unit-1-foundations-en
-   book-i/index
-   book-ii/index
-   book-iii/index
-   book-iv/index
-   book-v/index
-   book-vi/index
-   unit-7-visual-pseudocode/unit-7-visual-pseudocode-en
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: Preliminaries & Rosetta Tracks
-
-   unit-1-foundations/unit-1-foundations-summary
-   unit-1-foundations/unit-1-foundations-notes
-   unit-7-visual-pseudocode/unit-7-visual-pseudocode-summary
-   unit-7-visual-pseudocode/unit-7-visual-pseudocode-notes
+* :ref:`Byrne–Simson–Heath–G-Index Master Concordance <concordance>`
+* :ref:`Systematic Bibliography <bibliography>`
+* :ref:`Prosopographical Index of Persons <persons>`
+* :ref:`Visual & Euclidean Glossary <glossary>`
 
 .. toctree::
    :maxdepth: 1

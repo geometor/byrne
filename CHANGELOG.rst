@@ -2,6 +2,12 @@
 Changelog
 =========
 
+0.2.1 (2026-11-15)
+------------------
+
+- **added**: Top-level **Book Collection Gallery** (``.. collection::`` ``:type: book`` ``:sort: order``) in ``docsrc/coloured_euclid/index.rst`` and visible hero ``.. picture::`` plates across all 8 codex sections (``unit-1-foundations``, ``book-i`` through ``book-vi``, and ``unit-7-visual-pseudocode``, all unified onto ``index.rst`` + ``summary.rst`` + ``notes.rst`` companion tracks).
+- **added**: ``geometor.byrne.tableaux`` generating 7 theme-adaptive Chiswick Press ``.euclid-graphic`` SVG tableaux (``preliminaries.svg``, ``v_defs.svg``, ``v11.svg``, ``v16.svg``, ``v18.svg``, ``v22.svg``, ``rosetta.svg``) calibrated directly from the 1847 Pickering scan leaves so every Book card and every Book V proposition card renders an inline four-color SVG graphic.
+
 0.2.0 (2026-11-15)
 ------------------
 

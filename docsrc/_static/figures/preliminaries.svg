@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 680 300" width="680" height="300" data-graphic-id="preliminaries" role="img" aria-label="Oliver Byrne (1847) Preliminaries — Ocular Manifesto, Definitions &amp; Postulates">
+  <title>Oliver Byrne (1847) Preliminaries — Ocular Manifesto, Definitions &amp; Postulates</title>
+  <style>
+  .euclid-graphic, :root {
+    --byrne-paper: #faf7f0;
+    --byrne-red: #d92b2b;
+    --byrne-blue: #1c6ea4;
+    --byrne-yellow: #e6b800;
+    --byrne-black: #1a1a1a;
+    --byrne-fill-red: #d92b2b;
+    --byrne-fill-blue: #1c6ea4;
+    --byrne-fill-yellow: #e6b800;
+    --byrne-fill-black: #1a1a1a;
+    --byrne-halo: rgba(250, 247, 240, 0.92);
+  }
+  @media (prefers-color-scheme: dark) {
+    .euclid-graphic, :root {
+      --byrne-paper: #16161a;
+      --byrne-red: #f04848;
+      --byrne-blue: #4ba3e3;
+      --byrne-yellow: #f5ca24;
+      --byrne-black: #e8e6df;
+      --byrne-fill-red: #d93838;
+      --byrne-fill-blue: #2574ab;
+      --byrne-fill-yellow: #dfb208;
+      --byrne-fill-black: #363945;
+      --byrne-halo: rgba(22, 22, 26, 0.92);
+    }
+  }
+  .euclid-graphic .svg-bg { fill: var(--byrne-paper); }
+  .euclid-graphic .byrne-stroke-red { stroke: var(--byrne-red); }
+  .euclid-graphic .byrne-stroke-blue { stroke: var(--byrne-blue); }
+  .euclid-graphic .byrne-stroke-yellow { stroke: var(--byrne-yellow); }
+  .euclid-graphic .byrne-stroke-black { stroke: var(--byrne-black); }
+  .euclid-graphic .byrne-stroke-none { stroke: none; }
+  .euclid-graphic .byrne-fill-red { fill: var(--byrne-fill-red); }
+  .euclid-graphic .byrne-fill-blue { fill: var(--byrne-fill-blue); }
+  .euclid-graphic .byrne-fill-yellow { fill: var(--byrne-fill-yellow); }
+  .euclid-graphic .byrne-fill-black { fill: var(--byrne-fill-black); }
+  .euclid-graphic .byrne-fill-none { fill: none; }
+  .euclid-graphic .byrne-dotted { stroke-dasharray: 2.6 3.8; }
+  .euclid-graphic .byrne-dashed { stroke-dasharray: 7 4.2; }
+  .euclid-graphic .byrne-plate-line { fill: none; stroke-width: 3.6; stroke-linecap: round; }
+  .euclid-graphic .byrne-plate-circle { fill: none; stroke-width: 2.7; stroke-linecap: round; }
+  .euclid-graphic .byrne-plate-poly { stroke-linejoin: round; stroke-width: 2.2; }
+  .euclid-graphic .byrne-plate-wedge { fill-opacity: 0.88; stroke-width: 1.4; stroke-linejoin: round; }
+  .euclid-graphic .byrne-ink {
+    fill: var(--byrne-black);
+    font-family: "EB Garamond", "Cochineal", "Georgia", serif;
+  }
+  .euclid-graphic .byrne-caption {
+    fill: var(--byrne-black);
+    opacity: 0.78;
+    font-size: 13px;
+    font-style: italic;
+    font-family: "EB Garamond", "Georgia", serif;
+  }
+  .euclid-graphic .byrne-heading {
+    fill: var(--byrne-black);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    font-family: "EB Garamond", "Georgia", serif;
+  }
+  .euclid-graphic .byrne-op-text {
+    fill: var(--byrne-black);
+    font-size: 21px;
+    font-weight: 600;
+    font-family: "EB Garamond", "Georgia", serif;
+  }
+  .euclid-graphic .byrne-mult {
+    fill: var(--byrne-black);
+    font-size: 19px;
+    font-style: italic;
+    font-weight: 600;
+    font-family: "EB Garamond", "Georgia", serif;
+  }
+  .euclid-graphic .byrne-rule {
+    stroke: var(--byrne-black);
+    stroke-opacity: 0.22;
+    stroke-width: 1.1;
+  }
+  .euclid-graphic .byrne-frac-bar {
+    stroke: var(--byrne-black);
+    stroke-width: 2.0;
+    stroke-linecap: round;
+  }
+
+  </style>
+  <rect class="svg-bg" x="0" y="0" width="680" height="300" rx="6" />
+  <g id="elements">
+    <g id="graphics">
+      <line class="byrne-rule" x1="232" y1="26" x2="232" y2="294" />
+      <line class="byrne-rule" x1="456" y1="26" x2="456" y2="294" />
+      <text class="byrne-heading" x="120.0" y="42.0" text-anchor="middle">INTRODUCTION (pp. x–xi)</text>
+      <path class="byrne-fill-none byrne-stroke-black" d="M 52 198 H 78 V 224" stroke-width="1.8" />
+      <path class="byrne-plate-wedge byrne-fill-yellow byrne-stroke-yellow" d="M 52 84 L 52 118 A 34 34 0 0 0 76 108 Z" />
+      <path class="byrne-plate-wedge byrne-fill-blue byrne-stroke-blue" d="M 192 224 L 158 224 A 34 34 0 0 1 168 200 Z" />
+      <path class="byrne-plate-line byrne-stroke-blue" d="M 52 84 L 52 154 L 52 224" />
+      <path class="byrne-plate-line byrne-stroke-yellow" d="M 52 224 L 122 224 L 192 224" />
+      <path class="byrne-plate-line byrne-stroke-red" d="M 52 84 L 122 154 L 192 224" />
+      <text class="byrne-caption" x="120.0" y="268.0" text-anchor="middle">Self-naming colored primitives</text>
+      <text class="byrne-heading" x="344.0" y="42.0" text-anchor="middle">DEFINITIONS (pp. xviii–xxii)</text>
+      <path class="byrne-plate-wedge byrne-fill-yellow byrne-stroke-yellow" d="M 268 148 L 316 148 A 48 48 0 0 0 307 120 Z" />
+      <path class="byrne-plate-line byrne-stroke-red" d="M 268 148 L 328 148 L 388 148" />
+      <path class="byrne-plate-line byrne-stroke-blue" d="M 268 148 L 316 113 L 364 78" />
+      <path class="byrne-plate-line byrne-stroke-blue" d="M 292 184 L 348 184 L 404 184" />
+      <path class="byrne-plate-line byrne-stroke-blue" d="M 268 232 L 324 232 L 380 232" />
+      <path class="byrne-plate-line byrne-stroke-red" d="M 268 232 L 280 208 L 292 184" />
+      <path class="byrne-plate-line byrne-stroke-red" d="M 380 232 L 392 208 L 404 184" />
+      <text class="byrne-caption" x="344.0" y="268.0" text-anchor="middle">Def. IX angle · Def. XXXIII rhomboid</text>
+      <text class="byrne-heading" x="568.0" y="42.0" text-anchor="middle">POSTULATES I–III (pp. xxii–xxiii)</text>
+      <path class="byrne-plate-line byrne-stroke-yellow" d="M 492 86 L 568 86 L 644 86" />
+      <path class="byrne-plate-line byrne-stroke-red" d="M 492 108 L 568 108 L 644 108" />
+      <circle class="byrne-plate-circle byrne-stroke-blue" cx="546" cy="190" r="44" />
+      <circle class="byrne-plate-circle byrne-stroke-red" cx="590" cy="190" r="44" />
+      <path class="byrne-plate-line byrne-stroke-black" d="M 546 190 L 568 190 L 590 190" />
+      <path class="byrne-plate-line byrne-stroke-black byrne-dotted" d="M 590 190 L 617 190 L 644 190" />
+      <text class="byrne-caption" x="568.0" y="268.0" text-anchor="middle">Parallels · Straightedge &amp; Compass</text>
+    </g>
+    <g id="highlights"></g>
+    <g id="points"></g>
+    <g id="labels"></g>
+  </g>
+</svg>

@@ -8,6 +8,7 @@ from pathlib import Path
 from geometor.byrne.constructions import build_all_plates, build_plate, list_plate_ids
 from geometor.byrne.pseudocode import ROSETTA_PROGRAMS, compute_rosetta_metrics
 from geometor.byrne.render import export_all_plates, export_plate_svg
+from geometor.byrne.tableaux import export_all_tableaux
 
 
 def _cmd_list(_args: argparse.Namespace) -> int:
@@ -31,7 +32,10 @@ def _cmd_render(args: argparse.Namespace) -> int:
         print(f"Exported {plate.prop_id} -> {out}")
     else:
         written = export_all_plates(out_dir)
-        print(f"Exported {len(written)} Oliver Byrne plates -> {out_dir.resolve()}")
+        tableaux = export_all_tableaux(out_dir)
+        print(
+            f"Exported {len(written)} symbolic plates + {len(tableaux)} tableaux -> {out_dir.resolve()}"
+        )
     return 0
 
 

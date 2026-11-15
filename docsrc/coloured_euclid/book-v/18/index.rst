@@ -18,6 +18,11 @@ Proposition V.18 — Componendo (Joint Proportion)
 
 *If magnitudes, taken separately, be proportionals, they shall also be proportionals when taken jointly: that is, if the first be to the second as the third is to the fourth, the first and second together shall be to the second as the third and fourth together is to the fourth.*
 
+
+.. picture:: /_static/figures/v18.svg
+   :alt: Book V Proposition 18 — Chiswick Press colored magnitude tableau for Componendo.
+   :caption: **Pickering p. 185 Tableau (*Componendo*).** Composing antecedent and consequent colored tokens jointly.
+
 .. container:: byrne-eq-block
 
    **Given.** Let :byrne-mag:`red shield` : :byrne-mag:`black shield` :byrne-op:`prop` :byrne-mag:`yellow square` : :byrne-mag:`blue diamond`;

@@ -10,10 +10,12 @@
   "units": [
     {
       "id": "unit-1-foundations",
-      "title": "Introduction, Definitions, Postulates, Axioms & Symbols",
+      "title": "Preliminaries — Introduction, Definitions, Postulates, Axioms & Symbols",
       "pickering_pages": "pp. vii–xxix (leaves 11–33)",
       "propositions": [],
-      "plates": []
+      "plates": [
+        "preliminaries"
+      ]
     },
     {
       "id": "book-i",
@@ -93,7 +95,13 @@
         "V.18",
         "V.22"
       ],
-      "plates": []
+      "plates": [
+        "v_defs",
+        "v11",
+        "v16",
+        "v18",
+        "v22"
+      ]
     },
     {
       "id": "book-vi",
@@ -108,10 +116,12 @@
     },
     {
       "id": "unit-7-visual-pseudocode",
-      "title": "Pointer-Free Visual Pseudocode: 3-Way Rosetta Analysis (Heath · Byrne · GEOMETOR)",
+      "title": "Pointer-Free Visual Pseudocode — 3-Way Rosetta Analysis",
       "pickering_pages": "Analytical Synthesis",
       "propositions": [],
-      "plates": []
+      "plates": [
+        "rosetta"
+      ]
     }
   ]
 }

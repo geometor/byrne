@@ -1,14 +1,23 @@
+:layout: book
+:type: book
+:order: 0
+:title: Preliminaries — Introduction, Definitions, Postulates, Axioms & Symbols
+:folio: Introduction
+:page: vii
+
+.. _byrne-preliminaries:
 .. _byrne-unit-1-en:
 
-Unit I: Introduction, Definitions, Postulates, Axioms & Symbols
-===============================================================
+Preliminaries — Introduction, Definitions, Postulates, Axioms & Symbols
+=======================================================================
 
 .. rubric:: Oliver Byrne — *Pickering Edition* (pp. vii–xxix, Leaves 11–33)
 
-.. contents:: In This Unit
-   :local:
-   :depth: 2
-   :backlinks: none
+:person:`Oliver Byrne's <byrne>` 1847 *Introduction* establishes the manifesto of **pointer-free visual deduction**: geometric primitives are colored in Chiswick Press vermilion, ultramarine, gamboge, and lampblack so they *name themselves* directly inside the proof equations without alphabetic vertex labels, followed by :person:`Robert Simson's <simson>` 35 Definitions, 3 Postulates, 12 Axioms, and Byrne's operator key.
+
+.. picture:: /_static/figures/preliminaries.svg
+   :alt: Oliver Byrne 1847 Preliminaries plate showing the self-naming colored right triangle (pp. x–xi), Definition IX angle, Definition XXXIII rhomboid, parallel lines, and Postulates I–III circles.
+   :caption: **Preliminaries Overview (pp. x–xxiii).** Left: Byrne's *Introduction* right-angled triangle replacing 30 lines of alphabetic prose with self-naming colored sides and wedges. Center & Right: Simson's *Definitions* and *Postulates I–III* in four-color Chiswick Press register.
 
 .. folio:: Introduction
    :page: vii
@@ -120,3 +129,9 @@ Symbols and Abbreviations (pp. xxvii–xxix)
    * - :byrne-op:`prop`
      - ``:byrne-op:`prop```
      - Equality of ratios (``: ∷ :``) across Book V and Book VI proportions.
+
+.. toctree::
+   :hidden:
+
+   summary
+   notes
