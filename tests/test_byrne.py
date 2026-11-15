@@ -15,6 +15,7 @@ from geometor.byrne import (
     PHI,
     PLATE_REGISTRY,
     ROSETTA_PROGRAMS,
+    TABLEAU_IDS,
     __version__,
     build_all_plates,
     build_plate,
@@ -23,6 +24,7 @@ from geometor.byrne import (
     get_rosetta_program,
     list_plate_ids,
     render_plate_svg,
+    render_tableau_svg,
 )
 from geometor.byrne.__main__ import main as cli_main
 from geometor.byrne.palette import byrne_css_variables, stroke_dasharray
@@ -38,7 +40,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 
 
 def test_version_and_palette() -> None:
-    assert __version__ == "0.2.0"
+    assert __version__ == "0.2.1"
     assert set(BYRNE_COLORS.keys()) == {"red", "blue", "yellow", "black"}
     assert get_color_spec("RED").name == "red"
     assert get_color_spec("ink").name == "black"
@@ -182,6 +184,15 @@ def test_all_17_symbolic_constructions_exact_and_svg_valid() -> None:
             assert seg_path.attrib.get("data-ref", "").startswith("/")
 
 
+def test_tableaux_svgs_valid() -> None:
+    assert len(TABLEAU_IDS) == 7
+    for tid in TABLEAU_IDS:
+        svg_str = render_tableau_svg(tid)
+        assert 'class="euclid-graphic"' in svg_str
+        assert f'data-graphic-id="{tid}"' in svg_str
+        ET.fromstring(svg_str)
+
+
 def test_apparatus_json_and_rst_anchor_integrity() -> None:
     res_dir = REPO_ROOT / "resources" / "pickering_1847"
     for fname in (
@@ -237,6 +248,8 @@ def test_separate_book_and_proposition_pages() -> None:
     structure = json.loads((res_dir / "structure_map.json").read_text(encoding="utf-8"))
     folio_map = json.loads((res_dir / "folio_map.json").read_text(encoding="utf-8"))
 
+    assert ".. collection::" in (codex_dir / "index.rst").read_text(encoding="utf-8")
+
     # Legacy multi-proposition unit folders must not exist
     for legacy_slug in (
         "unit-2-book-i",
@@ -248,25 +261,30 @@ def test_separate_book_and_proposition_pages() -> None:
         assert not (codex_dir / legacy_slug).exists()
 
     prop_count = 0
-    book_units = [u for u in structure["units"] if u["id"].startswith("book-")]
-    assert len(book_units) == 6
+    assert len(structure["units"]) == 8
+    for unit in structure["units"]:
+        sec_dir = codex_dir / unit["id"]
+        assert (sec_dir / "index.rst").is_file()
+        assert (sec_dir / "summary.rst").is_file()
+        assert (sec_dir / "notes.rst").is_file()
+        sec_rst = (sec_dir / "index.rst").read_text(encoding="utf-8")
+        assert ".. picture:: /_static/figures/" in sec_rst
 
-    for unit in book_units:
-        book_dir = codex_dir / unit["id"]
-        assert (book_dir / "index.rst").is_file()
-        assert (book_dir / "summary.rst").is_file()
-        assert (book_dir / "notes.rst").is_file()
-        assert ".. collection::" in (book_dir / "index.rst").read_text(encoding="utf-8")
+        if unit["id"].startswith("book-"):
+            assert ".. collection::" in sec_rst
 
         for prop_id in unit["propositions"]:
             prop_num = int(prop_id.split(".")[1])
-            prop_dir = book_dir / f"{prop_num:02d}"
+            prop_dir = sec_dir / f"{prop_num:02d}"
             assert (prop_dir / "index.rst").is_file(), f"Missing {prop_dir}/index.rst"
             assert (prop_dir / "commentary.rst").is_file(), f"Missing {prop_dir}/commentary.rst"
+            prop_rst = (prop_dir / "index.rst").read_text(encoding="utf-8")
+            assert ".. picture:: /_static/figures/" in prop_rst, f"Missing plate in {prop_dir}"
             assert prop_id in folio_map["folios"], f"Missing folio mapping for {prop_id}"
             scan_file = REPO_ROOT / folio_map["folios"][prop_id]["default"]
             assert scan_file.is_file(), f"Missing scan image {scan_file} for {prop_id}"
             prop_count += 1
 
     assert prop_count == 21
+
 

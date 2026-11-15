@@ -1,5 +1,7 @@
+:layout: book
 :book: V
 :type: book
+:order: 5
 :title: Book V — Color-Coded Symbolic Algebra of Eudoxian Proportions
 :folio: V.Defs
 :page: 154
@@ -15,17 +17,19 @@ Book V — Color-Coded Symbolic Algebra of Eudoxian Proportions
 .. folio:: V.Defs
    :page: 154
 
-Byrne's Radical Leap in Book V: Abstract Colored Magnitude Tokens (p. 154)
---------------------------------------------------------------------------
+In Book V, :person:`Eudoxus <eudoxus>` and :person:`Euclid <euclid>` generalize ratio and proportion from spatial lines to *arbitrary continuous magnitudes of the same kind*—lengths, planar areas, polyhedral volumes, or angles. Recognizing that line diagrams obscure this universality, :person:`Oliver Byrne <byrne>` abandons spatial figures across pages ``153–212`` and introduces **typed colored magnitude symbols** (:byrne-mag:`red circle`, :byrne-mag:`yellow square`, :byrne-mag:`blue diamond`, :byrne-mag:`black shield`).
 
-In Book V, :person:`Eudoxus <eudoxus>` and :person:`Euclid <euclid>` generalize ratio and proportion from spatial lines to *arbitrary continuous magnitudes of the same kind*—lengths, planar areas, polyhedral volumes, angles, or time intervals. Recognizing that line diagrams obscure this universality, :person:`Oliver Byrne <byrne>` abandons spatial figures across pages ``153–212`` and introduces **typed colored magnitude symbols**:
+.. picture:: /_static/figures/v_defs.svg
+   :alt: Book V Featured Plate — Eudoxus's Criterion of Same Ratio in Oliver Byrne's colored magnitude tokens (Definition V, p. 154).
+   :caption: **Book V, Definition V (p. 154).** Byrne's Chiswick Press colored magnitude tokens (:byrne-mag:`red circle` : :byrne-mag:`yellow square` :byrne-op:`prop` :byrne-mag:`blue diamond` : :byrne-mag:`black shield`) and universal integer equimultiple test $M, m \in \mathbb{N}^+$.
+
+Byrne's Typed Magnitude Registers & Definition V (p. 154)
+---------------------------------------------------------
 
 * First magnitude: :byrne-mag:`red circle` (``:byrne-mag:`red circle```)
 * Second magnitude: :byrne-mag:`yellow square` (``:byrne-mag:`yellow square```)
 * Third magnitude: :byrne-mag:`blue diamond` (``:byrne-mag:`blue diamond```)
 * Fourth magnitude: :byrne-mag:`black shield` (``:byrne-mag:`black shield```)
-
-**Definition V (:just:`V.def.5` · Eudoxus's Criterion of Same Ratio, p. 154)**
 
 .. container:: byrne-eq-block
 
@@ -35,8 +39,8 @@ In Book V, :person:`Eudoxus <eudoxus>` and :person:`Euclid <euclid>` generalize 
    * if $M \cdot$ :byrne-mag:`red circle` = $m \cdot$ :byrne-mag:`yellow square`, then $M \cdot$ :byrne-mag:`blue diamond` = $m \cdot$ :byrne-mag:`black shield`; and
    * if $M \cdot$ :byrne-mag:`red circle` :byrne-op:`lt` $m \cdot$ :byrne-mag:`yellow square`, then $M \cdot$ :byrne-mag:`blue diamond` :byrne-op:`lt` $m \cdot$ :byrne-mag:`black shield`.
 
-Showcase Propositions of Book V
--------------------------------
+Propositions in Book V
+----------------------
 
 .. collection::
    :type: proposition

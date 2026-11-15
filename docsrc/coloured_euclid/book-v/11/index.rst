@@ -18,6 +18,11 @@ Proposition V.11 — Transitivity of Ratios
 
 *Ratios that are the same to the same ratio, are the same to each other.*
 
+
+.. picture:: /_static/figures/v11.svg
+   :alt: Book V Proposition 11 — Chiswick Press colored magnitude tableau for transitivity of ratios.
+   :caption: **Pickering p. 175 Tableau.** Transitivity of Eudoxian ratios across three colored magnitude pairs.
+
 .. container:: byrne-eq-block
 
    **Given.** Let :byrne-mag:`blue diamond` : :byrne-mag:`blue square` :byrne-op:`prop` :byrne-mag:`red circle` : :byrne-mag:`yellow shield` and :byrne-mag:`red circle` : :byrne-mag:`yellow shield` :byrne-op:`prop` :byrne-mag:`black pentagon` : :byrne-mag:`black circle`;
