@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Unit VII Notes: Compiler Diagnostics &amp; Interactive Synthesis &mdash; The First Six Books of the Elements of Euclid</title>
+  <title>Unit I Summary: Foundations &amp; Ocular Grammar &mdash; The First Six Books of the Elements of Euclid</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
@@ -21,7 +21,7 @@
   <link rel="icon" href="../../_static/favicon.ico" />
 </head>
 
-<body class="is-book-page book-theme-classical-serif">
+<body class="is-book-page book-theme-classical-serif" data-folio="Introduction">
   <header>
     <div class="logo">
       <a href="../../index.html">
@@ -66,7 +66,7 @@
     <div class="motto"></div>
   </header>
   <main class="book-main">
-    <article class="book-layout book-reading-pane">
+    <article class="book-layout book-reading-pane" data-folio="Introduction">
       <header class="book-header">
         <div class="book-header-bar">
           <div class="book-header-identity">
@@ -74,41 +74,40 @@
             <span class="book-header-sep">/</span>
             <a class="book-title-link" href="../index.html">The First Six Books of the Elements of Euclid</a>
           </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Book Breadcrumbs">
+            <a class="book-badge folio-badge folio-link" href="https://github.com/geometor/byrne/blob/main/resources/pickering_1847/0011.jpg" target="_blank" rel="noopener" title="View Folio Introduction (p. vii)">Folio Introduction | p. vii</a>
+          </div>
         </div>
         <div class="book-header-nav">
           <div class="book-nav-prev">
-            <a class="book-nav-btn" href="../book-vi/30/index.html" title="Proposition VI.30 — Extreme &amp; Mean Ratio by Application of Areas">&larr; <span class="nav-label">Prev</span></a>
+            <a class="book-nav-btn" href="../index.html" title="The First Six Books of the Elements of Euclid">&larr; <span class="nav-label">Prev</span></a>
           </div>
           <div class="book-nav-center">
             <nav class="book-tracks-nav" aria-label="Document Tracks">
-              <a class="book-track-item" href="unit-7-visual-pseudocode-en.html">English</a>
+              <a class="book-track-item" href="index.html">Overview</a>
               <span class="book-track-sep">&middot;</span>
-              <a class="book-track-item" href="unit-7-visual-pseudocode-summary.html">Summary</a>
+              <strong class="book-track-item is-active" aria-current="page">Summary</strong>
               <span class="book-track-sep">&middot;</span>
-              <strong class="book-track-item is-active" aria-current="page">Notes</strong>
+              <a class="book-track-item" href="notes.html">Notes</a>
             </nav>
           </div>
           <div class="book-nav-next">
-            <a class="book-nav-btn" href="../concordance.html" title="Byrne–Simson–Heath–G-Index Concordance"><span class="nav-label">Next</span> &rarr;</a>
+            <a class="book-nav-btn" href="../book-i/summary.html" title="Book I — Congruence, Parallels &amp; The Pythagorean Theorem"><span class="nav-label">Next</span> &rarr;</a>
           </div>
         </div>
       </header>
       <div class="content body book-content folio-book-page" role="main">
-        <section class="level-1" id="unit-vii-notes-compiler-diagnostics-interactive-synthesis">
-        <span id="byrne-unit-7-notes"></span><h1>Unit VII Notes: Compiler Diagnostics &amp; Interactive Synthesis<a class="headerlink" href="#unit-vii-notes-compiler-diagnostics-interactive-synthesis" title="Link to this heading">¶</a></h1>
-        <p class="rubric">Static Register Checking &amp; Future Extensions</p>
-        <section class="level-2" id="automated-register-auditing-analyze-visual-registers">
-        <h2>Automated Register Auditing (<a class="reference internal" href="../../modules/api/geometor/byrne/pseudocode/index.html#geometor.byrne.pseudocode.analyze_visual_registers" title="geometor.byrne.pseudocode.analyze_visual_registers"><code class="xref py py-func docutils literal notranslate"><span class="pre">analyze_visual_registers()</span></code></a>)<a class="headerlink" href="#automated-register-auditing-analyze-visual-registers" title="Link to this heading">¶</a></h2>
-        <p>When our static analyzer audits all seven propositions in <a class="reference internal" href="../../modules/api/geometor/byrne/pseudocode/index.html#geometor.byrne.pseudocode.ROSETTA_PROGRAMS" title="geometor.byrne.pseudocode.ROSETTA_PROGRAMS"><code class="xref py py-data docutils literal notranslate"><span class="pre">ROSETTA_PROGRAMS</span></code></a>, it verifies <code class="docutils literal notranslate"><span class="pre">is_unambiguous</span> <span class="pre">==</span> <span class="pre">True</span></code> across every proposition while automatically classifying Byrne’s two register-extension mechanisms:</p>
-        <ul class="simple">
-        <li><p><strong>Symmetric Congruence Twins</strong> (<cite>I.5</cite>, <cite>I.47</cite>, <cite>IV.11</cite>): Multiple <cite>geom_ref</cite> paths deliberately share a visual token because their equality is an invariant of the configuration.</p></li>
-        <li><p><strong>Stroke Modulation</strong> (<cite>I.47</cite>, <cite>II.11</cite>, <cite>IV.10</cite>, <cite>IV.11</cite>): Dashed, dotted, and solid-dotted strokes expand 4 colors into 16 distinct 1D line registers without requiring additional printing inks.</p></li>
-        </ul>
-        </section>
-        <section class="level-2" id="interactive-synergy-in-the-browser">
-        <h2>Interactive Synergy in the Browser<a class="headerlink" href="#interactive-synergy-in-the-browser" title="Link to this heading">¶</a></h2>
-        <p>In print (1847), a reader still locates a <span class="byrne-token geom-ref" data-byrne-kind="rect" data-byrne-color="yellow" title="Ochre Gamboge Yellow filled rectangle" role="img" aria-label="Ochre Gamboge Yellow filled rectangle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-rect" width="24" height="16" viewBox="0 0 24 16" aria-hidden="true"><rect class="byrne-fill-yellow byrne-stroke-yellow" x="2" y="2.5" width="20" height="11" stroke-width="1.5" /></svg></span> token on the diagram by color perception alone. In <code class="docutils literal notranslate"><span class="pre">geometor/byrne</span></code>, <code class="docutils literal notranslate"><span class="pre">byrne_interactive.js</span></code> and <code class="docutils literal notranslate"><span class="pre">geometor_interactive.js</span></code> unite Byrne’s pass-by-value color tokens with GEOMETOR’s exact <code class="docutils literal notranslate"><span class="pre">data-ref</span></code> graph—so hovering or locking any inline glyph dims unrelated ink and pulses the exact SymPy-constructed geometric entity!</p>
-        </section>
+        <section class="level-1" id="unit-i-summary-foundations-ocular-grammar">
+        <span id="byrne-unit-1-summary"></span><h1>Unit I Summary: Foundations &amp; Ocular Grammar<a class="headerlink" href="#unit-i-summary-foundations-ocular-grammar" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Executive Synthesis of Byrne’s Preliminary Apparatus (pp. vii–xxix)</p>
+        <ol class="arabic simple">
+        <li><p><strong>The Pedagogical Thesis (pp. vii–xvi)</strong>:
+        <a class="person-ref" id="occ-person-byrne-1" href="../persons.html#person-byrne" data-person="byrne" title="Oliver Byrne (1810 – 1880) — Irish Civil Engineer, Surveyor &amp; Mathematical Author">Oliver Byrne</a> argues that Euclidean geometry appears arduous to beginners not because its spatial reasoning is obscure, but because <em>alphabetic vertex naming</em> interposes an artificial verbal cipher between eye and diagram. By making colored lines, angles, and planar regions <em>name themselves</em>, deductive inference operates directly on visual primitives.</p></li>
+        <li><p><strong>Simson’s Axiomatic Base (pp. xvii–xxiv)</strong>:
+        Byrne retains the rigorous deductive skeleton of <a class="person-ref" id="occ-person-simson-1" href="../persons.html#person-simson" data-person="simson" title="Robert Simson (1687 – 1768) — Scottish Mathematician &amp; Professor of Mathematics at Glasgow">Robert Simson's</a> <a class="citation-ref" id="occ-cite-simson-1756-1" href="../bibliography.html#cite-simson-1756" data-cite="simson:1756" title="Robert Simson — The Elements of Euclid, viz. the First Six Books, together with the Eleventh and Twelfth (Glasgow: Robert and Andrew Foulis, 1756)">1756 Glasgow edition</a>: <strong>35 Definitions</strong> (subdividing quadrilaterals up to <code class="docutils literal notranslate"><span class="pre">Def.</span> <span class="pre">27</span></code> square and <code class="docutils literal notranslate"><span class="pre">Def.</span> <span class="pre">35</span></code> parallels), <strong>3 Constructive Postulates</strong> (straightedge join, straightedge extension, compass circle), and <strong>12 Axioms</strong> (relocating Euclid’s Fourth and Fifth Postulates to <code class="docutils literal notranslate"><span class="pre">Axiom</span> <span class="pre">XI</span></code> and <code class="docutils literal notranslate"><span class="pre">Axiom</span> <span class="pre">XII</span></code>).</p></li>
+        <li><p><strong>Algebraic Compression of Prose (pp. xxv–xxix)</strong>:
+        Through his <em>Elucidations</em> and <em>Symbols and Abbreviations</em>, Byrne equips Euclidean deduction with a compact operator vocabulary (<code class="docutils literal notranslate"><span class="pre">=</span></code>, <code class="docutils literal notranslate"><span class="pre">+</span></code>, <code class="docutils literal notranslate"><span class="pre">-</span></code>, <span class="byrne-op-token" title="Greater than (Byrne 1847 ⊏)">⊏</span>, <span class="byrne-op-token" title="Less than (Byrne 1847 ⊐)">⊐</span>, <span class="byrne-op-token" title="Parallel to (∥)">∥</span>, <span class="byrne-op-token" title="Perpendicular to (⊥)">⊥</span>, <span class="byrne-op-token" title="One right angle (Byrne 1847 quadrant)" aria-label="one right angle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-op" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path class="byrne-fill-none byrne-stroke-black" d="M 3 2 V 13.5 H 14.5 M 3 4.5 A 9 9 0 0 1 12 13.5" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" /></svg></span>, <span class="byrne-op-token" title="Two right angles (Byrne 1847 bisected semicircle)" aria-label="two right angles"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-op" width="24" height="15" viewBox="0 0 24 15" aria-hidden="true"><path class="byrne-fill-none byrne-stroke-black" d="M 1.5 13 H 22.5 M 3.5 13 A 8.5 8.5 0 0 1 20.5 13 M 12 13 V 2" stroke-width="1.65" stroke-linecap="round" /></svg></span>, <span class="byrne-op-token" title="Therefore (∴)">∴</span>, <span class="byrne-op-token" title="Because (∵)">∵</span>), transforming dense paragraphs into scannable vertical equations.</p></li>
+        </ol>
         </section>
 
       </div>
@@ -116,13 +115,13 @@
         <div class="book-footer-ornament">&#10086;</div>
         <div class="book-footer-nav">
           <div class="book-nav-prev">
-            <a class="book-nav-btn" href="../book-vi/30/index.html" title="Proposition VI.30 — Extreme &amp; Mean Ratio by Application of Areas">&larr; <span class="nav-label">Proposition VI.30 — Extreme & Mean Ratio by Application of Areas</span></a>
+            <a class="book-nav-btn" href="../index.html" title="The First Six Books of the Elements of Euclid">&larr; <span class="nav-label">The First Six Books of the Elements of Euclid</span></a>
           </div>
           <div class="book-nav-center">
             <a class="book-toc-link" href="../index.html">The First Six Books of the Elements of Euclid</a>
           </div>
           <div class="book-nav-next">
-            <a class="book-nav-btn" href="../concordance.html" title="Byrne–Simson–Heath–G-Index Concordance"><span class="nav-label">Byrne–Simson–Heath–G-Index Concordance</span> &rarr;</a>
+            <a class="book-nav-btn" href="../book-i/summary.html" title="Book I — Congruence, Parallels &amp; The Pythagorean Theorem"><span class="nav-label">Book I — Congruence, Parallels & The Pythagorean Theorem</span> &rarr;</a>
           </div>
         </div>
       </footer>
@@ -182,7 +181,7 @@
 
   <script src="../../_static/jquery.js?v=5d32c60e"></script>
   <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-  <script src="../../_static/documentation_options.js?v=938c9ccc"></script>
+  <script src="../../_static/documentation_options.js?v=37f418d5"></script>
   <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>

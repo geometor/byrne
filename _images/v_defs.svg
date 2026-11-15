@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 680 304" width="680" height="304" data-graphic-id="v_defs" role="img" aria-label="Book V, Definition V — Colored Magnitude Tokens &amp; Equimultiple Criterion">
+  <title>Book V, Definition V — Colored Magnitude Tokens &amp; Equimultiple Criterion</title>
+  <style>
+  .euclid-graphic, :root {
+    --byrne-paper: #faf7f0;
+    --byrne-red: #d92b2b;
+    --byrne-blue: #1c6ea4;
+    --byrne-yellow: #e6b800;
+    --byrne-black: #1a1a1a;
+    --byrne-fill-red: #d92b2b;
+    --byrne-fill-blue: #1c6ea4;
+    --byrne-fill-yellow: #e6b800;
+    --byrne-fill-black: #1a1a1a;
+    --byrne-halo: rgba(250, 247, 240, 0.92);
+  }
+  @media (prefers-color-scheme: dark) {
+    .euclid-graphic, :root {
+      --byrne-paper: #16161a;
+      --byrne-red: #f04848;
+      --byrne-blue: #4ba3e3;
+      --byrne-yellow: #f5ca24;
+      --byrne-black: #e8e6df;
+      --byrne-fill-red: #d93838;
+      --byrne-fill-blue: #2574ab;
+      --byrne-fill-yellow: #dfb208;
+      --byrne-fill-black: #363945;
+      --byrne-halo: rgba(22, 22, 26, 0.92);
+    }
+  }
+  .euclid-graphic .svg-bg { fill: var(--byrne-paper); }
+  .euclid-graphic .byrne-stroke-red { stroke: var(--byrne-red); }
+  .euclid-graphic .byrne-stroke-blue { stroke: var(--byrne-blue); }
+  .euclid-graphic .byrne-stroke-yellow { stroke: var(--byrne-yellow); }
+  .euclid-graphic .byrne-stroke-black { stroke: var(--byrne-black); }
+  .euclid-graphic .byrne-stroke-none { stroke: none; }
+  .euclid-graphic .byrne-fill-red { fill: var(--byrne-fill-red); }
+  .euclid-graphic .byrne-fill-blue { fill: var(--byrne-fill-blue); }
+  .euclid-graphic .byrne-fill-yellow { fill: var(--byrne-fill-yellow); }
+  .euclid-graphic .byrne-fill-black { fill: var(--byrne-fill-black); }
+  .euclid-graphic .byrne-fill-none { fill: none; }
+  .euclid-graphic .byrne-dotted { stroke-dasharray: 2.6 3.8; }
+  .euclid-graphic .byrne-dashed { stroke-dasharray: 7 4.2; }
+  .euclid-graphic .byrne-plate-line { fill: none; stroke-width: 3.6; stroke-linecap: round; }
+  .euclid-graphic .byrne-plate-circle { fill: none; stroke-width: 2.7; stroke-linecap: round; }
+  .euclid-graphic .byrne-plate-poly { stroke-linejoin: round; stroke-width: 2.2; }
+  .euclid-graphic .byrne-plate-wedge { fill-opacity: 0.88; stroke-width: 1.4; stroke-linejoin: round; }
+  .euclid-graphic .byrne-ink {
+    fill: var(--byrne-black);
+    font-family: "EB Garamond", "Cochineal", "Georgia", serif;
+  }
+  .euclid-graphic .byrne-caption {
+    fill: var(--byrne-black);
+    opacity: 0.78;
+    font-size: 13px;
+    font-style: italic;
+    font-family: "EB Garamond", "Georgia", serif;
+  }
+  .euclid-graphic .byrne-heading {
+    fill: var(--byrne-black);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    font-family: "EB Garamond", "Georgia", serif;
+  }
+  .euclid-graphic .byrne-op-text {
+    fill: var(--byrne-black);
+    font-size: 21px;
+    font-weight: 600;
+    font-family: "EB Garamond", "Georgia", serif;
+  }
+  .euclid-graphic .byrne-mult {
+    fill: var(--byrne-black);
+    font-size: 19px;
+    font-style: italic;
+    font-weight: 600;
+    font-family: "EB Garamond", "Georgia", serif;
+  }
+  .euclid-graphic .byrne-rule {
+    stroke: var(--byrne-black);
+    stroke-opacity: 0.22;
+    stroke-width: 1.1;
+  }
+  .euclid-graphic .byrne-frac-bar {
+    stroke: var(--byrne-black);
+    stroke-width: 2.0;
+    stroke-linecap: round;
+  }
+
+  </style>
+  <rect class="svg-bg" x="0" y="0" width="680" height="304" rx="6" />
+  <g id="elements">
+    <g id="graphics">
+      <text class="byrne-heading" x="340.0" y="38.0" text-anchor="middle">BOOK V · DEFINITION V — EUDOXIAN PROPORTION (p. 154)</text>
+      <circle class="byrne-fill-red byrne-stroke-red" cx="196.0" cy="86.0" r="11.5" stroke-width="1.5" />
+      <text class="byrne-op-text" x="224.0" y="93.0" text-anchor="middle">:</text>
+      <rect class="byrne-fill-yellow byrne-stroke-yellow" x="243.5" y="75.5" width="21.0" height="21.0" stroke-width="1.5" />
+      <text class="byrne-op-text" x="296.0" y="93.0" text-anchor="middle">∷</text>
+      <polygon class="byrne-fill-blue byrne-stroke-blue" points="338.0,73.0 349.4,86.0 338.0,99.0 326.6,86.0" stroke-width="1.4" stroke-linejoin="round" />
+      <text class="byrne-op-text" x="366.0" y="93.0" text-anchor="middle">:</text>
+      <path class="byrne-fill-black byrne-stroke-black" d="M 385.4 75.0 H 406.6 V 87.0 C 406.6 93.8 396.0 98.2 396.0 98.2 C 396.0 98.2 385.4 93.8 385.4 87.0 Z" stroke-width="1.5" stroke-linejoin="round" />
+      <text class="byrne-caption" x="465.0" y="91.0" text-anchor="start">(same ratio)</text>
+      <circle class="byrne-fill-red byrne-stroke-red" cx="276.0" cy="134.0" r="9.5" stroke-width="1.5" />
+      <line class="byrne-frac-bar" x1="258" y1="152" x2="294" y2="152" />
+      <rect class="byrne-fill-yellow byrne-stroke-yellow" x="267.2" y="162.2" width="17.5" height="17.5" stroke-width="1.5" />
+      <text class="byrne-op-text" x="322.0" y="159.0" text-anchor="middle">=</text>
+      <polygon class="byrne-fill-blue byrne-stroke-blue" points="368.0,123.5 377.2,134.0 368.0,144.5 358.8,134.0" stroke-width="1.4" stroke-linejoin="round" />
+      <line class="byrne-frac-bar" x1="350" y1="152" x2="386" y2="152" />
+      <path class="byrne-fill-black byrne-stroke-black" d="M 359.4 162.0 H 376.6 V 171.8 C 376.6 177.4 368.0 181.0 368.0 181.0 C 368.0 181.0 359.4 177.4 359.4 171.8 Z" stroke-width="1.5" stroke-linejoin="round" />
+      <line class="byrne-rule" x1="88" y1="202" x2="592" y2="202" />
+      <text class="byrne-mult" x="94.0" y="244.0" text-anchor="start">If  M</text>
+      <circle class="byrne-fill-red byrne-stroke-red" cx="154.0" cy="238.0" r="11.5" stroke-width="1.5" />
+      <text class="byrne-op-text" x="214.0" y="244.0" text-anchor="middle">⊏ , = , ⊐</text>
+      <text class="byrne-mult" x="266.0" y="244.0" text-anchor="middle">m</text>
+      <rect class="byrne-fill-yellow byrne-stroke-yellow" x="283.5" y="227.5" width="21.0" height="21.0" stroke-width="1.5" />
+      <text class="byrne-op-text" x="344.0" y="244.0" text-anchor="middle">⟹</text>
+      <text class="byrne-mult" x="386.0" y="244.0" text-anchor="middle">M</text>
+      <polygon class="byrne-fill-blue byrne-stroke-blue" points="414.0,225.0 425.4,238.0 414.0,251.0 402.6,238.0" stroke-width="1.4" stroke-linejoin="round" />
+      <text class="byrne-op-text" x="474.0" y="244.0" text-anchor="middle">⊏ , = , ⊐</text>
+      <text class="byrne-mult" x="526.0" y="244.0" text-anchor="middle">m</text>
+      <path class="byrne-fill-black byrne-stroke-black" d="M 543.4 227.0 H 564.6 V 239.0 C 564.6 245.8 554.0 250.2 554.0 250.2 C 554.0 250.2 543.4 245.8 543.4 239.0 Z" stroke-width="1.5" stroke-linejoin="round" />
+      <text class="byrne-caption" x="340.0" y="282.0" text-anchor="middle">Universal for all integer equimultiples M, m ∈ ℕ⁺</text>
+    </g>
+    <g id="highlights"></g>
+    <g id="points"></g>
+    <g id="labels"></g>
+  </g>
+</svg>

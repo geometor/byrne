@@ -18,6 +18,11 @@ Proposition V.16 — Alternando (Alternate Proportion)
 
 *If four magnitudes of the same kind be proportionals, they are also proportionals when taken alternately.*
 
+
+.. picture:: /_static/figures/v16.svg
+   :alt: Book V Proposition 16 — Chiswick Press colored magnitude tableau for Alternando.
+   :caption: **Pickering p. 181 Tableau (*Alternando*).** Interchanging the middle colored magnitudes preserves proportion.
+
 .. container:: byrne-eq-block
 
    **Given.** Let :byrne-mag:`red shield` : :byrne-mag:`black shield` :byrne-op:`prop` :byrne-mag:`yellow square` : :byrne-mag:`blue diamond`;

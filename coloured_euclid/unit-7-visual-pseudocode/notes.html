@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Unit VII Summary: Complementarity of the Three Euclidean Formalisms &mdash; The First Six Books of the Elements of Euclid</title>
+  <title>Unit VII Notes: Compiler Diagnostics &amp; Interactive Synthesis &mdash; The First Six Books of the Elements of Euclid</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
@@ -81,11 +81,11 @@
           </div>
           <div class="book-nav-center">
             <nav class="book-tracks-nav" aria-label="Document Tracks">
-              <a class="book-track-item" href="unit-7-visual-pseudocode-en.html">English</a>
+              <a class="book-track-item" href="index.html">Overview</a>
               <span class="book-track-sep">&middot;</span>
-              <strong class="book-track-item is-active" aria-current="page">Summary</strong>
+              <a class="book-track-item" href="summary.html">Summary</a>
               <span class="book-track-sep">&middot;</span>
-              <a class="book-track-item" href="unit-7-visual-pseudocode-notes.html">Notes</a>
+              <strong class="book-track-item is-active" aria-current="page">Notes</strong>
             </nav>
           </div>
           <div class="book-nav-next">
@@ -94,47 +94,21 @@
         </div>
       </header>
       <div class="content body book-content folio-book-page" role="main">
-        <section class="level-1" id="unit-vii-summary-complementarity-of-the-three-euclidean-formalisms">
-        <span id="byrne-unit-7-summary"></span><h1>Unit VII Summary: Complementarity of the Three Euclidean Formalisms<a class="headerlink" href="#unit-vii-summary-complementarity-of-the-three-euclidean-formalisms" title="Link to this heading">¶</a></h1>
-        <p class="rubric">Synthesis of Textual, Chromatic &amp; Symbolic Representations</p>
-        <table class="docutils align-default" id="id1">
-        <caption><span class="caption-text"><strong>Architectural Comparison Across the GEOMETOR Triad</strong></span><a class="headerlink" href="#id1" title="Link to this table">¶</a></caption>
-        <colgroup>
-        <col style="width: 22.0%" />
-        <col style="width: 26.0%" />
-        <col style="width: 26.0%" />
-        <col style="width: 26.0%" />
-        </colgroup>
-        <thead>
-        <tr class="row-odd"><th class="head"><p>Dimension</p></th>
-        <th class="head"><p>Heath / <code class="docutils literal notranslate"><span class="pre">geometor/euclid</span></code></p></th>
-        <th class="head"><p>Byrne 1847 / <code class="docutils literal notranslate"><span class="pre">geometor/byrne</span></code></p></th>
-        <th class="head"><p><code class="docutils literal notranslate"><span class="pre">geometor/elements</span></code> &amp; <code class="docutils literal notranslate"><span class="pre">model</span></code></p></th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="row-even"><td><p><strong>Binding Model</strong></p></td>
-        <td><p>Pass-by-reference (<cite>A, B, C</cite>)</p></td>
-        <td><p>Pass-by-value (<span class="byrne-token geom-ref" data-byrne-kind="line" data-byrne-color="red" title="Vermilion Red solid line" role="img" aria-label="Vermilion Red solid line"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-line" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><line class="byrne-stroke-red" x1="1.5" y1="8.0" x2="28.5" y2="8.0" stroke-width="3.2" stroke-linecap="round" /></svg></span>, <span class="byrne-token geom-ref" data-byrne-kind="sq" data-byrne-color="black" title="Chiswick Lampblack Ink filled square" role="img" aria-label="Chiswick Lampblack Ink filled square"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-sq" width="17" height="17" viewBox="0 0 17 17" aria-hidden="true"><rect class="byrne-fill-black byrne-stroke-black" x="2" y="2" width="13" height="13" stroke-width="1.5" /></svg></span>)</p></td>
-        <td><p>Typed Symbolic DAG (<cite>Point</cite>, <cite>Circle</cite>, <cite>Polygon</cite>)</p></td>
-        </tr>
-        <tr class="row-odd"><td><p><strong>Cognitive Strength</strong></p></td>
-        <td><p>Unbounded variable namespace</p></td>
-        <td><p>Zero eye-lookup latency; instant symmetry</p></td>
-        <td><p>Deterministic machine constructibility</p></td>
-        </tr>
-        <tr class="row-even"><td><p><strong>Scaling Limit</strong></p></td>
-        <td><p>High working-memory indirection</p></td>
-        <td><p>4-color <a class="term-ref glossary-term" id="occ-term-register-pressure-1" href="../glossary.html#term-register-pressure" data-term="register-pressure" title="Chromatic Register Pressure (Four-Color Disambiguation Limit): When a proposition contains more than four primitives of the same geometric sort (e.g. five pentagon sides in IV.11), requiring stroke modulation (dashed, dotted, solid-dotted) to preserve uniqueness.">register pressure</a></p></td>
-        <td><p>Requires explicit orientation selectors (<cite>side_of</cite>)</p></td>
-        </tr>
-        <tr class="row-odd"><td><p><strong>Proof Verification</strong></p></td>
-        <td><p>Natural-language syllogism</p></td>
-        <td><p>Visual equational inspection</p></td>
-        <td><p>Exact SymPy polynomial/radical simplification</p></td>
-        </tr>
-        </tbody>
-        </table>
+        <section class="level-1" id="unit-vii-notes-compiler-diagnostics-interactive-synthesis">
+        <span id="byrne-unit-7-notes"></span><h1>Unit VII Notes: Compiler Diagnostics &amp; Interactive Synthesis<a class="headerlink" href="#unit-vii-notes-compiler-diagnostics-interactive-synthesis" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Static Register Checking &amp; Future Extensions</p>
+        <section class="level-2" id="automated-register-auditing-analyze-visual-registers">
+        <h2>Automated Register Auditing (<a class="reference internal" href="../../modules/api/geometor/byrne/pseudocode/index.html#geometor.byrne.pseudocode.analyze_visual_registers" title="geometor.byrne.pseudocode.analyze_visual_registers"><code class="xref py py-func docutils literal notranslate"><span class="pre">analyze_visual_registers()</span></code></a>)<a class="headerlink" href="#automated-register-auditing-analyze-visual-registers" title="Link to this heading">¶</a></h2>
+        <p>When our static analyzer audits all seven propositions in <a class="reference internal" href="../../modules/api/geometor/byrne/pseudocode/index.html#geometor.byrne.pseudocode.ROSETTA_PROGRAMS" title="geometor.byrne.pseudocode.ROSETTA_PROGRAMS"><code class="xref py py-data docutils literal notranslate"><span class="pre">ROSETTA_PROGRAMS</span></code></a>, it verifies <code class="docutils literal notranslate"><span class="pre">is_unambiguous</span> <span class="pre">==</span> <span class="pre">True</span></code> across every proposition while automatically classifying Byrne’s two register-extension mechanisms:</p>
+        <ul class="simple">
+        <li><p><strong>Symmetric Congruence Twins</strong> (<cite>I.5</cite>, <cite>I.47</cite>, <cite>IV.11</cite>): Multiple <cite>geom_ref</cite> paths deliberately share a visual token because their equality is an invariant of the configuration.</p></li>
+        <li><p><strong>Stroke Modulation</strong> (<cite>I.47</cite>, <cite>II.11</cite>, <cite>IV.10</cite>, <cite>IV.11</cite>): Dashed, dotted, and solid-dotted strokes expand 4 colors into 16 distinct 1D line registers without requiring additional printing inks.</p></li>
+        </ul>
+        </section>
+        <section class="level-2" id="interactive-synergy-in-the-browser">
+        <h2>Interactive Synergy in the Browser<a class="headerlink" href="#interactive-synergy-in-the-browser" title="Link to this heading">¶</a></h2>
+        <p>In print (1847), a reader still locates a <span class="byrne-token geom-ref" data-byrne-kind="rect" data-byrne-color="yellow" title="Ochre Gamboge Yellow filled rectangle" role="img" aria-label="Ochre Gamboge Yellow filled rectangle"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-rect" width="24" height="16" viewBox="0 0 24 16" aria-hidden="true"><rect class="byrne-fill-yellow byrne-stroke-yellow" x="2" y="2.5" width="20" height="11" stroke-width="1.5" /></svg></span> token on the diagram by color perception alone. In <code class="docutils literal notranslate"><span class="pre">geometor/byrne</span></code>, <code class="docutils literal notranslate"><span class="pre">byrne_interactive.js</span></code> and <code class="docutils literal notranslate"><span class="pre">geometor_interactive.js</span></code> unite Byrne’s pass-by-value color tokens with GEOMETOR’s exact <code class="docutils literal notranslate"><span class="pre">data-ref</span></code> graph—so hovering or locking any inline glyph dims unrelated ink and pulses the exact SymPy-constructed geometric entity!</p>
+        </section>
         </section>
 
       </div>
@@ -208,7 +182,7 @@
 
   <script src="../../_static/jquery.js?v=5d32c60e"></script>
   <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-  <script src="../../_static/documentation_options.js?v=938c9ccc"></script>
+  <script src="../../_static/documentation_options.js?v=37f418d5"></script>
   <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>

@@ -10,6 +10,10 @@ Pointer-Free Visual Pseudocode
 
 Long before structured programming, dataflow visual languages, or modern IDE token highlighting, :person:`Oliver Byrne <byrne>` (:cite:`1847, pp. ix–xi, xxvii–xxix <byrne:1847>`) diagnosed the fundamental cognitive bottleneck of classical Euclidean deduction: **alphabetic pointer dereferencing**.
 
+.. picture:: /_static/figures/rosetta.svg
+   :alt: Three-column Rosetta comparison between Heath alphabetic pointers, Byrne pass-by-value color tokens, and GEOMETOR exact symbolic DAG.
+   :caption: **3-Way Rosetta Architecture.** Heath (1908) alphabetic pointers vs. Byrne (1847) pass-by-value colored literals vs. GEOMETOR exact SymPy algebraic DAG.
+
 Pass-by-Reference vs. Pass-by-Value in Geometry
 -----------------------------------------------
 

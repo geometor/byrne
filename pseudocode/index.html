@@ -91,6 +91,76 @@
         <h1>Pointer-Free Visual Pseudocode<a class="headerlink" href="#pointer-free-visual-pseudocode" title="Link to this heading">¶</a></h1>
         <p class="rubric">Oliver Byrne (1847) as a Pointer-Free Visual Programming Language</p>
         <p>Long before structured programming, dataflow visual languages, or modern IDE token highlighting, <span class="person-ref" data-person="byrne" title="Oliver Byrne (1810 – 1880) — Irish Civil Engineer, Surveyor &amp; Mathematical Author">Oliver Byrne</span> (<span class="citation-ref" data-cite="byrne:1847" title="Oliver Byrne — The First Six Books of the Elements of Euclid in Which Coloured Diagrams and Symbols Are Used Instead of Letters for the Greater Ease of Learners (London: William Pickering (printed by Charles Whittingham, Chiswick Press), 1847)">1847, pp. ix–xi, xxvii–xxix</span>) diagnosed the fundamental cognitive bottleneck of classical Euclidean deduction: <strong>alphabetic pointer dereferencing</strong>.</p>
+        <figure class="photon-picture photon-svg">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 296" width="680" height="296" data-graphic-id="rosetta" role="img" aria-label="3-Way Rosetta Synthesis — Heath (1908) · Byrne (1847) · GEOMETOR Symbolic DAG" data-svg-scope="s-457c9aca">
+          <style>
+            svg[data-svg-scope="s-457c9aca"], svg[data-svg-scope="s-457c9aca"] { --byrne-paper: #faf7f0; --byrne-red: #d92b2b; --byrne-blue: #1c6ea4; --byrne-yellow: #e6b800; --byrne-black: #1a1a1a; --byrne-fill-red: #d92b2b; --byrne-fill-blue: #1c6ea4; --byrne-fill-yellow: #e6b800; --byrne-fill-black: #1a1a1a; --byrne-halo: rgba(250, 247, 240, 0.92) }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-457c9aca"], body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-457c9aca"] { --byrne-paper: #16161a; --byrne-red: #f04848; --byrne-blue: #4ba3e3; --byrne-yellow: #f5ca24; --byrne-black: #e8e6df; --byrne-fill-red: #d93838; --byrne-fill-blue: #2574ab; --byrne-fill-yellow: #dfb208; --byrne-fill-black: #363945; --byrne-halo: rgba(22, 22, 26, 0.92) }
+            svg[data-svg-scope="s-457c9aca"] .byrne-stroke-red { stroke: var(--byrne-red) }
+            svg[data-svg-scope="s-457c9aca"] .byrne-stroke-blue { stroke: var(--byrne-blue) }
+            svg[data-svg-scope="s-457c9aca"] .byrne-stroke-yellow { stroke: var(--byrne-yellow) }
+            svg[data-svg-scope="s-457c9aca"] .byrne-stroke-black { stroke: var(--byrne-black) }
+            svg[data-svg-scope="s-457c9aca"] .byrne-stroke-none { stroke: none }
+            svg[data-svg-scope="s-457c9aca"] .byrne-fill-red { fill: var(--byrne-fill-red) }
+            svg[data-svg-scope="s-457c9aca"] .byrne-fill-blue { fill: var(--byrne-fill-blue) }
+            svg[data-svg-scope="s-457c9aca"] .byrne-fill-yellow { fill: var(--byrne-fill-yellow) }
+            svg[data-svg-scope="s-457c9aca"] .byrne-fill-black { fill: var(--byrne-fill-black) }
+            svg[data-svg-scope="s-457c9aca"] .byrne-fill-none { fill: none }
+            svg[data-svg-scope="s-457c9aca"] .byrne-dotted { stroke-dasharray: 2.6 3.8 }
+            svg[data-svg-scope="s-457c9aca"] .byrne-dashed { stroke-dasharray: 7 4.2 }
+            svg[data-svg-scope="s-457c9aca"] .byrne-plate-line { fill: none; stroke-width: 3.6; stroke-linecap: round }
+            svg[data-svg-scope="s-457c9aca"] .byrne-plate-circle { fill: none; stroke-width: 2.7; stroke-linecap: round }
+            svg[data-svg-scope="s-457c9aca"] .byrne-plate-poly { stroke-linejoin: round; stroke-width: 2.2 }
+            svg[data-svg-scope="s-457c9aca"] .byrne-plate-wedge { fill-opacity: 0.88; stroke-width: 1.4; stroke-linejoin: round }
+            svg[data-svg-scope="s-457c9aca"] .byrne-ink { fill: var(--byrne-black); font-family: "EB Garamond", "Cochineal", "Georgia", serif }
+            svg[data-svg-scope="s-457c9aca"] .byrne-caption { fill: var(--byrne-black); opacity: 0.78; font-size: 13px; font-style: italic; font-family: "EB Garamond", "Georgia", serif }
+            svg[data-svg-scope="s-457c9aca"] .byrne-heading { fill: var(--byrne-black); font-size: 13px; font-weight: 700; letter-spacing: 0.08em; font-family: "EB Garamond", "Georgia", serif }
+            svg[data-svg-scope="s-457c9aca"] .byrne-op-text { fill: var(--byrne-black); font-size: 21px; font-weight: 600; font-family: "EB Garamond", "Georgia", serif }
+            svg[data-svg-scope="s-457c9aca"] .byrne-mult { fill: var(--byrne-black); font-size: 19px; font-style: italic; font-weight: 600; font-family: "EB Garamond", "Georgia", serif }
+            svg[data-svg-scope="s-457c9aca"] .byrne-rule { stroke: var(--byrne-black); stroke-opacity: 0.22; stroke-width: 1.1 }
+            svg[data-svg-scope="s-457c9aca"] .byrne-frac-bar { stroke: var(--byrne-black); stroke-width: 2.0; stroke-linecap: round }
+          </style>
+          <title>3-Way Rosetta Synthesis — Heath (1908) · Byrne (1847) · GEOMETOR Symbolic DAG</title>
+          <g id="elements">
+            <g id="graphics">
+              <line class="byrne-rule" x1="228" y1="26" x2="228" y2="278" />
+              <line class="byrne-rule" x1="454" y1="26" x2="454" y2="278" />
+              <text class="byrne-heading" x="116.0" y="42.0" text-anchor="middle">1. HEATH (1908)</text>
+              <text class="byrne-caption" x="116.0" y="70.0" text-anchor="middle">Pass-by-Reference</text>
+              <polygon class="byrne-fill-none byrne-stroke-black" points="72,170 160,170 104,118" stroke-width="2.0" />
+              <text class="byrne-caption" x="102.0" y="112.0" text-anchor="middle">A</text>
+              <text class="byrne-caption" x="62.0" y="176.0" text-anchor="middle">B</text>
+              <text class="byrne-caption" x="170.0" y="176.0" text-anchor="middle">C</text>
+              <text class="byrne-caption" x="116.0" y="214.0" text-anchor="middle">□BDEC = □ABFG + □ACKH</text>
+              <text class="byrne-mult" x="116.0" y="242.0" text-anchor="middle">64 vertex pointers</text>
+              <text class="byrne-heading" x="341.0" y="42.0" text-anchor="middle">2. BYRNE (1847)</text>
+              <text class="byrne-caption" x="341.0" y="70.0" text-anchor="middle">Pass-by-Value Registers</text>
+              <rect class="byrne-fill-yellow byrne-stroke-yellow" x="256" y="114" width="30" height="44" />
+              <text class="byrne-op-text" x="300.0" y="143.0" text-anchor="middle">+</text>
+              <rect class="byrne-fill-blue byrne-stroke-blue" x="314" y="114" width="22" height="44" />
+              <text class="byrne-op-text" x="350.0" y="143.0" text-anchor="middle">=</text>
+              <rect class="byrne-fill-black byrne-stroke-black" x="365.0" y="123.0" width="26.0" height="26.0" stroke-width="1.5" />
+              <text class="byrne-op-text" x="404.0" y="143.0" text-anchor="middle">+</text>
+              <rect class="byrne-fill-red byrne-stroke-red" x="420.0" y="126.0" width="20.0" height="20.0" stroke-width="1.5" />
+              <text class="byrne-caption" x="341.0" y="214.0" text-anchor="middle">Self-naming area literals</text>
+              <text class="byrne-mult" x="341.0" y="242.0" text-anchor="middle">0 vertex pointers</text>
+              <text class="byrne-heading" x="566.0" y="42.0" text-anchor="middle">3. GEOMETOR DAG</text>
+              <text class="byrne-caption" x="566.0" y="70.0" text-anchor="middle">Exact SymPy Algebra</text>
+              <circle class="byrne-fill-red byrne-stroke-red" cx="516" cy="122" r="9" />
+              <circle class="byrne-fill-blue byrne-stroke-blue" cx="616" cy="122" r="9" />
+              <circle class="byrne-fill-yellow byrne-stroke-yellow" cx="566" cy="168" r="10" />
+              <line class="byrne-stroke-black" x1="523" y1="129" x2="558" y2="161" stroke-width="2.0" />
+              <line class="byrne-stroke-black" x1="609" y1="129" x2="574" y2="161" stroke-width="2.0" />
+              <text class="byrne-caption" x="566.0" y="214.0" text-anchor="middle">Q(B,C) = Q(A,B) + Q(A,C)</text>
+              <text class="byrne-mult" x="566.0" y="242.0" text-anchor="middle">0 sp.Float atoms</text>
+            </g>
+            <g id="highlights"></g>
+            <g id="points"></g>
+            <g id="labels"></g>
+          </g>
+        </svg>
+        <figcaption>**3-Way Rosetta Architecture.** Heath (1908) alphabetic pointers vs. Byrne (1847) pass-by-value colored literals vs. GEOMETOR exact SymPy algebraic DAG.</figcaption>
+        </figure>
         <section class="level-2" id="pass-by-reference-vs-pass-by-value-in-geometry">
         <h2>Pass-by-Reference vs. Pass-by-Value in Geometry<a class="headerlink" href="#pass-by-reference-vs-pass-by-value-in-geometry" title="Link to this heading">¶</a></h2>
         <p>In <span class="person-ref" data-person="euclid" title="Euclid of Alexandria (fl. c. 300 BC) — Ancient Greek Geometer &amp; Author of the Stoicheia (Elements)">Euclid's</span> Greek <em>Stoicheia</em> and <span class="person-ref" data-person="heath" title="Sir Thomas Little Heath (1861 – 1940) — Historian of Greek Mathematics &amp; Translator of Euclid">Heath's</span> English edition (<code class="docutils literal notranslate"><span class="pre">geometor/euclid</span></code>), geometric primitives on the page are nameless black ink strokes. To refer to a segment, angle, or square, prose assigns <strong>memory addresses</strong> ($A, B, C, D, \dots$) to point vertices and forms composite tuple expressions (<cite>AB</cite>, <cite>angle FBC</cite>, <cite>parallelogram BLMD</cite>). Reading a single sentence of <cite>I.5</cite> or <cite>I.47</cite> requires dozens of indirect table lookups:</p>
@@ -200,7 +270,7 @@
         <li><p><strong>Why GEOMETOR Pairs Visual Tokens with Symbolic DAGs</strong>:
         Pure visual tokens excel at human proof comprehension (<cite>apodeixis</cite>), whereas machine constructibility requires explicit incidence/orientation selectors (<cite>side_of</cite>, <cite>beyond</cite>) when circles intersect in two points. Together, <code class="docutils literal notranslate"><span class="pre">geometor/euclid</span></code> (textual heritage), <code class="docutils literal notranslate"><span class="pre">geometor/byrne</span></code> (pointer-free visual cognition), and <code class="docutils literal notranslate"><span class="pre">geometor/elements</span></code> + <code class="docutils literal notranslate"><span class="pre">geometor/codes</span></code> (computable symbolic DAGs) form a complete three-pillar Rosetta Stone.</p></li>
         </ol>
-        <p>See <a class="reference internal" href="../coloured_euclid/unit-7-visual-pseudocode/unit-7-visual-pseudocode-en.html#byrne-unit-7-en"><span class="std std-ref">Unit 7 of the Book Codex</span></a> for full side-by-side 3-way derivations of each proposition.</p>
+        <p>See <a class="reference internal" href="../coloured_euclid/unit-7-visual-pseudocode/index.html#byrne-unit-7-en"><span class="std std-ref">Unit 7 of the Book Codex</span></a> for full side-by-side 3-way derivations of each proposition.</p>
         </section>
         </section>
 
@@ -275,7 +345,7 @@
 
   <script src="../_static/jquery.js?v=5d32c60e"></script>
   <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-  <script src="../_static/documentation_options.js?v=938c9ccc"></script>
+  <script src="../_static/documentation_options.js?v=37f418d5"></script>
   <script src="../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>

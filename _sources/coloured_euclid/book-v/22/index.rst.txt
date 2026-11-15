@@ -18,6 +18,11 @@ Proposition V.22 — Ex Aequali (Equality of Distance)
 
 *If there be any number of magnitudes, and as many others, which, taken two and two in order, have the same ratio; the first shall have to the last of the first magnitudes the same ratio which the first of the others has to the last of the same.*
 
+
+.. picture:: /_static/figures/v22.svg
+   :alt: Book V Proposition 22 — Chiswick Press colored magnitude tableau for Ex Aequali.
+   :caption: **Pickering pp. 193–194 Tableau (*Ex Aequali*).** Eliminating intermediate magnitudes across ordered colored triples.
+
 .. container:: byrne-eq-block
 
    **Given (Three-Magnitude Rank).** Let first rank (:byrne-mag:`red shield`, :byrne-mag:`blue diamond`, :byrne-mag:`yellow square`) and second rank (:byrne-mag:`red pentagon`, :byrne-mag:`black shield`, :byrne-mag:`yellow circle`) satisfy:

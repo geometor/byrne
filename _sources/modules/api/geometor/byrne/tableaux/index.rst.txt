@@ -1,0 +1,58 @@
+geometor.byrne.tableaux
+=======================
+
+.. py:module:: geometor.byrne.tableaux
+
+.. autoapi-nested-parse::
+
+   Chiswick Press Typographic & Synthesis SVG Tableaux for Oliver Byrne's 1847 Codex.
+
+   Generates theme-adaptive ``.euclid-graphic`` SVG plates for the non-spatial and
+   synthesizing sections of *The First Six Books of the Elements of Euclid* (1847):
+
+   - ``preliminaries``: Introduction Right-Triangle Manifesto (pp. x–xi), Definition IX
+     plane rectilinear angle (p. xviii), Definition XXXIII rhomboid & XXXV parallel lines (p. xxii).
+   - ``v_defs``: Book V, Definition V Eudoxian Criterion of Same Ratio (p. 154, ``0188.jpg``).
+   - ``v11``: Book V, Proposition XI — Transitivity of Ratios (p. 175, ``0209.jpg``).
+   - ``v16``: Book V, Proposition XVI — *Alternando* (p. 181, ``0215.jpg``).
+   - ``v18``: Book V, Proposition XVIII — *Componendo* (p. 185, ``0219.jpg``).
+   - ``v22``: Book V, Proposition XXII — *Ex Aequali* (p. 193, ``0227.jpg``).
+   - ``rosetta``: Unit VII 3-Way Rosetta Synthesis (Heath 1908 · Byrne 1847 · GEOMETOR DAG).
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.byrne.tableaux.TABLEAU_IDS
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.byrne.tableaux.render_tableau_svg
+   geometor.byrne.tableaux.export_all_tableaux
+
+
+Module Contents
+---------------
+
+.. py:data:: TABLEAU_IDS
+   :type:  tuple[str, ...]
+   :value: ('preliminaries', 'v_defs', 'v11', 'v16', 'v18', 'v22', 'rosetta')
+
+
+.. py:function:: render_tableau_svg(tableau_id: str) -> str
+
+   Render one of the 7 Chiswick Press typographic/synthesis SVG tableaux.
+
+
+.. py:function:: export_all_tableaux(output_dir: str | pathlib.Path) -> list[pathlib.Path]
+
+   Write all 7 Chiswick Press typographic/synthesis SVG tableaux into ``output_dir``.
+
+
