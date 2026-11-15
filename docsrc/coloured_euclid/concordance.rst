@@ -70,124 +70,142 @@ Simson / Byrne (1847) vs. Heiberg / Heath First Principles
      - ``I.post.5``
      - Parallel Postulate (< :byrne-op:`two-right-angles`, ``G.28``).
 
-Showcase Symbolic Plates & Algebraic Number Fields
---------------------------------------------------
+Showcase Propositions, Symbolic Plates & Algebraic Number Fields
+----------------------------------------------------------------
 
-.. list-table:: **17 Calibrated Symbolic Plates + Book V Eudoxian Calculus**
+.. list-table:: **21 Dedicated Proposition Pages (17 Symbolic Plates + 4 Book V Eudoxian Propositions)**
    :header-rows: 1
-   :widths: 10 14 12 14 26 24
+   :widths: 10 16 12 12 26 24
 
    * - Byrne
      - Pickering Page
      - ``euclid``
      - ``elements``
      - Exact SymPy Field
-     - Codex Unit
+     - Proposition Page
    * - ``I.1``
      - p. 1 (leaf 35)
      - ``elem.1.1``
      - ``G.84``
      - $\mathbb{Q}(\sqrt{3})$
-     - :ref:`Unit II <byrne-unit-2-en>`
+     - :ref:`Prop. I.1 <byrne-i-1>`
    * - ``I.4``
      - p. 4 (leaf 38)
      - ``elem.1.4``
      - ``G.90``
      - $\mathbb{Q}$
-     - :ref:`Unit II <byrne-unit-2-en>`
+     - :ref:`Prop. I.4 <byrne-i-4>`
    * - ``I.5``
      - p. 5 (leaf 39)
      - ``elem.1.5``
      - ``G.91``
      - $\mathbb{Q}$
-     - :ref:`Unit II <byrne-unit-2-en>`
+     - :ref:`Prop. I.5 <byrne-i-5>`
    * - ``I.15``
      - p. 15 (leaf 49)
      - ``elem.1.15``
      - ``G.104``
      - $\mathbb{Q}$
-     - :ref:`Unit II <byrne-unit-2-en>`
+     - :ref:`Prop. I.15 <byrne-i-15>`
    * - ``I.32``
      - p. 33 (leaf 67)
      - ``elem.1.32``
      - ``G.125``
      - $\mathbb{Q}$
-     - :ref:`Unit II <byrne-unit-2-en>`
+     - :ref:`Prop. I.32 <byrne-i-32>`
    * - ``I.46``
      - p. 47 (leaf 81)
      - ``elem.1.46``
      - ``G.139``
      - $\mathbb{Q}$
-     - :ref:`Unit II <byrne-unit-2-en>`
+     - :ref:`Prop. I.46 <byrne-i-46>`
    * - ``I.47``
      - pp. 48–49 (leaves 82–83)
      - ``elem.1.47``
      - ``G.140``
      - $\mathbb{Q}$
-     - :ref:`Unit II <byrne-unit-2-en>`
+     - :ref:`Prop. I.47 <byrne-i-47>`
    * - ``II.4``
      - pp. 56–57 (leaves 90–91)
      - ``elem.2.4``
      - ``G.147``
      - $\mathbb{Q}$
-     - :ref:`Unit III <byrne-unit-3-en>`
+     - :ref:`Prop. II.4 <byrne-ii-4>`
    * - ``II.5``
      - p. 58 (leaf 92)
      - ``elem.2.5``
      - ``G.148``
      - $\mathbb{Q}$
-     - :ref:`Unit III <byrne-unit-3-en>`
+     - :ref:`Prop. II.5 <byrne-ii-5>`
    * - ``II.11``
      - p. 66 (leaf 100)
      - ``elem.2.11``
      - ``G.154``
      - $\mathbb{Q}(\phi)$
-     - :ref:`Unit III <byrne-unit-3-en>`
+     - :ref:`Prop. II.11 <byrne-ii-11>`
    * - ``III.20``
      - p. 102 (leaf 136)
      - ``elem.3.20``
      - ``G.185``
      - $\mathbb{Q}$
-     - :ref:`Unit IV <byrne-unit-4-en>`
+     - :ref:`Prop. III.20 <byrne-iii-20>`
    * - ``III.31``
      - p. 115 (leaf 149)
      - ``elem.3.31``
      - ``G.196``
      - $\mathbb{Q}$
-     - :ref:`Unit IV <byrne-unit-4-en>`
+     - :ref:`Prop. III.31 <byrne-iii-31>`
    * - ``III.36``
      - p. 121 (leaf 155)
      - ``elem.3.36``
      - ``G.201``
      - $\mathbb{Q}$
-     - :ref:`Unit IV <byrne-unit-4-en>`
+     - :ref:`Prop. III.36 <byrne-iii-36>`
    * - ``IV.4``
      - p. 129 (leaf 163)
      - ``elem.4.4``
      - ``G.217``
      - $\mathbb{Q}$
-     - :ref:`Unit IV <byrne-unit-4-en>`
+     - :ref:`Prop. IV.4 <byrne-iv-4>`
    * - ``IV.10``
      - pp. 135–136 (leaves 169–170)
      - ``elem.4.10``
      - ``G.223``
      - $\mathbb{Q}(\phi, \sqrt{10 - 2\sqrt{5}})$
-     - :ref:`Unit IV <byrne-unit-4-en>`
+     - :ref:`Prop. IV.10 <byrne-iv-10>`
    * - ``IV.11``
      - p. 137 (leaf 171)
      - ``elem.4.11``
      - ``G.224``
      - $\mathbb{Q}(\phi, \sqrt{10 - 2\sqrt{5}})$
-     - :ref:`Unit IV <byrne-unit-4-en>`
+     - :ref:`Prop. IV.11 <byrne-iv-11>`
+   * - ``V.11``
+     - p. 175 (leaf 209)
+     - ``elem.5.11``
+     - ``G.271``
+     - Eudoxian Semigroup (``geometor/codes``)
+     - :ref:`Prop. V.11 <byrne-v-11>`
    * - ``V.16``
-     - p. 187 (leaf 221)
+     - p. 181 (leaf 215)
      - ``elem.5.16``
      - ``G.276``
      - Eudoxian Semigroup (``geometor/codes``)
-     - :ref:`Unit V <byrne-unit-5-en>`
+     - :ref:`Prop. V.16 <byrne-v-16>`
+   * - ``V.18``
+     - p. 185 (leaf 219)
+     - ``elem.5.18``
+     - ``G.278``
+     - Eudoxian Semigroup (``geometor/codes``)
+     - :ref:`Prop. V.18 <byrne-v-18>`
+   * - ``V.22``
+     - pp. 193–194 (leaves 227–228)
+     - ``elem.5.22``
+     - ``G.282``
+     - Eudoxian Semigroup (``geometor/codes``)
+     - :ref:`Prop. V.22 <byrne-v-22>`
    * - ``VI.30``
      - p. 258 (leaf 292)
      - ``elem.6.30``
      - ``G.328``
      - $\mathbb{Q}(\phi)$
-     - :ref:`Unit VI <byrne-unit-6-en>`
+     - :ref:`Prop. VI.30 <byrne-vi-30>`

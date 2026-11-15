@@ -277,3 +277,35 @@ div.byrne-eq-block p {
 .byrne-rosetta-note {
   border-left-color: var(--byrne-blue);
 }
+
+/* --------------------------------------------------------------------------
+   4. Hierarchical Book Codex Outline (.toc-outline)
+   -------------------------------------------------------------------------- */
+
+.toc-outline > ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.75rem 0 1.5rem 0;
+}
+
+.toc-outline > ul > li {
+  margin-bottom: 1.05rem;
+  line-height: 1.55;
+}
+
+.toc-outline ul ul {
+  list-style: none;
+  padding-left: 1.25rem;
+  margin: 0.35rem 0 0.5rem 0.25rem;
+  border-left: 2px solid var(--byrne-border, rgba(140, 140, 155, 0.28));
+}
+
+.toc-outline ul ul > li {
+  margin: 0.28rem 0;
+  font-size: 0.96em;
+  line-height: 1.48;
+}
+
+.toc-outline p {
+  margin: 0.16rem 0;
+}
