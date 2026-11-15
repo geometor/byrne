@@ -1,47 +1,116 @@
 {
   "book_slug": "coloured_euclid",
-  "tracks": ["en", "summary", "notes"],
+  "tracks": [
+    "proposition",
+    "commentary",
+    "overview",
+    "summary",
+    "notes"
+  ],
   "units": [
     {
       "id": "unit-1-foundations",
       "title": "Introduction, Definitions, Postulates, Axioms & Symbols",
-      "pickering_pages": "pp. vii–xxix (leaves 7–33)",
+      "pickering_pages": "pp. vii–xxix (leaves 11–33)",
+      "propositions": [],
       "plates": []
     },
     {
-      "id": "unit-2-book-i",
+      "id": "book-i",
       "title": "Book I — Congruence, Parallels & The Pythagorean Theorem",
       "pickering_pages": "pp. 1–50 (leaves 35–84)",
-      "plates": ["i1", "i4", "i5", "i15", "i32", "i46", "i47"]
+      "propositions": [
+        "I.1",
+        "I.4",
+        "I.5",
+        "I.15",
+        "I.32",
+        "I.46",
+        "I.47"
+      ],
+      "plates": [
+        "i1",
+        "i4",
+        "i5",
+        "i15",
+        "i32",
+        "i46",
+        "i47"
+      ]
     },
     {
-      "id": "unit-3-book-ii",
+      "id": "book-ii",
       "title": "Book II — Geometric Algebra & The Golden Section by Colored Areas",
       "pickering_pages": "pp. 51–71 (leaves 85–105)",
-      "plates": ["ii4", "ii5", "ii11"]
+      "propositions": [
+        "II.4",
+        "II.5",
+        "II.11"
+      ],
+      "plates": [
+        "ii4",
+        "ii5",
+        "ii11"
+      ]
     },
     {
-      "id": "unit-4-books-iii-iv",
-      "title": "Books III & IV — Circles, Tangents & Inscribed Regular Polygons",
-      "pickering_pages": "pp. 73–151 (leaves 107–185)",
-      "plates": ["iii20", "iii31", "iii36", "iv4", "iv10", "iv11"]
+      "id": "book-iii",
+      "title": "Book III — Circles, Inscribed Angles & Tangent-Secant Power",
+      "pickering_pages": "pp. 73–124 (leaves 107–158)",
+      "propositions": [
+        "III.20",
+        "III.31",
+        "III.36"
+      ],
+      "plates": [
+        "iii20",
+        "iii31",
+        "iii36"
+      ]
     },
     {
-      "id": "unit-5-book-v",
+      "id": "book-iv",
+      "title": "Book IV — Inscribed Circles, The Golden Triangle & Regular Pentagon",
+      "pickering_pages": "pp. 125–151 (leaves 159–185)",
+      "propositions": [
+        "IV.4",
+        "IV.10",
+        "IV.11"
+      ],
+      "plates": [
+        "iv4",
+        "iv10",
+        "iv11"
+      ]
+    },
+    {
+      "id": "book-v",
       "title": "Book V — Color-Coded Symbolic Algebra of Eudoxian Proportions",
       "pickering_pages": "pp. 153–212 (leaves 187–246)",
+      "propositions": [
+        "V.11",
+        "V.16",
+        "V.18",
+        "V.22"
+      ],
       "plates": []
     },
     {
-      "id": "unit-6-book-vi",
+      "id": "book-vi",
       "title": "Book VI — Similar Figures, Mean Proportionals & Extreme and Mean Ratio",
       "pickering_pages": "pp. 213–268 (leaves 247–302)",
-      "plates": ["vi30"]
+      "propositions": [
+        "VI.30"
+      ],
+      "plates": [
+        "vi30"
+      ]
     },
     {
       "id": "unit-7-visual-pseudocode",
       "title": "Pointer-Free Visual Pseudocode: 3-Way Rosetta Analysis (Heath · Byrne · GEOMETOR)",
       "pickering_pages": "Analytical Synthesis",
+      "propositions": [],
       "plates": []
     }
   ]

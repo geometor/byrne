@@ -159,10 +159,10 @@
       "leaf": 188
     },
     "V.16": {
-      "default": "resources/pickering_1847/0221.jpg",
-      "en": "resources/pickering_1847/0221.jpg",
-      "page": "187",
-      "leaf": 221
+      "default": "resources/pickering_1847/0215.jpg",
+      "en": "resources/pickering_1847/0215.jpg",
+      "page": "181",
+      "leaf": 215
     },
     "V.16–V.22": {
       "default": "resources/pickering_1847/0221.jpg",
@@ -177,10 +177,10 @@
       "leaf": 221
     },
     "V.22": {
-      "default": "resources/pickering_1847/0221.jpg",
-      "en": "resources/pickering_1847/0221.jpg",
-      "page": "187",
-      "leaf": 221
+      "default": "resources/pickering_1847/0227.jpg",
+      "en": "resources/pickering_1847/0227.jpg",
+      "page": "193",
+      "leaf": 227
     },
     "VI.30": {
       "default": "resources/pickering_1847/0292.jpg",
@@ -339,6 +339,49 @@
       "default": "resources/pickering_1847/0292.jpg",
       "en": "resources/pickering_1847/0292.jpg",
       "leaf": 292
+    },
+    "V.11": {
+      "default": "resources/pickering_1847/0209.jpg",
+      "en": "resources/pickering_1847/0209.jpg",
+      "page": "175",
+      "leaf": 209
+    },
+    "V.18": {
+      "default": "resources/pickering_1847/0219.jpg",
+      "en": "resources/pickering_1847/0219.jpg",
+      "page": "185",
+      "leaf": 219
+    },
+    "V.E": {
+      "default": "resources/pickering_1847/0221.jpg",
+      "en": "resources/pickering_1847/0221.jpg",
+      "page": "187",
+      "leaf": 221
+    },
+    "0209": {
+      "default": "resources/pickering_1847/0209.jpg",
+      "en": "resources/pickering_1847/0209.jpg",
+      "leaf": 209
+    },
+    "0215": {
+      "default": "resources/pickering_1847/0215.jpg",
+      "en": "resources/pickering_1847/0215.jpg",
+      "leaf": 215
+    },
+    "0219": {
+      "default": "resources/pickering_1847/0219.jpg",
+      "en": "resources/pickering_1847/0219.jpg",
+      "leaf": 219
+    },
+    "0227": {
+      "default": "resources/pickering_1847/0227.jpg",
+      "en": "resources/pickering_1847/0227.jpg",
+      "leaf": 227
+    },
+    "0228": {
+      "default": "resources/pickering_1847/0228.jpg",
+      "en": "resources/pickering_1847/0228.jpg",
+      "leaf": 228
     }
   }
 }

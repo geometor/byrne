@@ -2,6 +2,13 @@
 Changelog
 =========
 
+0.2.0 (2026-11-15)
+------------------
+
+- **changed**: Split the crammed multi-proposition unit pages (``unit-2-book-i`` through ``unit-6-book-vi``) into **6 dedicated Book sections** (``book-i`` through ``book-vi``, each with ``Overview · Summary · Notes`` tracks and ``.. collection::`` thumbnail galleries) and **21 dedicated per-proposition pages** (``book-i/{01,04,05,15,32,46,47}``, ``book-ii/{04,05,11}``, ``book-iii/{20,31,36}``, ``book-iv/{04,10,11}``, ``book-v/{11,16,18,22}``, ``book-vi/{30}``), each with synchronized ``Proposition · Commentary`` companion tracks.
+- **added**: Full 1847 William Pickering / Chiswick Press italicized enunciations, inline ``:byrne-*:`` visual-token demonstrations, and symbolic/chromatic commentary across all 21 showcase propositions, plus hierarchical ``.toc-outline`` Table of Contents styling in ``byrne.css`` and ``docsrc/coloured_euclid/index.rst``.
+- **fixed**: Extracted and verified Pickering 1847 Book V folio scans (``0209.jpg``, ``0215.jpg``, ``0219.jpg``, ``0227.jpg``, ``0228.jpg``) directly from ``byrne_1847_pickering.pdf``, correcting the ``V.16`` (*Alternando*) folio link to p. 181 (``0215.jpg``) and documenting the authentic 1847 Chiswick Press ``triangte`` compositorial variant on ``IV.4`` (p. 129, ``0163.jpg``).
+
 0.1.5 (2026-11-15)
 ------------------
 
