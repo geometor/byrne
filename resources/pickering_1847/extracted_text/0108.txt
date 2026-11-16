@@ -1,0 +1,46 @@
+ 74            BOOK III. PROP. I. PROB.
+
+
+
+                                               O find the centre of a given
+
+                                                 circle
+
+                                                               o
+                             Draw within the circle any ftraight
+
+                             draw           —— _L                               ----- •
+                           biledt       —wmmmmm           ,    and the point of
+                           bifecfion is the centre.
+
+                             For, if it be pofhble, let any other
+point as the point of concourfe of                        —   —— »—         ,                  '
+
+
+
+
+and   —««» be the centre.
+          Becaufe in                                 and
+                                                                       \/
+          —— ss ------ (hyp. and B. i, def. 15.)
+          zr »•-—- (conft.) and —««- common,
+
+                       ^B.    1,    pr. 8.),         and are therefore right
+
+
+angles ; but   ym = £2 c            (
+                                            °»ft-)
+                                                     yy =                             (ax. 1 1 .)
+
+
+which is abfurd   ;   tberefore the afTumed point                               is    not the
+centre of the circle   ;     and in the fame manner                              it    can be
+proved that no other point which is not on                                ——^—                 is
+
+the centre,    therefore     the        centre       is       in   '
+                                                                                        ,    and
+therefore the point        where        <
+
+                                                              is       bifecled         is   the
+centre.
+                                                                            Q. E. D.

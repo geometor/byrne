@@ -1,0 +1,49 @@
+     x                       INTRODUCTION.
+     angled triangle, and exprefs fome of its properties both by
+     colours and the method generally employed.
+
+
+         Some of the properties of the right angled triangle ABC,
+                   exprejfed by the method generally employed.
+
+         1.   The angle BAC, together with the angles BCA and
+     ABC are equal to two right angles, or twice the angle ABC.
+       2. The angle CAB added to the angle ACB will be equal
+
+     to the angle ABC.
+
+         3.The angle ABC is greater than either of the angles
+     BAC or BCA.
+       4. The angle BCA or the angle CAB is lefs than the
+
+     angle ABC.
+
+         5.   If   from the angle ABC, there be taken the angle
+     BAC, the remainder will be equal to the angle ACB.
+       6. The fquare of AC is equal to the fum of the fquares
+
+     of AB and BC.
+
+
+     The fame properties expreffed by colouring the different parts.
+
+
+
+I.
+
+     That is, the red angle added to the yellow angle added to
+     the blue angle, equal twice the yellow angle, equal two
+     right angles.
+
+
+
+
+     Or in words, the red angle added to the blue angle, equal
+     the yellow angle.
+
+
+
+                            ^ C JK*           or
+
+     The yellow angle is greater          than either the red or blue
+     angle.

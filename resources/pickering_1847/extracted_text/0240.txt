@@ -1,0 +1,51 @@
+ 2o6                    BOOK V. PROP. H. THEOR.
+
+
+                       F a ratio which is compounded offeveral ratios be
+                        the fame to a ratio which is conpounded offever al
+
+                        other ratios ; and if one of the firjl ratios, or the
+
+                        ratio   which is compounded of feveral of them, be
+the fame to one of the laft ratios, or to the ratio which is com-
+
+pounded ofJeveral of them ; then the remaining ratio ofthefirji,
+or, if there be more than one, the ratio                                    compounded of the re-
+maining ratios, Jliall be the fame to the remaining ratio of the
+la/i, or,   if there be more than one, to the ratio compounded ofthefe
+remaining ratios.
+
+
+
+                                    A B C D E F G H
+                                      P Q R S T X
+
+
+
+    Let A :B, B :C,    C :D, D E, E F, F G, G :H,                   :           :                :
+
+
+
+be the nrft ratios, and P Q^Qj_R, R S, S T, T X,:                                   :                :         :
+
+
+
+
+the other ratios ; alfo, let                        A H, which
+                                                            :                       is   compounded of
+the rirft ratios, be the fame as the ratio of                                            P   :   X, which is
+the ratio          compounded of the other                                     ratios ; and,             let       the
+
+ratio of    A      :   E, which is compounded of the ratios of A                                               :   B,
+B :C, C :D, D :E, be the fame as the ratio of P                                                                :   R,
+which is compounded of the ratios P                                        :
+                                                                               Q^ Qj R.
+    Then the ratio which is compounded of the remaining
+firft    ratios,        that    is,         the ratio               compounded of the                     ratios
+
+E   :   F, F   :   G, G         :   H, that is, the ratio of E                               :   H, mail be
+the fame as the ratio of                            R   :       X, which is compounded of
+the ratios of              R    :
+                                    v
+                                        ,    S : T,             T   :   X, the remaining other
+ratios.

@@ -1,0 +1,65 @@
+122         BOOK III. PROP. XXXVII.                                  THEOR.
+
+                                                        F from a point outfide of a
+                                                          circle twojlraight lines be
+
+                                                          drawn, the one             ^^—
+                                                          cutting
+                                                   — ——
+                                                                     the       circle,     the
+                                         other                  meeting        it,   and if
+                                         the recJangle contained by the whole
+                                         cutting   line          '        •   and    its   ex-
+                                         ternal fegment        »-•   —   ••   be equal to
+                                         thejquare of the line meeting the circle,
+                                         the latter        <             is   a tangent     to
+
+                                         the circle.
+
+
+
+
+                                               Draw from the given point
+ ___                  a       tangent to the circle, and draw from the
+
+
+
+
+                                       —
+                  j
+
+            centre                        ,   .....••••, and         — --—           ?
+
+              *   =                                X                      (fi.3-pr.36-)
+but   ___ =               2
+                                                               X ———                 (hyp.),
+
+
+
+                  and         .*.
+
+
+
+
+                  Then in
+
+                  and
+                          and
+                              —
+                                                        and
+
+                                                   .*«»— and
+                                                   is   common,
+                                                               J
+                          ^=                           (B. i.pr. 8.);
+
+
+
+
+  but                   ZS        L_j a right angle (B. 3. pr. 18.),
+
+                                                        a right angle,
+
+and   .'.                         is   a tangent to the circle       (B. 3. pr. 16.).
+
+                                                                              Q. E. D.

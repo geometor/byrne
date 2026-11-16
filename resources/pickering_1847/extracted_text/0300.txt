@@ -1,0 +1,52 @@
+266              BOOK VI. PROP. C. THEOR.
+
+                                        F from any angle of a triangle a
+                                        Jlraight line be drawn perpendi-
+                                         cular to the bafe ; the reft angle
+                                         contained by the fides of the tri-
+                       angle    is    equal to the rectangle contained by
+                       the perpendicular          and the diameter of the
+                       circle defcribed about the triangle.
+
+
+
+
+                                 From                  of     >**
+                                                            „*7->       _
+                        draw                      _L                    —   ;   then
+
+   mall                     X                    =     • s •«•««*       Xthe
+                 diameter of the defcribed circle.
+
+
+
+      Defcribe
+                  O ——  and draw
+                                 (B. 4. pr. 5), draw its diameter
+
+
+
+                                                       ;   then becaufe
+
+
+                  —              >>    (confl.   and B. 3. pr. 31);
+
+
+
+  and              = /^ (B.                3. pr.    21);
+
+
+
+
+  •    j*.
+                       is   equiangular to
+
+                                                 A             (B. 6. pr. 4);
+
+
+
+
+and .*.          --•   X                    ==                      X
+                                (B. 6. pr. 16).
+
+                                                                    Q.E. D.

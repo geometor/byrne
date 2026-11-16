@@ -1,0 +1,54 @@
+               BOOK VI. PROP. D. THEOR.                            267
+
+
+
+
+              HE rectangle contained by the
+               diagonals of a quadrilateralfigure
+
+               infcribed in a circle,   is   equal to
+
+               both the rectangles contained by
+
+its oppojite Jides.
+
+
+
+
+   Let    /               be any quadrilateral
+
+
+
+
+figure infcribed in
+
+                          o   and
+                                        and draw
+
+
+                                                     then
+
+              X                                                          X
+
+              Make    4^ =          W        (B.i.pr. 23),
+
+
+
+              ^ =^              ;
+                                    and
+                                                        =
+                          (B. 3. pr. 21);
+
+
+
+
+                           (B. 6. pr. 4);
+
+and .*.
+                                                             X amiiiiB
+                      (B. 6. pr. 16) ; again,
+
+
+
+
+                becaufe   4» =               W   (conft.),

@@ -1,0 +1,53 @@
+238      BOOK VI. PROP. XVII. THEOR.
+                                            PART I
+                                     jF three jlraight lines be pro-
+
+                                       portional   (                  :   __
+                                        reSlangle under the extremes
+
+                        is   equal to the fquare of the mean.
+
+                                            PART II.
+                             And if the rettangle under the ex-
+                        tremes be equal to the fquare of the mean,
+                        the three Jlraight lines are proportional.
+
+
+
+
+                                PART   I.
+
+
+
+           A flu me                                        .,   and
+lince
+
+ then
+
+                  X
+                         (B. 6. pr. 16).
+
+
+              But                                      '9
+
+              X                                            X
+or      ___     2
+                    ;   therefore, if the three ftraight lines are
+
+proportional, the redtangle contained by the extremes                       is
+
+equal to the fquare of the mean.
+
+                               PART II.
+         Aflume                                            then
+
+                                                       X—
+                                                   .   ,
+
+        - X
+                        (B. 6. pr. 16), and
+
+
+
+
+                                                                 Q. E. D.

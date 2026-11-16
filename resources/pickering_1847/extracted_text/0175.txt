@@ -1,0 +1,63 @@
+             BOOK IV. PROP. XIII. PROP,.                                 141
+
+
+  Draw «^^^^— , --.----., &c. perpendicular to the
+                      lides of the   pentagon.
+
+
+
+
+     Then in the two triangles
+
+
+ we have     ^T      = mm
+                                         ^f
+
+                                   (conft.),
+                                                       and
+
+
+
+                                                -^^—— common,
+                                                             A
+                               1
+
+
+
+
+            and   ^^ =41               =r      a right angle
+
+            ——— =
+                                                                ;
+
+
+
+
+      .*.                     ..........         (B.   1. pr.   26.)
+
+
+
+  In the fame way it may be mown that the five perpen-
+
+diculars    on the   fides   of the pentagon are equal              to   one
+
+another.
+
+
+
+
+   Defcribe
+
+lars as radius,
+                  O           with any one of the perpendicu-
+
+                  and it will be the infcribed circle required.
+For if it does not touch the fides of the pentagon, but cut
+them, then a line drawn from the extremity at right angles
+to the diameter of a circle will fall within the circle, which
+
+has been fhown to be abfurd.            (B. 3. pr. 16.)
+
+
+
+                                                             Q^E. D.

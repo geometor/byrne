@@ -1,0 +1,48 @@
+                  BOOK V. PROP. Fill. THEOR,                                                                     171
+
+   The multiple of 1, which firft becomes greater than 7,
+is 8 times, therefore we may multiply the firft and third
+
+by 8, 9, 10, or any other greater number                                          ;    in this cafe, let
+
+us multiply the firft and third by 8, and                                        we have 64^-8
+and        :     again,          the      firft      multiple of 7 which becomes
+greater        than 64            is    10 times;              then, by multiplying the
+fecond and fourth by 10, we fhall have 70 and 70                                                           ;    then,
+
+arranging thefe multiples, we have
+               8 times                        10 times              8 times              10 times
+               the first.                 the second.            the third.             the fourth.
+
+
+              64+ 8                             70                                           70
+     Confequently                 ,    «-|-    8, or 72, is greater than - : ,                                 but
+is   not greater than 70, .\ by the feventh definition, 9 has a
+greater ratio to 7 than                           has to -
+
+     The above is merely illuftrative of the foregoing demon-
+ftration, for this property could be fhown of thefe or other
+
+numbers very readily in the following manner                                                 ;   becaufe, if
+an antecedent contains its confequent a greater number of
+times than another antecedent contains                                           its   confequent, or
+when a fraction is formed of an antecedent for the nu-
+merator, and its confequent for the denominator be greater
+than another fraction which                               is   formed of another antece-
+dent for the numerator and its confequent for the denomi-
+nator, the ratio of the firft antecedent to                                       its    confequent is
+greater than the ratio of the                             laft      antecedent to                    its       confe-
+quent.
+
+     Thus, the number 9 has a greater ratio to 7, than 8 has
+to 7, for - is greater than -.
+
+     Again, 17              :   19 is a greater ratio than 13:15, becaufe
+               X 15                                                  X 19
+5 - ^T>TTi - isi' and I5 = T^T9 = «? hence «
+17       17                      25,5            ,   13        13                      247       ,
+                                                                                                                     IS
+
+
+evident that ?|f                 is    greater than              ~     t
+                                                                           .-.   - is greater than

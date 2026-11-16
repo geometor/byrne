@@ -1,0 +1,58 @@
+                                                                                       XXV11
+
+
+
+               SYMBOLS AND ABBREVIATIONS.
+,*.   exprefies the word therefore.
+
+V                                       becaufe.
+—                                       equal.        This fign of equality may
+       be read equal to, or is equal to, or are equal to ; but
+       any difcrepancy in regard                      to the introduction              of the
+       auxiliary verbs Is, are, &c. cannot affect the geometri-
+        cal rigour.
+
+d\p   means the fame as if the words ' not equal' were written.
+r~ fignifies greater than.
+33 ...              .   lefs   than.
+
+if ...              .   not greater than.
+
+~h .... not lefs than.
+-j- is vezdplus (more), the fign of addition ;                         when interpofed
+        between two or more magnitudes, fignifies their fum.
+—     is       read minus         (lefs),   fignifies          fubtraction   ;   and    when
+        placed between two quantities denotes that the latter
+        is     to be taken from the former.
+
+X      this fign exprefies the product of two or more numbers
+
+        when placed between them in arithmetic and algebra                                      ;
+
+
+
+        but in geometry it is generally ufed to exprefs a rect-
+           angle, when placed between " two fixaight lines which
+
+           contain one of its right angles."                       A reclangle may alfo
+           be reprefented by placing a point between two of its
+           conterminous fides.
+           2   exprefies an analogy or proportion ; thus, if A, B,                          C
+                and D, reprefent four magnitudes, and                             A has to
+                B the fame ratio that C has to D, the propofition
+               is   thus briefly written,
+                                       A B C D,
+                                        :     :   :    :
+
+
+
+                                       A B = C D,
+                                        :                  :
+
+
+
+
+                                         °r
+                                            A C
+                                             B=D.
+                This equality or famenefs of ratio is read,

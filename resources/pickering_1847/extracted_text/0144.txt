@@ -1,0 +1,28 @@
+no           BOOK III. PROP. XXVI. THEOR.
+
+
+     If therefore        the   equal   fegments be taken from the
+
+equal circles, the remaining fegments will be equal           ;
+
+
+
+
+              lence                              (ax. 3.);
+
+
+
+                   and   .*.
+
+
+
+But       if the   given equal angles be at the circumference,
+
+it   is   evident that the angles at the centre, being double
+
+of thofe at the circumference, are alfo equal, and there-
+
+fore the arcs on which they ftand are equal.
+
+
+                                                        Q. E. D.

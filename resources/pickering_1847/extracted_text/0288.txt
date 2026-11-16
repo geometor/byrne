@@ -1,0 +1,39 @@
+2 54      BOOK VI. PROP. XXVII. THEOR.
+
+
+
+
+                                               F all the rectangles
+                                                contained     by    the
+
+                                               fegments of a given
+                                               Jlraight     line,   the
+
+                                   greatejl is the fquare which is
+
+                                   defcribed on half the line.
+
+
+                                                               be the
+
+                                           unequal fegments,
+
+                                            equal fegments
+
+
+
+
+  For it has been demonftrated already (B. 2. pr. 5), that
+
+the fquare of half the line   is    equal to the rectangle con-
+
+tained by any unequal fegments together with the fquare
+
+of the part intermediate between the middle point and the
+
+point of unequal fection.   The fquare defcribed on half the
+line   exceeds therefore the rectangle contained by any un-
+
+equal fegments of the line.
+
+                                                      Q.E. D.

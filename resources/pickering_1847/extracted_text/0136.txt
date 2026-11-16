@@ -1,0 +1,55 @@
+             102          BOOK III. PROP. XX. THEOR.
+
+
+FIGURE   I
+
+
+                                HE angle at the centre of a circle,                      is double
+
+                                  the angle at the circumference,                    when they
+                                  have the fame part of the circumference for
+                                  their bafe.
+
+
+
+
+                                              FIGURE I.
+                         Let the centre of the circle be on                              .....
+
+
+
+
+                                        a fide of
+
+
+                          Becaufe
+
+
+                                k=\                 (B.   i.    pr. 5.).
+
+
+
+
+                            But                                +
+                    or             := twice                    (B.   1.       pr. 32).
+
+
+
+
+FIGURE 11.                                    FIGURE II.
+
+                     Let the centre be within             4               j   the angle at the
+
+                   circumference    ;    draw   ^—                   from the angular
+
+                           point through the centre of the circle ;
+
+
+
+                         then   ^ = WA
+                                ^                   9
+                                                        a °d                   =            ,
+
+
+
+                    becaufe of the equality of the fides (B. 1. pr. 5).

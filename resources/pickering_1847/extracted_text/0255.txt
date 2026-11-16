@@ -1,0 +1,43 @@
+              BOOK VI. PROP. V. THEOR.                                              221
+
+
+  Therefore, the two triangles having a                            common           bafe
+
+         ,   and their fides equal, have alfo equal angles op-
+
+pofite to equal fides,      i.   e.
+
+
+
+
+ ^              ,
+
+
+          = ¥a„d/l =
+                                      s\              m
+                                                      W       (B.    1.   pr. 8).
+
+
+
+
+                    But   ^F = ^fc                    (conft.)
+
+
+
+             and    .*.               z=    mtk   ;    for the     lame
+
+
+
+                   reafon   m         \    :=   mA           and
+
+
+
+             confequently        £^ z=                 (B.    1.   32);
+
+and therefore the triangles are equiangular, and                          it   is   evi-
+
+
+dent that the homologous fides fubtend the equal angles.
+
+
+                                                                    Q. E. D.

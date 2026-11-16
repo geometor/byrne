@@ -1,0 +1,57 @@
+ 2oo                   BOOK V. DEFINITION X.
+
+
+                                              DEFINITION X.
+ When three magnitudes are proportionals, the firfl                                                                                is    faid
+to have to the third the duplicate ratio of that which                                                                              it   has
+to the fecond.
+
+
+     For example, if A,                                     ,   C       ,   be continued proportionals,
+that   is,   A   :        :   :           :       C    ,   A is faid to have to C                                            the dupli-
+cate ratio of         A       :       B ;
+
+                                      or — rz the fquare of—.
+
+
+ This property will be more readily feen of the quantities
+                     a ** >                   >       J » for a r"'             :       .           :   :    :      a   ',
+
+
+
+
+             and       — rr —
+                      ar          1
+
+                                                  r*            the fquare of                               — sr
+                                                                                                            r
+                                                                                                                !
+
+
+                                                                                                                             r,
+
+
+                                                  or of             ,       ,       j       -
+                                                                                                    ;
+
+
+
+
+             for      — s-jZ= -                                 the fquare                          of— =—r
+                     ar                           '
+
+
+
+
+                                          DEFINITION XI.
+When four magnitudes are continual proportionals, the
+firft is   faid to have to the fourth the triplicate ratio of that
+
+which it has to the fecond                                      ;       and fo on, quadruplicate, &c.
+increafing the denomination ftill by unity, in any                                                                                number
+of proportionals.
+
+     For example, let A,B, C, D, be four continued propor-
+tionals, that is,             A       :   i>          ::        :       C :: C                  :   D; A is faid to have
+to   D, the triplicate ratio of A to B ;
+                                      or - s; the cube of—.

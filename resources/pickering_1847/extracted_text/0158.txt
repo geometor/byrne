@@ -1,0 +1,43 @@
+124           BOOK IF. DEFINITIONS.
+
+
+
+                          A circle is faid to be infcribed in
+                          a rectilinear figure, when each fide
+                          of the figure     is    a tangent to the
+                          circle.
+
+
+
+
+                              VI.
+
+                              A circle is faid to be circum-
+                              fcribed about a rectilinear figure,
+                              when the circumference panes
+                              through the         vertex   of each
+                              angle of the figure.
+
+
+
+
+                             VII.
+                                    ¥        is   circumfcribed.
+
+
+
+
+                  A straight line is faid to be infcribed in
+                  a circle, when    its   extremities are in the
+                  circumference.
+
+
+
+
+The Fourth Book of the Elements is devoted to the folution of
+  problems, chiefly relating to the infcription and circumfcrip-
+
+  tion of regular polygons and circles.
+
+
+A regular polygon is one whofe angles and fides are equal.

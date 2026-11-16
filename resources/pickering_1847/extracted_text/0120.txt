@@ -1,0 +1,53 @@
+86            BOOK III. PROP. X. THEOR.
+
+
+
+                     NE circle I             )    cannot   interfe£i another
+
+
+                      rv
+                       J        in more points than two.
+
+
+
+
+            For, if it be poflible, let it interfedt in three points       ;
+
+
+
+
+      from the centre of I
+                               O         J   draw
+
+                                to the points of interferon ;
+
+
+
+
+                               (B. i. def. 15.),
+
+
+      but as the circles       interfec~t,       they have not the fame
+
+                            centre (B.       3. pr. 5.)
+
+
+
+
+      .*.   the affumed point is not the centre of ^
+
+
+
+                                              and
+                                                             O      J , and
+
+                                                                 are drawn
+
+     from a point not the centre, they are not equal (B. 3.
+prs. 7, 8) ;    but it was mewn before that they were equal,
+
+which is abfurd       ;   the circles therefore do not interfedt. in
+
+three points.
+
+                                                                Q. E. D.

@@ -1,0 +1,41 @@
+xxvi             BOOK I. ELUCIDATIONS.
+the ufe of which is permitted in Euclid, or plain Geometry.
+To declare this reftriction is the object of the populates.
+  The Axioms of geometry are certain general propofitions,
+the truth of which is taken to be felf-evident and incapable
+of being eftabliflied by demonftration.
+  Propofitions are thofe refults which are obtained in geo-
+
+metry by a procefs of reafoning.         There are two fpecies of
+propofitions in geometry, problems and theorems.
+  A Problem is a propofition in which fomething             is   pro-
+pofed to be done       ;   as a line to be drawn   under fome given
+conditions, a circle to be defcribed,       fome figure to be con-
+firucted, 5cc.
+
+  The folution of the problem confifts in fhowing how the
+thing required may be done by the aid of the rule or ftraight-
+edge and compafies.
+  The demonjlration confifts in proving that the procefs in-
+dicated in the folution really attains the required end.
+  A Theorem is a propofition in which the truth of fome
+principle is aflerted.       This principle muft be deduced from
+the axioms and definitions, or other truths previously and
+independently eftablifhed.          To fhow this is the object of
+demonstration.
+  A Problem analogous to a poftulate.
+                 is
+
+  A Theorem refembles an axiom.
+  A Pojlulate a problem, the folution of which is afiumed.
+                  is
+
+  An Axiom is a theorem, the truth of which is granted
+without demonfbration.
+  A Corollary is an inference deduced immediately from a
+propofition.
+  A Scholium is a note or obfervation on a propofition not
+containing an inference of fufficient importance to entitle it
+to the name      of a corollary.
+   A Lemma is a propofition merely introduced for the pur-
+pole of efiablifhing fome more important propofition.

@@ -1,0 +1,60 @@
+    :26         BOOK VI. PROP. VIII. THEOR.
+
+                                                                       N a right angled
+                                                                                 triangle
+
+
+
+                                                                        (                        )>if
+                                                      a perpendicular             (
+                                                                                                 —
+                                                      be drawn from the right angle
+
+                                                      to the oppojitejide, the triangles
+
+
+
+f
+    ^/j^        | j       |^   )   on each Jide of it are fimilar to the whole
+
+triangle and to each other.
+
+
+
+           Becaufe                                        (B.     i.   ax.   1   1),   and
+
+
+
+                  common to                                        and
+
+
+
+                      A=4                              (B.   i.   pr. 32);
+
+
+
+
+                                   and                       are       equiangular           ;   and
+
+coniequently have their fides about the equal angles pro-
+
+portional (B. 6. pr.                 4),      and are therefore fimilar (B. 6.
+
+def. 1).
+
+
+
+      In like manner it              may be proved that nk              L         is   fimilar to
+
+
+
+
+                      ;   but                         has been lliewn to be fimilar
+
+
+
+           to                            9    •   •                    and |Lk         are
+
+                fimilar to the               whole and to each other.
+
+                                                                                      Q. E. D.

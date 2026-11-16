@@ -1,0 +1,36 @@
+1   82        BOOK V. DEFINITION XVI.
+
+
+
+                        DEFINITION XVI.
+Dividendo, by divifion, when there are four proportionals,
+and it is inferred, that the excefs of the firfr. above the fecond
+is   to the fecond, as the excefs of the third above the fourth,
+
+is   to the fourth.
+
+
+                        Let A     :    B        : :   C    :   D   ;
+
+
+
+                  by " dividendo " it is inferred
+               A minus B      :   B    :   :    i     minus            )   :   D.
+
+     According to the above, A is fuppofed to be greater than
+B, and C greater than              ;       if this         be not the cafe, but to
+have B greater than A, and                          B and
+                                                      greater than C >
+can be     made    to   ftand as antecedents, and A and C as
+                                       "
+confequents, by " invertion
+
+
+                          B   :   A    :   •.    D     :   C   ;
+
+
+
+
+                  then, by "dividendo," we infer
+
+               B minus A      :   A    : :             minus C             :   C   •

@@ -1,0 +1,63 @@
+24         BOOK I. PROP. XXIV. THEOR.
+
+                                                                F two        triangles
+                                                                have two fides of
+                                                                the    one     reflec-
+                                                                tively       equal   to
+
+                                        two fides of the other (
+                                        to    ————— and -------
+                                        to                       ),   and if one of
+
+
+
+                                        the angles ( <jl               ^ ) contain-
+                                        ed       by     the      equal fides         be
+
+
+
+                       [Lm\),
+greater than the other (L. \)> the fide ((             ——^               )   which   is
+
+oppofite to the greater angle is greater than the fide (                              )
+
+which is oppofte to the lefs angle.
+
+
+
+
+            Make              C3 =      /    N        (pr. 23.),
+
+               —^— =
+             draw •-
+           and                                              (pr. 3.),
+                                                  --•--—.
+ Becaufe         —
+            — — =: — —
+                                        and
+                                                      (ax. 1. hyp. conft.)
+
+
+
+                 .'.
+                        ^ = ^f                        (pr   -
+
+
+
+
+                                                        *
+                       but    '^^ Z2                        »
+
+
+
+
+                        .*.
+                              ^J Z]                    £^'
+           /.
+           but
+                  —— =         -
+                                   CI                    (pr. 19.)
+
+                                                            (p r -4-)
+                  .-.                   c
+                                                                       Q. E. D.

@@ -1,0 +1,48 @@
+                                146
+
+
+                          AXIOMS.
+
+           QUIMULTIPLES or equifubmultiples of the
+            fame, or of equal magnitudes, are equal.
+
+                         If A = B, then
+                      twice A := twice B, that   is,
+
+                          2 A = 2 B;
+                          3A = 3 B;
+                       4 A  =  4B;
+                          &c. &c.
+                and 1 of A  = i of B     ;
+
+
+
+                       iofA = iofB;
+                              &c. &c.
+
+                                II.
+
+A multiple of a greater magnitude       is greater   than the fame
+
+multiple of a lefs.
+                       Let A   C B, then
+                         2AC2B;
+                         3    ACZ3B;
+                         4 A   C 4 B;
+                              &c. &c.
+
+                                III.
+
+That magnitude, of which a multiple is greater than the
+fame multiple of another, is greater than the other.
+
+                  Let 2 A       m B, then
+                                   2
+
+                              ACZB;
+               or, let 3      A C B, then
+                                   3
+
+                              ACZB;
+               or, let   mA    C m B, then
+                              ACB.

@@ -1,0 +1,68 @@
+202                                  BOOK V. DEFINITION A.
+A to         1   '       is   faid to be compounded                                          of the ratios of                          '
+                                                                                                                                                   to     ,
+
+
+
+H to     (           ,   and     I        to       I   >
+
+
+
+
+   And if \ has to    the fame ratio which   has to   and
+                                                       I.                                                               I                      I   ,
+
+
+
+B to C the fame ratio that G has to H, and       to h the                                                                        (
+
+
+fame that K has to L then by this definition, \ is said to          ;
+
+
+
+have to L) the ratio compounded of ratios which are the
+fame with the ratios of E to F, G to H, and K to L« And
+the fame thing is to be underftood when it is more briefly
+expreffed by faying,    has to D the ratio compounded of        \
+
+
+
+
+the ratios of E to F, G to H, and K to                                                                      |       .
+
+
+
+
+      In like manner, the fame things being iuppofed                                                                                       ;       if
+
+has to                       the fame ratio which                                         has to I              '
+                                                                                                                        ,   then for fhort-
+nefs fake,                           is   faid to have to                                    the ratio compounded of
+the ratios of E to F,                                           G to H, and K to L.
+
+      This definition may be better underftood from an arith-
+metical or algebraical illuftration ; for, in fact, a ratio com-
+pounded of feveral other ratios,                                                             is       nothing more than a
+ratio which has for its                                                 antecedent the continued product of
+all   the antecedents of the ratios compounded, and for                                                                                                 its
+
+confequent the continued product of all the confequents of
+the ratios compounded.
+
+
+                     Thus, the ratio compounded of the ratios of
+                                               :            ,            :     ,6:11,2:5,
+        is       the ratio of -                                 X             X 6 X 2         :        X                    X    11   X 5,
+                              or the ratio of 96                               :   11 55, or           32           :       385.
+
+      And of the magnitudes A, B, C, D, E, F, of the fame
+kind, A                  :    F is the ratio compounded of the ratios of
+                              A :B, B                       :       C,        C: D,      J        :    E,       E           :   F;
+      for A                  X B X                         X                 X E    :   B X v           X                       X E X F,
+
+       or
+                             XX    X
+                             xx Xxexf =                                  E.
+
+                                                                                   "' or the ratio of A                                :       F   -

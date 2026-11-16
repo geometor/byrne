@@ -1,0 +1,49 @@
+264       BOOK VI. PROP. B. THEOR.
+
+
+                              F an angle of a triangle be bi-
+                              fecJed by a Jlraight          line,   which
+                                 likewife cuts the bafe ; the rec-
+
+                                 tangle contained by the fides of
+
+                  the triangle    is   equal to the rectangle con-
+                  tained by the fegments of the bafe, together
+                  with the fquare of the Jlraight           line    which
+                  b/fecJs the angle.
+
+
+
+                     Let                       be   drawn,       making
+
+
+                            ^ = £t              ;   then fhall
+
+                                 ...
+                                       x                +
+
+
+
+produce
+                                       o
+                    to meet the circle, and draw
+                                                      (B. 4. pr. 5),
+
+
+
+                                                                     —
+                Since 4fl   = 4Hk          (hyp-)>
+
+
+
+          and            = ^T            (B.   3.   pr. 21),
+
+
+
+
+,ZL y \                     are equiangular (B. 1. pr. 32)
+
+
+
+
+                       (B. 6. pr. 4);

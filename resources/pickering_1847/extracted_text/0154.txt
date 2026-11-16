@@ -1,0 +1,51 @@
+              120         BOOK III. PROP. XXXV. THEOR.
+ FIGURE I.
+                                     F two chords      I   ...   .--^_       I
+                                                                                  tn   a cir
+                                                                                         circle
+
+
+                                     interject each other, the recJangle contained
+
+                                      by the fegments of the one        is       equal to the
+                     re El angle contained by the fegments of the other.
+
+
+
+                                              FIGURE I.
+                    If the given right lines pafs through the centre, they are
+              bifedled in the point of interfedtion, hence the rectangles
+              under their fegments are the fquares of their halves, and
+              are therefore equal.
+
+ FIGURE II.
+                                             FIGURE II.
+                       Let   —»———               pafs through the 'centre, and
+
+                       __.....        not;   draw                    and                     .
+
+
+
+                      Then                   X
+                                                    (B. 2. pr. 6.),
+
+                     or                X
+                                             x                   =                       X
+                                                      (B. 2. pr. 5.).
+
+
+
+FIGURE III.                                  FIGURE III.
+                          Let neither of the given lines             pafs    through the
+                     centre,     draw through their interfection                 a diameter
+
+
+
+                          and                X                   =                      X
+                                             ......    (Part. 2.),
+
+                          alfo   -         - X                   =                      X
+                                                      (Part. 2.) ;
+
+                                        X                                        X
+                                                                                 Q. E. D.

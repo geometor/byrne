@@ -1,0 +1,72 @@
+        68         BOOK II. PROP. XIII. THEOR.
+
+
+
+FIRST                                     SECOND.
+
+                                                                                        N any tri-
+                                                                                         angle,    the
+
+                                                                                         fqnareofthe
+                                                                                        Jide fubtend-
+                                                                       ing an acute angle,          is
+
+
+                                                                       lefs     than the fum of the
+                                                                       fquares of the Jides con-
+        taining that angle, by twice the rectangle contained by either
+
+        of thefe fides, and the part of it intercepted between the foot of
+        the perpendicular let fall on it from the oppofite angle, and the
+
+        angular point of the acute angle.
+
+
+                                                   FIRST.
+                                                          2
+                                  '
+                                          -|                      by 2      .
+
+
+
+
+                                                   SECOND.
+                                      2                       2
+                                           -\                     by 2
+
+
+
+             Firrt, fuppofe the perpendicular to fall                                 within the
+
+
+
+             »     2
+                       -J-
+                             triangle, then (pr. j, B. 2.)
+
+                             —^^ ZZZ 2 ^"—"m
+                                      2
+
+
+
+                             add to each
+                                                      •
+
+
+
+                                                       _                '
+                                                                                •
+
+
+
+                                                                            then,
+                                                                                    <^^^ -|-   «    ',
+
+
+
+
+                        I             2        1              2    ^^ ~
+
+
+
+                                  .*.          (pr.   47 » B       -   O

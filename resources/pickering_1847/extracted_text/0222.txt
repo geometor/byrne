@@ -1,0 +1,29 @@
+188                    BOOK V. DEFINITION XIX.
+
+
+
+                                    DEFINITION XIX.
+" Ex aequali," from equality.                                             This term is ufed amply by
+itfelf,     when the firft magnitude is to the fecond of the firft
+rank, as the nrft to the fecond of the other rank ; and as
+the fecond is to the third of the hrft rank, fo is the fecond
+to the third of the other ;                               and fo on in order                             :       and the in-
+ference is as mentioned in the preceding definition                                                                  ;       whence
+this   is       called ordinate proportion.                                         It is            demonftrated                in
+
+Book 5. pr. 22.
+
+   Thus, if there be two ranks of magnitudes,
+                            A, B,   1.       ,   P, E, F, the nrft rank,
+                     and L, M,                        ,       ,       P, Q, the fecond,
+
+                fuch that A              :   B    :   :   L M, B  :                 :   (       ::   M       :           ,
+
+
+
+
+       :    :   I     : :      :         ,            :   E       :   :        :   P,       E    :   F   : :     P       :
+                                                                                                                             Q
+                    we infer by the term " ex asquali" that
+                                             A F :: L
+                                                  :                        :   Q.

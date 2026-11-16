@@ -1,0 +1,68 @@
+          BOOK III. PROP. XXXVI. THEOR.                                               121
+
+
+
+                F from a point without a                                     FIGURE I.
+
+                   circle twojiraight lines be
+
+                   drawn to it, one of which
+                   —mm        is   a tangent
+                                   ^—        ——
+                                                   to
+
+the circle, and the other
+
+cuts it ; the rectangle under the whole
+                     —
+cutting       line
+
+external fegment
+
+the fquare of the tangent
+                            ———
+                            «•"
+                                    is
+                                         and   the
+
+                                         equal to
+                                         —     .
+
+
+
+
+                                    FIGURE I.
+
+          Let —.-"••                     pafs through the centre;
+
+  draw                     from the centre to the point of contact                ;
+
+
+
+              -2                                                2
+                                          minus                     (B. 1. pr. 47),
+
+         or                                             minus
+                      •~~   ^HH (Liitf BMMW ^Q                        (B. 2. pr. 6).
+
+
+
+
+               FIGURE II.                                                  FIGURE II.
+
+    If    •"••              do not
+pafs through the centre, draw
+
+                     and    —— -    ,
+
+
+
+
+ Then
+                       minus "
+     (B. 2. pr. 6), that is,
+
+                                                            minus              %
+                     - X                                   ,*       (B. 3 .pr. 18).
+
+                                                                       Q. E. D.

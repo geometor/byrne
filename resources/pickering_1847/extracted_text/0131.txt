@@ -1,0 +1,45 @@
+                   BOOK III. PROP. XVI. THEOR.                                     07
+
+
+
+                                      PART II.
+
+      Let                     be J_        ——^          and       let   ------ be
+
+drawn from            a point          *•"    between                       and the
+
+circle,     which, if it be poflible, does not cut the circle.
+
+
+
+                         Becaufe       |
+                                              i
+                                                  = _j
+                                                    |
+                                                                  >
+
+
+
+
+                        ^      is   an acute angle      ;       fuppofe
+
+...............        J_ ........ 9 drawn from the centre of the
+
+ circle,      it   mull: fall at the fide of            ^         the acute angle.
+
+
+.*.   m^> which          is   fuppofed to be a right angle, is             C Ik      ,
+
+
+
+
+                       but    •«•»•••«••.    ~ ———
+and     .'.   --••>.          C -•••••••,                   a    part greater   than
+
+the whole,           which     is   abfurd.       Therefore the point does
+
+not    fall   outfide the circle, and therefore the ftraight line
+
+...........        cuts the circle.
+
+                                                                          Q.E.D.

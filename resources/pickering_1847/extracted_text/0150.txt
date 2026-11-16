@@ -1,0 +1,31 @@
+              n6      BOOK III. PROP. XXXI. THEOR.
+
+                                          FIGURE III.
+FIGURE III.          The angle     v ^k         in a fegment lefs than femi-
+
+
+                   circle is obtufe.
+
+
+
+                     Take in the oppofite circumference any point, to
+
+                   which draw     —-«——— and                      .
+
+
+
+
+                        Becaufe   *       -f-
+
+
+                                       (B. 3. pr. 22.)
+                                                            =    m
+                          but                   a         (part 2.),
+
+
+
+
+                                                  is   obtufe.
+
+
+                                                                       Q. E. D.

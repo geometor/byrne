@@ -1,0 +1,36 @@
+xvi                        INTRODUCTION.
+
+
+
+
+                     and            =:         (B.   i. pr. 4).
+
+
+
+
+                      But
+                                         ^
+
+                                                       Q. E. D.
+
+
+             5y annexing Letters to the Diagram.
+Let the equal fides AB and AC be produced through the
+extremities BC, of the third fide, and in the produced part
+BD of either, let any point D be aflumed, and from the
+other let AE be cut off equal to AD (B. 1. pr. 3). Let
+the points E and D, fo taken in the produced fides, be con-
+nected by ftraight lines      DC and BE with the alternate ex-
+tremities of the third fide of the triangle.
+   In the triangles        DAC and EAB the fides DA and AC
+are reflectively equal        to   EA and AB, and the included
+angle   A is common to both triangles.       Hence (B.    1 .         pr. 4.)
+
+the line   DC   is   equal to BE, the angle   ADC to the angle
+AEB, and the angle ACD to the angle ABE                   ;       if    from
+the equal lines      AD and AE the equal fides AB and AC
+be taken, the remainders BD and CE will be equal.                     Hence
+in the triangles BDC and CEB, the fides BD and DC are
+refpectively equal to CE and EB, and the angles D and E
+
+included by thofe fides are alfo equal.       Hence (B.       1   .   pr. 4.)

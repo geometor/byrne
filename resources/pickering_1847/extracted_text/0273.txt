@@ -1,0 +1,53 @@
+           BOOK VI. PROP. XVIII. THEOR.                                         239
+
+
+
+
+               N a given Jlraight line (
+                to   conjlruB    a     recJilinear figure
+
+
+
+                Jimilar to a given one                         )
+
+
+
+and Jimilarly placed.
+
+
+   Refolve the given figure into triangles by
+
+drawing the lines       .         -.          and
+
+   At    the    extremities     of
+
+
+  ^ = f^V                and
+
+again at the extremities of
+
+
+
+          and
+                  ^  — ^\
+                  ^k —                    T    in like   manner make
+
+
+
+                * = \/andV =                                 V
+        Th en                        is       fimilar to
+
+
+
+It is   evident from the construction and (B.                      1.   pr. 32) that
+
+      the figures are equiangular               ;   and fince the triangles
+
+
+
+W V         and                are equiangular: then by (B. 6. pr.4),
+
+
+
+                                           ::       —
+and

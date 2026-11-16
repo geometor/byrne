@@ -1,0 +1,45 @@
+XXIV              BOOK I. ELUCIDATIONS.
+   The twelfth axiom may be expreffed in any of the fol-
+lowing ways
+   i   .   Two diverging ftraight lines cannot be both parallel
+to the     fame ftraight line.
+   2.      If a flraight line interfecT: one of the      two parallel
+ftraight lines it muft alfo interfecl the other.
+
+   3.      Only one flraight line can be drawn through a given
+point, parallel to a given ftraight line.
+   Geometry has for its principal objects the expofition and
+explanation of the properties of figure, and figure is defined
+to be the relation which fubfifts between the boundaries of
+
+fpace.       Space or magnitude is of three kinds, linear, Juper-
+ficial, &n&folid.
+
+   Angles might properly be confideret"            as a fourth fpecies
+
+of magnitude.         Angular magnitude evidently          confifts   of
+parts,     and muft therefore be admitted to be a fpecies ol
+quantity        The ftudent muft not fuppofe that the magni-
+
+
+
+
+A
+                       tude of an angle is affected by the length
+                       of the ftraight lines which include it, and
+                       of whofe mutual divergence it is the mea-
+                       fure.   The vertex of an angle is the point
+                       where the fides or the legs of the angle
+                       meet, as A.
+   An angle is often defignated by a fingle letter when its
+                           legs are the only lines which meet to-
+                           gether at its vertex.    Thus the red and
+                           blue lines form the yellow angle, which
+                           in other fyftems   would be called the
+                           angle A.    But when more than two
+                       B   lines meet in the fame point, it was ne-
+
+                           ceffary by former methods, in order to
+
+                           avoid confufion, to employ three letters
+                           to defignate an angle about that point,

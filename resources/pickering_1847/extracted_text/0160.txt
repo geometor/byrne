@@ -1,0 +1,62 @@
+126            BOOK IF. PROP. II. PROB.
+
+
+
+                                                 N a given circle
+
+
+                                                       O
+                                  fcribe a triangle equiangular
+                                                                      to   tn-
+
+
+
+
+                                  to a given triangle.
+
+
+
+
+To any point of the given circle draw                    - , a   tangent
+
+      (B. 3. pr. 17.); and at the point of contact
+
+
+
+        make     A m = ^^              (B.      1. pr.   23.)
+
+
+
+       and in like manner               —                ,   and
+
+                          draw
+
+
+
+           Becaufe
+                  J^ =              ^           (conft.)
+
+
+
+         and
+                j£ = ^J              (B.   3.   pr. 32.)
+
+
+
+
+                .\    ^^ = ^P              ;    alfo
+
+
+
+
+           \/        5S          for the fame reafon.
+
+
+
+           /.             =   ^     (B. i.pr. 32.),
+
+and therefore the triangle infcribed in the circle               is    equi-
+
+angular to the given one.
+
+                                                             Q. E. D.

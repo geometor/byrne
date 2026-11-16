@@ -1,0 +1,33 @@
+44         BOOK I. PROP. XLIII. THEOR.
+
+
+
+
+                               HE complements
+
+
+
+                                      and   ^ ^f       of
+                     the parallelograms which are about
+
+                     the diagonal of a parallelogram are
+
+                     equal.
+
+
+
+
+      1                               (pr- 34-)
+
+
+
+
+     and   V>       =                  (pr. 34-)
+
+
+
+
+                                      (ax. 3.)
+
+
+                                            Q. E. D.

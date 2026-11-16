@@ -1,0 +1,34 @@
+l8 4        BOOK V. DEFINITION XV.
+
+
+
+                   DEFINITION XV.
+The term componendo, by compofition, is ufed when there
+are four proportionals   ;   and it is inferred that the firft toge-
+ther with the fecond is to the fecond as the third together
+with the fourth is to the fourth.
+
+
+                   Let A         :   B     :   :       :   D       ;
+
+
+
+
+   then, by the term " componendo," it is inferred that
+
+               A   +B B      :       ::            + D D.      :
+
+
+
+
+  By " invertion" B and p may become the firlt and third,
+A and    the fecond and fourth, as
+
+                     B       :   A   : :   D       :       ,
+
+
+
+
+         then, by " componendo," we infer that
+
+               B   +A A      :       : :       D+                  :   .

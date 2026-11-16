@@ -1,0 +1,46 @@
+                       BOOKV. DEFINITION XX.                                                                189
+
+
+
+
+                                   DEFINITION XX.
+" Ex squali              in        proportione perturbata feu inordinata,"
+from equality in perturbate, or diforderly proportion. This
+term is ufed when the firft magnitude is to the fecond of
+the firft rank as the laft but one is to the laft of the fecond
+rank   ;       and as the fecond is to the third of the firft rank, fo
+is   the laft but two to the laft but one of the fecond rank                                                  ;
+
+
+
+
+and as the third is to the fourth of the firft rank, fo is the
+third from the laft to the laft but two of the fecond rank                                                    ;
+
+
+
+
+and fo on in a crofs order                            :   and the inference is in the 1 8th
+definition.            It is   demonstrated in B. 5. pr. 23.
+
+
+     Thus, if there be two ranks of magnitudes,
+                       A, B, C, D,                        ,       ,       the firft rank,
+
+                     N O P Q the fecond,
+                   and         ,     ,            ,           ,       ,       ,
+
+
+        fuch that A:B::P:Q,B:C::0:P,
+
+     C D N O, D
+           :      ::      : N,      F     :               ::              :        i   :   ::   :   I
+                                                                                                        ;
+
+
+
+the term " ex a?quali in proportione perturbata feu inordi-
+
+                                     nata" infers that
+
+                                      A       :           ::              :   Q.

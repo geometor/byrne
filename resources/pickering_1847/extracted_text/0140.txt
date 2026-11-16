@@ -1,0 +1,58 @@
+io6      BOOK III. PROP. XXIII.                     THEOR.
+
+
+
+                                                     PON        the   fame
+                                                        Jlraight      line,
+
+                                                        and    upon    the
+
+                                                        fame fide of it,
+                                       two fimilar fegments of cir-
+                                       cles    cannot    he   conflrutled
+
+                                       which do not coincide.
+
+
+
+
+        For if it be poffible, let two fimilar fegments
+
+
+
+
+       Q
+draw any right line
+
+                draw
+                       and
+
+
+
+                       .              and   —
+                                                be constructed
+
+                                       cutting both the fegments,
+
+                                                          .
+
+
+
+
+             Becaufe the fegments are fimilar,
+
+
+                                       (B. 3. def. 10.),
+
+
+
+          but                  (Z   ^^        (B. 1. pr. 16.)
+
+
+      which is abfurd      :   therefore no point in either of
+
+          the fegments falls without the other, and
+
+                therefore the fegments coincide.
+
+                                                              O. E. D.

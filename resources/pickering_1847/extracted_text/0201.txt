@@ -1,0 +1,56 @@
+                          BOOK V. DEFINITION VII.                                                    167
+
+and m introduced in the                           fifth definition,           which are in that
+definition confidered to be every pair of multiples that can
+
+be taken.            It muff, alio be here obferved, that ^P ,
+                                                                                              £~J, 1 1   ,
+
+
+and the like fymbols are to be confidered merely the repre-
+fentatives of geometrical magnitudes.
+
+     In a partial arithmetical way, this                                    may be fet forth as
+follows        :
+
+
+
+
+     Let us take the four numbers,                               :   ,
+                                                                         7, i;,       and
+
+
+
+                          Firft.       Second.          Third.               Fourth.
+
+                            8             7                     10                9
+
+                               16         H                     20                I   O
+                            24            21                    3°                27
+                            32            28                    40                36
+                            40            35                    5°                45
+                            48           42                     60                54
+                            56           49                     7°                63
+                            64            5°                    80                72
+                            72            63                    90                8:
+                            80            70                100                 90
+                            88
+                                         V                  no                  99
+                            96           84                 120                108
+                           104            9   1             '3°                117
+                           112            98                j   40                126
+                           &C.           &c.                &c                 Sec.
+
+
+
+     Among the above multiples we find                                            r       C 14 and   z
+
+tZ                 that    is,      twice the       firft       is       greater than twice the
+lecond, and twice the third is greater than twice the fourth;
+and    i
+           6   ^     21     and 2       ^3              that is, twice the firft is lefs
+than three times the fecond, and twice the third is lefs than
+three times the fourth ; and among the fame multiples we
+can find              Hi 56 and v                  IZ                that is, 9 times the firft
+is   greater than 8 times the fecond, and 9 times the third is
+greater than               8     times the fourth.                       Many other equimul-

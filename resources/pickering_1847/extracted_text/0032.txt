@@ -1,0 +1,67 @@
+xxviii                    STMBOLS AND ABBREVIATIONS.
+                                                   as A is to B, fo is C to D    ;
+
+
+                                                   or A is to B, as C is to D.
+
+    |
+            fignifies parallel to.
+
+_L          .    .    .           .   perpendicular to.
+
+                          .           angle.
+
+
+
+
+m                             .
+
+
+
+
+Xi x or > briefly defignates a point.
+                                  I
+                                      right angle.
+
+
+                                      two right angles.
+
+
+
+\       .   =, or                     ^           flgnities greater, equal, or lefs than.
+
+The lquare defcribed on a line is concifely written                                              thus,
+
+
+In the fame                             manner twice the fquare of,                  is   expreffed by
+                                          2
+        2                                     .
+
+
+
+
+def.            fignifies definition.
+
+pos                                     pojlulate.
+
+ax                                      axiom.
+hyp                                       hypothefis.          It   may be neceffary here to re-
+                mark, that the hypothefis is the condition affumed or
+                taken for granted.  Thus, the hypothefis of the pro-
+                pofition given in the Introduction, is that the triangle
+                is   ifofceles, or that its legs are equal.
+
+conft                                             confiriiolion.    The confiruSlion is the change
+                made in the original figure, by drawing lines, making
+                angles, defcribing circles, &c. in order to adapt                                it   to
+
+                the argument of the demonftration or the folution of
+                the               problem.                 The conditions under which            thefe
+
+                changes are made, are                               as indisputable as thofe     con-
+                tained in the hypothefis.  For inftance, if we make
+                an angle equal to a given angle, thefe two angles are
+                equal by confbruction.
+
+Q^ E. D                                                 Quod erat demonfirandum.
+                                                        Which was to be demonftrated.

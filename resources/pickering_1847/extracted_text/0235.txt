@@ -1,0 +1,89 @@
+                        BOOK V. DEFINITION XL                                                                                  20I
+
+
+    This definition will be better underftood, and applied to
+a greater       number of magnitudes than four that are con-
+tinued proportionals, as follows                                       :
+
+
+
+
+Let a r' ,              ,   a r , a, be four magnitudes in continued pro-
+          portion, that is, a r3                           :           ::             '•
+                                                                                           ar       '•'•
+                                                                                                           a r    '•
+                                                                                                                       <l >
+
+
+
+
+               then -        — =r ~
+                             a
+                                              r
+                                                  3
+                                                               the cube of                 —=                r.
+
+
+                                         3
+Or, let ar5 , ar*, ar , ar', ar, a, be fix magnitudes in pro-
+portion, that is
+
+    ar5   :   ar*   :   :   ar*      *
+                                         ar3 :: ar3                :   ar 1   :   :   ar    :       ar :: ar               :   a,
+
+
+    then the ratio            — =:
+                              ar*
+                                 a
+                                                  r° z= the fifth r
+                                                                  power of                                   —
+                                                                                                             cir°
+
+                                                                                                             ar*
+                                                                                                                 =:    ;        r.
+
+
+
+Or, let a, ar, ar 2 , ar3 , ar4 be five magnitudes in continued
+                                                       ,
+
+
+
+
+proportion
+r  r
+                ;   then         — =-7 —
+                                 ar*
+                                         -.
+
+
+                                                      r*
+                                                                   the fourth rpower of                           —
+                                                                                                                  ar
+                                                                                                                     — -.r
+
+                                         DEFINITION A.
+To know a compound ratio                                       :
+
+
+
+
+  When there are any number of magnitudes of the fame
+kind, the firfr. is faid to have to the                                           laft     of them the                         ratio
+compounded of the ratio which the firft has to the fecond,
+and of the ratio which the fecond has to the third, and of
+the ratio which the third has to the fourth                                                     ;   and fo on, unto
+the laft magnitude.
+
+    For example,                  if A,               B, C, D,
+be four magnitudes of the fame                                                              A B C D
+kind, the firft A             is         faid to have to                              E F G H K. L
+the      D the ratio compounded
+      laft                                                                                          MN
+of the ratio of A to B and of the             ,
+
+
+
+ratio of B to C,              and of the ratio ofC to D ;                                           or, the ratio of
+
+                                                                       DD

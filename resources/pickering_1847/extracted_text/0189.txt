@@ -1,0 +1,57 @@
+                  BOOK V. PROP. IV. THEOR.                                                                  155
+
+
+
+
+              F the firjl offour magnitudes have the fame ratio to
+                  the fecond, which the third has to the fourth, then
+
+                  any equimultiples whatever of the firfi and third
+                  shall have the fame ratio to any equimultiples of
+
+the fecond and fourth ; viz., the equimultiple of the firfl fliall
+
+have the fame ratio                    to that             of the fecond, which the equi-
+multiple of the third has to that of the fourth.
+
+
+
+
+  Let         :>:.* :^, then 3                                              :2|::34:2f,
+every equimultiple of 3                                    and 3      ^ are equimultiples of
+    and     ^     ,   and every equimultiple of 2 | | and 2 JP , are
+
+equimultiples of 1 1 and                          ^ (B.              5, pr. 3.)
+
+
+
+  That is,        M times              3           and      M times ^ are equimulti-
+                                                                             3
+
+ples of       and          ^ and m times
+                               ,                                 2
+                                                                      1 1
+                                                                            and m 2          S      are equi-
+
+multiples of 2             I   I
+                                   and 2               ^    •    but             •
+                                                                                     I   I   • •    ^ W •
+
+
+(hyp);      .*.       if   M       3               EZ,          =, or —j «/ 2                        |, then
+        M    3        ^ CZ =, or ^ ;« 2 f (def. 5.)
+                                       .
+
+
+
+
+   and therefore               3              :    z
+                                                       |   | :: 3                ;   2   ^         (def. 5.)
+
+
+  The fame reafoning holds good if any other equimul-
+tiple of the firft and third be taken, any other equimultiple
+
+of the fecond and fourth.
+
+                  .*.      If the          firft   four magnitudes, &c.

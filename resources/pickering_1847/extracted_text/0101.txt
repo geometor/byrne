@@ -1,0 +1,60 @@
+                  BOOK II. PROP. XII. THEOR.                                          67
+
+
+
+                  N any obtufe angled
+                      triangle, thefquare
+
+                      of the fide fubtend-
+                      ing the obtufe angle
+
+exceeds the fum of the fquares
+
+of the fides containing the ob-
+tufe angle,           by twice the rec-
+
+tangle contained by either                   of
+thefe fides and the produced'parts
+
+of the fame from the obtufe
+angle to the perpendicular                   let
+
+fall on it from the oppofi'ce acute
+
+angle.
+
+
+                                                       +                   *   by
+
+
+
+
+                                   By pr. 4, B. 2.
+   -„..*          =                 2
+                                        _j
+                                                           3
+                                                               _|_ 2                „   .
+
+
+
+
+                            add    -^—       —     2
+                                                       to both
+
+              2
+                      +                 2
+                                              =                    8
+                                                                       (pr. 47f B.i.)
+
+
+    2 •                             +                          +                      or
+
+
+
+          +                         (pr. 47, B. 1.).            Therefore,
+           »"         =2       •
+                                                                   +                +
+              ~   :    hence                                       -   +
+                          by   2
+
+                                                                           Q. E. D.

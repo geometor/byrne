@@ -1,0 +1,12 @@
+{
+  "edition": "pickering_1847",
+  "source_pdf": "resources/pickering_1847/pdfs/byrne_1847_pickering.pdf",
+  "total_pages": 306,
+  "dpi": 300,
+  "preserve_color": true,
+  "folio_png_count": 306,
+  "rendered_new_count": 306,
+  "extracted_text_pages": 299,
+  "extracted_graphics_count": 0,
+  "extracted_graphics": []
+}

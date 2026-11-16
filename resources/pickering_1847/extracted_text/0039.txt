@@ -1,0 +1,47 @@
+               BOOK I. PROP. V. THEOR.
+
+               N any ifofceles triangle
+               A       if the equal fides
+                be produced, the external
+
+angles at the bafe are equal, and the
+internal angles at the bafe are alfo
+
+equal.
+
+
+
+
+    Produce                          ;
+                                                and
+                     (poft.   2.),              take
+
+                               j     (P r   -   3-);
+draw-
+
+
+
+
+        Then    in
+
+
+
+
+                                                  (conft),
+                                                             ^   common        to
+
+
+
+                                                  (hyp.) /.   Jk = |k
+
+
+
+
+                                                               (pr.     4.)   but
+
+
+
+         A = ±,-A=A                                              (ax.   3.)
+
+
+                                                                  Q.E. D.

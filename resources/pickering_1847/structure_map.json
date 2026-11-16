@@ -9,7 +9,7 @@
   ],
   "units": [
     {
-      "id": "unit-1-foundations",
+      "id": "foundations",
       "title": "Preliminaries — Introduction, Definitions, Postulates, Axioms & Symbols",
       "pickering_pages": "pp. vii–xxix (leaves 11–33)",
       "propositions": [],
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "id": "unit-7-visual-pseudocode",
+      "id": "visual_encoding",
       "title": "Pointer-Free Visual Pseudocode — 3-Way Rosetta Analysis",
       "pickering_pages": "Analytical Synthesis",
       "propositions": [],

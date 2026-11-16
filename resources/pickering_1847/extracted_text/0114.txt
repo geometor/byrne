@@ -1,0 +1,58 @@
+             8o            BOOK III. PROP. VII. THEOR.
+
+
+
+FIGURE I.
+
+                                       F from any point within a circle
+
+
+                                        which          is   not the centre, lines
+
+
+                     are   drawn to the circumference ;                  the greatejl of thofe
+                     lines is that      (—•-) which pajfes through the centre,
+                     and the leaf           is    the remaining part          (
+                                                                                  —      )   of the
+                     diameter.
+
+                         Of the others, that (                 ———       )   which is nearer to
+FIGURE II.
+                     (
+                         «^
+                    the line pafjing through the centre, is greater than that
+
+                                   »
+                                       )   which is more remote.
+
+                         Fig. 2.        The two             lines   ('            and              )
+
+
+                     which make equal angles with that paffing through the
+                     centre, on oppoftefdes of it, are equal to each other;                     and
+                    there cannot be              drawn a third line equal to them, from
+                     the fame point to the circumference.
+
+
+                                                       FIGURE I.
+               To the centre of the circle draw ------ and                              «-—•
+                   then ------           -.-      —
+                                                  (B. i. def. 15.)
+
+             vmmwmmmam     = ——                               - C ——— (B.I. pr. 20.)
+             in like manner        «         -j-
+
+                                             .1   ±1    may be fhewn to be greater than
+               M     1
+
+
+
+                           ;
+                               or any other line                drawn from the fame point
+                    to the circumference.                     Again, by (B. 1. pr. 20.)
+
+
+             take   ——         from both           ;
+                                                        .*.    ——— C                         (ax.),
+
+             and in like manner it may be fhewn that                                         is lefs

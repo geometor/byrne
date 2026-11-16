@@ -1,0 +1,54 @@
+             BOOK III. PROP. XXXII. THEOR.                                  i
+
+
+
+
+                 F a    right   line    ——
+                  be a tangent to a circle,
+
+
+                                        ———
+                  and from the point of con-
+                 tact a right line
+
+be   drawn cutting the circle, the angle
+
+      I    made by this line with the tangent
+
+is equal to the angle                 in the alter-
+
+ ate fegment of the circle.
+
+
+
+
+     If the chord fhould pafs through the centre,                 it   is   evi-
+dent the angles are equal, for each of them is a right angle.
+(B. 3. prs. 16, 31.)
+
+     But    if  draw
+                 not,                          from the
+point of contact, it muft pafs through the centre of the
+circle, (B. 3. pr. 19.)
+
+
+
+
+     w + f = zLJ = f                                      (b. i.pr.32.)
+
+
+                                       =              (ax.).
+
+
+ Again        O =£Dk=           (B. 3. pr. 22.)
+                                                               +4
+            a-*
+             =            ^m      ,
+                                       (ax.),
+
+
+                          the alternate fegment.
+                                                which is the angle in
+
+
+                                                               Q. E. D.

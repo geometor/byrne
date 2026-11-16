@@ -1,0 +1,58 @@
+            BOOK III. PROP. II. THEOR.                                         75
+
+
+
+
+             STRAIGHT line           (
+                                                     )
+
+
+             joining      two points     in    the
+
+             circumference      of a      circle
+
+
+
+
+          , lies   wholly within the circle.
+
+
+
+
+Find the centre of
+
+
+from the centre draw
+                       o         (B. 3 .pr.i.);
+
+
+
+                                          to any point in
+
+          meeting the circumference from the centre                     ;
+
+
+
+
+                   draw              and                         .
+
+
+
+
+            Then              =      ^          (B. i.pr. 5.)
+
+
+
+    but                         or
+                                              \            (B. i.pr.    16.)
+
+                                           - (B.            1.   pr. 19.)
+
+            but
+
+
+
+
+    .*.   every point in                      lies       within the circle.
+
+                                                                     Q. E. D.

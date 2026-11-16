@@ -1,0 +1,48 @@
+           BOOK I. PROP. XIII. THEOR.                               *3
+
+
+
+
+           HEN a Jiraight line
+             (              )
+                                Jlanding
+             upon another Jiraight
+             line   (                  )
+
+makes angles with         it;   they are
+
+either two right angles or together
+
+equal to two right angles.
+
+
+
+
+           If                   be J_ to             then,
+
+
+
+                    and    *=0\                       (def. 7.),
+
+
+
+        But if                    be not JL to               ,
+
+
+          draw                    -L           ;(pr. 11.)
+
+
+
+                 +                 =(      I
+                                                 J   (conft.),
+
+
+
+
+          + jm = mm + V+mk(zx.2.)
+                            :
+
+
+
+
+                                                         Q. E. D.

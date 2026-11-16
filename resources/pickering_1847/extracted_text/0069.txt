@@ -1,0 +1,47 @@
+           BOOK I. PROP. XXXIV. THEOR.                                    35
+
+
+
+
+                HE oppofite Jides and angles of
+                 any parallelogram are equal,
+
+                 and the diagonal (                 )
+
+
+divides it into two equal parts.
+
+
+
+
+  Since                                 (pr. 29.)
+
+
+
+
+          and        —— common           to the   two triangles.
+
+
+
+
+                /.   \
+                                                          >   (pr. 26.)
+
+
+
+
+                  and    mJ = m                         (ax.)
+
+
+
+Therefore the oppofite          fides   and angles of the parallelo-
+
+
+gram are equal       :   and as the triangles           \^      and   \^ /
+
+are equal in every refpect (pr. 4,), the diagonal divides
+
+
+the parallelogram into two equal parts.
+
+                                                                  Q. E. D.

@@ -1,0 +1,63 @@
+          BOOK V. PROP. XXIII. THEOR.                                                    T
+                                                                                             95
+
+
+
+
+              F there be any number of magnitudes, and as many
+               others, which, taken two and two in a crofs order,
+
+               have the fame ratio ; the firji fliall have to the lajl
+               of the firjl magnitudes the fame ratio which the
+firji of the others has to the lajl of the fame.
+
+   N.B.       This       is   ufually cited by the               words "ex cequali in
+proportione perturbatd ;" or " ex aquo perturbato."
+
+
+
+     Firft, let there be three magnitudes,                           £,   Q || ,
+
+
+
+                     and other three,                       ;
+                                                                O £
+                                                                 '    '
+
+
+
+          which, taken two and two in a crofs order,
+
+                               have the fame ratio               ;
+
+
+
+
+                     that is,               :
+                                                O   •
+                                                        =
+
+
+
+
+                              and rj        :       :
+                                                        • o,
+                then fhall                  :   1   :   :
+
+
+
+
+    Let thefe magnitudes and their refpective equimultiples
+ be arranged as follows                 :
+
+
+
+
+         m       ,Mrj, w |,M t,«0» w #»
+       then      *   :    Q M      ::           :   M Q (B.           5. pr.       15)
+
+                              and for the fame reafon
+
+
+
+                 but           J    :Q ::<> :# (hyp.),

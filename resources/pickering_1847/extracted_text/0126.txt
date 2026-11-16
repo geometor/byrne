@@ -1,0 +1,61 @@
+ 92          BOOK III. PROP. XIV. THEOR.
+
+
+
+
+                                           QUALfraight lines (^                                  ")
+                                                    infcribed in               a circle are       e-
+
+                                                    qually diji antfrom the centre
+
+                                                    and alfo Jiraight lines equally
+                                                                  t
+
+
+                            dijlant from the centre are equal.
+
+
+
+
+                                 From the centre of
+
+                                                         to
+
+                                                         join     -^— and —
+                                                                              »
+                                                                               o               draw
+
+                                                                                       and ---•->
+
+                                                     ,
+
+
+
+
+      Then                  = half                                        (B. 3. pr. 3.)
+
+        and                  = —   1                          (
+                                                                  B   -   3-   P r -3-)
+             hnce               =                         .....           (hyp.)
+
+
+
+
+       and                                                    (B. i.def. 15.)
+
+
+
+
+                     but iince            is        a right angle
+
+
+                                       +        '                         '    (B.i.pr.47.)
+
+and                                    ,... 2        -|-                       M   ,
+                                                                                        2
+                                                                                            for the
+
+                                 fame reafon,
+
+             -   2
+                     +                                                         +

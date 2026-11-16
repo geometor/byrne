@@ -1,0 +1,47 @@
+                            INTRODUCTION.                                     xiii
+
+
+arts and fciences can be taught to the blind, this vifible fys-
+
+tem is no        lefs   adapted to the exigencies of the deaf and
+dumb.
+     Care mult be taken to {how that colour has nothing to
+do with the lines, angles, or magnitudes, except merely to
+name them. A mathematical line, which is length with-
+out breadth, cannot pofiefs colour, yet the jun&ion of two
+colours on the fame plane gives a good idea of what                             is
+
+
+meant by a mathematical line              ;    recoiled:   we are fpeaking
+familiarly, fuch a junction is to be underftood                    and not the
+colour, when we fay the black line, the red line or lines, &c.
+     Colours and coloured diagrams                may      at   firft.   appear a
+clumfy method to convey proper notions of the properties
+and parts of mathematical figures and magnitudes, how-
+ever they will be found to afford a means more refined and
+extenfive than any that has been hitherto propofed.
+     We fhall here define a point, a line, and a furface, and
+demonftrate apropofition in order to fhow the truth of this
+alfertion.
+
+     A point is that which has pofition, but not magnitude                       ;
+
+
+
+
+or a point is pofition only, abfiradled from the confideration
+of length, breadth, and thicknefs.                  Perhaps the follow-
+ing defcription is better calculated to explain the nature of
+a mathematical point to thofe                 who have not acquired the
+idea, than the above fpecious definition.
+
+     Let three colours meet and cover a
+portion of the paper, where they meet
+is   not blue, nor is it yellow, nor is it
+red, as it occupies no portion of the
+
+plane, for if it did, it          would belong
+to the blue,          the red, or the yellow
+part   ;
+           yet   it   exifts,   and has pofition
+without magnitude, fo that with a little reflection, this June-

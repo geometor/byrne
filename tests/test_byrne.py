@@ -252,11 +252,13 @@ def test_separate_book_and_proposition_pages() -> None:
 
     # Legacy multi-proposition unit folders must not exist
     for legacy_slug in (
+        "unit-1-foundations",
         "unit-2-book-i",
         "unit-3-book-ii",
         "unit-4-books-iii-iv",
         "unit-5-book-v",
         "unit-6-book-vi",
+        "unit-7-visual-pseudocode",
     ):
         assert not (codex_dir / legacy_slug).exists()
 

@@ -1,0 +1,47 @@
+XV1U
+
+
+
+             THE ELEMENTS OF EUCLID.
+                             BOOK      I.
+
+
+
+
+                        DEFINITIONS.
+                                 I.
+
+
+               A point is that which has no parts.
+                                II.
+
+                A line is length without breadth.
+                                III.
+
+              The extremities of a line are points.
+                                IV.
+
+      A ftraight or right line is that which lies evenly between
+its   extremities.
+                                V.
+
+      A furface is that which has length and breadth only.
+                                VI.
+
+             The extremities of a furface are lines.
+                               VII.
+
+      A plane furface is that which lies evenly between its ex-
+tremities.
+                               VIII.
+
+      A plane angle is the inclination of two lines to one ano-
+ther, in a plane,    which meet together, but are not in the
+fame direction.
+                                 IX.
+
+                     A plane rectilinear angle is the inclina-
+                      tion of two ftraight lines to one another,
+
+                      which meet together, but are not in the
+                      fame ftraight line.

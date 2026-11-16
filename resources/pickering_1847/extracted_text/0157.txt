@@ -1,0 +1,37 @@
+                          BOOK IV.
+                      DEFINITIONS.
+
+               RECTILINEAR figure is
+              faid to be infcribedin another,
+
+              when all the     angular points
+              of the infcribed figure are on
+the fides of the figure in which it is faid
+to be infcribed.
+
+
+
+                                 II.
+
+
+A figure is faid to be defcribed about another figure, when
+all   the fides of the circumfcribed figure pafs through the
+angular points of the other figure.
+
+
+
+
+                               III.
+
+A rectilinear figure is faid to be
+infcribed in a circle,   when the vertex
+of each angle of the figure is in the
+circumference of the circle.
+
+
+
+                                IV.
+
+A rectilinear figure is faid to be cir-
+cumfcribed about a circle,     when each of
+its   fides is a tangent to the circle.

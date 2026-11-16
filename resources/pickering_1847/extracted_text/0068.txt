@@ -1,0 +1,37 @@
+34    BOOK I. PROP. XXXIII. THEOR.
+
+
+
+
+                               fRAIGHT lines           (-
+
+                               and                )   which join
+                               the   adjacent     extremities       of
+                               two equal and parallelJlraight
+                                                            * ),   are
+                   them/elves equal and parallel.
+
+
+
+
+               Draw            the diagonal.
+
+
+                                         (hyp.)
+
+
+
+
+     and       —— common       to the   two triangles
+
+
+               =   —— and^J = ^L
+                           ,                            (pr. 4.);
+
+
+
+     and .".                               (pr. 27.).
+
+
+
+                                                      Q. E. D.
