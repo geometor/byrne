@@ -1,7 +1,8 @@
+.. _byrne-visual-encoding-summary:
 .. _byrne-unit-7-summary:
 
-Unit VII Summary: Complementarity of the Three Euclidean Formalisms
-===================================================================
+Visual Encoding Summary: Complementarity of the Three Euclidean Formalisms
+==========================================================================
 
 .. rubric:: Synthesis of Textual, Chromatic & Symbolic Representations
 

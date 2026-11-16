@@ -1,7 +1,8 @@
+.. _byrne-foundations-notes:
 .. _byrne-unit-1-notes:
 
-Unit I Notes: Chiswick Press Printing, Simson Numbering & Reception
-===================================================================
+Foundations Notes: Chiswick Press Printing, Simson Numbering & Reception
+========================================================================
 
 .. rubric:: Historical, Typographic & Epistemological Commentary
 

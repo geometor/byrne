@@ -6,6 +6,8 @@
 :page: vii
 
 .. _byrne-preliminaries:
+.. _byrne-foundations:
+.. _byrne-foundations-en:
 .. _byrne-unit-1-en:
 
 Preliminaries — Introduction, Definitions, Postulates, Axioms & Symbols

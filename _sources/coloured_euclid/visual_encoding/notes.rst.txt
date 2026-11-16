@@ -1,7 +1,8 @@
+.. _byrne-visual-encoding-notes:
 .. _byrne-unit-7-notes:
 
-Unit VII Notes: Compiler Diagnostics & Interactive Synthesis
-============================================================
+Visual Encoding Notes: Compiler Diagnostics & Interactive Synthesis
+===================================================================
 
 .. rubric:: Static Register Checking & Future Extensions
 

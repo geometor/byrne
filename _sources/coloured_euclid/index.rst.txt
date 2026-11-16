@@ -1,11 +1,14 @@
 :navigation: header
 :order: 1
-:nav_title: Elements I–VI
+:type: book
+:nav_title: The First Six Books of Euclid
+:breadcrumb_title: The First Six Books of Euclid
 :layout: book
 :book_title: The First Six Books of the Elements of Euclid
 :book_subtitle: In Which Coloured Diagrams and Symbols Are Used Instead of Letters — Oliver Byrne (1847)
 :author: Oliver Byrne
 :year: 1847
+:excerpt: Oliver Byrne's landmark 1847 Chiswick Press edition using brilliant four-color diagrams and symbols in place of letters for Euclid's Books I–VI.
 
 .. _coloured-euclid-index:
 
@@ -47,7 +50,7 @@ Proposition Outline (Books I–VI)
 
 .. container:: toc-outline
 
-   - :ref:`Preliminaries — Introduction, Definitions, Postulates, Axioms & Symbols <byrne-unit-1-en>` *(pp. vii–xxix)* · :ref:`Summary <byrne-unit-1-summary>` · :ref:`Notes <byrne-unit-1-notes>`
+   - :ref:`Preliminaries — Introduction, Definitions, Postulates, Axioms & Symbols <byrne-foundations-en>` *(pp. vii–xxix)* · :ref:`Summary <byrne-foundations-summary>` · :ref:`Notes <byrne-foundations-notes>`
    - :ref:`Book I — Congruence, Parallels & The Pythagorean Theorem <byrne-book-i>` *(pp. 1–50)* · :ref:`Summary <byrne-book-i-summary>` · :ref:`Notes <byrne-book-i-notes>`
 
      - :ref:`Prop. I.1 <byrne-i-1>` — Equilateral Triangle *(p. 1 · G.84)*
@@ -87,7 +90,7 @@ Proposition Outline (Books I–VI)
 
      - :ref:`Prop. VI.30 <byrne-vi-30>` — Extreme & Mean Ratio by Application of Areas *(p. 258 · G.328)*
 
-   - :ref:`Pointer-Free Visual Pseudocode — 3-Way Rosetta Analysis <byrne-unit-7-en>` · :ref:`Summary <byrne-unit-7-summary>` · :ref:`Notes <byrne-unit-7-notes>`
+   - :ref:`Pointer-Free Visual Pseudocode — 3-Way Rosetta Analysis <byrne-visual-encoding-en>` · :ref:`Summary <byrne-visual-encoding-summary>` · :ref:`Notes <byrne-visual-encoding-notes>`
 
 Scholarly Apparatus
 -------------------

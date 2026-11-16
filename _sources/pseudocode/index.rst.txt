@@ -108,4 +108,4 @@ Three Structural Laws Discovered by Register Analysis
 3. **Why GEOMETOR Pairs Visual Tokens with Symbolic DAGs**:
    Pure visual tokens excel at human proof comprehension (`apodeixis`), whereas machine constructibility requires explicit incidence/orientation selectors (`side_of`, `beyond`) when circles intersect in two points. Together, ``geometor/euclid`` (textual heritage), ``geometor/byrne`` (pointer-free visual cognition), and ``geometor/elements`` + ``geometor/codes`` (computable symbolic DAGs) form a complete three-pillar Rosetta Stone.
 
-See :ref:`Unit 7 of the Book Codex <byrne-unit-7-en>` for full side-by-side 3-way derivations of each proposition.
+See :ref:`Visual Encoding in the Book Codex <byrne-visual-encoding-en>` for full side-by-side 3-way derivations of each proposition.

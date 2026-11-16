@@ -4,6 +4,8 @@
 :title: Pointer-Free Visual Pseudocode — 3-Way Rosetta Analysis
 
 .. _byrne-rosetta:
+.. _byrne-visual-encoding:
+.. _byrne-visual-encoding-en:
 .. _byrne-unit-7-en:
 
 Pointer-Free Visual Pseudocode — 3-Way Rosetta Analysis
