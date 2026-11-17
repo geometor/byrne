@@ -53,7 +53,7 @@ The left sidebar displays dynamic taxonomy facets:
 6. People, Bibliography & Glossary Tooltips
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* **Biographical Hover Cards**: Links formatted with ``:person:`` (e.g., :person:`Oliver Byrne <byrne>`, :person:`Euclid <euclid>`, :person:`William Pickering <pickering>`) provide instant biographical summaries and direct links to the :doc:`People </coloured_euclid/persons>` register.
+* **Biographical Hover Cards**: Links formatted with ``:person:`` (e.g., :person:`Oliver Byrne <byrne>`, :person:`Euclid <euclid>`, :person:`William Pickering <pickering>`) provide instant biographical summaries and direct links to the :doc:`People </coloured_euclid/people/index>` register.
 * **Citation Tooltips**: Bibliographic references formatted with ``:cite:`` link directly to the :doc:`Bibliography </coloured_euclid/bibliography>`.
 * **Glossary Definitions**: Technical terms linked with ``:term:`` (e.g., :term:`Pass-by-Value Geometry <pointer-free-notation>`) provide instant definitions.
 * **Theme Switcher**: Seamlessly toggle between Light, Dark, or System visual themes using the sun/moon control in the top-right navigation bar.

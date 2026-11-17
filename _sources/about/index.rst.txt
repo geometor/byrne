@@ -41,5 +41,5 @@ The text and diagrams are collated and structured into the Digital Scriptorium m
 * :doc:`Reader's Guide and Usage </usage/index>`
 * :doc:`Coloured Euclid Codex </coloured_euclid/index>`
 * :doc:`Visual Pseudocode Specification </pseudocode/index>`
-* :doc:`Biographical Register of Persons </coloured_euclid/persons>`
+* :doc:`Biographical Register of Persons </coloured_euclid/people/index>`
 * :doc:`Systematic Bibliography </coloured_euclid/bibliography>`
