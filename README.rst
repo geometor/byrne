@@ -3,6 +3,11 @@ GEOMETOR • byrne
 
 **Visit the Online Archive:** https://geometor.github.io/byrne/
 
+.. image:: docsrc/_static/figures/i47.svg
+   :alt: GEOMETOR • byrne featured geometric construction
+   :target: https://geometor.github.io/byrne/
+   :align: center
+
 **Oliver Byrne • The First Six Books of the Elements of Euclid (Coloured Diagrams) • semantic digital archive**
 
 Mission
