@@ -18,7 +18,7 @@ Mission
 Books in This Archive
 ---------------------
 
-- **`The First Six Books of the Elements of Euclid <https://geometor.github.io/byrne/coloured_euclid/>`_** — Oliver Byrne's landmark 1847 Chiswick Press masterpiece, replacing alphabetical point labels with colored diagrams and symbols across Books I–VI.
+- `The First Six Books of the Elements of Euclid <https://geometor.github.io/byrne/coloured_euclid/>`_ — Oliver Byrne's landmark 1847 Chiswick Press masterpiece, replacing alphabetical point labels with colored diagrams and symbols across Books I–VI.
 
 Repository Contents
 -------------------
