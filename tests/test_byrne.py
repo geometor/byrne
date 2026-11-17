@@ -218,7 +218,7 @@ def test_apparatus_json_and_rst_anchor_integrity() -> None:
     assert "rougeux:2018-making" in citations
 
     codex_dir = REPO_ROOT / "docsrc" / "coloured_euclid"
-    persons_rst = (codex_dir / "persons.rst").read_text(encoding="utf-8")
+    persons_rst = "\n".join(p.read_text(encoding="utf-8") for p in sorted((codex_dir / "people").glob("*.rst")))
     bib_rst = (codex_dir / "bibliography.rst").read_text(encoding="utf-8")
     gloss_rst = (codex_dir / "glossary.rst").read_text(encoding="utf-8")
 
