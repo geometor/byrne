@@ -20,6 +20,20 @@ Books in This Archive
 
 - `The First Six Books of the Elements of Euclid <https://geometor.github.io/byrne/coloured_euclid/>`_ — Oliver Byrne's landmark 1847 Chiswick Press masterpiece, replacing alphabetical point labels with colored diagrams and symbols across Books I–VI.
 
+Python Package & Modules
+------------------------
+
+The ``geometor-byrne`` Python package (``import geometor.byrne``) provides the executable symbolic geometry, construction, and compilation modules powering this archive:
+
+- ``constructions.py`` — Exact symbolic ``geometor.model`` constructions for 17 Oliver Byrne (1847) showcase plates.
+- ``palette.py`` — Authentic 1847 Chiswick Press four-color palette and stroke grammar for Oliver Byrne's Euclid.
+- ``pseudocode.py`` — Formal grammar, AST, and 3-way Rosetta metrics for Oliver Byrne's 1847 Visual Pseudocode.
+- ``render.py`` — Interactive ``.euclid-graphic`` SVG renderer for Oliver Byrne (1847) symbolic plates.
+- ``tableaux.py`` — Chiswick Press Typographic & Synthesis SVG Tableaux for Oliver Byrne's 1847 Codex.
+- ``sphinx_ext.py`` — Self-contained Sphinx extension for Oliver Byrne's 1847 inline visual glyph roles.
+
+See the `API Reference <https://geometor.github.io/byrne/modules/>`_ for full module documentation.
+
 Repository Contents
 -------------------
 
