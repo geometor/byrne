@@ -1,0 +1,22 @@
+{
+  "repository": "geometor/byrne",
+  "rights_category": "public-domain",
+  "sources": [
+    {
+      "id": "byrne-1847-pickering",
+      "title": "The First Six Books of the Elements of Euclid (1847)",
+      "author": "Oliver Byrne",
+      "year": "1847",
+      "era": "Internet Archive",
+      "languages": [
+        "English"
+      ],
+      "site_url": "https://archive.org/details/firstsixbooksofe00eucl",
+      "local_path": "resources/pickering_1847/pdfs/byrne_1847_pickering.pdf",
+      "pages": 306,
+      "publisher": "William Pickering, London",
+      "rights": "Public Domain (1847)",
+      "excerpt": "William Pickering polychrome edition (1847), 306 pp., digitized via Internet Archive."
+    }
+  ]
+}
