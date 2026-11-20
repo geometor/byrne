@@ -1,13 +1,13 @@
+.. image:: docsrc/_static/logo.png
+   :alt: GEOMETOR • byrne Medallion
+   :target: https://geometor.github.io/byrne/
+   :width: 150px
+   :align: right
+
 GEOMETOR • byrne
 ================
 
 **Visit the Online Archive:** https://geometor.github.io/byrne/
-
-.. image:: docsrc/_static/logo.png
-   :alt: GEOMETOR • byrne Medallion
-   :target: https://geometor.github.io/byrne/
-   :width: 180px
-   :align: center
 
 .. image:: docsrc/_static/figures/i47.svg
    :alt: GEOMETOR • byrne featured geometric construction
