@@ -1,6 +1,8 @@
 :book: IV
 :type: notes
 :title: Book IV Notes — Five-Edge Pentagon Overflow & Cyclotomic Radicals
+:folio: 0157
+:page: 123
 
 .. _byrne-book-iv-notes:
 
@@ -8,6 +10,9 @@ Book IV Notes: Five-Color Overflow in ``IV.11`` & Heronian Integer Incircle
 ===========================================================================
 
 .. rubric:: Chromatic Register Analysis & Exact Cyclotomic Algebra
+
+.. folio:: 0157
+   :page: 123
 
 Solving the Five-Edge Pentagon Paradox on a Four-Ink Press
 ----------------------------------------------------------

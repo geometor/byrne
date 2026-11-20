@@ -1,15 +1,16 @@
 :canonical_id: I.5
 :book: I
 :proposition: 5
+:order: 5
 :type: proposition
 :title: Proposition I.5 — Pons Asinorum
-:folio: I.5
+:folio: 0039
 :page: 5
 :featured_image: /_static/figures/i5.svg
 
 .. _byrne-i-5:
 
-.. folio:: I.5
+.. folio:: 0039
    :page: 5
 
 Proposition I.5 — Pons Asinorum
@@ -22,6 +23,10 @@ Proposition I.5 — Pons Asinorum
 .. picture:: /_static/figures/i5.svg
    :alt: Book I Proposition 5 — Pons Asinorum with red isosceles legs, yellow extensions, blue cross-diagonals, and symmetric colored angle sectors.
    :caption: **Book I, Prop. V (p. 5).** :term:`Congruence-twin coloring <congruence-twin>` turns mirror-symmetric triangles into immediate visual equations.
+
+.. picture:: 0039.g1.png
+   :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition I.5 (Leaf 39).
+   :caption: **1847 Chiswick Press Archival Plate (Leaf 39, p. 5).** Full-RGB reproduction of Byrne's four-color woodblock print.
 
 .. container:: byrne-eq-block
 

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 540 540" data-graphic-id="iii20" role="img" aria-label="Book III, Prop. XX — Central &amp; Inscribed Angles">
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 540 540" data-graphic-id="iii20" data-folio="0136" data-graphic="g1" role="img" aria-label="Book III, Prop. XX — Central &amp; Inscribed Angles">
   <title>Book III, Prop. XX — Central &amp; Inscribed Angles</title>
   <defs>
     <marker id="geom-tick-1" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
@@ -16,6 +16,12 @@
   </defs>
   <style>
   .euclid-graphic, :root {
+    --geom-fg: #1a1a1a;
+    --geom-bg: #faf7f0;
+    --geom-point-stroke: #faf7f0;
+    --geom-poly-fill: #1a1a1a;
+    --geom-accent: #e6b800;
+    --geom-assert: #1c6ea4;
     --byrne-paper: #faf7f0;
     --byrne-red: #d92b2b;
     --byrne-blue: #1c6ea4;
@@ -27,8 +33,33 @@
     --byrne-fill-black: #1a1a1a;
     --byrne-halo: rgba(250, 247, 240, 0.92);
   }
+  html[data-theme="dark"] .euclid-graphic,
+  body[data-theme="dark"] .euclid-graphic {
+    --geom-fg: #e8e6df;
+    --geom-bg: #16161a;
+    --geom-point-stroke: #16161a;
+    --geom-poly-fill: #e8e6df;
+    --geom-accent: #f5ca24;
+    --geom-assert: #4ba3e3;
+    --byrne-paper: #16161a;
+    --byrne-red: #f04848;
+    --byrne-blue: #4ba3e3;
+    --byrne-yellow: #f5ca24;
+    --byrne-black: #e8e6df;
+    --byrne-fill-red: #d93838;
+    --byrne-fill-blue: #2574ab;
+    --byrne-fill-yellow: #dfb208;
+    --byrne-fill-black: #363945;
+    --byrne-halo: rgba(22, 22, 26, 0.92);
+  }
   @media (prefers-color-scheme: dark) {
     .euclid-graphic, :root {
+      --geom-fg: #e8e6df;
+      --geom-bg: #16161a;
+      --geom-point-stroke: #16161a;
+      --geom-poly-fill: #e8e6df;
+      --geom-accent: #f5ca24;
+      --geom-assert: #4ba3e3;
       --byrne-paper: #16161a;
       --byrne-red: #f04848;
       --byrne-blue: #4ba3e3;
@@ -41,7 +72,7 @@
       --byrne-halo: rgba(22, 22, 26, 0.92);
     }
   }
-  .euclid-graphic .svg-bg { fill: var(--byrne-paper); }
+  .euclid-graphic .svg-bg { fill: var(--geom-bg); }
   .euclid-graphic .byrne-stroke-red { stroke: var(--byrne-red); }
   .euclid-graphic .byrne-stroke-blue { stroke: var(--byrne-blue); }
   .euclid-graphic .byrne-stroke-yellow { stroke: var(--byrne-yellow); }
@@ -64,9 +95,9 @@
   .euclid-graphic .byrne-plate-poly.byrne-tinted { fill-opacity: 0.22; }
   .euclid-graphic .byrne-plate-wedge { fill-opacity: 0.88; stroke-width: 1.35; stroke-linejoin: round; }
   .euclid-graphic .geom-ang-arc { fill: none; stroke-width: 1.6; opacity: 0.85; }
-  .euclid-graphic .geom-point { fill: var(--byrne-black); stroke: var(--byrne-paper); stroke-width: 1.2; opacity: 0.45; }
+  .euclid-graphic .geom-point { fill: var(--geom-fg); stroke: var(--geom-point-stroke); stroke-width: 1.2; opacity: 0.45; }
   .euclid-graphic .geom-label {
-    fill: var(--byrne-black);
+    fill: var(--geom-fg);
     font-size: 12px;
     font-weight: 600;
     font-family: "EB Garamond", "Georgia", serif;

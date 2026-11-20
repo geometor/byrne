@@ -3,7 +3,7 @@
 :type: book
 :order: 1
 :title: Book I — Congruence, Parallels & The Pythagorean Theorem
-:folio: I.1
+:folio: 0035
 :page: 1
 
 .. _byrne-book-i:
@@ -13,6 +13,9 @@ Book I — Congruence, Parallels & The Pythagorean Theorem
 ========================================================
 
 .. rubric:: Showcase Propositions of Book I (*Pickering pp. 1–50, Leaves 35–84*)
+
+.. folio:: 0035
+   :page: 1
 
 Book I ascends from elementary compass-and-straightedge construction (:ref:`I.1 <byrne-i-1>`) through triangle congruence (:ref:`I.4 <byrne-i-4>`, :ref:`I.5 <byrne-i-5>`), vertical angles (:ref:`I.15 <byrne-i-15>`), and parallel transport (:ref:`I.32 <byrne-i-32>`) to square construction (:ref:`I.46 <byrne-i-46>`) and :person:`Oliver Byrne's <byrne>` four-color Pythagorean climax (:ref:`I.47 <byrne-i-47>`).
 
@@ -25,7 +28,7 @@ Propositions in Book I
 
 .. collection::
    :type: proposition
-   :sort: proposition
+   :sort: order
 
 .. toctree::
    :hidden:

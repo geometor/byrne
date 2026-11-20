@@ -1,12 +1,17 @@
 :canonical_id: VI.30.commentary
 :book: VI
 :proposition: 30
+:order: 30
 :type: commentary
 :title: Commentary — Proposition VI.30
-:folio: VI.30
+:folio: 0292
 :page: 258
 
 .. _byrne-vi-30-commentary:
+
+
+.. folio:: 0292
+   :page: 258
 
 Commentary on Proposition VI.30: Reciprocal Sides (VI.14) & Fulfilling the Golden Proportion
 ============================================================================================

@@ -1,14 +1,15 @@
 :canonical_id: V.11
 :book: V
 :proposition: 11
+:order: 15
 :type: proposition
 :title: Proposition V.11 — Transitivity of Ratios
-:folio: V.11
+:folio: 0209
 :page: 175
 
 .. _byrne-v-11:
 
-.. folio:: V.11
+.. folio:: 0209
    :page: 175
 
 Proposition V.11 — Transitivity of Ratios
@@ -22,6 +23,10 @@ Proposition V.11 — Transitivity of Ratios
 .. picture:: /_static/figures/v11.svg
    :alt: Book V Proposition 11 — Chiswick Press colored magnitude tableau for transitivity of ratios.
    :caption: **Pickering p. 175 Tableau.** Transitivity of Eudoxian ratios across three colored magnitude pairs.
+
+.. picture:: 0209.g1.png
+   :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition V.11 (Leaf 209).
+   :caption: **1847 Chiswick Press Archival Plate (Leaf 209, p. 175).** Full-RGB reproduction of Byrne's four-color woodblock print.
 
 .. container:: byrne-eq-block
 

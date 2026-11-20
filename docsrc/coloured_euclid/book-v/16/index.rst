@@ -1,14 +1,15 @@
 :canonical_id: V.16
 :book: V
 :proposition: 16
+:order: 20
 :type: proposition
 :title: Proposition V.16 — Alternando (Alternate Proportion)
-:folio: V.16
+:folio: 0215
 :page: 181
 
 .. _byrne-v-16:
 
-.. folio:: V.16
+.. folio:: 0215
    :page: 181
 
 Proposition V.16 — Alternando (Alternate Proportion)
@@ -22,6 +23,10 @@ Proposition V.16 — Alternando (Alternate Proportion)
 .. picture:: /_static/figures/v16.svg
    :alt: Book V Proposition 16 — Chiswick Press colored magnitude tableau for Alternando.
    :caption: **Pickering p. 181 Tableau (*Alternando*).** Interchanging the middle colored magnitudes preserves proportion.
+
+.. picture:: 0215.g1.png
+   :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition V.16 (Leaf 215).
+   :caption: **1847 Chiswick Press Archival Plate (Leaf 215, p. 181).** Full-RGB reproduction of Byrne's four-color woodblock print.
 
 .. container:: byrne-eq-block
 

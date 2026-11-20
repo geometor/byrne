@@ -1,15 +1,16 @@
 :canonical_id: III.36
 :book: III
 :proposition: 36
+:order: 36
 :type: proposition
 :title: Proposition III.36 — Tangent-Secant Power of a Point
-:folio: III.36
+:folio: 0155
 :page: 121
 :featured_image: /_static/figures/iii36.svg
 
 .. _byrne-iii-36:
 
-.. folio:: III.36
+.. folio:: 0155
    :page: 121
 
 Proposition III.36 — Tangent-Secant Power of a Point
@@ -22,6 +23,10 @@ Proposition III.36 — Tangent-Secant Power of a Point
 .. picture:: /_static/figures/iii36.svg
    :alt: Book III Proposition 36 — External blue tangent and red-black secant through the center of a black circle.
    :caption: **Book III, Prop. XXXVI (p. 121 · G.201).** Square on tangent :byrne-line:`blue solid <iii36:/ D T />` equals the rectangle contained by whole secant and external part :byrne-line:`red solid <iii36:/ D C />`.
+
+.. picture:: 0155.g1.png
+   :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition III.36 (Leaf 155).
+   :caption: **1847 Chiswick Press Archival Plate (Leaf 155, p. 121).** Full-RGB reproduction of Byrne's four-color woodblock print.
 
 .. container:: byrne-eq-block
 

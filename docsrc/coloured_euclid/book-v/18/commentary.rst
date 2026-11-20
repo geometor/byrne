@@ -1,12 +1,17 @@
 :canonical_id: V.18.commentary
 :book: V
 :proposition: 18
+:order: 22
 :type: commentary
 :title: Commentary — Proposition V.18
-:folio: V.18
+:folio: 0219
 :page: 185
 
 .. _byrne-v-18-commentary:
+
+
+.. folio:: 0219
+   :page: 185
 
 Commentary on Proposition V.18: Componendo, Existence of the Fourth Proportional & Golden Ratio Recurrence
 ==========================================================================================================

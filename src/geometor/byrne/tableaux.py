@@ -20,17 +20,29 @@ from collections.abc import Callable
 from pathlib import Path
 
 from geometor.byrne.palette import byrne_css_variables
+from geometor.byrne.render import SVG_TICK_DEFS
 
 __all__ = [
+    "TABLEAU_FOLIO_MAP",
     "TABLEAU_IDS",
     "export_all_tableaux",
     "render_tableau_svg",
 ]
 
+TABLEAU_FOLIO_MAP: dict[str, str] = {
+    "preliminaries": "0014",
+    "v_defs": "0185",
+    "v11": "0209",
+    "v16": "0215",
+    "v18": "0219",
+    "v22": "0227",
+    "rosetta": "0082",
+}
+
 TABLEAU_STYLE: str = (
     byrne_css_variables()
     + """
-  .euclid-graphic .svg-bg { fill: var(--byrne-paper); }
+  .euclid-graphic .svg-bg { fill: var(--geom-bg); }
   .euclid-graphic .byrne-stroke-red { stroke: var(--byrne-red); }
   .euclid-graphic .byrne-stroke-blue { stroke: var(--byrne-blue); }
   .euclid-graphic .byrne-stroke-yellow { stroke: var(--byrne-yellow); }
@@ -48,43 +60,43 @@ TABLEAU_STYLE: str = (
   .euclid-graphic .byrne-plate-poly { stroke-linejoin: round; stroke-width: 2.2; }
   .euclid-graphic .byrne-plate-wedge { fill-opacity: 0.88; stroke-width: 1.4; stroke-linejoin: round; }
   .euclid-graphic .byrne-ink {
-    fill: var(--byrne-black);
+    fill: var(--geom-fg);
     font-family: "EB Garamond", "Cochineal", "Georgia", serif;
   }
   .euclid-graphic .byrne-caption {
-    fill: var(--byrne-black);
+    fill: var(--geom-fg);
     opacity: 0.78;
     font-size: 13px;
     font-style: italic;
     font-family: "EB Garamond", "Georgia", serif;
   }
   .euclid-graphic .byrne-heading {
-    fill: var(--byrne-black);
+    fill: var(--geom-fg);
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.08em;
     font-family: "EB Garamond", "Georgia", serif;
   }
   .euclid-graphic .byrne-op-text {
-    fill: var(--byrne-black);
+    fill: var(--geom-fg);
     font-size: 21px;
     font-weight: 600;
     font-family: "EB Garamond", "Georgia", serif;
   }
   .euclid-graphic .byrne-mult {
-    fill: var(--byrne-black);
+    fill: var(--geom-fg);
     font-size: 19px;
     font-style: italic;
     font-weight: 600;
     font-family: "EB Garamond", "Georgia", serif;
   }
   .euclid-graphic .byrne-rule {
-    stroke: var(--byrne-black);
+    stroke: var(--geom-fg);
     stroke-opacity: 0.22;
     stroke-width: 1.1;
   }
   .euclid-graphic .byrne-frac-bar {
-    stroke: var(--byrne-black);
+    stroke: var(--geom-fg);
     stroke-width: 2.0;
     stroke-linecap: round;
   }
@@ -93,15 +105,18 @@ TABLEAU_STYLE: str = (
 
 
 def _wrap_svg(slug: str, title: str, width: int, height: int, body_lines: list[str]) -> str:
+    folio = TABLEAU_FOLIO_MAP.get(slug, "")
+    folio_attr = f' data-folio="{html.escape(folio)}" data-graphic="g1"' if folio else ""
     return "\n".join(
         [
             (
                 f'<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" '
                 f'viewBox="0 0 {width} {height}" width="{width}" height="{height}" '
-                f'data-graphic-id="{html.escape(slug)}" role="img" '
+                f'data-graphic-id="{html.escape(slug)}"{folio_attr} role="img" '
                 f'aria-label="{html.escape(title)}">'
             ),
             f"  <title>{html.escape(title)}</title>",
+            SVG_TICK_DEFS,
             "  <style>",
             TABLEAU_STYLE,
             "  </style>",

@@ -1,6 +1,8 @@
 :navigation: header
 :order: 16
 :nav_title: Glossary
+:folio: 0031
+:page: xxvii
 
 .. _glossary:
 
@@ -8,6 +10,9 @@ Visual & Euclidean Glossary
 ===========================
 
 .. rubric:: Technical Vocabulary of Pointer-Free Visual Notation & Classical Geometry
+
+.. folio:: 0031
+   :page: xxvii
 
 .. _term-alternando:
 

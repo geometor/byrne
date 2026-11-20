@@ -1,12 +1,17 @@
 :canonical_id: II.11.commentary
 :book: II
 :proposition: 11
+:order: 11
 :type: commentary
 :title: Commentary — Proposition II.11
-:folio: II.11
+:folio: 0100
 :page: 66
 
 .. _byrne-ii-11-commentary:
+
+
+.. folio:: 0100
+   :page: 66
 
 Commentary on Proposition II.11: Exact Q(phi) Area Cancellation & Gateway to the Pentagon
 =========================================================================================

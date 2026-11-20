@@ -1,6 +1,8 @@
 :book: VI
 :type: summary
 :title: Book VI Summary — Unifying Spatial Form and Eudoxian Ratio
+:folio: 0245
+:page: 211
 
 .. _byrne-book-vi-summary:
 .. _byrne-unit-6-summary:
@@ -9,6 +11,9 @@ Book VI Summary: Unifying Spatial Form and Eudoxian Ratio
 =========================================================
 
 .. rubric:: How Book VI Reconnects Book V Algebra to Planar Geometry
+
+.. folio:: 0245
+   :page: 211
 
 1. **Proportionality Without Commensurability**:
    Armed with Book V's general ratio calculus, Book VI proves Thales's intercept theorem (``VI.2``), AAA/SAS similarity (``VI.4``–``VI.7``), and quadratic area scaling (``VI.19``–``VI.20``) without ever assuming rational side ratios.

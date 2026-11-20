@@ -2,6 +2,8 @@
 :type: book
 :order: 7
 :title: Pointer-Free Visual Pseudocode — 3-Way Rosetta Analysis
+:folio: 0014
+:page: x
 
 .. _byrne-rosetta:
 .. _byrne-visual-encoding:
@@ -12,6 +14,9 @@ Pointer-Free Visual Pseudocode — 3-Way Rosetta Analysis
 =======================================================
 
 .. rubric:: Side-by-Side Formalism Alignment: Heath (1908) · Byrne (1847) · GEOMETOR DAG
+
+.. folio:: 0014
+   :page: x
 
 Side-by-side compiler and visual-register comparison across :person:`Heath's <heath>` classical alphabetic Euclid (*pass-by-reference* vertex pointers), :person:`Oliver Byrne's <byrne>` 1847 colored glyph equations (*pass-by-value* visual literals with zero pointer dereferences), and exact ``geometor.model`` SymPy algebraic constructions.
 

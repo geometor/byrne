@@ -1,15 +1,16 @@
 :canonical_id: I.46
 :book: I
 :proposition: 46
+:order: 46
 :type: proposition
 :title: Proposition I.46 — Construction of the Square
-:folio: I.46
+:folio: 0081
 :page: 47
 :featured_image: /_static/figures/i46.svg
 
 .. _byrne-i-46:
 
-.. folio:: I.46
+.. folio:: 0081
    :page: 47
 
 Proposition I.46 — Construction of the Square
@@ -22,6 +23,10 @@ Proposition I.46 — Construction of the Square
 .. picture:: /_static/figures/i46.svg
    :alt: Book I Proposition 46 — Construction of a square with black, blue, red, and yellow sides and four colored right-angle quadrants.
    :caption: **Book I, Prop. XLVI (p. 47 · G.139).** Construction of the square on :byrne-line:`black solid <i46:/ A B />` with four distinct side and corner registers.
+
+.. picture:: 0081.g1.png
+   :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition I.46 (Leaf 81).
+   :caption: **1847 Chiswick Press Archival Plate (Leaf 81, p. 47).** Full-RGB reproduction of Byrne's four-color woodblock print.
 
 .. container:: byrne-eq-block
 

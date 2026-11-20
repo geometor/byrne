@@ -22,15 +22,37 @@ from geometor.byrne.palette import byrne_css_variables, stroke_dasharray
 
 __all__ = [
     "EMBEDDED_SVG_STYLE",
+    "PLATE_FOLIO_MAP",
+    "SVG_TICK_DEFS",
     "export_all_plates",
     "export_plate_svg",
     "render_plate_svg",
 ]
 
+PLATE_FOLIO_MAP: dict[str, str] = {
+    "i1": "0035",
+    "i4": "0038",
+    "i5": "0039",
+    "i15": "0049",
+    "i32": "0067",
+    "i46": "0081",
+    "i47": "0082",
+    "ii4": "0090",
+    "ii5": "0092",
+    "ii11": "0100",
+    "iii20": "0136",
+    "iii31": "0149",
+    "iii36": "0155",
+    "iv4": "0163",
+    "iv10": "0169",
+    "iv11": "0171",
+    "vi30": "0292",
+}
+
 EMBEDDED_SVG_STYLE: str = (
     byrne_css_variables()
     + """
-  .euclid-graphic .svg-bg { fill: var(--byrne-paper); }
+  .euclid-graphic .svg-bg { fill: var(--geom-bg); }
   .euclid-graphic .byrne-stroke-red { stroke: var(--byrne-red); }
   .euclid-graphic .byrne-stroke-blue { stroke: var(--byrne-blue); }
   .euclid-graphic .byrne-stroke-yellow { stroke: var(--byrne-yellow); }
@@ -53,9 +75,9 @@ EMBEDDED_SVG_STYLE: str = (
   .euclid-graphic .byrne-plate-poly.byrne-tinted { fill-opacity: 0.22; }
   .euclid-graphic .byrne-plate-wedge { fill-opacity: 0.88; stroke-width: 1.35; stroke-linejoin: round; }
   .euclid-graphic .geom-ang-arc { fill: none; stroke-width: 1.6; opacity: 0.85; }
-  .euclid-graphic .geom-point { fill: var(--byrne-black); stroke: var(--byrne-paper); stroke-width: 1.2; opacity: 0.45; }
+  .euclid-graphic .geom-point { fill: var(--geom-fg); stroke: var(--geom-point-stroke); stroke-width: 1.2; opacity: 0.45; }
   .euclid-graphic .geom-label {
-    fill: var(--byrne-black);
+    fill: var(--geom-fg);
     font-size: 12px;
     font-weight: 600;
     font-family: "EB Garamond", "Georgia", serif;
@@ -66,7 +88,7 @@ EMBEDDED_SVG_STYLE: str = (
 """
 )
 
-_SVG_TICK_DEFS: str = """  <defs>
+SVG_TICK_DEFS: str = """  <defs>
     <marker id="geom-tick-1" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
       <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
     </marker>
@@ -80,6 +102,8 @@ _SVG_TICK_DEFS: str = """  <defs>
       <line x1="3.5" y1="-4.5" x2="3.5" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
     </marker>
   </defs>"""
+
+_SVG_TICK_DEFS = SVG_TICK_DEFS
 
 
 def _fmt(val: float) -> str:
@@ -103,6 +127,9 @@ def render_plate_svg(
     *,
     margin: float = 42.0,
     show_labels: bool | None = None,
+    folio: str | None = None,
+    graphic: str | None = "g1",
+    graphic_id: str | None = None,
 ) -> str:
     """Render a :class:`~geometor.byrne.constructions.ByrnePlate` into a ``.euclid-graphic`` SVG."""
     width, height = plate.canvas_size
@@ -300,14 +327,20 @@ def render_plate_svg(
                 f'data-ref="{html.escape(pid)}">{html.escape(pid)}</text>'
             )
 
+    resolved_folio = folio if folio is not None else PLATE_FOLIO_MAP.get(plate.slug, "")
+    resolved_gid = graphic_id if graphic_id is not None else plate.slug
+    folio_attr = f' data-folio="{html.escape(resolved_folio)}"' if resolved_folio else ""
+    graphic_attr = f' data-graphic="{html.escape(graphic)}"' if graphic else ""
+
     parts = [
         (
             f'<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" '
-            f'viewBox="0 0 {width} {height}" data-graphic-id="{html.escape(plate.slug)}" '
+            f'viewBox="0 0 {width} {height}" data-graphic-id="{html.escape(resolved_gid)}"'
+            f'{folio_attr}{graphic_attr} '
             f'role="img" aria-label="{html.escape(plate.title)}">'
         ),
         f"  <title>{html.escape(plate.title)}</title>",
-        _SVG_TICK_DEFS,
+        SVG_TICK_DEFS,
         "  <style>",
         EMBEDDED_SVG_STYLE,
         "  </style>",
@@ -336,11 +369,21 @@ def export_plate_svg(
     *,
     margin: float = 42.0,
     show_labels: bool | None = None,
+    folio: str | None = None,
+    graphic: str | None = "g1",
+    graphic_id: str | None = None,
 ) -> Path:
     """Write ``plate`` as an interactive ``.euclid-graphic`` SVG file."""
     target = Path(output_path)
     target.parent.mkdir(parents=True, exist_ok=True)
-    svg_text = render_plate_svg(plate, margin=margin, show_labels=show_labels)
+    svg_text = render_plate_svg(
+        plate,
+        margin=margin,
+        show_labels=show_labels,
+        folio=folio,
+        graphic=graphic,
+        graphic_id=graphic_id,
+    )
     target.write_text(svg_text, encoding="utf-8")
     return target.resolve()
 

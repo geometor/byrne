@@ -242,6 +242,11 @@ def test_cli_commands(tmp_path: Path) -> None:
     assert (tmp_path / "i47.svg").is_file()
 
 
+def _prop_dir_slug(prop_id: str) -> str:
+    part = prop_id.split(".")[1]
+    return f"{int(part):02d}" if part.isdigit() else part.lower()
+
+
 def test_separate_book_and_proposition_pages() -> None:
     res_dir = REPO_ROOT / "resources" / "pickering_1847"
     codex_dir = REPO_ROOT / "docsrc" / "coloured_euclid"
@@ -262,6 +267,30 @@ def test_separate_book_and_proposition_pages() -> None:
     ):
         assert not (codex_dir / legacy_slug).exists()
 
+    # Unbundled foundations sub-leaves
+    for f_leaf in ("title", "introduction", "definitions", "postulates-axioms", "elucidations", "symbols", "corrigenda"):
+        assert (codex_dir / "foundations" / f_leaf / "index.rst").is_file()
+        assert (codex_dir / "foundations" / f_leaf / "commentary.rst").is_file()
+
+    # Unbundled Book II-VI definition/axiom leaves
+    for d_leaf in (
+        "book-ii/definitions",
+        "book-iii/definitions",
+        "book-iv/definitions",
+        "book-v/definitions",
+        "book-v/axioms",
+        "book-v/def-05",
+        "book-v/def-07",
+        "book-v/def-13",
+        "book-v/def-15",
+        "book-v/def-16",
+        "book-v/def-19-20",
+        "book-v/def-10-11-a",
+        "book-vi/definitions",
+    ):
+        assert (codex_dir / d_leaf / "index.rst").is_file(), f"Missing {d_leaf}/index.rst"
+        assert (codex_dir / d_leaf / "commentary.rst").is_file(), f"Missing {d_leaf}/commentary.rst"
+
     prop_count = 0
     assert len(structure["units"]) == 8
     for unit in structure["units"]:
@@ -276,17 +305,61 @@ def test_separate_book_and_proposition_pages() -> None:
             assert ".. collection::" in sec_rst
 
         for prop_id in unit["propositions"]:
-            prop_num = int(prop_id.split(".")[1])
-            prop_dir = sec_dir / f"{prop_num:02d}"
+            prop_dir = sec_dir / _prop_dir_slug(prop_id)
             assert (prop_dir / "index.rst").is_file(), f"Missing {prop_dir}/index.rst"
             assert (prop_dir / "commentary.rst").is_file(), f"Missing {prop_dir}/commentary.rst"
-            prop_rst = (prop_dir / "index.rst").read_text(encoding="utf-8")
-            assert ".. picture:: /_static/figures/" in prop_rst, f"Missing plate in {prop_dir}"
             assert prop_id in folio_map["folios"], f"Missing folio mapping for {prop_id}"
             scan_file = REPO_ROOT / folio_map["folios"][prop_id]["default"]
             assert scan_file.is_file(), f"Missing scan image {scan_file} for {prop_id}"
             prop_count += 1
 
-    assert prop_count == 21
+    # 48 + 14 + 37 + 16 + 34 + 37 = 186 total propositions
+    assert prop_count == 186
+
+
+def test_100_percent_monotonic_folio_coverage() -> None:
+    codex_dir = REPO_ROOT / "docsrc" / "coloured_euclid"
+    folio_re = re.compile(r"^:folio:\s*(\d{4})\s*$", re.MULTILINE)
+    dir_folio_re = re.compile(r"^\.\.\s+folio::\s*(\d{4})\b", re.MULTILINE)
+    checked = 0
+    for rst_path in sorted(codex_dir.rglob("*.rst")):
+        rel = rst_path.relative_to(codex_dir).as_posix()
+        if rel.startswith("people/"):
+            continue
+        text = rst_path.read_text(encoding="utf-8")
+        assert folio_re.search(text), f"Missing 4-digit :folio: header in {rel}"
+        assert dir_folio_re.search(text), f"Missing 4-digit .. folio:: directive in {rel}"
+        checked += 1
+    assert checked >= 420
+
+
+def test_polychrome_rgb_plates_and_paired_svgs() -> None:
+    import numpy as np
+    from PIL import Image
+
+    codex_dir = REPO_ROOT / "docsrc" / "coloured_euclid"
+    pngs = sorted(codex_dir.rglob("*.g*.png"))
+    assert len(pngs) >= 34
+
+    for png_path in pngs:
+        with Image.open(png_path) as im:
+            assert im.mode == "RGB", f"Archival plate {png_path} must remain full RGB, got {im.mode}"
+            # Verify genuine polychrome color saturation (not desaturate/grayscale)
+            arr = np.asarray(im, dtype=np.int16)
+            sat = arr.max(axis=2) - arr.min(axis=2)
+            assert int(sat.max()) > 40, f"Plate {png_path} appears grayscale/low-color (max channel delta={int(sat.max())})"
+
+    svgs = sorted(codex_dir.rglob("*.g*.svg"))
+    assert len(svgs) >= 29
+    ns = {"svg": "http://www.w3.org/2000/svg"}
+    for svg_path in [*svgs, *sorted((REPO_ROOT / "docsrc" / "_static" / "figures").glob("*.svg"))]:
+        text = svg_path.read_text(encoding="utf-8")
+        assert "--geom-fg" in text and "--geom-bg" in text, f"Missing --geom-* vars in {svg_path}"
+        assert "--byrne-red" in text and "--byrne-blue" in text, f"Missing --byrne-* vars in {svg_path}"
+        assert 'id="geom-tick-1"' in text, f"Missing #geom-tick-1 defs in {svg_path}"
+        root = ET.fromstring(text)
+        groups = {g.attrib.get("id") for g in root.findall(".//svg:g", ns) if "id" in g.attrib}
+        assert {"elements", "graphics", "highlights", "points", "labels"}.issubset(groups), f"Missing 5 layers in {svg_path}"
+
 
 

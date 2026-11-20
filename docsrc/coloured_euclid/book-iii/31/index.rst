@@ -1,15 +1,16 @@
 :canonical_id: III.31
 :book: III
 :proposition: 31
+:order: 31
 :type: proposition
 :title: Proposition III.31 — Angle in a Semicircle (Thales's Theorem)
-:folio: III.31
+:folio: 0149
 :page: 115
 :featured_image: /_static/figures/iii31.svg
 
 .. _byrne-iii-31:
 
-.. folio:: III.31
+.. folio:: 0149
    :page: 115
 
 Proposition III.31 — Angle in a Semicircle (Thales's Theorem)
@@ -23,6 +24,10 @@ Proposition III.31 — Angle in a Semicircle (Thales's Theorem)
    :alt: Book III Proposition 31 — Thales's Theorem showing a right angle inscribed in a semicircle split by a red median radius.
    :caption: **Book III, Prop. XXXI (p. 115 · G.196).** Thales's Theorem: the angle in a semicircle (:byrne-angle:`yellow+black <iii31:< B A O ); < O A C )>`) is a right angle (:byrne-op:`right-angle`).
 
+.. picture:: 0149.g1.png
+   :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition III.31 (Leaf 149).
+   :caption: **1847 Chiswick Press Archival Plate (Leaf 149, p. 115).** Full-RGB reproduction of Byrne's four-color woodblock print.
+
 .. container:: byrne-eq-block
 
    **Demonstration (Angle in a Semicircle, :just:`I.5`, :just:`I.32`).**
@@ -34,6 +39,9 @@ Proposition III.31 — Angle in a Semicircle (Thales's Theorem)
    :byrne-angle:`red <iii31:< O B A )>` = :byrne-angle:`yellow <iii31:< B A O )>` and :byrne-angle:`blue <iii31:< A C O )>` = :byrne-angle:`black <iii31:< O A C )>` (:just:`I.5`).
 
    :byrne-op:`therefore` :byrne-angle:`blue <iii31:< A C O )>` + :byrne-angle:`red <iii31:< O B A )>` = (:byrne-angle:`yellow <iii31:< B A O )>` + :byrne-angle:`black <iii31:< O A C )>`) = the half of :byrne-op:`two-right-angles` = :byrne-op:`right-angle` (:just:`I.32`). **Q.E.D.**
+
+.. folio:: 0150
+   :page: 116
 
 ----
 

@@ -1,6 +1,8 @@
 :book: V
 :type: notes
 :title: Book V Notes — Bridge to geometor/codes & Dedekind Cuts
+:folio: 0179
+:page: 145
 
 .. _byrne-book-v-notes:
 .. _byrne-unit-5-notes:
@@ -9,6 +11,9 @@ Book V Notes: Direct Bridge to ``geometor/codes`` & Dedekind Cuts
 =================================================================
 
 .. rubric:: Algebraic & Archival Commentary on Book V
+
+.. folio:: 0179
+   :page: 145
 
 Resonance with ``geometor/codes``
 ---------------------------------

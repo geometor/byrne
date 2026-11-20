@@ -1,14 +1,15 @@
 :canonical_id: V.22
 :book: V
 :proposition: 22
+:order: 27
 :type: proposition
 :title: Proposition V.22 — Ex Aequali (Equality of Distance)
-:folio: V.22
+:folio: 0227
 :page: 193
 
 .. _byrne-v-22:
 
-.. folio:: V.22
+.. folio:: 0227
    :page: 193
 
 Proposition V.22 — Ex Aequali (Equality of Distance)
@@ -22,6 +23,10 @@ Proposition V.22 — Ex Aequali (Equality of Distance)
 .. picture:: /_static/figures/v22.svg
    :alt: Book V Proposition 22 — Chiswick Press colored magnitude tableau for Ex Aequali.
    :caption: **Pickering pp. 193–194 Tableau (*Ex Aequali*).** Eliminating intermediate magnitudes across ordered colored triples.
+
+.. picture:: 0227.g1.png
+   :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition V.22 (Leaf 227).
+   :caption: **1847 Chiswick Press Archival Plate (Leaf 227, p. 193).** Full-RGB reproduction of Byrne's four-color woodblock print.
 
 .. container:: byrne-eq-block
 

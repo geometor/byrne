@@ -1,37 +1,264 @@
 {
   "edition": "Oliver Byrne (Pickering / Chiswick Press, 1847) — Robert Simson Numbering",
   "axiom_and_postulate_mapping": [
-    {"byrne_1847": "Def. I–XXXIV", "simson_1756": "I.Def.1–34", "heath_euclid": "I.def.1–I.def.22 (expanded)", "notes": "Includes Simson's quadrilateral subdivisions (oblong, rhombus, rhomboid, trapezium)."},
-    {"byrne_1847": "Def. XXVII", "simson_1756": "I.Def.27", "heath_euclid": "I.def.22", "notes": "Definition of a square."},
-    {"byrne_1847": "Def. XXXV", "simson_1756": "I.Def.35", "heath_euclid": "I.def.23", "notes": "Parallel straight lines."},
-    {"byrne_1847": "Postulate I", "simson_1756": "Post. 1", "heath_euclid": "I.post.1", "g_id": "G.24", "notes": "To draw a straight line from any point to any point."},
-    {"byrne_1847": "Postulate II", "simson_1756": "Post. 2", "heath_euclid": "I.post.2", "g_id": "G.25", "notes": "To produce a finite straight line continuously."},
-    {"byrne_1847": "Postulate III", "simson_1756": "Post. 3", "heath_euclid": "I.post.3", "g_id": "G.26", "notes": "To describe a circle with any center and radius."},
-    {"byrne_1847": "Axioms I–VII", "simson_1756": "Ax. 1–7", "heath_euclid": "C.N.1–C.N.3 + halves/doubles", "notes": "Equality axioms for equals added, subtracted, doubled, and halved."},
-    {"byrne_1847": "Axiom VIII", "simson_1756": "Ax. 8", "heath_euclid": "C.N.4", "notes": "Magnitudes which coincide with one another are equal."},
-    {"byrne_1847": "Axiom IX", "simson_1756": "Ax. 9", "heath_euclid": "C.N.5", "notes": "The whole is greater than its part (⊏)."},
-    {"byrne_1847": "Axiom X", "simson_1756": "Ax. 10", "heath_euclid": "C.N.9 (interpolated)", "notes": "Two straight lines cannot enclose a space."},
-    {"byrne_1847": "Axiom XI", "simson_1756": "Ax. 11", "heath_euclid": "I.post.4", "g_id": "G.27", "notes": "All right angles are equal to one another."},
-    {"byrne_1847": "Axiom XII", "simson_1756": "Ax. 12", "heath_euclid": "I.post.5", "g_id": "G.28", "notes": "Parallel Postulate (interior angles less than two right angles)."}
+    {
+      "byrne_1847": "Def. I–XXXIV",
+      "simson_1756": "I.Def.1–34",
+      "heath_euclid": "I.def.1–I.def.22 (expanded)",
+      "notes": "Includes Simson's quadrilateral subdivisions (oblong, rhombus, rhomboid, trapezium)."
+    },
+    {
+      "byrne_1847": "Def. XXVII",
+      "simson_1756": "I.Def.27",
+      "heath_euclid": "I.def.22",
+      "notes": "Definition of a square."
+    },
+    {
+      "byrne_1847": "Def. XXXV",
+      "simson_1756": "I.Def.35",
+      "heath_euclid": "I.def.23",
+      "notes": "Parallel straight lines."
+    },
+    {
+      "byrne_1847": "Postulate I",
+      "simson_1756": "Post. 1",
+      "heath_euclid": "I.post.1",
+      "g_id": "G.24",
+      "notes": "To draw a straight line from any point to any point."
+    },
+    {
+      "byrne_1847": "Postulate II",
+      "simson_1756": "Post. 2",
+      "heath_euclid": "I.post.2",
+      "g_id": "G.25",
+      "notes": "To produce a finite straight line continuously."
+    },
+    {
+      "byrne_1847": "Postulate III",
+      "simson_1756": "Post. 3",
+      "heath_euclid": "I.post.3",
+      "g_id": "G.26",
+      "notes": "To describe a circle with any center and radius."
+    },
+    {
+      "byrne_1847": "Axioms I–VII",
+      "simson_1756": "Ax. 1–7",
+      "heath_euclid": "C.N.1–C.N.3 + halves/doubles",
+      "notes": "Equality axioms for equals added, subtracted, doubled, and halved."
+    },
+    {
+      "byrne_1847": "Axiom VIII",
+      "simson_1756": "Ax. 8",
+      "heath_euclid": "C.N.4",
+      "notes": "Magnitudes which coincide with one another are equal."
+    },
+    {
+      "byrne_1847": "Axiom IX",
+      "simson_1756": "Ax. 9",
+      "heath_euclid": "C.N.5",
+      "notes": "The whole is greater than its part (⊏)."
+    },
+    {
+      "byrne_1847": "Axiom X",
+      "simson_1756": "Ax. 10",
+      "heath_euclid": "C.N.9 (interpolated)",
+      "notes": "Two straight lines cannot enclose a space."
+    },
+    {
+      "byrne_1847": "Axiom XI",
+      "simson_1756": "Ax. 11",
+      "heath_euclid": "I.post.4",
+      "g_id": "G.27",
+      "notes": "All right angles are equal to one another."
+    },
+    {
+      "byrne_1847": "Axiom XII",
+      "simson_1756": "Ax. 12",
+      "heath_euclid": "I.post.5",
+      "g_id": "G.28",
+      "notes": "Parallel Postulate (interior angles less than two right angles)."
+    }
   ],
   "showcase_plates": [
-    {"byrne_id": "I.1", "slug": "i1", "pickering_page": "p. 1", "leaf": 35, "heath_id": "elem.1.1", "g_id": "G.84", "field": "Q(sqrt(3))", "book": "book-i"},
-    {"byrne_id": "I.4", "slug": "i4", "pickering_page": "p. 4", "leaf": 38, "heath_id": "elem.1.4", "g_id": "G.90", "field": "Q", "book": "book-i"},
-    {"byrne_id": "I.5", "slug": "i5", "pickering_page": "p. 5", "leaf": 39, "heath_id": "elem.1.5", "g_id": "G.91", "field": "Q", "book": "book-i"},
-    {"byrne_id": "I.15", "slug": "i15", "pickering_page": "p. 15", "leaf": 49, "heath_id": "elem.1.15", "g_id": "G.104", "field": "Q", "book": "book-i"},
-    {"byrne_id": "I.32", "slug": "i32", "pickering_page": "p. 33", "leaf": 67, "heath_id": "elem.1.32", "g_id": "G.125", "field": "Q", "book": "book-i"},
-    {"byrne_id": "I.46", "slug": "i46", "pickering_page": "p. 47", "leaf": 81, "heath_id": "elem.1.46", "g_id": "G.139", "field": "Q", "book": "book-i"},
-    {"byrne_id": "I.47", "slug": "i47", "pickering_page": "pp. 48–49", "leaf": 82, "heath_id": "elem.1.47", "g_id": "G.140", "field": "Q", "book": "book-i"},
-    {"byrne_id": "II.4", "slug": "ii4", "pickering_page": "pp. 56–57", "leaf": 90, "heath_id": "elem.2.4", "g_id": "G.147", "field": "Q", "book": "book-ii"},
-    {"byrne_id": "II.5", "slug": "ii5", "pickering_page": "p. 58", "leaf": 92, "heath_id": "elem.2.5", "g_id": "G.148", "field": "Q", "book": "book-ii"},
-    {"byrne_id": "II.11", "slug": "ii11", "pickering_page": "p. 66", "leaf": 100, "heath_id": "elem.2.11", "g_id": "G.154", "field": "Q(phi)", "book": "book-ii"},
-    {"byrne_id": "III.20", "slug": "iii20", "pickering_page": "p. 102", "leaf": 136, "heath_id": "elem.3.20", "g_id": "G.185", "field": "Q", "book": "book-iii"},
-    {"byrne_id": "III.31", "slug": "iii31", "pickering_page": "p. 115", "leaf": 149, "heath_id": "elem.3.31", "g_id": "G.196", "field": "Q", "book": "book-iii"},
-    {"byrne_id": "III.36", "slug": "iii36", "pickering_page": "p. 121", "leaf": 155, "heath_id": "elem.3.36", "g_id": "G.201", "field": "Q", "book": "book-iii"},
-    {"byrne_id": "IV.4", "slug": "iv4", "pickering_page": "p. 129", "leaf": 163, "heath_id": "elem.4.4", "g_id": "G.217", "field": "Q", "book": "book-iv"},
-    {"byrne_id": "IV.10", "slug": "iv10", "pickering_page": "pp. 135–136", "leaf": 169, "heath_id": "elem.4.10", "g_id": "G.223", "field": "Q(phi, sqrt(10-2*sqrt(5)))", "book": "book-iv"},
-    {"byrne_id": "IV.11", "slug": "iv11", "pickering_page": "p. 137", "leaf": 171, "heath_id": "elem.4.11", "g_id": "G.224", "field": "Q(phi, sqrt(10-2*sqrt(5)))", "book": "book-iv"},
-    {"byrne_id": "V.16", "slug": "v16", "pickering_page": "p. 187", "leaf": 221, "heath_id": "elem.5.16", "g_id": "G.276", "field": "Eudoxian Semigroup (geometor/codes)", "book": "book-v"},
-    {"byrne_id": "VI.30", "slug": "vi30", "pickering_page": "p. 258", "leaf": 292, "heath_id": "elem.6.30", "g_id": "G.328", "field": "Q(phi)", "book": "book-vi"}
+    {
+      "byrne_id": "I.1",
+      "slug": "i1",
+      "pickering_page": "p. 1",
+      "leaf": 35,
+      "heath_id": "elem.1.1",
+      "g_id": "G.84",
+      "field": "Q(sqrt(3))",
+      "book": "book-i"
+    },
+    {
+      "byrne_id": "I.4",
+      "slug": "i4",
+      "pickering_page": "p. 4",
+      "leaf": 38,
+      "heath_id": "elem.1.4",
+      "g_id": "G.90",
+      "field": "Q",
+      "book": "book-i"
+    },
+    {
+      "byrne_id": "I.5",
+      "slug": "i5",
+      "pickering_page": "p. 5",
+      "leaf": 39,
+      "heath_id": "elem.1.5",
+      "g_id": "G.91",
+      "field": "Q",
+      "book": "book-i"
+    },
+    {
+      "byrne_id": "I.15",
+      "slug": "i15",
+      "pickering_page": "p. 15",
+      "leaf": 49,
+      "heath_id": "elem.1.15",
+      "g_id": "G.104",
+      "field": "Q",
+      "book": "book-i"
+    },
+    {
+      "byrne_id": "I.32",
+      "slug": "i32",
+      "pickering_page": "p. 33",
+      "leaf": 67,
+      "heath_id": "elem.1.32",
+      "g_id": "G.125",
+      "field": "Q",
+      "book": "book-i"
+    },
+    {
+      "byrne_id": "I.46",
+      "slug": "i46",
+      "pickering_page": "p. 47",
+      "leaf": 81,
+      "heath_id": "elem.1.46",
+      "g_id": "G.139",
+      "field": "Q",
+      "book": "book-i"
+    },
+    {
+      "byrne_id": "I.47",
+      "slug": "i47",
+      "pickering_page": "pp. 48–49",
+      "leaf": 82,
+      "heath_id": "elem.1.47",
+      "g_id": "G.140",
+      "field": "Q",
+      "book": "book-i"
+    },
+    {
+      "byrne_id": "II.4",
+      "slug": "ii4",
+      "pickering_page": "pp. 56–57",
+      "leaf": 90,
+      "heath_id": "elem.2.4",
+      "g_id": "G.147",
+      "field": "Q",
+      "book": "book-ii"
+    },
+    {
+      "byrne_id": "II.5",
+      "slug": "ii5",
+      "pickering_page": "p. 58",
+      "leaf": 92,
+      "heath_id": "elem.2.5",
+      "g_id": "G.148",
+      "field": "Q",
+      "book": "book-ii"
+    },
+    {
+      "byrne_id": "II.11",
+      "slug": "ii11",
+      "pickering_page": "p. 66",
+      "leaf": 100,
+      "heath_id": "elem.2.11",
+      "g_id": "G.154",
+      "field": "Q(phi)",
+      "book": "book-ii"
+    },
+    {
+      "byrne_id": "III.20",
+      "slug": "iii20",
+      "pickering_page": "p. 102",
+      "leaf": 136,
+      "heath_id": "elem.3.20",
+      "g_id": "G.185",
+      "field": "Q",
+      "book": "book-iii"
+    },
+    {
+      "byrne_id": "III.31",
+      "slug": "iii31",
+      "pickering_page": "p. 115",
+      "leaf": 149,
+      "heath_id": "elem.3.31",
+      "g_id": "G.196",
+      "field": "Q",
+      "book": "book-iii"
+    },
+    {
+      "byrne_id": "III.36",
+      "slug": "iii36",
+      "pickering_page": "p. 121",
+      "leaf": 155,
+      "heath_id": "elem.3.36",
+      "g_id": "G.201",
+      "field": "Q",
+      "book": "book-iii"
+    },
+    {
+      "byrne_id": "IV.4",
+      "slug": "iv4",
+      "pickering_page": "p. 129",
+      "leaf": 163,
+      "heath_id": "elem.4.4",
+      "g_id": "G.217",
+      "field": "Q",
+      "book": "book-iv"
+    },
+    {
+      "byrne_id": "IV.10",
+      "slug": "iv10",
+      "pickering_page": "pp. 135–136",
+      "leaf": 169,
+      "heath_id": "elem.4.10",
+      "g_id": "G.223",
+      "field": "Q(phi, sqrt(10-2*sqrt(5)))",
+      "book": "book-iv"
+    },
+    {
+      "byrne_id": "IV.11",
+      "slug": "iv11",
+      "pickering_page": "p. 137",
+      "leaf": 171,
+      "heath_id": "elem.4.11",
+      "g_id": "G.224",
+      "field": "Q(phi, sqrt(10-2*sqrt(5)))",
+      "book": "book-iv"
+    },
+    {
+      "byrne_id": "V.16",
+      "slug": "v16",
+      "pickering_page": "p. 181",
+      "leaf": 215,
+      "heath_id": "elem.5.16",
+      "g_id": "G.276",
+      "field": "Eudoxian Semigroup (geometor/codes)",
+      "book": "book-v"
+    },
+    {
+      "byrne_id": "VI.30",
+      "slug": "vi30",
+      "pickering_page": "p. 258",
+      "leaf": 292,
+      "heath_id": "elem.6.30",
+      "g_id": "G.328",
+      "field": "Q(phi)",
+      "book": "book-vi"
+    }
   ]
 }

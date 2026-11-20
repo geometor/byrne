@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 600 380" data-graphic-id="0049.g1" data-folio="0049" data-graphic="g1" role="img" aria-label="Book I, Prop. XV — Equality of Vertical Angles">
+  <title>Book I, Prop. XV — Equality of Vertical Angles</title>
+  <defs>
+    <marker id="geom-tick-1" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-2" y1="-4.5" x2="-2" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+      <line x1="2" y1="-4.5" x2="2" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-8 -6 16 12" markerWidth="16" markerHeight="12" orient="auto">
+      <line x1="-3.5" y1="-4.5" x2="-3.5" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+      <line x1="3.5" y1="-4.5" x2="3.5" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+    </marker>
+  </defs>
+  <style>
+  .euclid-graphic, :root {
+    --geom-fg: #1a1a1a;
+    --geom-bg: #faf7f0;
+    --geom-point-stroke: #faf7f0;
+    --geom-poly-fill: #1a1a1a;
+    --geom-accent: #e6b800;
+    --geom-assert: #1c6ea4;
+    --byrne-paper: #faf7f0;
+    --byrne-red: #d92b2b;
+    --byrne-blue: #1c6ea4;
+    --byrne-yellow: #e6b800;
+    --byrne-black: #1a1a1a;
+    --byrne-fill-red: #d92b2b;
+    --byrne-fill-blue: #1c6ea4;
+    --byrne-fill-yellow: #e6b800;
+    --byrne-fill-black: #1a1a1a;
+    --byrne-halo: rgba(250, 247, 240, 0.92);
+  }
+  html[data-theme="dark"] .euclid-graphic,
+  body[data-theme="dark"] .euclid-graphic {
+    --geom-fg: #e8e6df;
+    --geom-bg: #16161a;
+    --geom-point-stroke: #16161a;
+    --geom-poly-fill: #e8e6df;
+    --geom-accent: #f5ca24;
+    --geom-assert: #4ba3e3;
+    --byrne-paper: #16161a;
+    --byrne-red: #f04848;
+    --byrne-blue: #4ba3e3;
+    --byrne-yellow: #f5ca24;
+    --byrne-black: #e8e6df;
+    --byrne-fill-red: #d93838;
+    --byrne-fill-blue: #2574ab;
+    --byrne-fill-yellow: #dfb208;
+    --byrne-fill-black: #363945;
+    --byrne-halo: rgba(22, 22, 26, 0.92);
+  }
+  @media (prefers-color-scheme: dark) {
+    .euclid-graphic, :root {
+      --geom-fg: #e8e6df;
+      --geom-bg: #16161a;
+      --geom-point-stroke: #16161a;
+      --geom-poly-fill: #e8e6df;
+      --geom-accent: #f5ca24;
+      --geom-assert: #4ba3e3;
+      --byrne-paper: #16161a;
+      --byrne-red: #f04848;
+      --byrne-blue: #4ba3e3;
+      --byrne-yellow: #f5ca24;
+      --byrne-black: #e8e6df;
+      --byrne-fill-red: #d93838;
+      --byrne-fill-blue: #2574ab;
+      --byrne-fill-yellow: #dfb208;
+      --byrne-fill-black: #363945;
+      --byrne-halo: rgba(22, 22, 26, 0.92);
+    }
+  }
+  .euclid-graphic .svg-bg { fill: var(--geom-bg); }
+  .euclid-graphic .byrne-stroke-red { stroke: var(--byrne-red); }
+  .euclid-graphic .byrne-stroke-blue { stroke: var(--byrne-blue); }
+  .euclid-graphic .byrne-stroke-yellow { stroke: var(--byrne-yellow); }
+  .euclid-graphic .byrne-stroke-black { stroke: var(--byrne-black); }
+  .euclid-graphic .byrne-stroke-none { stroke: none; }
+  .euclid-graphic .byrne-fill-red { fill: var(--byrne-fill-red); }
+  .euclid-graphic .byrne-fill-blue { fill: var(--byrne-fill-blue); }
+  .euclid-graphic .byrne-fill-yellow { fill: var(--byrne-fill-yellow); }
+  .euclid-graphic .byrne-fill-black { fill: var(--byrne-fill-black); }
+  .euclid-graphic .byrne-fill-none { fill: none; }
+  .euclid-graphic .byrne-dashed { stroke-dasharray: 7 4.2; }
+  .euclid-graphic .byrne-dotted { stroke-dasharray: 2.4 3.6; }
+  .euclid-graphic .byrne-plate-line { fill: none; stroke-width: 3.4; stroke-linecap: round; }
+  .euclid-graphic .byrne-plate-line.byrne-thin { stroke-width: 2.2; }
+  .euclid-graphic .byrne-plate-line.byrne-thick { stroke-width: 4.2; }
+  .euclid-graphic .byrne-plate-circle,
+  .euclid-graphic .byrne-plate-arc { fill: none; stroke-width: 2.75; stroke-linecap: round; }
+  .euclid-graphic .byrne-plate-poly { stroke-linejoin: round; stroke-width: 2.2; }
+  .euclid-graphic .byrne-plate-poly.byrne-filled { fill-opacity: 0.9; }
+  .euclid-graphic .byrne-plate-poly.byrne-tinted { fill-opacity: 0.22; }
+  .euclid-graphic .byrne-plate-wedge { fill-opacity: 0.88; stroke-width: 1.35; stroke-linejoin: round; }
+  .euclid-graphic .geom-ang-arc { fill: none; stroke-width: 1.6; opacity: 0.85; }
+  .euclid-graphic .geom-point { fill: var(--geom-fg); stroke: var(--geom-point-stroke); stroke-width: 1.2; opacity: 0.45; }
+  .euclid-graphic .geom-label {
+    fill: var(--geom-fg);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "EB Garamond", "Georgia", serif;
+    paint-order: stroke fill;
+    stroke: var(--byrne-halo);
+    stroke-width: 3.2px;
+  }
+
+  </style>
+  <rect class="svg-bg" x="0" y="0" width="600" height="380" rx="6" />
+  <g id="elements">
+    <g id="graphics">
+      <g class="geom-angle" data-byrne-kind="angle" data-byrne-color="red" data-ref="&lt; B E C )" data-aliases="&lt; C E B )"><path class="byrne-plate-wedge byrne-fill-red byrne-stroke-red" d="M 300 190 L 339 174.4 A 42 42 0 0 0 267.49 163.4 Z" /><path class="geom-ang-arc byrne-stroke-red" d="M 339 174.4 A 42 42 0 0 0 267.49 163.4" fill="none" /><title>&lt; B E C )</title></g>
+      <g class="geom-angle" data-byrne-kind="angle" data-byrne-color="yellow" data-ref="&lt; C E A )" data-aliases="&lt; A E C )"><path class="byrne-plate-wedge byrne-fill-yellow byrne-stroke-yellow" d="M 300 190 L 267.49 163.4 A 42 42 0 0 0 261 205.6 Z" /><path class="geom-ang-arc byrne-stroke-yellow" d="M 267.49 163.4 A 42 42 0 0 0 261 205.6" fill="none" /><title>&lt; C E A )</title></g>
+      <g class="geom-angle" data-byrne-kind="angle" data-byrne-color="blue" data-ref="&lt; A E D )" data-aliases="&lt; D E A )"><path class="byrne-plate-wedge byrne-fill-blue byrne-stroke-blue" d="M 300 190 L 261 205.6 A 42 42 0 0 0 332.51 216.6 Z" /><path class="geom-ang-arc byrne-stroke-blue" d="M 261 205.6 A 42 42 0 0 0 332.51 216.6" fill="none" /><title>&lt; A E D )</title></g>
+      <g class="geom-angle" data-byrne-kind="angle" data-byrne-color="black" data-ref="&lt; D E B )" data-aliases="&lt; B E D )"><path class="byrne-plate-wedge byrne-fill-black byrne-stroke-black" d="M 300 190 L 332.51 216.6 A 42 42 0 0 0 339 174.4 Z" /><path class="geom-ang-arc byrne-stroke-black" d="M 332.51 216.6 A 42 42 0 0 0 339 174.4" fill="none" /><title>&lt; D E B )</title></g>
+      <path class="geom-segment byrne-plate-line byrne-stroke-black byrne-thick" d="M 53.33 288.67 L 300 190 L 546.67 91.33" data-byrne-kind="line" data-byrne-color="black" data-ref="/ A B /" data-aliases="/ B A / | [ A B ] | [ B A ]" fill="none"><title>/ A B /</title></path>
+      <path class="geom-segment byrne-plate-line byrne-stroke-red byrne-thick" d="M 119.11 42 L 300 190 L 480.89 338" data-byrne-kind="line" data-byrne-color="red" data-ref="/ C D /" data-aliases="/ D C / | [ C D ] | [ D C ]" fill="none"><title>/ C D /</title></path>
+    </g>
+    <g id="highlights"></g>
+    <g id="points">
+      <circle class="geom-point" cx="53.33" cy="288.67" r="2.6" data-ref="A"><title>A = (-3, -6/5)</title></circle>
+      <circle class="geom-point" cx="546.67" cy="91.33" r="2.6" data-ref="B"><title>B = (3, 6/5)</title></circle>
+      <circle class="geom-point" cx="119.11" cy="42" r="2.6" data-ref="C"><title>C = (-11/5, 9/5)</title></circle>
+      <circle class="geom-point" cx="480.89" cy="338" r="2.6" data-ref="D"><title>D = (11/5, -9/5)</title></circle>
+      <circle class="geom-point" cx="300" cy="190" r="2.6" data-ref="E"><title>E = (0, 0)</title></circle>
+    </g>
+    <g id="labels">
+    </g>
+  </g>
+</svg>

@@ -8,6 +8,8 @@
 :book_subtitle: In Which Coloured Diagrams and Symbols Are Used Instead of Letters — Oliver Byrne (1847)
 :author: Oliver Byrne
 :year: 1847
+:folio: 0007
+:page: title
 :excerpt: Oliver Byrne's landmark 1847 Chiswick Press edition using brilliant four-color diagrams and symbols in place of letters for Euclid's Books I–VI.
 
 .. _coloured-euclid-index:
@@ -16,6 +18,9 @@ The First Six Books of the Elements of Euclid
 =============================================
 
 .. rubric:: *In Which Coloured Diagrams and Symbols Are Used Instead of Letters for the Greater Ease of Learners* — Oliver Byrne (1847)
+
+.. folio:: 0007
+   :page: title
 
 .. container:: title-page
 
@@ -61,32 +66,32 @@ Proposition Outline (Books I–VI)
      - :ref:`Prop. I.46 <byrne-i-46>` — Construction of the Square *(p. 47 · G.139)*
      - :ref:`Prop. I.47 <byrne-i-47>` — The Pythagorean Theorem *(pp. 48–49 · G.140)*
 
-   - :ref:`Book II — Geometric Algebra & The Golden Section <byrne-book-ii>` *(pp. 51–71)* · :ref:`Summary <byrne-book-ii-summary>` · :ref:`Notes <byrne-book-ii-notes>`
+   - :ref:`Book II — Geometric Algebra & The Golden Section <byrne-book-ii>` *(pp. 51–70)* · :ref:`Summary <byrne-book-ii-summary>` · :ref:`Notes <byrne-book-ii-notes>`
 
      - :ref:`Prop. II.4 <byrne-ii-4>` — Binomial Square *(pp. 56–57 · G.147)*
      - :ref:`Prop. II.5 <byrne-ii-5>` — Equal & Unequal Division *(p. 58 · G.148)*
      - :ref:`Prop. II.11 <byrne-ii-11>` — The Golden Section by Colored Areas *(p. 66 · G.154)*
 
-   - :ref:`Book III — Circles, Inscribed Angles & Tangent-Secant Power <byrne-book-iii>` *(pp. 73–124)* · :ref:`Summary <byrne-book-iii-summary>` · :ref:`Notes <byrne-book-iii-notes>`
+   - :ref:`Book III — Circles, Inscribed Angles & Tangent-Secant Power <byrne-book-iii>` *(pp. 71–122)* · :ref:`Summary <byrne-book-iii-summary>` · :ref:`Notes <byrne-book-iii-notes>`
 
      - :ref:`Prop. III.20 <byrne-iii-20>` — Central & Inscribed Angles *(p. 102 · G.185)*
      - :ref:`Prop. III.31 <byrne-iii-31>` — Angle in a Semicircle (Thales's Theorem) *(p. 115 · G.196)*
      - :ref:`Prop. III.36 <byrne-iii-36>` — Tangent-Secant Power of a Point *(p. 121 · G.201)*
 
-   - :ref:`Book IV — Inscribed Circles, The Golden Triangle & Regular Pentagon <byrne-book-iv>` *(pp. 125–151)* · :ref:`Summary <byrne-book-iv-summary>` · :ref:`Notes <byrne-book-iv-notes>`
+   - :ref:`Book IV — Inscribed Circles, The Golden Triangle & Regular Pentagon <byrne-book-iv>` *(pp. 123–144)* · :ref:`Summary <byrne-book-iv-summary>` · :ref:`Notes <byrne-book-iv-notes>`
 
      - :ref:`Prop. IV.4 <byrne-iv-4>` — Incircle of a Triangle *(p. 129 · G.217)*
      - :ref:`Prop. IV.10 <byrne-iv-10>` — Isosceles Golden Triangle *(pp. 135–136 · G.223)*
      - :ref:`Prop. IV.11 <byrne-iv-11>` — Regular Pentagon Inscribed in a Circle *(p. 137 · G.224)*
 
-   - :ref:`Book V — Color-Coded Symbolic Algebra of Eudoxian Proportions <byrne-book-v>` *(pp. 153–212)* · :ref:`Summary <byrne-book-v-summary>` · :ref:`Notes <byrne-book-v-notes>`
+   - :ref:`Book V — Color-Coded Symbolic Algebra of Eudoxian Proportions <byrne-book-v>` *(pp. 145–210)* · :ref:`Summary <byrne-book-v-summary>` · :ref:`Notes <byrne-book-v-notes>`
 
      - :ref:`Prop. V.11 <byrne-v-11>` — Transitivity of Ratios *(p. 175 · G.271)*
      - :ref:`Prop. V.16 <byrne-v-16>` — *Alternando* *(p. 181 · G.276)*
      - :ref:`Prop. V.18 <byrne-v-18>` — *Componendo* *(p. 185 · G.278)*
      - :ref:`Prop. V.22 <byrne-v-22>` — *Ex Aequali* *(pp. 193–194 · G.282)*
 
-   - :ref:`Book VI — Similar Figures & Extreme and Mean Ratio <byrne-book-vi>` *(pp. 213–268)* · :ref:`Summary <byrne-book-vi-summary>` · :ref:`Notes <byrne-book-vi-notes>`
+   - :ref:`Book VI — Similar Figures & Extreme and Mean Ratio <byrne-book-vi>` *(pp. 211–268)* · :ref:`Summary <byrne-book-vi-summary>` · :ref:`Notes <byrne-book-vi-notes>`
 
      - :ref:`Prop. VI.30 <byrne-vi-30>` — Extreme & Mean Ratio by Application of Areas *(p. 258 · G.328)*
 

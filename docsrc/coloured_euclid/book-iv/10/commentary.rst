@@ -1,12 +1,17 @@
 :canonical_id: IV.10.commentary
 :book: IV
 :proposition: 10
+:order: 10
 :type: commentary
 :title: Commentary — Proposition IV.10
-:folio: IV.10
+:folio: 0169
 :page: 135
 
 .. _byrne-iv-10-commentary:
+
+
+.. folio:: 0169
+   :page: 135
 
 Commentary on Proposition IV.10: Golden Ratio Meets Tangent-Chord Geometry in Q(phi, sqrt(10 - 2*sqrt(5)))
 ==========================================================================================================

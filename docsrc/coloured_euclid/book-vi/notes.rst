@@ -1,6 +1,8 @@
 :book: VI
 :type: notes
 :title: Book VI Notes — Application of Areas & Conic Ancestors
+:folio: 0245
+:page: 211
 
 .. _byrne-book-vi-notes:
 .. _byrne-unit-6-notes:
@@ -9,6 +11,9 @@ Book VI Notes: Application of Areas & Projective Cross-Repository Links
 =======================================================================
 
 .. rubric:: Historical & Symbolic Commentary on Book VI
+
+.. folio:: 0245
+   :page: 211
 
 Hyperbolic Application of Areas (``VI.29`` → ``VI.30``)
 -------------------------------------------------------

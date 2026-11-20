@@ -1,8 +1,16 @@
+:folio: 0011
+:page: vii
+:type: notes
+:title: Foundations Notes
+
 .. _byrne-foundations-notes:
 .. _byrne-unit-1-notes:
 
 Foundations Notes: Chiswick Press Printing, Simson Numbering & Reception
 ========================================================================
+
+.. folio:: 0011
+   :page: vii
 
 .. rubric:: Historical, Typographic & Epistemological Commentary
 

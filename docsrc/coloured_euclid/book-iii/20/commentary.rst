@@ -1,12 +1,17 @@
 :canonical_id: III.20.commentary
 :book: III
 :proposition: 20
+:order: 20
 :type: commentary
 :title: Commentary — Proposition III.20
-:folio: III.20
+:folio: 0136
 :page: 102
 
 .. _byrne-iii-20-commentary:
+
+
+.. folio:: 0136
+   :page: 102
 
 Commentary on Proposition III.20: Double-Angle Spread Law & Isosceles Radius Triangles
 ======================================================================================

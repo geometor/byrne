@@ -1,15 +1,16 @@
 :canonical_id: IV.4
 :book: IV
 :proposition: 4
+:order: 4
 :type: proposition
 :title: Proposition IV.4 — Incircle of a Triangle
-:folio: IV.4
+:folio: 0163
 :page: 129
 :featured_image: /_static/figures/iv4.svg
 
 .. _byrne-iv-4:
 
-.. folio:: IV.4
+.. folio:: 0163
    :page: 129
 
 Proposition IV.4 — Incircle of a Triangle
@@ -22,6 +23,10 @@ Proposition IV.4 — Incircle of a Triangle
 .. picture:: /_static/figures/iv4.svg
    :alt: Book IV Proposition 4 — Incircle of a triangle constructed from two blue angle bisectors and three dotted perpendicular inradii.
    :caption: **Book IV, Prop. IV (p. 129 · G.217).** Inscribing :byrne-circle:`black <iv4:( I E )>` inside a given triangle (:byrne-line:`yellow solid <iv4:/ A B />`, :byrne-line:`red solid <iv4:/ A C />`, :byrne-line:`black solid <iv4:/ B C />`).
+
+.. picture:: 0163.g1.png
+   :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition IV.4 (Leaf 163).
+   :caption: **1847 Chiswick Press Archival Plate (Leaf 163, p. 129).** Full-RGB reproduction of Byrne's four-color woodblock print.
 
 .. container:: byrne-eq-block
 

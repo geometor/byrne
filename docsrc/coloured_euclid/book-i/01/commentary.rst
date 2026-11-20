@@ -1,12 +1,17 @@
 :canonical_id: I.1.commentary
 :book: I
 :proposition: 1
+:order: 1
 :type: commentary
 :title: Commentary — Proposition I.1
-:folio: I.1
+:folio: 0035
 :page: 1
 
 .. _byrne-i-1-commentary:
+
+
+.. folio:: 0035
+   :page: 1
 
 Commentary on Proposition I.1: Pointer-Free Genesis & Exact Q(sqrt(3)) Construction
 ===================================================================================

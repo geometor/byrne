@@ -1,8 +1,16 @@
+:folio: 0011
+:page: vii
+:type: summary
+:title: Foundations Summary
+
 .. _byrne-foundations-summary:
 .. _byrne-unit-1-summary:
 
 Foundations Summary: Foundations & Ocular Grammar
 =================================================
+
+.. folio:: 0011
+   :page: vii
 
 .. rubric:: Executive Synthesis of Byrne's Preliminary Apparatus (pp. vii–xxix)
 

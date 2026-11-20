@@ -1,3 +1,8 @@
+:folio: 0014
+:page: x
+:type: summary
+:title: Visual Encoding Summary
+
 .. _byrne-visual-encoding-summary:
 .. _byrne-unit-7-summary:
 
@@ -5,6 +10,9 @@ Visual Encoding Summary: Complementarity of the Three Euclidean Formalisms
 ==========================================================================
 
 .. rubric:: Synthesis of Textual, Chromatic & Symbolic Representations
+
+.. folio:: 0014
+   :page: x
 
 .. list-table:: **Architectural Comparison Across the GEOMETOR Triad**
    :header-rows: 1

@@ -1,12 +1,17 @@
 :canonical_id: I.5.commentary
 :book: I
 :proposition: 5
+:order: 5
 :type: commentary
 :title: Commentary — Proposition I.5
-:folio: I.5
+:folio: 0039
 :page: 5
 
 .. _byrne-i-5-commentary:
+
+
+.. folio:: 0039
+   :page: 5
 
 Commentary on Proposition I.5: Untangling the Bridge of Asses via Symmetric Color Twins
 =======================================================================================

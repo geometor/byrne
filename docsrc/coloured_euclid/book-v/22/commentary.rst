@@ -1,12 +1,17 @@
 :canonical_id: V.22.commentary
 :book: V
 :proposition: 22
+:order: 27
 :type: commentary
 :title: Commentary — Proposition V.22
-:folio: V.22
+:folio: 0227
 :page: 193
 
 .. _byrne-v-22-commentary:
+
+
+.. folio:: 0227
+   :page: 193
 
 Commentary on Proposition V.22: Compound Ratio Cancellation & Inductive Rank Chains
 ===================================================================================

@@ -1,15 +1,16 @@
 :canonical_id: I.47
 :book: I
 :proposition: 47
+:order: 47
 :type: proposition
 :title: Proposition I.47 — The Pythagorean Theorem
-:folio: I.47
+:folio: 0082
 :page: 48
 :featured_image: /_static/figures/i47.svg
 
 .. _byrne-i-47:
 
-.. folio:: I.47
+.. folio:: 0082
    :page: 48
 
 Proposition I.47 — The Pythagorean Theorem
@@ -22,6 +23,10 @@ Proposition I.47 — The Pythagorean Theorem
 .. picture:: /_static/figures/i47.svg
    :alt: Book I Proposition 47 — Oliver Byrne's four-color Pythagorean Theorem plate with black and red squares equal to yellow and blue hypotenuse rectangles.
    :caption: **Book I, Prop. XLVII (pp. 48–49 · G.140).** Byrne's masterpiece: Euclid's windmill proof rendered as coloured area conservation.
+
+.. picture:: 0082.g1.png
+   :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition I.47 (Leaf 82).
+   :caption: **1847 Chiswick Press Archival Plate (Leaf 82, p. 48).** Full-RGB reproduction of Byrne's four-color woodblock print.
 
 .. container:: byrne-eq-block
 

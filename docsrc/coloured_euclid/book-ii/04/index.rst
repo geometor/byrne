@@ -1,15 +1,16 @@
 :canonical_id: II.4
 :book: II
 :proposition: 4
+:order: 4
 :type: proposition
 :title: Proposition II.4 — Binomial Square
-:folio: II.4
+:folio: 0090
 :page: 56
 :featured_image: /_static/figures/ii4.svg
 
 .. _byrne-ii-4:
 
-.. folio:: II.4
+.. folio:: 0090
    :page: 56
 
 Proposition II.4 — Binomial Square
@@ -22,6 +23,10 @@ Proposition II.4 — Binomial Square
 .. picture:: /_static/figures/ii4.svg
    :alt: Book II Proposition 4 — Binomial square partitioned into diagonal half-filled blue and red squares and two solid yellow rectangles.
    :caption: **Book II, Prop. IV (pp. 56–57 · G.147).** $(a + b)^2 = a^2 + b^2 + 2ab$ made immediately legible by half-filled diagonal squares and solid yellow complements.
+
+.. picture:: 0090.g1.png
+   :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition II.4 (Leaf 90).
+   :caption: **1847 Chiswick Press Archival Plate (Leaf 90, p. 56).** Full-RGB reproduction of Byrne's four-color woodblock print.
 
 .. folio:: 0091
    :page: 57

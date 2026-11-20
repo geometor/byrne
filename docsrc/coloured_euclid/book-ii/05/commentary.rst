@@ -1,12 +1,17 @@
 :canonical_id: II.5.commentary
 :book: II
 :proposition: 5
+:order: 5
 :type: commentary
 :title: Commentary — Proposition II.5
-:folio: II.5
+:folio: 0092
 :page: 58
 
 .. _byrne-ii-5-commentary:
+
+
+.. folio:: 0092
+   :page: 58
 
 Commentary on Proposition II.5: Gnomon Surgery & Completing the Square
 ======================================================================

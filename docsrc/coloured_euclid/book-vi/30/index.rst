@@ -1,15 +1,16 @@
 :canonical_id: VI.30
 :book: VI
 :proposition: 30
+:order: 30
 :type: proposition
 :title: Proposition VI.30 — Extreme & Mean Ratio by Application of Areas
-:folio: VI.30
+:folio: 0292
 :page: 258
 :featured_image: /_static/figures/vi30.svg
 
 .. _byrne-vi-30:
 
-.. folio:: VI.30
+.. folio:: 0292
    :page: 258
 
 Proposition VI.30 — Extreme & Mean Ratio by Application of Areas
@@ -22,6 +23,10 @@ Proposition VI.30 — Extreme & Mean Ratio by Application of Areas
 .. picture:: /_static/figures/vi30.svg
    :alt: Book VI Proposition 30 — Cutting a line in extreme and mean ratio by applying a rectangle exceeding by a square.
    :caption: **Book VI, Prop. XXX (p. 258 · G.328).** Proportional fulfillment of :ref:`II.11 <byrne-ii-11>` via application of areas (``VI.29``).
+
+.. picture:: 0292.g1.png
+   :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition VI.30 (Leaf 292).
+   :caption: **1847 Chiswick Press Archival Plate (Leaf 292, p. 258).** Full-RGB reproduction of Byrne's four-color woodblock print.
 
 .. container:: byrne-eq-block
 

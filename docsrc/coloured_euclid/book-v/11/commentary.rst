@@ -1,12 +1,17 @@
 :canonical_id: V.11.commentary
 :book: V
 :proposition: 11
+:order: 15
 :type: commentary
 :title: Commentary — Proposition V.11
-:folio: V.11
+:folio: 0209
 :page: 175
 
 .. _byrne-v-11-commentary:
+
+
+.. folio:: 0209
+   :page: 175
 
 Commentary on Proposition V.11: Equivalence Relation of Eudoxian Ratios Across Heterogeneous Kinds
 ==================================================================================================
