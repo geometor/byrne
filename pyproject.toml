@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "geometor-byrne"
 authors = [{name = "phi ARCHITECT", email = "phi@geometor.com"}]
 description = "Digital Scriptorium Book Codex, Pointer-Free Visual Pseudocode Grammar, and Exact Symbolic Color-Token Proof Engine for Oliver Byrne's The First Six Books of the Elements of Euclid (1847)."
-readme = "README.rst"
+readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.13"
 dynamic = ["version"]
