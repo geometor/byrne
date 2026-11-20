@@ -1,6 +1,8 @@
 :book: II
 :type: summary
 :title: Book II Summary — Geometric Algebra Without Variables
+:folio: 0085
+:page: 51
 
 .. _byrne-book-ii-summary:
 .. _byrne-unit-3-summary:
@@ -9,6 +11,9 @@ Book II Summary: Geometric Algebra Without Symbolic Variables
 =============================================================
 
 .. rubric:: How Byrne's Colored Areas Realize Book II Polynomial Identities
+
+.. folio:: 0085
+   :page: 51
 
 Book II of Euclid's *Elements* establishes quadratic identities—distributivity (``II.1``), $(a+b)^2$ (:ref:`II.4 <byrne-ii-4>`), difference of squares and completing the square (:ref:`II.5 <byrne-ii-5>`–``II.6``), the Law of Cosines (``II.12``–``II.13``), and quadrature of any rectilinear figure (``II.14``)—entirely through **planar dissection** without numerical coordinates or ratio theory:
 

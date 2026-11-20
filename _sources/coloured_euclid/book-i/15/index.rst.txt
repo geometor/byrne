@@ -1,15 +1,16 @@
 :canonical_id: I.15
 :book: I
 :proposition: 15
+:order: 15
 :type: proposition
 :title: Proposition I.15 — Equality of Vertical Angles
-:folio: I.15
+:folio: 0049
 :page: 15
 :featured_image: /_static/figures/i15.svg
 
 .. _byrne-i-15:
 
-.. folio:: I.15
+.. folio:: 0049
    :page: 15
 
 Proposition I.15 — Equality of Vertical Angles
@@ -22,6 +23,10 @@ Proposition I.15 — Equality of Vertical Angles
 .. picture:: /_static/figures/i15.svg
    :alt: Book I Proposition 15 — Intersecting black and red straight lines forming red, yellow, blue, and black vertical angle sectors.
    :caption: **Book I, Prop. XV (p. 15 · G.104).** Adjacent supplementary pairs cancel common sectors to prove vertical angle equality.
+
+.. picture:: 0049.g1.png
+   :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition I.15 (Leaf 49).
+   :caption: **1847 Chiswick Press Archival Plate (Leaf 49, p. 15).** Full-RGB reproduction of Byrne's four-color woodblock print.
 
 .. container:: byrne-eq-block
 

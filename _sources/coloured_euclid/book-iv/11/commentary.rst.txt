@@ -1,12 +1,17 @@
 :canonical_id: IV.11.commentary
 :book: IV
 :proposition: 11
+:order: 11
 :type: commentary
 :title: Commentary — Proposition IV.11
-:folio: IV.11
+:folio: 0171
 :page: 137
 
 .. _byrne-iv-11-commentary:
+
+
+.. folio:: 0171
+   :page: 137
 
 Commentary on Proposition IV.11: Five Pentagon Sides in Four Inks & Exact Pentagonal Quadrances
 ===============================================================================================

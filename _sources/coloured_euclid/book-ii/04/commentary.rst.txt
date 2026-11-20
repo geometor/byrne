@@ -1,12 +1,17 @@
 :canonical_id: II.4.commentary
 :book: II
 :proposition: 4
+:order: 4
 :type: commentary
 :title: Commentary — Proposition II.4
-:folio: II.4
+:folio: 0090
 :page: 56
 
 .. _byrne-ii-4-commentary:
+
+
+.. folio:: 0090
+   :page: 56
 
 Commentary on Proposition II.4: Diagonal Half-Filled Squares & Visual Binomial Expansion
 ========================================================================================

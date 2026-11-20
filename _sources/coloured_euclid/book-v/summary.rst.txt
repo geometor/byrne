@@ -1,6 +1,8 @@
 :book: V
 :type: summary
 :title: Book V Summary — Eudoxian Proportion as Typed Colored Algebra
+:folio: 0179
+:page: 145
 
 .. _byrne-book-v-summary:
 .. _byrne-unit-5-summary:
@@ -9,6 +11,9 @@ Book V Summary: Eudoxian Proportion as Typed Colored Algebra
 ============================================================
 
 .. rubric:: Why Book V Is Byrne's Most Modern Algebraic Innovation
+
+.. folio:: 0179
+   :page: 145
 
 1. **Redundant Shape + Color Dual Coding**:
    Byrne pairs distinct **shapes** (*circle*, *square*, *diamond*, *shield*, *pentagon*, *triangle*) with his four **colors** (*red*, *yellow*, *blue*, *black*), giving every term of a four- or six-magnitude proportion a unique silhouette even without color cues.

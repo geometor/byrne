@@ -24,7 +24,9 @@ Attributes
 
 .. autoapisummary::
 
+   geometor.byrne.render.PLATE_FOLIO_MAP
    geometor.byrne.render.EMBEDDED_SVG_STYLE
+   geometor.byrne.render.SVG_TICK_DEFS
 
 
 Functions
@@ -40,6 +42,9 @@ Functions
 Module Contents
 ---------------
 
+.. py:data:: PLATE_FOLIO_MAP
+   :type:  dict[str, str]
+
 .. py:data:: EMBEDDED_SVG_STYLE
    :type:  str
    :value: Multiline-String
@@ -51,6 +56,12 @@ Module Contents
    .. code-block:: python
 
       """  .euclid-graphic, :root {
+          --geom-fg: #1a1a1a;
+          --geom-bg: #faf7f0;
+          --geom-point-stroke: #faf7f0;
+          --geom-poly-fill: #1a1a1a;
+          --geom-accent: #e6b800;
+          --geom-assert: #1c6ea4;
           --byrne-paper: #faf7f0;
           --byrne-red: #d92b2b;
           --byrne-blue: #1c6ea4;
@@ -62,8 +73,33 @@ Module Contents
           --byrne-fill-black: #1a1a1a;
           --byrne-halo: rgba(250, 247, 240, 0.92);
         }
+        html[data-theme="dark"] .euclid-graphic,
+        body[data-theme="dark"] .euclid-graphic {
+          --geom-fg: #e8e6df;
+          --geom-bg: #16161a;
+          --geom-point-stroke: #16161a;
+          --geom-poly-fill: #e8e6df;
+          --geom-accent: #f5ca24;
+          --geom-assert: #4ba3e3;
+          --byrne-paper: #16161a;
+          --byrne-red: #f04848;
+          --byrne-blue: #4ba3e3;
+          --byrne-yellow: #f5ca24;
+          --byrne-black: #e8e6df;
+          --byrne-fill-red: #d93838;
+          --byrne-fill-blue: #2574ab;
+          --byrne-fill-yellow: #dfb208;
+          --byrne-fill-black: #363945;
+          --byrne-halo: rgba(22, 22, 26, 0.92);
+        }
         @media (prefers-color-scheme: dark) {
           .euclid-graphic, :root {
+            --geom-fg: #e8e6df;
+            --geom-bg: #16161a;
+            --geom-point-stroke: #16161a;
+            --geom-poly-fill: #e8e6df;
+            --geom-accent: #f5ca24;
+            --geom-assert: #4ba3e3;
             --byrne-paper: #16161a;
             --byrne-red: #f04848;
             --byrne-blue: #4ba3e3;
@@ -76,7 +112,7 @@ Module Contents
             --byrne-halo: rgba(22, 22, 26, 0.92);
           }
         }
-        .euclid-graphic .svg-bg { fill: var(--byrne-paper); }
+        .euclid-graphic .svg-bg { fill: var(--geom-bg); }
         .euclid-graphic .byrne-stroke-red { stroke: var(--byrne-red); }
         .euclid-graphic .byrne-stroke-blue { stroke: var(--byrne-blue); }
         .euclid-graphic .byrne-stroke-yellow { stroke: var(--byrne-yellow); }
@@ -99,9 +135,9 @@ Module Contents
         .euclid-graphic .byrne-plate-poly.byrne-tinted { fill-opacity: 0.22; }
         .euclid-graphic .byrne-plate-wedge { fill-opacity: 0.88; stroke-width: 1.35; stroke-linejoin: round; }
         .euclid-graphic .geom-ang-arc { fill: none; stroke-width: 1.6; opacity: 0.85; }
-        .euclid-graphic .geom-point { fill: var(--byrne-black); stroke: var(--byrne-paper); stroke-width: 1.2; opacity: 0.45; }
+        .euclid-graphic .geom-point { fill: var(--geom-fg); stroke: var(--geom-point-stroke); stroke-width: 1.2; opacity: 0.45; }
         .euclid-graphic .geom-label {
-          fill: var(--byrne-black);
+          fill: var(--geom-fg);
           font-size: 12px;
           font-weight: 600;
           font-family: "EB Garamond", "Georgia", serif;
@@ -117,12 +153,43 @@ Module Contents
 
 
 
-.. py:function:: render_plate_svg(plate: geometor.byrne.constructions.ByrnePlate, *, margin: float = 42.0, show_labels: bool | None = None) -> str
+.. py:data:: SVG_TICK_DEFS
+   :type:  str
+   :value: Multiline-String
+
+   .. raw:: html
+
+      <details><summary>Show Value</summary>
+
+   .. code-block:: python
+
+      """  <defs>
+          <marker id="geom-tick-1" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+            <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+          </marker>
+          <marker id="geom-tick-2" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+            <line x1="-2" y1="-4.5" x2="-2" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            <line x1="2" y1="-4.5" x2="2" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+          </marker>
+          <marker id="geom-tick-3" viewBox="-8 -6 16 12" markerWidth="16" markerHeight="12" orient="auto">
+            <line x1="-3.5" y1="-4.5" x2="-3.5" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            <line x1="3.5" y1="-4.5" x2="3.5" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+          </marker>
+        </defs>"""
+
+   .. raw:: html
+
+      </details>
+
+
+
+.. py:function:: render_plate_svg(plate: geometor.byrne.constructions.ByrnePlate, *, margin: float = 42.0, show_labels: bool | None = None, folio: str | None = None, graphic: str | None = 'g1', graphic_id: str | None = None) -> str
 
    Render a :class:`~geometor.byrne.constructions.ByrnePlate` into a ``.euclid-graphic`` SVG.
 
 
-.. py:function:: export_plate_svg(plate: geometor.byrne.constructions.ByrnePlate, output_path: str | pathlib.Path, *, margin: float = 42.0, show_labels: bool | None = None) -> pathlib.Path
+.. py:function:: export_plate_svg(plate: geometor.byrne.constructions.ByrnePlate, output_path: str | pathlib.Path, *, margin: float = 42.0, show_labels: bool | None = None, folio: str | None = None, graphic: str | None = 'g1', graphic_id: str | None = None) -> pathlib.Path
 
    Write ``plate`` as an interactive ``.euclid-graphic`` SVG file.
 

@@ -1,6 +1,8 @@
 :book: I
 :type: notes
 :title: Book I Notes — Windmill Geometry & Chromatic Registers
+:folio: 0035
+:page: 1
 
 .. _byrne-book-i-notes:
 .. _byrne-unit-2-notes:
@@ -9,6 +11,9 @@ Book I Notes: Windmill Geometry, Stroke Disambiguation & The 1847 Title-Page Ano
 ====================================================================================
 
 .. rubric:: Archival & Symbolic Commentary on Book I
+
+.. folio:: 0035
+   :page: 1
 
 Archival Note: The 1847 Title-Page Transposition of ``I.47``
 ------------------------------------------------------------

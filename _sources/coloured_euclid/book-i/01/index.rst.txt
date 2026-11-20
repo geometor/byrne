@@ -1,15 +1,16 @@
 :canonical_id: I.1
 :book: I
 :proposition: 1
+:order: 1
 :type: proposition
 :title: Proposition I.1 — Equilateral Triangle
-:folio: I.1
+:folio: 0035
 :page: 1
 :featured_image: /_static/figures/i1.svg
 
 .. _byrne-i-1:
 
-.. folio:: I.1
+.. folio:: 0035
    :page: 1
 
 Proposition I.1 — Equilateral Triangle
@@ -22,6 +23,10 @@ Proposition I.1 — Equilateral Triangle
 .. picture:: /_static/figures/i1.svg
    :alt: Book I Proposition 1 — Equilateral triangle constructed by blue and red circles on black base.
    :caption: **Book I, Prop. I (p. 1).** Exact $\mathbb{Q}(\sqrt{3})$ construction via ``Model.intersect``.
+
+.. picture:: 0035.g1.png
+   :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition I.1 (Leaf 35).
+   :caption: **1847 Chiswick Press Archival Plate (Leaf 35, p. 1).** Full-RGB reproduction of Byrne's four-color woodblock print.
 
 .. container:: byrne-eq-block
 

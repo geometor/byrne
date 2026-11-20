@@ -1,15 +1,16 @@
 :canonical_id: II.11
 :book: II
 :proposition: 11
+:order: 11
 :type: proposition
 :title: Proposition II.11 — The Golden Section by Colored Areas
-:folio: II.11
+:folio: 0100
 :page: 66
 :featured_image: /_static/figures/ii11.svg
 
 .. _byrne-ii-11:
 
-.. folio:: II.11
+.. folio:: 0100
    :page: 66
 
 Proposition II.11 — The Golden Section by Colored Areas
@@ -22,6 +23,10 @@ Proposition II.11 — The Golden Section by Colored Areas
 .. picture:: /_static/figures/ii11.svg
    :alt: Book II Proposition 11 — Golden section construction showing blue golden square equal in area to yellow complement rectangle.
    :caption: **Book II, Prop. XI (p. 66 · G.154).** Pure $\mathbb{Q}(\phi)$ area proof of the :term:`Golden Section <extreme-and-mean-ratio>` prior to Book V proportion theory.
+
+.. picture:: 0100.g1.png
+   :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition II.11 (Leaf 100).
+   :caption: **1847 Chiswick Press Archival Plate (Leaf 100, p. 66).** Full-RGB reproduction of Byrne's four-color woodblock print.
 
 .. container:: byrne-eq-block
 

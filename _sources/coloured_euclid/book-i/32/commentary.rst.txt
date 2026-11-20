@@ -1,12 +1,17 @@
 :canonical_id: I.32.commentary
 :book: I
 :proposition: 32
+:order: 32
 :type: commentary
 :title: Commentary — Proposition I.32
-:folio: I.32
+:folio: 0067
 :page: 33
 
 .. _byrne-i-32-commentary:
+
+
+.. folio:: 0067
+   :page: 33
 
 Commentary on Proposition I.32: Parallel Transport of Angles & Euclid's Fifth Postulate Horizon
 ===============================================================================================

@@ -1,12 +1,17 @@
 :canonical_id: I.46.commentary
 :book: I
 :proposition: 46
+:order: 46
 :type: commentary
 :title: Commentary — Proposition I.46
-:folio: I.46
+:folio: 0081
 :page: 47
 
 .. _byrne-i-46-commentary:
+
+
+.. folio:: 0081
+   :page: 47
 
 Commentary on Proposition I.46: Constructing the Orthogonal Unit Before the Pythagorean Climax
 ==============================================================================================

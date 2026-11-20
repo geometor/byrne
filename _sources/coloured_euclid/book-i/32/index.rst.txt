@@ -1,15 +1,16 @@
 :canonical_id: I.32
 :book: I
 :proposition: 32
+:order: 32
 :type: proposition
 :title: Proposition I.32 — Exterior Angle & Angle Sum of a Triangle
-:folio: I.32
+:folio: 0067
 :page: 33
 :featured_image: /_static/figures/i32.svg
 
 .. _byrne-i-32:
 
-.. folio:: I.32
+.. folio:: 0067
    :page: 33
 
 Proposition I.32 — Exterior Angle & Angle Sum of a Triangle
@@ -22,6 +23,10 @@ Proposition I.32 — Exterior Angle & Angle Sum of a Triangle
 .. picture:: /_static/figures/i32.svg
    :alt: Book I Proposition 32 — Triangle with parallel blue auxiliary line splitting the exterior angle into alternate and corresponding components.
    :caption: **Book I, Prop. XXXII (p. 33 · G.125).** Parallel line :byrne-line:`blue solid <i32:/ C E />` transports both remote interior angles into the exterior angle.
+
+.. picture:: 0067.g1.png
+   :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition I.32 (Leaf 67).
+   :caption: **1847 Chiswick Press Archival Plate (Leaf 67, p. 33).** Full-RGB reproduction of Byrne's four-color woodblock print.
 
 .. container:: byrne-eq-block
 

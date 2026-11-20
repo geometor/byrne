@@ -1,6 +1,8 @@
 :navigation: header
 :order: 12
 :nav_title: Bibliography
+:folio: 0007
+:page: title
 
 .. _bibliography:
 
@@ -8,6 +10,9 @@ Bibliography
 ============
 
 .. rubric:: Primary Euclidean Editions, Chiswick Press Scholarship & Visual Information Design
+
+.. folio:: 0007
+   :page: title
 
 .. _cite-byrne-1847:
 

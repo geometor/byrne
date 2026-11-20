@@ -1,6 +1,8 @@
 :navigation: header
 :order: 14
 :nav_title: Concordance
+:folio: 0022
+:page: xviii
 
 .. _concordance:
 
@@ -8,6 +10,9 @@ Byrne–Simson–Heath–G-Index Concordance
 ======================================
 
 .. rubric:: Cross-Repository Alignment Across ``geometor/byrne``, ``geometor/euclid``, ``geometor/elements`` & ``geometor/codes``
+
+.. folio:: 0022
+   :page: xviii
 
 Because :person:`Oliver Byrne <byrne>` adopted :person:`Robert Simson's <simson>` :cite:`1756 Glasgow numbering <simson:1756>`, several Book I definitions and axioms carry numbers distinct from the critical Heiberg/:person:`Heath <heath>` text (:cite:`1908 <heath:1908>`, ``geometor/euclid``) and the ``geometor/elements`` G-Index (see :ref:`Preliminaries & Foundations <byrne-foundations>`).
 

@@ -1,12 +1,17 @@
 :canonical_id: I.4.commentary
 :book: I
 :proposition: 4
+:order: 4
 :type: commentary
 :title: Commentary — Proposition I.4
-:folio: I.4
+:folio: 0038
 :page: 4
 
 .. _byrne-i-4-commentary:
+
+
+.. folio:: 0038
+   :page: 4
 
 Commentary on Proposition I.4: Congruence-Twin Coloring & Superposition (*Epharmozein*)
 =======================================================================================

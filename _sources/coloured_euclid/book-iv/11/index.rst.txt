@@ -1,15 +1,16 @@
 :canonical_id: IV.11
 :book: IV
 :proposition: 11
+:order: 11
 :type: proposition
 :title: Proposition IV.11 — Regular Pentagon Inscribed in a Circle
-:folio: IV.11
+:folio: 0171
 :page: 137
 :featured_image: /_static/figures/iv11.svg
 
 .. _byrne-iv-11:
 
-.. folio:: IV.11
+.. folio:: 0171
    :page: 137
 
 Proposition IV.11 — Regular Pentagon Inscribed in a Circle
@@ -22,6 +23,10 @@ Proposition IV.11 — Regular Pentagon Inscribed in a Circle
 .. picture:: /_static/figures/iv11.svg
    :alt: Book IV Proposition 11 — Regular pentagon inscribed in a blue circle around a solid yellow Golden Triangle.
    :caption: **Book IV, Prop. XI (p. 137 · G.224).** Regular pentagon inscribed in :byrne-circle:`blue <iv11:( O A )>` by bisecting the base angles of inscribed Golden Triangle :byrne-tri:`yellow filled <iv11:< A C D >>`.
+
+.. picture:: 0171.g1.png
+   :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition IV.11 (Leaf 171).
+   :caption: **1847 Chiswick Press Archival Plate (Leaf 171, p. 137).** Full-RGB reproduction of Byrne's four-color woodblock print.
 
 .. container:: byrne-eq-block
 

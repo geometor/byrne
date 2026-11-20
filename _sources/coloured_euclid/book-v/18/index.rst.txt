@@ -1,14 +1,15 @@
 :canonical_id: V.18
 :book: V
 :proposition: 18
+:order: 22
 :type: proposition
 :title: Proposition V.18 — Componendo (Joint Proportion)
-:folio: V.18
+:folio: 0219
 :page: 185
 
 .. _byrne-v-18:
 
-.. folio:: V.18
+.. folio:: 0219
    :page: 185
 
 Proposition V.18 — Componendo (Joint Proportion)
@@ -22,6 +23,10 @@ Proposition V.18 — Componendo (Joint Proportion)
 .. picture:: /_static/figures/v18.svg
    :alt: Book V Proposition 18 — Chiswick Press colored magnitude tableau for Componendo.
    :caption: **Pickering p. 185 Tableau (*Componendo*).** Composing antecedent and consequent colored tokens jointly.
+
+.. picture:: 0219.g1.png
+   :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition V.18 (Leaf 219).
+   :caption: **1847 Chiswick Press Archival Plate (Leaf 219, p. 185).** Full-RGB reproduction of Byrne's four-color woodblock print.
 
 .. container:: byrne-eq-block
 

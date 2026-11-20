@@ -1,15 +1,16 @@
 :canonical_id: I.4
 :book: I
 :proposition: 4
+:order: 4
 :type: proposition
 :title: Proposition I.4 — Side-Angle-Side Congruence
-:folio: I.4
+:folio: 0038
 :page: 4
 :featured_image: /_static/figures/i4.svg
 
 .. _byrne-i-4:
 
-.. folio:: I.4
+.. folio:: 0038
    :page: 4
 
 Proposition I.4 — Side-Angle-Side Congruence
@@ -22,6 +23,10 @@ Proposition I.4 — Side-Angle-Side Congruence
 .. picture:: /_static/figures/i4.svg
    :alt: Book I Proposition 4 — Two congruent triangles with matching red, blue, and black sides and yellow, blue, and red angle wedges.
    :caption: **Book I, Prop. IV (p. 4).** Identical color registers encode corresponding sides and subtended angles across both triangles.
+
+.. picture:: 0038.g1.png
+   :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition I.4 (Leaf 38).
+   :caption: **1847 Chiswick Press Archival Plate (Leaf 38, p. 4).** Full-RGB reproduction of Byrne's four-color woodblock print.
 
 .. container:: byrne-eq-block
 

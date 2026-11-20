@@ -1,12 +1,17 @@
 :canonical_id: V.16.commentary
 :book: V
 :proposition: 16
+:order: 20
 :type: commentary
 :title: Commentary — Proposition V.16
-:folio: V.16
+:folio: 0215
 :page: 181
 
 .. _byrne-v-16-commentary:
+
+
+.. folio:: 0215
+   :page: 181
 
 Commentary on Proposition V.16: Why Alternando Requires Homogeneous Magnitudes (Pickering pp. 180–181)
 ======================================================================================================

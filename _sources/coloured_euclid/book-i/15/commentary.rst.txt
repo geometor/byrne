@@ -1,12 +1,17 @@
 :canonical_id: I.15.commentary
 :book: I
 :proposition: 15
+:order: 15
 :type: commentary
 :title: Commentary — Proposition I.15
-:folio: I.15
+:folio: 0049
 :page: 15
 
 .. _byrne-i-15-commentary:
+
+
+.. folio:: 0049
+   :page: 15
 
 Commentary on Proposition I.15: Four-Sector Partition & Algebraic Cancellation of Supplementary Angles
 ======================================================================================================

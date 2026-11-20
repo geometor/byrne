@@ -26,6 +26,7 @@ Attributes
 
 .. autoapisummary::
 
+   geometor.byrne.tableaux.TABLEAU_FOLIO_MAP
    geometor.byrne.tableaux.TABLEAU_IDS
 
 
@@ -40,6 +41,9 @@ Functions
 
 Module Contents
 ---------------
+
+.. py:data:: TABLEAU_FOLIO_MAP
+   :type:  dict[str, str]
 
 .. py:data:: TABLEAU_IDS
    :type:  tuple[str, ...]

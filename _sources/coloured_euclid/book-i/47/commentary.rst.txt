@@ -1,12 +1,17 @@
 :canonical_id: I.47.commentary
 :book: I
 :proposition: 47
+:order: 47
 :type: commentary
 :title: Commentary — Proposition I.47
-:folio: I.47
+:folio: 0082
 :page: 48
 
 .. _byrne-i-47-commentary:
+
+
+.. folio:: 0082
+   :page: 48
 
 Commentary on Proposition I.47: Euclid's Windmill, Boundary Stroke Modulation & Rational Coordinates
 ====================================================================================================

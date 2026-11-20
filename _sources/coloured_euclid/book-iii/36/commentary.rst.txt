@@ -1,12 +1,17 @@
 :canonical_id: III.36.commentary
 :book: III
 :proposition: 36
+:order: 36
 :type: commentary
 :title: Commentary — Proposition III.36
-:folio: III.36
+:folio: 0155
 :page: 121
 
 .. _byrne-iii-36-commentary:
+
+
+.. folio:: 0155
+   :page: 121
 
 Commentary on Proposition III.36: Three-Part Secant Encoding & Tangent Power Invariant
 ======================================================================================

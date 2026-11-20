@@ -1,3 +1,8 @@
+:folio: 0014
+:page: x
+:type: notes
+:title: Visual Encoding Notes
+
 .. _byrne-visual-encoding-notes:
 .. _byrne-unit-7-notes:
 
@@ -5,6 +10,9 @@ Visual Encoding Notes: Compiler Diagnostics & Interactive Synthesis
 ===================================================================
 
 .. rubric:: Static Register Checking & Future Extensions
+
+.. folio:: 0014
+   :page: x
 
 Automated Register Auditing (:func:`~geometor.byrne.pseudocode.analyze_visual_registers`)
 -----------------------------------------------------------------------------------------

@@ -1,6 +1,8 @@
 :book: III
 :type: notes
 :title: Book III Notes — Multi-Case Plates & Rational Circle Models
+:folio: 0105
+:page: 71
 
 .. _byrne-book-iii-notes:
 .. _byrne-unit-4-notes:
@@ -9,6 +11,9 @@ Book III Notes: Multi-Case Plates & Rational Circle Parameterizations
 =====================================================================
 
 .. rubric:: Chiswick Press Case Splits & Exact Rational Points on the Circle
+
+.. folio:: 0105
+   :page: 71
 
 Multi-Figure Layouts on Pickering pp. 102, 115 & 121
 ----------------------------------------------------

@@ -1,12 +1,17 @@
 :canonical_id: IV.4.commentary
 :book: IV
 :proposition: 4
+:order: 4
 :type: commentary
 :title: Commentary — Proposition IV.4
-:folio: IV.4
+:folio: 0163
 :page: 129
 
 .. _byrne-iv-4-commentary:
+
+
+.. folio:: 0163
+   :page: 129
 
 Commentary on Proposition IV.4: Color-Matched Dotted Inradii & Heronian 13-14-15 Integer Coordinates
 ====================================================================================================

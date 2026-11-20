@@ -96,6 +96,7 @@
         </div>
         <section class="level-1" id="oliver-byrne">
         <h1>Oliver Byrne<a class="headerlink" href="#oliver-byrne" title="Link to this heading">¶</a></h1>
+        <img alt="Oliver Byrne Medallion" class="repo-medallion-hero" src="_images/medallion.svg" />
         <p>The mission of this project is to capture a semantic digital library of the works of <span class="person-ref" data-person="byrne" title="Oliver Byrne (1810 – 1880) — Irish Civil Engineer, Surveyor &amp; Mathematical Author">Oliver Byrne</span> (1810–1880), the Irish civil engineer and mathematician celebrated for his revolutionary four-color visual edition of Euclid’s <em>Elements</em>. Within the interconnected <a class="reference external" href="https://geometor.com/books/">GEOMETOR</a> semantic digital archive, this work is liberated from static print bounds—decomposed into addressable semantic units, calibrated vector diagrams, primary-source Chiswick Press provenance, and cross-corpus citations speaking one shared geometric language.</p>
         <section class="directory-section collection-directory directory-references ">
           <div class="collection-directory-controls" hidden>
@@ -118,9 +119,10 @@
               <div class="content">
                 <figure class="excerpt-svg">
                   <a href="coloured_euclid/index.html">
-                    <svg class="euclid-graphic euclid-thumbnail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" width="680" height="300" data-graphic-id="preliminaries" role="img" aria-label="Oliver Byrne (1847) Preliminaries — Ocular Manifesto, Definitions &amp; Postulates" data-svg-scope="s-41b4c931">
+                    <svg class="euclid-graphic euclid-thumbnail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" width="680" height="300" data-graphic-id="preliminaries" data-folio="0014" data-graphic="g1" role="img" aria-label="Oliver Byrne (1847) Preliminaries — Ocular Manifesto, Definitions &amp; Postulates" data-svg-scope="s-41b4c931">
           <style>
             svg[data-svg-scope="s-41b4c931"], svg[data-svg-scope="s-41b4c931"] { --byrne-paper: #faf7f0; --byrne-red: #d92b2b; --byrne-blue: #1c6ea4; --byrne-yellow: #e6b800; --byrne-black: #1a1a1a; --byrne-fill-red: #d92b2b; --byrne-fill-blue: #1c6ea4; --byrne-fill-yellow: #e6b800; --byrne-fill-black: #1a1a1a; --byrne-halo: rgba(250, 247, 240, 0.92) }
+            svg[data-svg-scope="s-41b4c931"] html[data-theme="dark"] .euclid-graphic, svg[data-svg-scope="s-41b4c931"] body[data-theme="dark"] .euclid-graphic { --geom-fg: #e8e6df; --geom-bg: #16161a; --geom-point-stroke: #16161a; --geom-poly-fill: #e8e6df; --geom-accent: #f5ca24; --geom-assert: #4ba3e3; --byrne-paper: #16161a; --byrne-red: #f04848; --byrne-blue: #4ba3e3; --byrne-yellow: #f5ca24; --byrne-black: #e8e6df; --byrne-fill-red: #d93838; --byrne-fill-blue: #2574ab; --byrne-fill-yellow: #dfb208; --byrne-fill-black: #363945; --byrne-halo: rgba(22, 22, 26, 0.92) }
             body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-41b4c931"], body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-41b4c931"] { --byrne-paper: #16161a; --byrne-red: #f04848; --byrne-blue: #4ba3e3; --byrne-yellow: #f5ca24; --byrne-black: #e8e6df; --byrne-fill-red: #d93838; --byrne-fill-blue: #2574ab; --byrne-fill-yellow: #dfb208; --byrne-fill-black: #363945; --byrne-halo: rgba(22, 22, 26, 0.92) }
             svg[data-svg-scope="s-41b4c931"] .byrne-stroke-red { stroke: var(--byrne-red) }
             svg[data-svg-scope="s-41b4c931"] .byrne-stroke-blue { stroke: var(--byrne-blue) }
@@ -138,15 +140,29 @@
             svg[data-svg-scope="s-41b4c931"] .byrne-plate-circle { fill: none; stroke-width: 2.7; stroke-linecap: round }
             svg[data-svg-scope="s-41b4c931"] .byrne-plate-poly { stroke-linejoin: round; stroke-width: 2.2 }
             svg[data-svg-scope="s-41b4c931"] .byrne-plate-wedge { fill-opacity: 0.88; stroke-width: 1.4; stroke-linejoin: round }
-            svg[data-svg-scope="s-41b4c931"] .byrne-ink { fill: var(--byrne-black); font-family: "EB Garamond", "Cochineal", "Georgia", serif }
-            svg[data-svg-scope="s-41b4c931"] .byrne-caption { fill: var(--byrne-black); opacity: 0.78; font-size: 13px; font-style: italic; font-family: "EB Garamond", "Georgia", serif }
-            svg[data-svg-scope="s-41b4c931"] .byrne-heading { fill: var(--byrne-black); font-size: 13px; font-weight: 700; letter-spacing: 0.08em; font-family: "EB Garamond", "Georgia", serif }
-            svg[data-svg-scope="s-41b4c931"] .byrne-op-text { fill: var(--byrne-black); font-size: 21px; font-weight: 600; font-family: "EB Garamond", "Georgia", serif }
-            svg[data-svg-scope="s-41b4c931"] .byrne-mult { fill: var(--byrne-black); font-size: 19px; font-style: italic; font-weight: 600; font-family: "EB Garamond", "Georgia", serif }
-            svg[data-svg-scope="s-41b4c931"] .byrne-rule { stroke: var(--byrne-black); stroke-opacity: 0.22; stroke-width: 1.1 }
-            svg[data-svg-scope="s-41b4c931"] .byrne-frac-bar { stroke: var(--byrne-black); stroke-width: 2.0; stroke-linecap: round }
+            svg[data-svg-scope="s-41b4c931"] .byrne-ink { fill: var(--geom-fg); font-family: "EB Garamond", "Cochineal", "Georgia", serif }
+            svg[data-svg-scope="s-41b4c931"] .byrne-caption { fill: var(--geom-fg); opacity: 0.78; font-size: 13px; font-style: italic; font-family: "EB Garamond", "Georgia", serif }
+            svg[data-svg-scope="s-41b4c931"] .byrne-heading { fill: var(--geom-fg); font-size: 13px; font-weight: 700; letter-spacing: 0.08em; font-family: "EB Garamond", "Georgia", serif }
+            svg[data-svg-scope="s-41b4c931"] .byrne-op-text { fill: var(--geom-fg); font-size: 21px; font-weight: 600; font-family: "EB Garamond", "Georgia", serif }
+            svg[data-svg-scope="s-41b4c931"] .byrne-mult { fill: var(--geom-fg); font-size: 19px; font-style: italic; font-weight: 600; font-family: "EB Garamond", "Georgia", serif }
+            svg[data-svg-scope="s-41b4c931"] .byrne-rule { stroke: var(--geom-fg); stroke-opacity: 0.22; stroke-width: 1.1 }
+            svg[data-svg-scope="s-41b4c931"] .byrne-frac-bar { stroke: var(--geom-fg); stroke-width: 2.0; stroke-linecap: round }
           </style>
           <title>Oliver Byrne (1847) Preliminaries — Ocular Manifesto, Definitions &amp; Postulates</title>
+          <defs>
+            <marker viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            </marker>
+            <marker viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+              <line x1="-2" y1="-4.5" x2="-2" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+              <line x1="2" y1="-4.5" x2="2" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            </marker>
+            <marker viewBox="-8 -6 16 12" markerWidth="16" markerHeight="12" orient="auto">
+              <line x1="-3.5" y1="-4.5" x2="-3.5" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+              <line x1="3.5" y1="-4.5" x2="3.5" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            </marker>
+          </defs>
           <g>
             <g>
               <line class="byrne-rule" x1="232" y1="26" x2="232" y2="294" />
@@ -264,9 +280,10 @@
               <div class="content">
                 <figure class="excerpt-svg">
                   <a href="pseudocode/index.html">
-                    <svg class="euclid-graphic euclid-thumbnail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 296" width="680" height="296" data-graphic-id="rosetta" role="img" aria-label="3-Way Rosetta Synthesis — Heath (1908) · Byrne (1847) · GEOMETOR Symbolic DAG" data-svg-scope="s-457c9aca">
+                    <svg class="euclid-graphic euclid-thumbnail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 296" width="680" height="296" data-graphic-id="rosetta" data-folio="0082" data-graphic="g1" role="img" aria-label="3-Way Rosetta Synthesis — Heath (1908) · Byrne (1847) · GEOMETOR Symbolic DAG" data-svg-scope="s-457c9aca">
           <style>
             svg[data-svg-scope="s-457c9aca"], svg[data-svg-scope="s-457c9aca"] { --byrne-paper: #faf7f0; --byrne-red: #d92b2b; --byrne-blue: #1c6ea4; --byrne-yellow: #e6b800; --byrne-black: #1a1a1a; --byrne-fill-red: #d92b2b; --byrne-fill-blue: #1c6ea4; --byrne-fill-yellow: #e6b800; --byrne-fill-black: #1a1a1a; --byrne-halo: rgba(250, 247, 240, 0.92) }
+            svg[data-svg-scope="s-457c9aca"] html[data-theme="dark"] .euclid-graphic, svg[data-svg-scope="s-457c9aca"] body[data-theme="dark"] .euclid-graphic { --geom-fg: #e8e6df; --geom-bg: #16161a; --geom-point-stroke: #16161a; --geom-poly-fill: #e8e6df; --geom-accent: #f5ca24; --geom-assert: #4ba3e3; --byrne-paper: #16161a; --byrne-red: #f04848; --byrne-blue: #4ba3e3; --byrne-yellow: #f5ca24; --byrne-black: #e8e6df; --byrne-fill-red: #d93838; --byrne-fill-blue: #2574ab; --byrne-fill-yellow: #dfb208; --byrne-fill-black: #363945; --byrne-halo: rgba(22, 22, 26, 0.92) }
             body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-457c9aca"], body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-457c9aca"] { --byrne-paper: #16161a; --byrne-red: #f04848; --byrne-blue: #4ba3e3; --byrne-yellow: #f5ca24; --byrne-black: #e8e6df; --byrne-fill-red: #d93838; --byrne-fill-blue: #2574ab; --byrne-fill-yellow: #dfb208; --byrne-fill-black: #363945; --byrne-halo: rgba(22, 22, 26, 0.92) }
             svg[data-svg-scope="s-457c9aca"] .byrne-stroke-red { stroke: var(--byrne-red) }
             svg[data-svg-scope="s-457c9aca"] .byrne-stroke-blue { stroke: var(--byrne-blue) }
@@ -284,15 +301,29 @@
             svg[data-svg-scope="s-457c9aca"] .byrne-plate-circle { fill: none; stroke-width: 2.7; stroke-linecap: round }
             svg[data-svg-scope="s-457c9aca"] .byrne-plate-poly { stroke-linejoin: round; stroke-width: 2.2 }
             svg[data-svg-scope="s-457c9aca"] .byrne-plate-wedge { fill-opacity: 0.88; stroke-width: 1.4; stroke-linejoin: round }
-            svg[data-svg-scope="s-457c9aca"] .byrne-ink { fill: var(--byrne-black); font-family: "EB Garamond", "Cochineal", "Georgia", serif }
-            svg[data-svg-scope="s-457c9aca"] .byrne-caption { fill: var(--byrne-black); opacity: 0.78; font-size: 13px; font-style: italic; font-family: "EB Garamond", "Georgia", serif }
-            svg[data-svg-scope="s-457c9aca"] .byrne-heading { fill: var(--byrne-black); font-size: 13px; font-weight: 700; letter-spacing: 0.08em; font-family: "EB Garamond", "Georgia", serif }
-            svg[data-svg-scope="s-457c9aca"] .byrne-op-text { fill: var(--byrne-black); font-size: 21px; font-weight: 600; font-family: "EB Garamond", "Georgia", serif }
-            svg[data-svg-scope="s-457c9aca"] .byrne-mult { fill: var(--byrne-black); font-size: 19px; font-style: italic; font-weight: 600; font-family: "EB Garamond", "Georgia", serif }
-            svg[data-svg-scope="s-457c9aca"] .byrne-rule { stroke: var(--byrne-black); stroke-opacity: 0.22; stroke-width: 1.1 }
-            svg[data-svg-scope="s-457c9aca"] .byrne-frac-bar { stroke: var(--byrne-black); stroke-width: 2.0; stroke-linecap: round }
+            svg[data-svg-scope="s-457c9aca"] .byrne-ink { fill: var(--geom-fg); font-family: "EB Garamond", "Cochineal", "Georgia", serif }
+            svg[data-svg-scope="s-457c9aca"] .byrne-caption { fill: var(--geom-fg); opacity: 0.78; font-size: 13px; font-style: italic; font-family: "EB Garamond", "Georgia", serif }
+            svg[data-svg-scope="s-457c9aca"] .byrne-heading { fill: var(--geom-fg); font-size: 13px; font-weight: 700; letter-spacing: 0.08em; font-family: "EB Garamond", "Georgia", serif }
+            svg[data-svg-scope="s-457c9aca"] .byrne-op-text { fill: var(--geom-fg); font-size: 21px; font-weight: 600; font-family: "EB Garamond", "Georgia", serif }
+            svg[data-svg-scope="s-457c9aca"] .byrne-mult { fill: var(--geom-fg); font-size: 19px; font-style: italic; font-weight: 600; font-family: "EB Garamond", "Georgia", serif }
+            svg[data-svg-scope="s-457c9aca"] .byrne-rule { stroke: var(--geom-fg); stroke-opacity: 0.22; stroke-width: 1.1 }
+            svg[data-svg-scope="s-457c9aca"] .byrne-frac-bar { stroke: var(--geom-fg); stroke-width: 2.0; stroke-linecap: round }
           </style>
           <title>3-Way Rosetta Synthesis — Heath (1908) · Byrne (1847) · GEOMETOR Symbolic DAG</title>
+          <defs>
+            <marker viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            </marker>
+            <marker viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+              <line x1="-2" y1="-4.5" x2="-2" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+              <line x1="2" y1="-4.5" x2="2" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            </marker>
+            <marker viewBox="-8 -6 16 12" markerWidth="16" markerHeight="12" orient="auto">
+              <line x1="-3.5" y1="-4.5" x2="-3.5" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+              <line x1="3.5" y1="-4.5" x2="3.5" y2="4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            </marker>
+          </defs>
           <g>
             <g>
               <line class="byrne-rule" x1="228" y1="26" x2="228" y2="278" />
@@ -426,10 +457,12 @@
       <ul>
         <li><a href="types/book.html">book</a></li>
         <li><a href="types/commentary.html">commentary</a></li>
+        <li><a href="types/definitions.html">definitions</a></li>
         <li><a href="types/log.html">log</a></li>
         <li><a href="types/notes.html">notes</a></li>
         <li><a href="types/person.html">person</a></li>
         <li><a href="types/proposition.html">proposition</a></li>
+        <li><a href="types/section.html">section</a></li>
         <li><a href="types/source_record.html">source_record</a></li>
         <li><a href="types/summary.html">summary</a></li>
       </ul>

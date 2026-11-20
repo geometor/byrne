@@ -1,12 +1,17 @@
 :canonical_id: III.31.commentary
 :book: III
 :proposition: 31
+:order: 31
 :type: commentary
 :title: Commentary — Proposition III.31
-:folio: III.31
+:folio: 0149
 :page: 115
 
 .. _byrne-iii-31-commentary:
+
+
+.. folio:: 0149
+   :page: 115
 
 Commentary on Proposition III.31: Split Semicircular Angle Wedge & Unit Spread Orthogonality
 ============================================================================================

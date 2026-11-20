@@ -1,15 +1,16 @@
 :canonical_id: IV.10
 :book: IV
 :proposition: 10
+:order: 10
 :type: proposition
 :title: Proposition IV.10 — Isosceles Golden Triangle
-:folio: IV.10
+:folio: 0169
 :page: 135
 :featured_image: /_static/figures/iv10.svg
 
 .. _byrne-iv-10:
 
-.. folio:: IV.10
+.. folio:: 0169
    :page: 135
 
 Proposition IV.10 — Isosceles Golden Triangle
@@ -22,6 +23,10 @@ Proposition IV.10 — Isosceles Golden Triangle
 .. picture:: /_static/figures/iv10.svg
    :alt: Book IV Proposition 10 — Construction of the 36-72-72 degree Golden Triangle via red and blue circles.
    :caption: **Book IV, Prop. X (pp. 135–136 · G.223).** The $36^\circ\text{–}72^\circ\text{–}72^\circ$ Golden Triangle uniting :ref:`II.11 <byrne-ii-11>` and ``III.37``.
+
+.. picture:: 0169.g1.png
+   :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition IV.10 (Leaf 169).
+   :caption: **1847 Chiswick Press Archival Plate (Leaf 169, p. 135).** Full-RGB reproduction of Byrne's four-color woodblock print.
 
 .. container:: byrne-eq-block
 

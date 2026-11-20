@@ -1,6 +1,8 @@
 :book: I
 :type: summary
 :title: Book I Summary — Deductive Arc (I.1 → I.47)
+:folio: 0035
+:page: 1
 
 .. _byrne-book-i-summary:
 .. _byrne-unit-2-summary:
@@ -9,6 +11,9 @@ Book I Summary: Deductive Arc (I.1 → I.47)
 ==========================================
 
 .. rubric:: From Equilateral Construction to Pythagorean Area Decomposition
+
+.. folio:: 0035
+   :page: 1
 
 Book I ascends in three architectural stages, each illuminated by :person:`Oliver Byrne's <byrne>` four-color register design:
 

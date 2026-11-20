@@ -1,6 +1,8 @@
 :book: II
 :type: notes
 :title: Book II Notes — Half-Filled Woodblocks & Q(phi) Areas
+:folio: 0085
+:page: 51
 
 .. _byrne-book-ii-notes:
 .. _byrne-unit-3-notes:
@@ -9,6 +11,9 @@ Book II Notes: Exact $\mathbb{Q}(\phi)$ Coordinates & Half-Filled Woodblocks
 ============================================================================
 
 .. rubric:: Typographic & Symbolic Commentary on Book II
+
+.. folio:: 0085
+   :page: 51
 
 Why Byrne Invented Half-Filled Squares in ``II.4``
 --------------------------------------------------
