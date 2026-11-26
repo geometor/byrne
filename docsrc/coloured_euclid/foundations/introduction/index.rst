@@ -69,12 +69,20 @@ Hence, instead of thirty lines of alphabetic prose (``AB``, ``BC``, ``AC``, ``an
    :alt: Three-color point and circle intersection demonstration from Introduction p. xiii (Leaf 17).
    :caption: **Point & Line Intersection Demo (Leaf 17, p. xiii).** Red, blue, and yellow line-angle construction illustrating magnitude comparison.
 
+.. picture:: 0017.g1.svg
+   :alt: Calibrated 5-layer vector diagram of Byrne's Introduction three-color point demonstration (Leaf 17, p. xiii).
+   :caption: **Calibrated Vector Diagram (0017.g1).** Three-colour sector junction illustrating a mathematical point without magnitude.
+
 .. folio:: 0018
    :page: xiv
 
 .. picture:: 0018.g1.png
    :alt: Coloured triangles and rhomboids from Introduction p. xiv (Leaf 18).
    :caption: **Planar Forms Demo (Leaf 18, p. xiv).** Saturated Prussian-blue triangles and vermilion rhomboids teaching visual shape classification.
+
+.. picture:: 0018.g1.svg
+   :alt: Calibrated 5-layer vector diagram of Byrne's Introduction solid body PQ divided by blue surface RS (Leaf 18, p. xiv).
+   :caption: **Calibrated Vector Diagram (0018.g1).** Solid body ``PQ`` divided by the blue surface ``RS`` between red ``PS`` and yellow ``QR``.
 
 .. folio:: 0019
    :page: xv
@@ -88,6 +96,10 @@ Hence, instead of thirty lines of alphabetic prose (``AB``, ``BC``, ``AC``, ``an
 .. picture:: 0019.g1.png
    :alt: Byrne's coloured Pons Asinorum (I.5) contrasted side-by-side against classical alphabetic Euclid (Leaf 19, p. xv).
    :caption: **Side-by-Side Pons Asinorum Benchmark (Leaf 19, p. xv).** Byrne's visual proof versus classical lettered prose across leaves ``0019``–``0021``.
+
+.. picture:: 0019.g1.svg
+   :alt: Calibrated 5-layer vector diagram of Byrne's Introduction Pons Asinorum (Book I, Prop. 5) on Leaf 19 (p. xv).
+   :caption: **Calibrated Vector Diagram (0019.g1).** Isosceles triangle ``ABC`` with produced sides ``BD``, ``CE`` and cross-diagonals ``DC``, ``BE``.
 
 ----
 

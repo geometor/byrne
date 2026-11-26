@@ -28,6 +28,10 @@ Angles might properly be considered as a fourth species of magnitude. Angular ma
    :alt: Byrne Elucidations angle inclination diagram on Leaf 28 (p. xxiv).
    :caption: **Elucidations Angle Inclination Figure (Leaf 28, p. xxiv).** Four-color wedges illustrating angular invariance under ray extension.
 
+.. picture:: 0028.g1.svg
+   :alt: Calibrated 5-layer vector diagram of Byrne Elucidations intersecting lines and angle wedges at vertex C (Leaf 28, p. xxiv).
+   :caption: **Calibrated Vector Diagram (0028.g1).** Intersecting lines ``HB``, ``FE``, ``DG`` at ``C`` with vertically opposite and adjacent angle wedges.
+
 An angle is often designated by a single letter when its legs are the only lines which meet together at its vertex. Thus the red and blue lines form the yellow angle, which in other systems would be called the angle A. But when more than two lines meet in the same point, it was necessary by former methods, in order to avoid confusion, to employ three letters to designate an angle about that point,
 
 .. folio:: 0029
