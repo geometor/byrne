@@ -18,6 +18,10 @@ Book I Definitions (I–XXXV)
    :alt: Book I Definitions parallel lines and rectilinear plates on Leaf 22 (p. xviii).
    :caption: **Book I Definitions Plate Extract (Leaf 22, p. xviii).** Vertical strip of inline four-color definition figures.
 
+.. picture:: 0022.g1.svg
+   :alt: Calibrated 5-layer vector diagram of Book I, Definition IX plane rectilineal angle on Leaf 22 (p. xviii).
+   :caption: **Calibrated Vector Diagram (0022.g1).** Book I, Definition IX plane rectilineal angle (red and blue rays enclosing yellow angle).
+
 * **I.** A *point* is that which has no parts, or which has no magnitude.
 * **II.** A *line* (:byrne-line:`black solid`) is length without breadth.
 * **III.** The extremities of a line are points.
