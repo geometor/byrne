@@ -36,15 +36,15 @@ Proposition V.11 — Transitivity of Ratios
 
    **Demonstration (:just:`V.def.5`).**
 
-   For arbitrary positive integers $M, m$:
+   For arbitrary positive integers :math:`M, m`:
 
-   If $M \cdot$ :byrne-mag:`blue diamond` is :byrne-op:`gt`, ``=``, or :byrne-op:`lt` $m \cdot$ :byrne-mag:`blue square`,
+   If :math:`M \cdot` :byrne-mag:`blue diamond` is :byrne-op:`gt`, ``=``, or :byrne-op:`lt` :math:`m \cdot` :byrne-mag:`blue square`,
 
-   then $M \cdot$ :byrne-mag:`red circle` is correspondingly :byrne-op:`gt`, ``=``, or :byrne-op:`lt` $m \cdot$ :byrne-mag:`yellow shield` (:just:`V.def.5`),
+   then :math:`M \cdot` :byrne-mag:`red circle` is correspondingly :byrne-op:`gt`, ``=``, or :byrne-op:`lt` :math:`m \cdot` :byrne-mag:`yellow shield` (:just:`V.def.5`),
 
-   and therefore $M \cdot$ :byrne-mag:`black pentagon` is correspondingly :byrne-op:`gt`, ``=``, or :byrne-op:`lt` $m \cdot$ :byrne-mag:`black circle` (:just:`V.def.5`);
+   and therefore :math:`M \cdot` :byrne-mag:`black pentagon` is correspondingly :byrne-op:`gt`, ``=``, or :byrne-op:`lt` :math:`m \cdot` :byrne-mag:`black circle` (:just:`V.def.5`);
 
-   :byrne-op:`therefore` if $M \cdot$ :byrne-mag:`blue diamond` is :byrne-op:`gt`, ``=``, or :byrne-op:`lt` $m \cdot$ :byrne-mag:`blue square`, then $M \cdot$ :byrne-mag:`black pentagon` is :byrne-op:`gt`, ``=``, or :byrne-op:`lt` $m \cdot$ :byrne-mag:`black circle`,
+   :byrne-op:`therefore` if :math:`M \cdot` :byrne-mag:`blue diamond` is :byrne-op:`gt`, ``=``, or :byrne-op:`lt` :math:`m \cdot` :byrne-mag:`blue square`, then :math:`M \cdot` :byrne-mag:`black pentagon` is :byrne-op:`gt`, ``=``, or :byrne-op:`lt` :math:`m \cdot` :byrne-mag:`black circle`,
 
    and :byrne-op:`therefore` (:just:`V.def.5`) :byrne-mag:`blue diamond` : :byrne-mag:`blue square` :byrne-op:`prop` :byrne-mag:`black pentagon` : :byrne-mag:`black circle`. **Q.E.D.**
 

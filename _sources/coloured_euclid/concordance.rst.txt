@@ -93,97 +93,97 @@ Showcase Propositions, Symbolic Plates & Algebraic Number Fields
      - p. 1 (leaf 35)
      - ``elem.1.1``
      - ``G.84``
-     - $\mathbb{Q}(\sqrt{3})$
+     - :math:`\mathbb{Q}(\sqrt{3})`
      - :ref:`Prop. I.1 <byrne-i-1>`
    * - ``I.4``
      - p. 4 (leaf 38)
      - ``elem.1.4``
      - ``G.90``
-     - $\mathbb{Q}$
+     - :math:`\mathbb{Q}`
      - :ref:`Prop. I.4 <byrne-i-4>`
    * - ``I.5``
      - p. 5 (leaf 39)
      - ``elem.1.5``
      - ``G.91``
-     - $\mathbb{Q}$
+     - :math:`\mathbb{Q}`
      - :ref:`Prop. I.5 <byrne-i-5>`
    * - ``I.15``
      - p. 15 (leaf 49)
      - ``elem.1.15``
      - ``G.104``
-     - $\mathbb{Q}$
+     - :math:`\mathbb{Q}`
      - :ref:`Prop. I.15 <byrne-i-15>`
    * - ``I.32``
      - p. 33 (leaf 67)
      - ``elem.1.32``
      - ``G.125``
-     - $\mathbb{Q}$
+     - :math:`\mathbb{Q}`
      - :ref:`Prop. I.32 <byrne-i-32>`
    * - ``I.46``
      - p. 47 (leaf 81)
      - ``elem.1.46``
      - ``G.139``
-     - $\mathbb{Q}$
+     - :math:`\mathbb{Q}`
      - :ref:`Prop. I.46 <byrne-i-46>`
    * - ``I.47``
      - pp. 48–49 (leaves 82–83)
      - ``elem.1.47``
      - ``G.140``
-     - $\mathbb{Q}$
+     - :math:`\mathbb{Q}`
      - :ref:`Prop. I.47 <byrne-i-47>`
    * - ``II.4``
      - pp. 56–57 (leaves 90–91)
      - ``elem.2.4``
      - ``G.147``
-     - $\mathbb{Q}$
+     - :math:`\mathbb{Q}`
      - :ref:`Prop. II.4 <byrne-ii-4>`
    * - ``II.5``
      - p. 58 (leaf 92)
      - ``elem.2.5``
      - ``G.148``
-     - $\mathbb{Q}$
+     - :math:`\mathbb{Q}`
      - :ref:`Prop. II.5 <byrne-ii-5>`
    * - ``II.11``
      - p. 66 (leaf 100)
      - ``elem.2.11``
      - ``G.154``
-     - $\mathbb{Q}(\phi)$
+     - :math:`\mathbb{Q}(\phi)`
      - :ref:`Prop. II.11 <byrne-ii-11>`
    * - ``III.20``
      - p. 102 (leaf 136)
      - ``elem.3.20``
      - ``G.185``
-     - $\mathbb{Q}$
+     - :math:`\mathbb{Q}`
      - :ref:`Prop. III.20 <byrne-iii-20>`
    * - ``III.31``
      - p. 115 (leaf 149)
      - ``elem.3.31``
      - ``G.196``
-     - $\mathbb{Q}$
+     - :math:`\mathbb{Q}`
      - :ref:`Prop. III.31 <byrne-iii-31>`
    * - ``III.36``
      - p. 121 (leaf 155)
      - ``elem.3.36``
      - ``G.201``
-     - $\mathbb{Q}$
+     - :math:`\mathbb{Q}`
      - :ref:`Prop. III.36 <byrne-iii-36>`
    * - ``IV.4``
      - p. 129 (leaf 163)
      - ``elem.4.4``
      - ``G.217``
-     - $\mathbb{Q}$
+     - :math:`\mathbb{Q}`
      - :ref:`Prop. IV.4 <byrne-iv-4>`
    * - ``IV.10``
      - pp. 135–136 (leaves 169–170)
      - ``elem.4.10``
      - ``G.223``
-     - $\mathbb{Q}(\phi, \sqrt{10 - 2\sqrt{5}})$
+     - :math:`\mathbb{Q}(\phi, \sqrt{10 - 2\sqrt{5}})`
      - :ref:`Prop. IV.10 <byrne-iv-10>`
    * - ``IV.11``
      - p. 137 (leaf 171)
      - ``elem.4.11``
      - ``G.224``
-     - $\mathbb{Q}(\phi, \sqrt{10 - 2\sqrt{5}})$
+     - :math:`\mathbb{Q}(\phi, \sqrt{10 - 2\sqrt{5}})`
      - :ref:`Prop. IV.11 <byrne-iv-11>`
    * - ``V.11``
      - p. 175 (leaf 209)
@@ -213,5 +213,5 @@ Showcase Propositions, Symbolic Plates & Algebraic Number Fields
      - p. 258 (leaf 292)
      - ``elem.6.30``
      - ``G.328``
-     - $\mathbb{Q}(\phi)$
+     - :math:`\mathbb{Q}(\phi)`
      - :ref:`Prop. VI.30 <byrne-vi-30>`

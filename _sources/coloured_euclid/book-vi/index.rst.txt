@@ -21,7 +21,7 @@ Book VI reunites the abstract Eudoxian proportion calculus of :ref:`Book V <byrn
 
 .. picture:: /_static/figures/vi30.svg
    :alt: Book VI Featured Plate — Cutting a finite straight line in extreme and mean ratio by application of areas (Proposition VI.30).
-   :caption: **Book VI Climax — Proposition VI.30 (p. 258 · G.328).** Proportional counterpart to :ref:`II.11 <byrne-ii-11>`, cutting a line in extreme and mean ratio ($1 : \phi$) via similar rectangles.
+   :caption: **Book VI Climax — Proposition VI.30 (p. 258 · G.328).** Proportional counterpart to :ref:`II.11 <byrne-ii-11>`, cutting a line in extreme and mean ratio (:math:`1 : \phi`) via similar rectangles.
 
 Definitions in Book VI
 ----------------------

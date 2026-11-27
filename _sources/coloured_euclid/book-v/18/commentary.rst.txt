@@ -23,4 +23,4 @@ Historical & Logical Commentary on ``V.18``
 
 Pickering **p. 185 (Leaf 219)** preserves Euclid's indirect *reductio* proof of *componendo* from *dividendo* (``V.17``), representing the hypothetical distinct fourth proportional by a solid black disk :byrne-mag:`black circle`. As :person:`Simson <simson>` and :person:`Heath <heath>` noted in their critical apparatus (compare ``geometor/euclid``), Euclid's indirect step tacitly assumes the existence of a fourth proportional—whereas direct equimultiple manipulation via ``V.def.5`` proves ``V.18`` constructively without any completeness postulate.
 
-In Golden Ratio algebra, *componendo* transforms $1 : \phi^{-1} \mathrel{∷} \phi^{-1} : \phi^{-2}$ immediately into $\phi : 1 \mathrel{∷} 1 : \phi^{-1}$ ($\phi = 1 + \phi^{-1}$).
+In Golden Ratio algebra, *componendo* transforms :math:`1 : \phi^{-1} \mathrel{∷} \phi^{-1} : \phi^{-2}` immediately into :math:`\phi : 1 \mathrel{∷} 1 : \phi^{-1}` (:math:`\phi = 1 + \phi^{-1}`).

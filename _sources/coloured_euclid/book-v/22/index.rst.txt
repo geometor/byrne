@@ -36,16 +36,16 @@ Proposition V.22 — Ex Aequali (Equality of Distance)
 
    **Demonstration (:just:`V.4`, :just:`V.20`, :just:`V.def.5`).**
 
-   Take arbitrary equimultiples $M, m, N$ of the first, middle, and last pairs:
+   Take arbitrary equimultiples :math:`M, m, N` of the first, middle, and last pairs:
 
-   $M \cdot$ :byrne-mag:`red shield` : $m \cdot$ :byrne-mag:`blue diamond` :byrne-op:`prop` $M \cdot$ :byrne-mag:`red pentagon` : $m \cdot$ :byrne-mag:`black shield`, and $m \cdot$ :byrne-mag:`blue diamond` : $N \cdot$ :byrne-mag:`yellow square` :byrne-op:`prop` $m \cdot$ :byrne-mag:`black shield` : $N \cdot$ :byrne-mag:`yellow circle` (:just:`V.4`).
+   :math:`M \cdot` :byrne-mag:`red shield` : :math:`m \cdot` :byrne-mag:`blue diamond` :byrne-op:`prop` :math:`M \cdot` :byrne-mag:`red pentagon` : :math:`m \cdot` :byrne-mag:`black shield`, and :math:`m \cdot` :byrne-mag:`blue diamond` : :math:`N \cdot` :byrne-mag:`yellow square` :byrne-op:`prop` :math:`m \cdot` :byrne-mag:`black shield` : :math:`N \cdot` :byrne-mag:`yellow circle` (:just:`V.4`).
 
 .. folio:: 0228
    :page: 194
 
 .. container:: byrne-eq-block
 
-   By ``V.20``, according as $M \cdot$ :byrne-mag:`red shield` is :byrne-op:`gt`, ``=``, or :byrne-op:`lt` $N \cdot$ :byrne-mag:`yellow square`, so is $M \cdot$ :byrne-mag:`red pentagon` :byrne-op:`gt`, ``=``, or :byrne-op:`lt` $N \cdot$ :byrne-mag:`yellow circle`;
+   By ``V.20``, according as :math:`M \cdot` :byrne-mag:`red shield` is :byrne-op:`gt`, ``=``, or :byrne-op:`lt` :math:`N \cdot` :byrne-mag:`yellow square`, so is :math:`M \cdot` :byrne-mag:`red pentagon` :byrne-op:`gt`, ``=``, or :byrne-op:`lt` :math:`N \cdot` :byrne-mag:`yellow circle`;
 
    :byrne-op:`therefore` (:just:`V.def.5`) :byrne-mag:`red shield` : :byrne-mag:`yellow square` :byrne-op:`prop` :byrne-mag:`red pentagon` : :byrne-mag:`yellow circle`—and by induction across any number of magnitudes whatever. **Q.E.D.**
 

@@ -36,7 +36,7 @@ Proposition V.18 — Componendo (Joint Proportion)
 
    **Demonstration (*Reductio* via :just:`V.17`, :just:`V.11`, :just:`V.9`).**
 
-   For if not, let (:byrne-mag:`red shield` + :byrne-mag:`black shield`) : :byrne-mag:`black shield` :byrne-op:`prop` (:byrne-mag:`yellow square` + :byrne-mag:`blue diamond`) : :byrne-mag:`black circle`, supposing :byrne-mag:`black circle` $\neq$ :byrne-mag:`blue diamond`;
+   For if not, let (:byrne-mag:`red shield` + :byrne-mag:`black shield`) : :byrne-mag:`black shield` :byrne-op:`prop` (:byrne-mag:`yellow square` + :byrne-mag:`blue diamond`) : :byrne-mag:`black circle`, supposing :byrne-mag:`black circle` :math:`\neq` :byrne-mag:`blue diamond`;
 
    :byrne-op:`therefore` *dividendo* (:just:`V.17`) :byrne-mag:`red shield` : :byrne-mag:`black shield` :byrne-op:`prop` :byrne-mag:`yellow square` : :byrne-mag:`black circle` (after separating the fourth term);
 

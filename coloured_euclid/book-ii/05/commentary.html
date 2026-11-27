@@ -11,11 +11,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <link rel="canonical" href="https://geometor.github.io/byrne/coloured_euclid/book-ii/05/commentary.html" />
-  <meta name="description" content="Setting half-length $a = CB$ and offset $x = CD$, the unequal parts are $AD = a + x$ and $DB = a - x$, so Proposition II.5 expresses the universal identity:" />
+  <meta name="description" content="Setting half-length a = CB and offset x = CD, the unequal parts are AD = a + x and DB = a - x, so Proposition II.5 expresses the universal identity:" />
   <meta property="og:site_name" content="GEOMETOR" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Commentary on Proposition II.5: Gnomon Surgery &amp; Completing the Square — The First Six Books of the Elements of Euclid • GEOMETOR" />
-  <meta property="og:description" content="Setting half-length $a = CB$ and offset $x = CD$, the unequal parts are $AD = a + x$ and $DB = a - x$, so Proposition II.5 expresses the universal identity:" />
+  <meta property="og:description" content="Setting half-length a = CB and offset x = CD, the unequal parts are AD = a + x and DB = a - x, so Proposition II.5 expresses the universal identity:" />
   <meta property="og:url" content="https://geometor.github.io/byrne/coloured_euclid/book-ii/05/commentary.html" />
   <meta property="og:image" content="https://geometor.github.io/byrne/_static/social/coloured_euclid.png" />
   <meta property="og:image:type" content="image/png" />
@@ -24,7 +24,7 @@
   <meta property="og:image:alt" content="Oliver Byrne — GEOMETOR" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Commentary on Proposition II.5: Gnomon Surgery &amp; Completing the Square — The First Six Books of the Elements of Euclid • GEOMETOR" />
-  <meta name="twitter:description" content="Setting half-length $a = CB$ and offset $x = CD$, the unequal parts are $AD = a + x$ and $DB = a - x$, so Proposition II.5 expresses the universal identity:" />
+  <meta name="twitter:description" content="Setting half-length a = CB and offset x = CD, the unequal parts are AD = a + x and DB = a - x, so Proposition II.5 expresses the universal identity:" />
   <meta name="twitter:image" content="https://geometor.github.io/byrne/_static/social/coloured_euclid.png" />
   <meta name="twitter:image:alt" content="Oliver Byrne — GEOMETOR" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -122,10 +122,10 @@
         <p class="rubric">Pickering Folio 0092 (p. 58) &amp; Quadratic Area Conservation (II.5 · G.148)</p>
         <section class="level-2" id="algebraic-identity-behind-ii-5">
         <h2>Algebraic Identity Behind <code class="docutils literal notranslate"><span class="pre">II.5</span></code><a class="headerlink" href="#algebraic-identity-behind-ii-5" title="Link to this heading">¶</a></h2>
-        <p>Setting half-length $a = CB$ and offset $x = CD$, the unequal parts are $AD = a + x$ and $DB = a - x$, so Proposition II.5 expresses the universal identity:</p>
+        <p>Setting half-length <span class="math notranslate nohighlight">\(a = CB\)</span> and offset <span class="math notranslate nohighlight">\(x = CD\)</span>, the unequal parts are <span class="math notranslate nohighlight">\(AD = a + x\)</span> and <span class="math notranslate nohighlight">\(DB = a - x\)</span>, so Proposition II.5 expresses the universal identity:</p>
         <div class="math notranslate nohighlight">
         \[(a + x)(a - x) + x^2 = a^2.\]</div>
-        <p>In <code class="xref py py-func docutils literal notranslate"><span class="pre">geometor.byrne.constructions.build_ii5()</span></code>, $A=(0,0), C=(4,0), D=(6,0), B=(8,0)$ over $\mathbb{Q}$ give $AD \cdot DB = 6 \times 2 = 12$ and $CD^2 = 2^2 = 4$ (<span class="byrne-token geom-ref" data-byrne-kind="sq" data-byrne-color="red" data-ref="ii5:&lt; H L G E &gt;" title="Vermilion Red filled square (&lt; H L G E &gt;)" role="img" aria-label="Vermilion Red filled square"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-sq" width="17" height="17" viewBox="0 0 17 17" aria-hidden="true"><rect class="byrne-fill-red byrne-stroke-red" x="2" y="2" width="13" height="13" stroke-width="1.5" /></svg></span>), summing identically to $CB^2 = 4^2 = 16$. Together with its twin <code class="docutils literal notranslate"><span class="pre">II.6</span></code> (external division, used in <a class="reference internal" href="../11/index.html#byrne-ii-11"><span class="std std-ref">II.11</span></a> and <a class="reference internal" href="../../book-iii/36/index.html#byrne-iii-36"><span class="std std-ref">III.36</span></a>), <code class="docutils literal notranslate"><span class="pre">II.5</span></code> forms the geometric engine of Renaissance Cossic quadratic solution (see <code class="docutils literal notranslate"><span class="pre">geometor/pacioli</span></code>, <em>Summa</em> 1494).</p>
+        <p>In <code class="xref py py-func docutils literal notranslate"><span class="pre">geometor.byrne.constructions.build_ii5()</span></code>, <span class="math notranslate nohighlight">\(A=(0,0), C=(4,0), D=(6,0), B=(8,0)\)</span> over <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span> give <span class="math notranslate nohighlight">\(AD \cdot DB = 6 \times 2 = 12\)</span> and <span class="math notranslate nohighlight">\(CD^2 = 2^2 = 4\)</span> (<span class="byrne-token geom-ref" data-byrne-kind="sq" data-byrne-color="red" data-ref="ii5:&lt; H L G E &gt;" title="Vermilion Red filled square (&lt; H L G E &gt;)" role="img" aria-label="Vermilion Red filled square"><svg xmlns="http://www.w3.org/2000/svg" class="byrne-glyph byrne-glyph-sq" width="17" height="17" viewBox="0 0 17 17" aria-hidden="true"><rect class="byrne-fill-red byrne-stroke-red" x="2" y="2" width="13" height="13" stroke-width="1.5" /></svg></span>), summing identically to <span class="math notranslate nohighlight">\(CB^2 = 4^2 = 16\)</span>. Together with its twin <code class="docutils literal notranslate"><span class="pre">II.6</span></code> (external division, used in <a class="reference internal" href="../11/index.html#byrne-ii-11"><span class="std std-ref">II.11</span></a> and <a class="reference internal" href="../../book-iii/36/index.html#byrne-iii-36"><span class="std std-ref">III.36</span></a>), <code class="docutils literal notranslate"><span class="pre">II.5</span></code> forms the geometric engine of Renaissance Cossic quadratic solution (see <code class="docutils literal notranslate"><span class="pre">geometor/pacioli</span></code>, <em>Summa</em> 1494).</p>
         </section>
         </section>
 

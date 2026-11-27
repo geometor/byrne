@@ -18,7 +18,7 @@ Book V Notes: Direct Bridge to ``geometor/codes`` & Dedekind Cuts
 Resonance with ``geometor/codes``
 ---------------------------------
 
-In the **GEOMETOR** ecosystem, ``geometor/codes`` investigates discrete and symbolic encodings of ratio, continued fractions, Ostrowski/Sturmian words, and Eudoxian anthyphairesis. :person:`Oliver Byrne's <byrne>` Book V notation (Pickering **pp. 153–212**) is the 1847 typographic ancestor of ``geometor/codes``, turning Book V into an **ordered $\mathbb{N}^+$-semimodule calculus** isomorphic to Dedekind's 1872 cut construction of $\mathbb{R}_{>0}$.
+In the **GEOMETOR** ecosystem, ``geometor/codes`` investigates discrete and symbolic encodings of ratio, continued fractions, Ostrowski/Sturmian words, and Eudoxian anthyphairesis. :person:`Oliver Byrne's <byrne>` Book V notation (Pickering **pp. 153–212**) is the 1847 typographic ancestor of ``geometor/codes``, turning Book V into an **ordered** :math:`\mathbb{N}^+`-**semimodule calculus** isomorphic to Dedekind's 1872 cut construction of :math:`\mathbb{R}_{>0}`.
 
 Simson's Auxiliary Propositions A, B, C, D & E
 ----------------------------------------------

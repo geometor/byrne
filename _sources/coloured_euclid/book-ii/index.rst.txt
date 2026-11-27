@@ -21,7 +21,7 @@ Book II translates quadratic algebraic identities into direct visual area decomp
 
 .. picture:: /_static/figures/ii11.svg
    :alt: Book II Featured Plate — Division of a line into extreme and mean ratio by colored areas (Proposition II.11).
-   :caption: **Book II Climax — Proposition II.11 (p. 66 · G.154).** Cutting a line in extreme and mean ratio over $\mathbb{Q}(\phi)$ by equating the blue square on the greater segment to the yellow rectangle on the whole and lesser segment.
+   :caption: **Book II Climax — Proposition II.11 (p. 66 · G.154).** Cutting a line in extreme and mean ratio over :math:`\mathbb{Q}(\phi)` by equating the blue square on the greater segment to the yellow rectangle on the whole and lesser segment.
 
 Definitions in Book II
 ----------------------

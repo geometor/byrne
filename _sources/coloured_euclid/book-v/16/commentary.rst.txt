@@ -21,7 +21,7 @@ Commentary on Proposition V.16: Why Alternando Requires Homogeneous Magnitudes (
 Dimensional Type Safety in Euclid & Byrne
 -----------------------------------------
 
-On Pickering **p. 180 (Definition XIII)** and **p. 181 (Leaf 215, Prop. XVI)**, Byrne explicitly warns the student that :term:`alternando <alternando>` applies *only* when all four magnitudes are **homogeneous** ("of the same nature or similitude of kind"). In ``V.14``, comparing antecedent $M \cdot A$ directly against antecedent $m \cdot C$ (:byrne-op:`gt`, ``=``, :byrne-op:`lt`) requires $A$ and $C$ to inhabit the same archimedean magnitude sort—a type constraint preserved verbatim in ``geometor/codes`` and ``geometor/elements`` (`G.276`).
+On Pickering **p. 180 (Definition XIII)** and **p. 181 (Leaf 215, Prop. XVI)**, Byrne explicitly warns the student that :term:`alternando <alternando>` applies *only* when all four magnitudes are **homogeneous** ("of the same nature or similitude of kind"). In ``V.14``, comparing antecedent :math:`M \cdot A` directly against antecedent :math:`m \cdot C` (:byrne-op:`gt`, ``=``, :byrne-op:`lt`) requires :math:`A` and :math:`C` to inhabit the same archimedean magnitude sort—a type constraint preserved verbatim in ``geometor/codes`` and ``geometor/elements`` (`G.276`).
 
 Compression Metrics
 -------------------

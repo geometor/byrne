@@ -10,11 +10,11 @@ geometor.byrne.constructions
    Every construction executes with :class:`geometor.model.Model` (``auto_intersect=False``,
    zero ``float`` or ``sp.Float`` coordinates) over exact SymPy algebraic fields:
 
-   - $\mathbb{Q}$: ``I.4``, ``I.5``, ``I.15``, ``I.32``, ``I.46``, ``I.47``, ``II.4``,
+   - :math:`\mathbb{Q}`: ``I.4``, ``I.5``, ``I.15``, ``I.32``, ``I.46``, ``I.47``, ``II.4``,
      ``II.5``, ``III.20``, ``III.31``, ``III.36``, ``IV.4``
-   - $\mathbb{Q}(\sqrt{3})$: ``I.1``
-   - $\mathbb{Q}(\phi)$ where $\phi = \frac{1 + \sqrt{5}}{2}$: ``II.11``, ``VI.30``
-   - $\mathbb{Q}(\phi, \sqrt{10 - 2\sqrt{5}})$: ``IV.10``, ``IV.11``
+   - :math:`\mathbb{Q}(\sqrt{3})`: ``I.1``
+   - :math:`\mathbb{Q}(\phi)` where :math:`\phi = \frac{1 + \sqrt{5}}{2}`: ``II.11``, ``VI.30``
+   - :math:`\mathbb{Q}(\phi, \sqrt{10 - 2\sqrt{5}})`: ``IV.10``, ``IV.11``
 
    Each :class:`ByrnePlate` pairs the populated symbolic :class:`~geometor.model.Model` and
    verified algebraic proof identities with authentic 1847 Chiswick Press four-color visual

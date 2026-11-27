@@ -21,12 +21,12 @@ Commentary on Proposition IV.11: Five Pentagon Sides in Four Inks & Exact Pentag
 Register-Pressure Resolution via ``red dotted``
 -----------------------------------------------
 
-Pickering **p. 137 (Leaf 171)** is one of the finest illustrations of :term:`register pressure <register-pressure>` in the 1847 Chiswick Press edition: with solid yellow occupied by the central Golden Triangle :byrne-tri:`yellow filled <iv11:< A C D >>` and four solid inks assigned to four perimeter sides (:byrne-line:`black solid <iv11:/ C D />`, :byrne-line:`red solid <iv11:/ A B />`, :byrne-line:`blue solid <iv11:/ E A />`, :byrne-line:`yellow solid <iv11:/ D E />`), Byrne encodes the fifth chord $BC$ as :byrne-line:`red dotted <iv11:/ B C />` so all five sides appear distinctly in the final visual equality.
+Pickering **p. 137 (Leaf 171)** is one of the finest illustrations of :term:`register pressure <register-pressure>` in the 1847 Chiswick Press edition: with solid yellow occupied by the central Golden Triangle :byrne-tri:`yellow filled <iv11:< A C D >>` and four solid inks assigned to four perimeter sides (:byrne-line:`black solid <iv11:/ C D />`, :byrne-line:`red solid <iv11:/ A B />`, :byrne-line:`blue solid <iv11:/ E A />`, :byrne-line:`yellow solid <iv11:/ D E />`), Byrne encodes the fifth chord :math:`BC` as :byrne-line:`red dotted <iv11:/ B C />` so all five sides appear distinctly in the final visual equality.
 
 Exact Symbolic Verification in ``geometor.byrne``
 -------------------------------------------------
 
-In :func:`geometor.byrne.constructions.build_iv11`, all five vertices lie exactly on the unit circle over $\mathbb{Q}(\phi, \sqrt{10 - 2\sqrt{5}})$:
+In :func:`geometor.byrne.constructions.build_iv11`, all five vertices lie exactly on the unit circle over :math:`\mathbb{Q}(\phi, \sqrt{10 - 2\sqrt{5}})`:
 
 .. math::
 

@@ -11,11 +11,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <link rel="canonical" href="https://geometor.github.io/byrne/coloured_euclid/book-iii/36/commentary.html" />
-  <meta name="description" content="Pickering p. 121 (Leaf 155) showcases one of Byrne’s cleverest compound line tokens: the diameter-secant $AD$ is printed inline as a single horizontal bar made of black solid ($AO$) + red…" />
+  <meta name="description" content="Pickering p. 121 (Leaf 155) showcases one of Byrne’s cleverest compound line tokens: the diameter-secant AD is printed inline as a single horizontal bar made of black solid (AO) + red dotted…" />
   <meta property="og:site_name" content="GEOMETOR" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Commentary on Proposition III.36: Three-Part Secant Encoding &amp; Tangent Power Invariant — The First Six Books of the Elements of Euclid • GEOMETOR" />
-  <meta property="og:description" content="Pickering p. 121 (Leaf 155) showcases one of Byrne’s cleverest compound line tokens: the diameter-secant $AD$ is printed inline as a single horizontal bar made of black solid ($AO$) + red…" />
+  <meta property="og:description" content="Pickering p. 121 (Leaf 155) showcases one of Byrne’s cleverest compound line tokens: the diameter-secant AD is printed inline as a single horizontal bar made of black solid (AO) + red dotted…" />
   <meta property="og:url" content="https://geometor.github.io/byrne/coloured_euclid/book-iii/36/commentary.html" />
   <meta property="og:image" content="https://geometor.github.io/byrne/_static/social/coloured_euclid.png" />
   <meta property="og:image:type" content="image/png" />
@@ -24,7 +24,7 @@
   <meta property="og:image:alt" content="Oliver Byrne — GEOMETOR" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Commentary on Proposition III.36: Three-Part Secant Encoding &amp; Tangent Power Invariant — The First Six Books of the Elements of Euclid • GEOMETOR" />
-  <meta name="twitter:description" content="Pickering p. 121 (Leaf 155) showcases one of Byrne’s cleverest compound line tokens: the diameter-secant $AD$ is printed inline as a single horizontal bar made of black solid ($AO$) + red…" />
+  <meta name="twitter:description" content="Pickering p. 121 (Leaf 155) showcases one of Byrne’s cleverest compound line tokens: the diameter-secant AD is printed inline as a single horizontal bar made of black solid (AO) + red dotted…" />
   <meta name="twitter:image" content="https://geometor.github.io/byrne/_static/social/coloured_euclid.png" />
   <meta name="twitter:image:alt" content="Oliver Byrne — GEOMETOR" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -122,16 +122,16 @@
         <p class="rubric">Pickering Folio 0155 (p. 121) &amp; Exact Rational Secant-Tangent Power (III.36 · G.201)</p>
         <section class="level-2" id="tripartite-line-token-on-pickering-p-121">
         <h2>Tripartite Line Token on Pickering p. 121<a class="headerlink" href="#tripartite-line-token-on-pickering-p-121" title="Link to this heading">¶</a></h2>
-        <p>Pickering <strong>p. 121 (Leaf 155)</strong> showcases one of Byrne’s cleverest compound line tokens: the diameter-secant $AD$ is printed inline as a single horizontal bar made of <strong>black solid</strong> ($AO$) + <strong>red dotted</strong> ($OC$) + <strong>red solid</strong> ($CD$). This single compound token lets the reader see simultaneously:</p>
+        <p>Pickering <strong>p. 121 (Leaf 155)</strong> showcases one of Byrne’s cleverest compound line tokens: the diameter-secant <span class="math notranslate nohighlight">\(AD\)</span> is printed inline as a single horizontal bar made of <strong>black solid</strong> (<span class="math notranslate nohighlight">\(AO\)</span>) + <strong>red dotted</strong> (<span class="math notranslate nohighlight">\(OC\)</span>) + <strong>red solid</strong> (<span class="math notranslate nohighlight">\(CD\)</span>). This single compound token lets the reader see simultaneously:</p>
         <ol class="arabic simple">
-        <li><p>The bisected diameter ($AO = OC$, invoking <code class="docutils literal notranslate"><span class="pre">II.6</span></code>),</p></li>
-        <li><p>The right-triangle hypotenuse $OD = OC + CD$ (invoking <a class="reference internal" href="../../book-i/47/index.html#byrne-i-47"><span class="std std-ref">I.47</span></a>), and</p></li>
-        <li><p>The whole cutting line $AD = AO + OC + CD$ multiplied (<span class="byrne-op-token" title="Rectangle contained by (×)">×</span>) by external part $CD$.</p></li>
+        <li><p>The bisected diameter (<span class="math notranslate nohighlight">\(AO = OC\)</span>, invoking <code class="docutils literal notranslate"><span class="pre">II.6</span></code>),</p></li>
+        <li><p>The right-triangle hypotenuse <span class="math notranslate nohighlight">\(OD = OC + CD\)</span> (invoking <a class="reference internal" href="../../book-i/47/index.html#byrne-i-47"><span class="std std-ref">I.47</span></a>), and</p></li>
+        <li><p>The whole cutting line <span class="math notranslate nohighlight">\(AD = AO + OC + CD\)</span> multiplied (<span class="byrne-op-token" title="Rectangle contained by (×)">×</span>) by external part <span class="math notranslate nohighlight">\(CD\)</span>.</p></li>
         </ol>
         </section>
         <section class="level-2" id="exact-symbolic-verification-over-mathbb-q">
-        <h2>Exact Symbolic Verification over $\mathbb{Q}$<a class="headerlink" href="#exact-symbolic-verification-over-mathbb-q" title="Link to this heading">¶</a></h2>
-        <p>In <code class="xref py py-func docutils literal notranslate"><span class="pre">geometor.byrne.constructions.build_iii36()</span></code>, circle radius $r = 3$, external point $D$ at distance $|OD| = 5$, external segment $|DC| = 2$, whole secant $|DA| = 8$, and rational contact point $T = (\frac{9}{5}, \frac{12}{5})$ satisfy $|DT|^2 = Q(D, T) = 16 = 8 \times 2 = |DA| \cdot |DC|$ identically over $\mathbb{Q}$.</p>
+        <h2>Exact Symbolic Verification over <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span><a class="headerlink" href="#exact-symbolic-verification-over-mathbb-q" title="Link to this heading">¶</a></h2>
+        <p>In <code class="xref py py-func docutils literal notranslate"><span class="pre">geometor.byrne.constructions.build_iii36()</span></code>, circle radius <span class="math notranslate nohighlight">\(r = 3\)</span>, external point <span class="math notranslate nohighlight">\(D\)</span> at distance <span class="math notranslate nohighlight">\(|OD| = 5\)</span>, external segment <span class="math notranslate nohighlight">\(|DC| = 2\)</span>, whole secant <span class="math notranslate nohighlight">\(|DA| = 8\)</span>, and rational contact point <span class="math notranslate nohighlight">\(T = (\frac{9}{5}, \frac{12}{5})\)</span> satisfy <span class="math notranslate nohighlight">\(|DT|^2 = Q(D, T) = 16 = 8 \times 2 = |DA| \cdot |DC|\)</span> identically over <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span>.</p>
         </section>
         </section>
 
@@ -218,6 +218,8 @@
   <script src="../../../_static/js/collection_directory.js?v=0928c9d3"></script>
   <script src="../../../_static/js/geometor_interactive.js?v=219c1955"></script>
   <script src="../../../_static/byrne_interactive.js?v=0ce4f795"></script>
+  <script>window.MathJax = {"options": {"ignoreHtmlClass": ".*|etc-lazy-math", "processHtmlClass": "math|arithmatex", "enableComplexity": true, "makeCollapsible": true, "menuOptions": {"settings": {"zoom": "Click", "zscale": "200%", "collapsible": true, "enrich": true, "speech": false, "braille": false, "assistiveMml": false}}}, "output": {"displayOverflow": "linebreak", "linebreaks": {"inline": true}}}</script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
   <script src="../../../_static/js/search_highlight.js"></script>
 
 </body>

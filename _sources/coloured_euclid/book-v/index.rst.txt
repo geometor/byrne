@@ -21,7 +21,7 @@ In Book V, :person:`Eudoxus <eudoxus>` and :person:`Euclid <euclid>` generalize 
 
 .. picture:: /_static/figures/v_defs.svg
    :alt: Book V Featured Plate — Eudoxus's Criterion of Same Ratio in Oliver Byrne's colored magnitude tokens (Definition V, p. 154).
-   :caption: **Book V, Definition V (p. 154).** Byrne's Chiswick Press colored magnitude tokens (:byrne-mag:`red circle` : :byrne-mag:`yellow square` :byrne-op:`prop` :byrne-mag:`blue diamond` : :byrne-mag:`black shield`) and universal integer equimultiple test $M, m \in \mathbb{N}^+$.
+   :caption: **Book V, Definition V (p. 154).** Byrne's Chiswick Press colored magnitude tokens (:byrne-mag:`red circle` : :byrne-mag:`yellow square` :byrne-op:`prop` :byrne-mag:`blue diamond` : :byrne-mag:`black shield`) and universal integer equimultiple test :math:`M, m \in \mathbb{N}^+`.
 
 Definitions & Axioms in Book V
 ------------------------------

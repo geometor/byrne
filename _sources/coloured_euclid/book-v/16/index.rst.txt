@@ -36,17 +36,17 @@ Proposition V.16 — Alternando (Alternate Proportion)
 
    **Demonstration (:just:`V.15`, :just:`V.11`, :just:`V.14`, :just:`V.def.5`).**
 
-   For $M \cdot$ :byrne-mag:`red shield` : $M \cdot$ :byrne-mag:`black shield` :byrne-op:`prop` :byrne-mag:`red shield` : :byrne-mag:`black shield` (:just:`V.15`),
+   For :math:`M \cdot` :byrne-mag:`red shield` : :math:`M \cdot` :byrne-mag:`black shield` :byrne-op:`prop` :byrne-mag:`red shield` : :byrne-mag:`black shield` (:just:`V.15`),
 
-   and :byrne-op:`therefore` $M \cdot$ :byrne-mag:`red shield` : $M \cdot$ :byrne-mag:`black shield` :byrne-op:`prop` :byrne-mag:`yellow square` : :byrne-mag:`blue diamond` (hyp. and :just:`V.11`);
+   and :byrne-op:`therefore` :math:`M \cdot` :byrne-mag:`red shield` : :math:`M \cdot` :byrne-mag:`black shield` :byrne-op:`prop` :byrne-mag:`yellow square` : :byrne-mag:`blue diamond` (hyp. and :just:`V.11`);
 
-   also $m \cdot$ :byrne-mag:`yellow square` : $m \cdot$ :byrne-mag:`blue diamond` :byrne-op:`prop` :byrne-mag:`yellow square` : :byrne-mag:`blue diamond` (:just:`V.15`),
+   also :math:`m \cdot` :byrne-mag:`yellow square` : :math:`m \cdot` :byrne-mag:`blue diamond` :byrne-op:`prop` :byrne-mag:`yellow square` : :byrne-mag:`blue diamond` (:just:`V.15`),
 
-   :byrne-op:`therefore` $M \cdot$ :byrne-mag:`red shield` : $M \cdot$ :byrne-mag:`black shield` :byrne-op:`prop` $m \cdot$ :byrne-mag:`yellow square` : $m \cdot$ :byrne-mag:`blue diamond` (:just:`V.11`).
+   :byrne-op:`therefore` :math:`M \cdot` :byrne-mag:`red shield` : :math:`M \cdot` :byrne-mag:`black shield` :byrne-op:`prop` :math:`m \cdot` :byrne-mag:`yellow square` : :math:`m \cdot` :byrne-mag:`blue diamond` (:just:`V.11`).
 
-   Hence if $M \cdot$ :byrne-mag:`red shield` is :byrne-op:`gt`, ``=``, or :byrne-op:`lt` $m \cdot$ :byrne-mag:`yellow square`,
+   Hence if :math:`M \cdot` :byrne-mag:`red shield` is :byrne-op:`gt`, ``=``, or :byrne-op:`lt` :math:`m \cdot` :byrne-mag:`yellow square`,
 
-   then $M \cdot$ :byrne-mag:`black shield` is correspondingly :byrne-op:`gt`, ``=``, or :byrne-op:`lt` $m \cdot$ :byrne-mag:`blue diamond` (:just:`V.14`);
+   then :math:`M \cdot` :byrne-mag:`black shield` is correspondingly :byrne-op:`gt`, ``=``, or :byrne-op:`lt` :math:`m \cdot` :byrne-mag:`blue diamond` (:just:`V.14`);
 
    :byrne-op:`therefore` (:just:`V.def.5`) :byrne-mag:`red shield` : :byrne-mag:`yellow square` :byrne-op:`prop` :byrne-mag:`black shield` : :byrne-mag:`blue diamond`. **Q.E.D.**
 

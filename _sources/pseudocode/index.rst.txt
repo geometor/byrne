@@ -17,7 +17,7 @@ Long before structured programming, dataflow visual languages, or modern IDE tok
 Pass-by-Reference vs. Pass-by-Value in Geometry
 -----------------------------------------------
 
-In :person:`Euclid's <euclid>` Greek *Stoicheia* and :person:`Heath's <heath>` English edition (``geometor/euclid``), geometric primitives on the page are nameless black ink strokes. To refer to a segment, angle, or square, prose assigns **memory addresses** ($A, B, C, D, \dots$) to point vertices and forms composite tuple expressions (`AB`, `angle FBC`, `parallelogram BLMD`). Reading a single sentence of `I.5` or `I.47` requires dozens of indirect table lookups:
+In :person:`Euclid's <euclid>` Greek *Stoicheia* and :person:`Heath's <heath>` English edition (``geometor/euclid``), geometric primitives on the page are nameless black ink strokes. To refer to a segment, angle, or square, prose assigns **memory addresses** (:math:`A, B, C, D, \dots`) to point vertices and forms composite tuple expressions (`AB`, `angle FBC`, `parallelogram BLMD`). Reading a single sentence of `I.5` or `I.47` requires dozens of indirect table lookups:
 
 .. math::
 
@@ -102,7 +102,7 @@ Three Structural Laws Discovered by Register Analysis
 -----------------------------------------------------
 
 1. **The Four-Color Working-Memory Ceiling (:term:`Register Pressure <register-pressure>`)**:
-   Human visual working memory holds $4 \pm 1$ chromatic chunks effortlessly. Whenever a proposition introduces five or more primitives of the same sort—such as the five sides of the regular pentagon in ``IV.11`` (:byrne-line:`red solid`, :byrne-line:`red dotted`, :byrne-line:`black solid`, :byrne-line:`yellow solid`, :byrne-line:`blue solid`) or shared square/rectangle boundaries in ``I.47``—Byrne multiplies his four ink channels by **stroke modulation** (``solid``, ``dashed``, ``dotted``, ``solid-dotted``).
+   Human visual working memory holds :math:`4 \pm 1` chromatic chunks effortlessly. Whenever a proposition introduces five or more primitives of the same sort—such as the five sides of the regular pentagon in ``IV.11`` (:byrne-line:`red solid`, :byrne-line:`red dotted`, :byrne-line:`black solid`, :byrne-line:`yellow solid`, :byrne-line:`blue solid`) or shared square/rectangle boundaries in ``I.47``—Byrne multiplies his four ink channels by **stroke modulation** (``solid``, ``dashed``, ``dotted``, ``solid-dotted``).
 2. **Intentional :term:`Congruence-Twin Coloring <congruence-twin>`**:
    In ``I.5`` (*Pons Asinorum*), Byrne deliberately binds *both* equal legs to :byrne-line:`red solid`, *both* produced extensions to :byrne-line:`yellow solid`, and *both* auxiliary cross-diagonals to :byrne-line:`blue solid`. What a naive type-checker would flag as a register collision is in fact a **symmetric congruence invariant** encoded directly into the visual type!
 3. **Why GEOMETOR Pairs Visual Tokens with Symbolic DAGs**:

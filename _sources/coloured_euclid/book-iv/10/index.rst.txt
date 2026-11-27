@@ -22,7 +22,7 @@ Proposition IV.10 — Isosceles Golden Triangle
 
 .. picture:: /_static/figures/iv10.svg
    :alt: Book IV Proposition 10 — Construction of the 36-72-72 degree Golden Triangle via red and blue circles.
-   :caption: **Book IV, Prop. X (pp. 135–136 · G.223).** The $36^\circ\text{–}72^\circ\text{–}72^\circ$ Golden Triangle uniting :ref:`II.11 <byrne-ii-11>` and ``III.37``.
+   :caption: **Book IV, Prop. X (pp. 135–136 · G.223).** The :math:`36^\circ\text{–}72^\circ\text{–}72^\circ` Golden Triangle uniting :ref:`II.11 <byrne-ii-11>` and ``III.37``.
 
 .. picture:: 0169.g1.png
    :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition IV.10 (Leaf 169).
@@ -30,7 +30,7 @@ Proposition IV.10 — Isosceles Golden Triangle
 
 .. container:: byrne-eq-block
 
-   **Construction.** Take any straight line (:byrne-line:`black solid <iv10:/ A C />` + :byrne-line:`black dotted <iv10:/ C B />`) and divide it so that whole :byrne-op:`rect-by` :byrne-line:`black dotted <iv10:/ C B />` = :byrne-line:`black solid squared <iv10:/ A C />` (:just:`II.11`). With the whole line as radius describe :byrne-circle:`red <iv10:( A B )>`, place chord :byrne-line:`blue solid <iv10:/ B D />` = :byrne-line:`black solid <iv10:/ A C />` in it (:just:`IV.1`), draw second leg :byrne-line:`yellow solid <iv10:/ A D />`, join :byrne-line:`red solid <iv10:/ C D />`, and circumscribe :byrne-circle:`blue <iv10:( P A )>` about triangle $ACD$ (:just:`IV.5`).
+   **Construction.** Take any straight line (:byrne-line:`black solid <iv10:/ A C />` + :byrne-line:`black dotted <iv10:/ C B />`) and divide it so that whole :byrne-op:`rect-by` :byrne-line:`black dotted <iv10:/ C B />` = :byrne-line:`black solid squared <iv10:/ A C />` (:just:`II.11`). With the whole line as radius describe :byrne-circle:`red <iv10:( A B )>`, place chord :byrne-line:`blue solid <iv10:/ B D />` = :byrne-line:`black solid <iv10:/ A C />` in it (:just:`IV.1`), draw second leg :byrne-line:`yellow solid <iv10:/ A D />`, join :byrne-line:`red solid <iv10:/ C D />`, and circumscribe :byrne-circle:`blue <iv10:( P A )>` about triangle :math:`ACD` (:just:`IV.5`).
 
 .. folio:: 0170
    :page: 136

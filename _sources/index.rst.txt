@@ -12,7 +12,7 @@ Oliver Byrne
    :alt: Oliver Byrne Medallion
    :class: repo-medallion-hero
 
-**Oliver Byrne** (1810–1880), an Irish civil engineer and mathematician, transformed Euclid's *Elements* in 1847 into one of the most celebrated works of visual pedagogy ever printed. Working with publisher William Pickering and printer Charles Whittingham at the Chiswick Press, he stripped away alphabetic point labels ($A, B, C$) in favor of bold primary red, yellow, blue, and black woodblock diagrams and inline geometric symbols—letting shapes speak directly for themselves on the page.
+**Oliver Byrne** (1810–1880), an Irish civil engineer and mathematician, transformed Euclid's *Elements* in 1847 into one of the most celebrated works of visual pedagogy ever printed. Working with publisher William Pickering and printer Charles Whittingham at the Chiswick Press, he stripped away alphabetic point labels (:math:`A, B, C`) in favor of bold primary red, yellow, blue, and black woodblock diagrams and inline geometric symbols—letting shapes speak directly for themselves on the page.
 
 Books in This Collection
 ------------------------
@@ -59,7 +59,7 @@ Key Features
 
       **Exact Symbolic Proofs**
 
-      Flagship propositions across Books I–VI are reconstructed in ``geometor.model`` over exact algebraic fields ($\mathbb{Q}, \mathbb{Q}(\sqrt{3}), \mathbb{Q}(\phi)$) and verified via Rational Trigonometry.
+      Flagship propositions across Books I–VI are reconstructed in ``geometor.model`` over exact algebraic fields (:math:`\mathbb{Q}, \mathbb{Q}(\sqrt{3}), \mathbb{Q}(\phi)`) and verified via Rational Trigonometry.
 
 Reference & Project
 -------------------

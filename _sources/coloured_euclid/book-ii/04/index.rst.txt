@@ -22,7 +22,7 @@ Proposition II.4 — Binomial Square
 
 .. picture:: /_static/figures/ii4.svg
    :alt: Book II Proposition 4 — Binomial square partitioned into diagonal half-filled blue and red squares and two solid yellow rectangles.
-   :caption: **Book II, Prop. IV (pp. 56–57 · G.147).** $(a + b)^2 = a^2 + b^2 + 2ab$ made immediately legible by half-filled diagonal squares and solid yellow complements.
+   :caption: **Book II, Prop. IV (pp. 56–57 · G.147).** :math:`(a + b)^2 = a^2 + b^2 + 2ab` made immediately legible by half-filled diagonal squares and solid yellow complements.
 
 .. picture:: 0090.g1.png
    :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition II.4 (Leaf 90).

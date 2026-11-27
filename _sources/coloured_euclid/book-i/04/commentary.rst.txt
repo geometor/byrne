@@ -26,7 +26,7 @@ Proposition I.4 (Pickering **p. 4, Leaf 38**) introduces Byrne's signature devic
 * Equal left legs share :byrne-line:`red solid <i4:/ A B /; / D E />`, equal right legs share :byrne-line:`blue solid <i4:/ A C /; / D F />`, and equal bases share :byrne-line:`black solid <i4:/ B C /; / E F />`.
 * Opposite each colored side, Byrne assigns a complementary angle color (:byrne-angle:`red <i4:< A C B ); < D F E )>` opposite red leg, :byrne-angle:`blue <i4:< C B A ); < F E D )>` opposite blue leg, :byrne-angle:`yellow <i4:< B A C ); < E D F )>` opposite black base) so "angles subtended by equal sides" becomes an immediate chromatic pairing.
 
-Symbolic Verification over $\mathbb{Q}$
----------------------------------------
+Symbolic Verification over :math:`\mathbb{Q}`
+---------------------------------------------
 
-In :func:`geometor.byrne.constructions.build_i4`, both triangles are modeled over $\mathbb{Q}$ via exact rational translation, confirming identical side quadrances $Q(A,B)=Q(D,E)$, $Q(A,C)=Q(D,F)$, $Q(B,C)=Q(E,F)$ and identical vertex spreads. Compare ``geometor/hilbert`` (*Axiom III.5*), where Hilbert elevates ``I.4`` from a superposition argument (*epharmozein*, :just:`C.N.4`) to an explicit congruence axiom.
+In :func:`geometor.byrne.constructions.build_i4`, both triangles are modeled over :math:`\mathbb{Q}` via exact rational translation, confirming identical side quadrances :math:`Q(A,B)=Q(D,E)`, :math:`Q(A,C)=Q(D,F)`, :math:`Q(B,C)=Q(E,F)` and identical vertex spreads. Compare ``geometor/hilbert`` (*Axiom III.5*), where Hilbert elevates ``I.4`` from a superposition argument (*epharmozein*, :just:`C.N.4`) to an explicit congruence axiom.

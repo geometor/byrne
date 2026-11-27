@@ -37,7 +37,7 @@ Visual & Euclidean Glossary
 .. _term-extreme-and-mean-ratio:
 
 **Extreme and Mean Ratio (ἄκρος καὶ μέσος λόγος)** (*Golden Section · φ*)
-   Division of a finite straight line so that the whole line is to the greater segment as the greater segment is to the lesser ($\phi = \frac{1 + \sqrt{5}}{2}$)—constructed by colored area subtraction in ``II.11`` and by Book VI application of areas in ``VI.30``.
+   Division of a finite straight line so that the whole line is to the greater segment as the greater segment is to the lesser (:math:`\phi = \frac{1 + \sqrt{5}}{2}`)—constructed by colored area subtraction in ``II.11`` and by Book VI application of areas in ``VI.30``.
 
 .. _term-gnomon:
 
