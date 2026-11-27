@@ -31,7 +31,7 @@ Whereas :person:`Heath's <heath>` classical translation (:cite:`1908 <heath:1908
 Exact Symbolic Model in ``geometor.byrne``
 ------------------------------------------
 
-In :func:`geometor.byrne.constructions.build_i1`, setting $A = (0, 0)$ and $B = (2, 0)$ yields exact apex $C = (1, \sqrt{3})$ in $\mathbb{Q}(\sqrt{3})$ via ``Model.intersect``, with equal Rational Trigonometry quadrances:
+In :func:`geometor.byrne.constructions.build_i1`, setting :math:`A = (0, 0)` and :math:`B = (2, 0)` yields exact apex :math:`C = (1, \sqrt{3})` in :math:`\mathbb{Q}(\sqrt{3})` via ``Model.intersect``, with equal Rational Trigonometry quadrances:
 
 .. math::
 

@@ -26,4 +26,4 @@ In classical alphabetic editions, Proposition I.5 requires **329 words** and **6
 Exact Symbolic Model in ``geometor.byrne``
 ------------------------------------------
 
-In :func:`geometor.byrne.constructions.build_i5`, the isosceles triangle and its auxiliary extensions are constructed over exact rational coordinates $\mathbb{Q}$, verifying $Q(A,B)=Q(A,C)$, $Q(F,C)=Q(G,B)$, and exact equality of base spreads $s(BA, BC) = s(CA, CB)$ as well as exterior spreads $s(BF, BC) = s(CG, CB)$. (Compare :person:`Pappus's <pappus>` self-congruence shortcut in :person:`Proclus <proclus>`, ``geometor/proclus``.)
+In :func:`geometor.byrne.constructions.build_i5`, the isosceles triangle and its auxiliary extensions are constructed over exact rational coordinates :math:`\mathbb{Q}`, verifying :math:`Q(A,B)=Q(A,C)`, :math:`Q(F,C)=Q(G,B)`, and exact equality of base spreads :math:`s(BA, BC) = s(CA, CB)` as well as exterior spreads :math:`s(BF, BC) = s(CG, CB)`. (Compare :person:`Pappus's <pappus>` self-congruence shortcut in :person:`Proclus <proclus>`, ``geometor/proclus``.)

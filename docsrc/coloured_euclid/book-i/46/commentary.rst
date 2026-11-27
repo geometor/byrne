@@ -26,4 +26,4 @@ On Pickering **p. 47 (Leaf 81)**, Byrne assigns each side of the constructed squ
 Exact Symbolic Model in ``geometor.byrne``
 ------------------------------------------
 
-In :func:`geometor.byrne.constructions.build_i46`, $A=(0,0), B=(3,0), C=(0,3), D=(3,3)$ over $\mathbb{Q}$ verify equal side quadrances $Q = 9$ and unit orthogonal spreads $s(AB, AC) = s(CA, CD) = 1$, serving immediately as the subroutine invoked three times in :ref:`Proposition I.47 <byrne-i-47>`.
+In :func:`geometor.byrne.constructions.build_i46`, :math:`A=(0,0), B=(3,0), C=(0,3), D=(3,3)` over :math:`\mathbb{Q}` verify equal side quadrances :math:`Q = 9` and unit orthogonal spreads :math:`s(AB, AC) = s(CA, CD) = 1`, serving immediately as the subroutine invoked three times in :ref:`Proposition I.47 <byrne-i-47>`.

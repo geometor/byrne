@@ -34,7 +34,7 @@ Proposition IV.11 — Regular Pentagon Inscribed in a Circle
 
    **Demonstration (:just:`III.26`, :just:`III.29`, :just:`III.27`).**
 
-   Because each of the five $36^\circ$ inscribed angles (:byrne-angle:`black <iv11:< C A D )>`, :byrne-angle:`blue <iv11:< E C A )>`, :byrne-angle:`black <iv11:< D C E )>`, :byrne-angle:`red <iv11:< B D C )>`, and the remaining bisected half-angle) are equal, the five arcs upon which they stand are equal (:just:`III.26`),
+   Because each of the five :math:`36^\circ` inscribed angles (:byrne-angle:`black <iv11:< C A D )>`, :byrne-angle:`blue <iv11:< E C A )>`, :byrne-angle:`black <iv11:< D C E )>`, :byrne-angle:`red <iv11:< B D C )>`, and the remaining bisected half-angle) are equal, the five arcs upon which they stand are equal (:just:`III.26`),
 
    :byrne-op:`therefore` the five subtending chords :byrne-line:`black solid <iv11:/ C D />`, :byrne-line:`red solid <iv11:/ A B />`, :byrne-line:`blue solid <iv11:/ E A />`, :byrne-line:`yellow solid <iv11:/ D E />`, and :byrne-line:`red dotted <iv11:/ B C />` are equal (:just:`III.29`);
 

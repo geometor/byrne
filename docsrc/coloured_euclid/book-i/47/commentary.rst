@@ -26,10 +26,10 @@ In ``I.47`` (Pickering **pp. 48–49, Leaves 82–83**), the solid red square :b
 Exact Rational Trigonometry Model in ``geometor.byrne``
 -------------------------------------------------------
 
-In :func:`geometor.byrne.constructions.build_i47`, ``I.47`` is modeled over pure rational coordinates $\mathbb{Q}$ ($B = (0, 0)$, $C = (5, 0)$, $A = (\frac{9}{5}, \frac{12}{5})$), yielding exact integer leg and hypotenuse quadrances:
+In :func:`geometor.byrne.constructions.build_i47`, ``I.47`` is modeled over pure rational coordinates :math:`\mathbb{Q}` (:math:`B = (0, 0)`, :math:`C = (5, 0)`, :math:`A = (\frac{9}{5}, \frac{12}{5})`), yielding exact integer leg and hypotenuse quadrances:
 
 .. math::
 
    Q(A, B) = 9, \qquad Q(A, C) = 16, \qquad Q(B, C) = 25 = 9 + 16,
 
-perpendicular spread $s(AB, AC) = 1$, altitude foot $L = (\frac{9}{5}, 0)$ partitioning the hypotenuse square into area $5 \times \frac{9}{5} = 9$ (:byrne-rect:`yellow filled <i47:< B L M D >>`) and area $5 \times \frac{16}{5} = 16$ (:byrne-rect:`blue filled <i47:< C L M E >>`), and equal windmill-chord quadrances $Q(A, D) = Q(F, C) = 58$.
+perpendicular spread :math:`s(AB, AC) = 1`, altitude foot :math:`L = (\frac{9}{5}, 0)` partitioning the hypotenuse square into area :math:`5 \times \frac{9}{5} = 9` (:byrne-rect:`yellow filled <i47:< B L M D >>`) and area :math:`5 \times \frac{16}{5} = 16` (:byrne-rect:`blue filled <i47:< C L M E >>`), and equal windmill-chord quadrances :math:`Q(A, D) = Q(F, C) = 58`.

@@ -23,4 +23,4 @@ In Book III, Euclid frequently distinguishes geometric configurations according 
 Pythagorean Rational Points on Circles in ``geometor.byrne``
 ------------------------------------------------------------
 
-Using the rational circle parameterization $(\frac{1-t^2}{1+t^2}, \frac{2t}{1+t^2})$, all three Book III showcase models (:func:`~geometor.byrne.constructions.build_iii20`, :func:`~geometor.byrne.constructions.build_iii31`, :func:`~geometor.byrne.constructions.build_iii36`) place every center, chord endpoint, and tangent contact at **exact rational coordinates** in $\mathbb{Q}$ without introducing square roots.
+Using the rational circle parameterization :math:`(\frac{1-t^2}{1+t^2}, \frac{2t}{1+t^2})`, all three Book III showcase models (:func:`~geometor.byrne.constructions.build_iii20`, :func:`~geometor.byrne.constructions.build_iii31`, :func:`~geometor.byrne.constructions.build_iii36`) place every center, chord endpoint, and tangent contact at **exact rational coordinates** in :math:`\mathbb{Q}` without introducing square roots.

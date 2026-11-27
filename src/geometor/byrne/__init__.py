@@ -12,7 +12,7 @@ Diagrams and Symbols Are Used Instead of Letters for the Greater Ease of Learner
    Heath's classical alphabetic Euclid and ``geometor/elements`` formal pseudocode; and
 3. **100% Exact Symbolic Constructions & Renderer** (:mod:`geometor.byrne.constructions`,
    :mod:`geometor.byrne.render`) built on :class:`geometor.model.Model` over exact
-   SymPy number fields ($\\mathbb{Q}$, $\\mathbb{Q}(\\sqrt{3})$, $\\mathbb{Q}(\\phi)$,
+   SymPy number fields (:math:`\\mathbb{Q}`, :math:`\\mathbb{Q}(\\sqrt{3})`, :math:`\\mathbb{Q}(\\phi)`,
    and cyclotomic pentagonal extensions).
 """
 

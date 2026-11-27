@@ -22,7 +22,7 @@ Proposition I.1 — Equilateral Triangle
 
 .. picture:: /_static/figures/i1.svg
    :alt: Book I Proposition 1 — Equilateral triangle constructed by blue and red circles on black base.
-   :caption: **Book I, Prop. I (p. 1).** Exact $\mathbb{Q}(\sqrt{3})$ construction via ``Model.intersect``.
+   :caption: **Book I, Prop. I (p. 1).** Exact :math:`\mathbb{Q}(\sqrt{3})` construction via ``Model.intersect``.
 
 .. picture:: 0035.g1.png
    :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition I.1 (Leaf 35).

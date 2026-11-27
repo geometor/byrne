@@ -22,7 +22,7 @@ Proposition II.5 — Equal & Unequal Division of a Line
 
 .. picture:: /_static/figures/ii5.svg
    :alt: Book II Proposition 5 — Half-square decomposed into red inner square plus L-shaped gnomon equal to the rectangle of unequal segments.
-   :caption: **Book II, Prop. V (p. 58 · G.148).** $AD \cdot DB + CD^2 = CB^2$ via :term:`gnomon <gnomon>` equivalence.
+   :caption: **Book II, Prop. V (p. 58 · G.148).** :math:`AD \cdot DB + CD^2 = CB^2` via :term:`gnomon <gnomon>` equivalence.
 
 .. picture:: 0092.g1.png
    :alt: Oliver Byrne 1847 Pickering archival full-RGB plate for Proposition II.5 (Leaf 92).
@@ -32,7 +32,7 @@ Proposition II.5 — Equal & Unequal Division of a Line
 
    **Demonstration (:just:`I.46`, :just:`I.43`, :just:`I.36`, :just:`C.N.2`).**
 
-   Complement :byrne-rect:`yellow filled <ii5:< L M F G >>` equals the other diagonal complement, and since the whole line was bisected at $C$, left wing :byrne-rect:`black filled <ii5:< A C H K >>` equals :byrne-rect:`yellow filled <ii5:< L M F G >>` (:just:`I.36`, :just:`I.43`).
+   Complement :byrne-rect:`yellow filled <ii5:< L M F G >>` equals the other diagonal complement, and since the whole line was bisected at :math:`C`, left wing :byrne-rect:`black filled <ii5:< A C H K >>` equals :byrne-rect:`yellow filled <ii5:< L M F G >>` (:just:`I.36`, :just:`I.43`).
 
    Adding middle strip :byrne-rect:`yellow filled <ii5:< C D L H >>` to each (:just:`C.N.2`) transforms the rectangle of unequal parts (:byrne-rect:`black filled <ii5:< A C H K >>` + :byrne-rect:`yellow filled <ii5:< C D L H >>`) into the L-shaped :term:`gnomon <gnomon>` (:byrne-rect:`yellow filled <ii5:< C D L H >>` + :byrne-rect:`yellow filled <ii5:< L M F G >>` + lower-right square).
 

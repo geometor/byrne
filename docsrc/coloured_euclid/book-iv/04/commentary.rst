@@ -32,4 +32,4 @@ reserving **blue** (:byrne-line:`blue dotted <iv4:/ B I />` and :byrne-line:`blu
 Heronian ``13-14-15`` Integer Incircle in ``geometor.byrne``
 ------------------------------------------------------------
 
-In :func:`geometor.byrne.constructions.build_iv4`, placing $B = (0, 0)$, $C = (14, 0)$, $A = (5, 12)$ yields exact integer side lengths $(13, 14, 15)$, area $84$, semiperimeter $s = 21$, integer incenter $I = X(1) = (6, 4)$ (cross-referenced to ``geometor/etc``), integer inradius $r = 4$ ($Q(I,E)=Q(I,F)=Q(I,G)=16$), and exact rational touchpoints $E=(6,0)$, $F=(\frac{30}{13}, \frac{72}{13})$, $G=(\frac{46}{5}, \frac{32}{5})$.
+In :func:`geometor.byrne.constructions.build_iv4`, placing :math:`B = (0, 0)`, :math:`C = (14, 0)`, :math:`A = (5, 12)` yields exact integer side lengths :math:`(13, 14, 15)`, area :math:`84`, semiperimeter :math:`s = 21`, integer incenter :math:`I = X(1) = (6, 4)` (cross-referenced to ``geometor/etc``), integer inradius :math:`r = 4` (:math:`Q(I,E)=Q(I,F)=Q(I,G)=16`), and exact rational touchpoints :math:`E=(6,0)`, :math:`F=(\frac{30}{13}, \frac{72}{13})`, :math:`G=(\frac{46}{5}, \frac{32}{5})`.

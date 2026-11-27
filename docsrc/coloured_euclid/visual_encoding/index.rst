@@ -61,7 +61,7 @@ In :mod:`geometor.byrne.pseudocode`, every proposition in :person:`Oliver Byrne'
 
 * **Heath (329 words, 62 vertex-pointer lookups):** Requires tracking overlapping triangles ``AFC``, ``AGB``, ``BFC``, ``CGB`` and three-letter angles ``ABG``, ``ACF``, ``CBG``, ``BCF``, ``ABC``, ``ACB``.
 * **Byrne 1847 (32 words, 0 pointers, 4 :term:`congruence-twin <congruence-twin>` pairs):**
-  :byrne-line:`red solid` + :byrne-line:`yellow solid` = :byrne-line:`red solid` + :byrne-line:`yellow solid` around common :byrne-angle:`black` (:just:`C.N.2`) $\implies$ :byrne-line:`blue solid` = :byrne-line:`blue solid` and :byrne-angle:`yellow` = :byrne-angle:`yellow` (:just:`I.4`) $\implies$ remaining base angles :byrne-angle:`blue` = :byrne-angle:`blue` (:just:`C.N.3`).
+  :byrne-line:`red solid` + :byrne-line:`yellow solid` = :byrne-line:`red solid` + :byrne-line:`yellow solid` around common :byrne-angle:`black` (:just:`C.N.2`) :math:`\implies` :byrne-line:`blue solid` = :byrne-line:`blue solid` and :byrne-angle:`yellow` = :byrne-angle:`yellow` (:just:`I.4`) :math:`\implies` remaining base angles :byrne-angle:`blue` = :byrne-angle:`blue` (:just:`C.N.3`).
 * **GEOMETOR Formal Pseudocode:**
 
   .. code-block:: python
@@ -86,9 +86,9 @@ In :mod:`geometor.byrne.pseudocode`, every proposition in :person:`Oliver Byrne'
 ------------------------------------------------------------------------
 
 * **Golden Section & Pentagon (``II.11`` → ``IV.10`` → ``IV.11``):**
-  Byrne links colored area subtraction (:byrne-sq:`blue filled` = :byrne-rect:`yellow filled` in ``II.11``) to tangent-secant power (:byrne-line:`blue solid squared` in ``IV.10``) and five-chord cyclotomic symmetry (:byrne-line:`red solid`, :byrne-line:`red dotted`, :byrne-line:`black solid`, :byrne-line:`yellow solid`, :byrne-line:`blue solid` in ``IV.11``), mirrored in SymPy by the algebraic tower $\mathbb{Q} \subset \mathbb{Q}(\phi) \subset \mathbb{Q}(\phi, \sqrt{10 - 2\sqrt{5}})$.
+  Byrne links colored area subtraction (:byrne-sq:`blue filled` = :byrne-rect:`yellow filled` in ``II.11``) to tangent-secant power (:byrne-line:`blue solid squared` in ``IV.10``) and five-chord cyclotomic symmetry (:byrne-line:`red solid`, :byrne-line:`red dotted`, :byrne-line:`black solid`, :byrne-line:`yellow solid`, :byrne-line:`blue solid` in ``IV.11``), mirrored in SymPy by the algebraic tower :math:`\mathbb{Q} \subset \mathbb{Q}(\phi) \subset \mathbb{Q}(\phi, \sqrt{10 - 2\sqrt{5}})`.
 * **Book V Colored Ratio Calculus (``V.16`` *Alternando*, ``G.276``):**
-  :byrne-mag:`red circle` : :byrne-mag:`yellow square` :byrne-op:`prop` :byrne-mag:`blue diamond` : :byrne-mag:`black shield` $\implies$ :byrne-mag:`red circle` : :byrne-mag:`blue diamond` :byrne-op:`prop` :byrne-mag:`yellow square` : :byrne-mag:`black shield` (**7.1% verbal load**, connecting directly to ``geometor/codes``).
+  :byrne-mag:`red circle` : :byrne-mag:`yellow square` :byrne-op:`prop` :byrne-mag:`blue diamond` : :byrne-mag:`black shield` :math:`\implies` :byrne-mag:`red circle` : :byrne-mag:`blue diamond` :byrne-op:`prop` :byrne-mag:`yellow square` : :byrne-mag:`black shield` (**7.1% verbal load**, connecting directly to ``geometor/codes``).
 
 .. toctree::
    :hidden:
